@@ -1,0 +1,186 @@
+{
+  "language": "fr",
+  "level": "intermediate",
+  "control": true,
+  "title": "Exercices de contrôle",
+  "exercises": [
+    {
+      "id": "fr-intermediate-control-1",
+      "number": 1,
+      "title": "Formes verbales et temps",
+      "kind": "match",
+      "instructions": "Reliez les formes verbales à leur temps.",
+      "pairs": [
+        { "left": "Avoir attendu", "right": "infinitif passé" },
+        { "left": "j'aurai attendu", "right": "futur antérieur" },
+        { "left": "aie attendu", "right": "impératif passé" },
+        { "left": "j'ai attendu", "right": "passé composé" },
+        { "left": "attendu", "right": "participe passé" },
+        { "left": "j'aurais attendu", "right": "conditionnel passé" },
+        { "left": "j'eus attendu", "right": "passé antérieur" },
+        { "left": "j'avais attendu", "right": "plus-que-parfait" },
+        { "left": "j'aie attendu", "right": "subjonctif passé" }
+      ]
+    },
+    {
+      "id": "fr-intermediate-control-2",
+      "number": 2,
+      "title": "Anne nous raconte un jour en juillet 2010",
+      "kind": "fill-blank",
+      "instructions": "Complétez les textes suivants en conjuguant les verbes entre parenthèses au passé composé, à l'imparfait ou au plus-que-parfait. Attention aux accords.",
+      "items": [
+        {
+          "sentence": "Ce {{0}} (être) en juillet 2010. Il {{1}} (faire) très beau ce jour-là. Je {{2}} (ne rien avoir) de spécial à faire parce que je {{3}} (prendre) des congés mais je {{4}} (ne pas pouvoir) partir en vacances. Je {{5}} (décider) de sortir. Je {{6}} (prendre) le bus. Je {{7}} (descendre) au Jardin du Luxembourg. Il y {{8}} (avoir) beaucoup de monde. Les enfants {{9}} (courir) dans tous les sens. Les parents {{10}} (être) nerveux. L'atmosphère {{11}} (être) lourde, étouffante. Je {{12}} (marcher) un peu. Je {{13}} (vouloir) trouver un endroit calme pour lire un livre que je {{14}} (acheter) la veille et qu'une amie m'{{15}} (recommander). Je {{16}} (découvrir finalement) un coin éloigné de toute agitation. Je {{17}} (s'asseoir) sur un banc. Je {{18}} (pouvoir) entendre les oiseaux chanter. Je {{19}} (sortir) mon roman de mon sac. Je {{20}} (ne pas arriver) à lire. Il {{21}} (faire) trop chaud, je {{22}} (manquer) d'air, je {{23}} (ne pas bien se sentir). Quand l'orage {{24}} (éclater), je {{25}} (courir) me réfugier sous un kiosque (parce que je {{26}} (oublier) mon parapluie) et je {{27}} (se sentir) soulagée.",
+          "blanks": [
+            { "answer": "C'était" },
+            { "answer": "faisait" },
+            { "answer": "n'avais rien" },
+            { "answer": "j'avais pris" },
+            { "answer": "n'avais pas pu" },
+            { "answer": "J'ai décidé" },
+            { "answer": "J'ai pris" },
+            { "answer": "suis descendue" },
+            { "answer": "avait" },
+            { "answer": "couraient" },
+            { "answer": "étaient" },
+            { "answer": "était" },
+            { "answer": "J'ai marché" },
+            { "answer": "voulais" },
+            { "answer": "j'avais acheté" },
+            { "answer": "m'avait recommandé" },
+            { "answer": "J'ai finalement découvert" },
+            { "answer": "me suis assise" },
+            { "answer": "pouvais" },
+            { "answer": "J'ai sorti" },
+            { "answer": "n'arrivais pas" },
+            { "answer": "faisait" },
+            { "answer": "manquais" },
+            { "answer": "ne me sentais pas bien" },
+            { "answer": "a éclaté" },
+            { "answer": "j'ai couru" },
+            { "answer": "j'avais oublié" },
+            { "answer": "me suis sentie" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-intermediate-control-3",
+      "number": 3,
+      "title": "Hypothèses irréalisables",
+      "kind": "fill-blank",
+      "instructions": "Formulez des hypothèses irréalisables comme dans l'exemple. Exemple : Si tu (choisir) avais choisi ce métier, tu (gagner) aurais gagné plus d'argent.",
+      "items": [
+        {
+          "sentence": "Si elle (venir) {{0}} chez nous, elle (être) {{1}} plus heureuse.",
+          "blanks": [
+            { "answer": "était venue" },
+            { "answer": "aurait été" }
+          ]
+        },
+        {
+          "sentence": "Elle (rester) {{0}} avec lui s'il (avoir) {{1}} meilleur caractère.",
+          "blanks": [
+            { "answer": "serait restée" },
+            { "answer": "avait eu" }
+          ]
+        },
+        {
+          "sentence": "Nous (agir) {{0}} plus rapidement si nous (savoir) {{1}} que c'était urgent.",
+          "blanks": [
+            { "answer": "aurions agi" },
+            { "answer": "avions su" }
+          ]
+        },
+        {
+          "sentence": "Si vous (ne pas partir) {{0}}, vous (entendre) {{1}} son discours.",
+          "blanks": [
+            { "answer": "n'étiez pas partis" },
+            { "answer": "auriez entendu" }
+          ]
+        },
+        {
+          "sentence": "Si tu (pouvoir) {{0}} aller à Paris, tu (voir) {{1}} ce concert.",
+          "blanks": [
+            { "answer": "avais pu" },
+            { "answer": "aurais vu" }
+          ]
+        },
+        {
+          "sentence": "Nous (comprendre) {{0}} si le prof (expliquer) {{1}} le problème.",
+          "blanks": [
+            { "answer": "aurions compris" },
+            { "answer": "avait expliqué" }
+          ]
+        },
+        {
+          "sentence": "Si vous (ne pas arriver) {{0}} en retard, nous (ne pas rater) {{1}} le bus.",
+          "blanks": [
+            { "answer": "n'étiez pas arrivés" },
+            { "answer": "n'aurions pas raté" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-intermediate-control-4",
+      "number": 4,
+      "title": "Subjonctif passé – choix multiple",
+      "kind": "choice",
+      "multiple": false,
+      "instructions": "Choisissez la bonne réponse (subjonctif passé).",
+      "items": [
+        {
+          "prompt": "Je suis désolée que tu _____________ malade.",
+          "options": ["sois tombé", "aies tombé", "soit tombé"],
+          "correct": 0
+        },
+        {
+          "prompt": "Il craint que son père _____________ qu'il n'avait pas fait son travail.",
+          "options": ["aient vu", "ait vu", "soit vu"],
+          "correct": 1
+        },
+        {
+          "prompt": "Elle s'attendent à ce que vous _____________ votre travail avant la classe.",
+          "options": ["ayez fait", "ait fait", "soyez fait"],
+          "correct": 0
+        },
+        {
+          "prompt": "Crois-tu que tous les étudiants _____________ en classe hier ?",
+          "options": ["soient allés", "ayons allés", "aient allés"],
+          "correct": 0
+        },
+        {
+          "prompt": "Il semble que mon frère _____________ une bonne note à son examen de maths.",
+          "options": ["ait eu", "sois eu", "soit eu"],
+          "correct": 0
+        },
+        {
+          "prompt": "Il ne suffit pas que je _____________ devant mon livre pendant des heures.",
+          "options": ["sois resté", "soient resté", "aie resté"],
+          "correct": 0
+        },
+        {
+          "prompt": "Essaie d'arriver avant qu'elles _____________ !",
+          "options": ["soient parties", "aie parties", "aient parties"],
+          "correct": 0
+        },
+        {
+          "prompt": "Nous nous habituerons à ce qu'il _____________ avant nous.",
+          "options": ["se soit servi", "se soyez servi", "se ait servi"],
+          "correct": 0
+        },
+        {
+          "prompt": "J'arriverai demain matin à condition qu'ils _____________ me chercher à l'heure.",
+          "options": ["soient venus", "sois venus", "aient venus"],
+          "correct": 0
+        },
+        {
+          "prompt": "Les professeurs demandent que les étudiants _____________ la grammaire.",
+          "options": ["aient préparé", "aies préparé", "soient préparés"],
+          "correct": 0
+        }
+      ]
+    }
+  ]
+}

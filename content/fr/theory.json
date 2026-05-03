@@ -1,0 +1,326 @@
+{
+  "language": "fr",
+  "title": "Règles d'accord du participe passé en français",
+  "blocks": [
+    {
+      "kind": "heading",
+      "level": 1,
+      "text": "Règles d'accord du participe passé en français"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "1. Participe passé sans auxiliaire"
+    },
+    {
+      "kind": "paragraph",
+      "content": [
+        { "type": "text", "text": "S'accorde comme un adjectif avec le nom auquel il se rapporte." }
+      ]
+    },
+    {
+      "kind": "example",
+      "text": "Les lettres reçues, La rumeur répandue. En fonction d'attribut du sujet : Elle semble étonnée."
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "2. Avec l'auxiliaire être"
+    },
+    {
+      "kind": "paragraph",
+      "content": [
+        { "type": "text", "text": "Accord avec le sujet." }
+      ]
+    },
+    {
+      "kind": "example",
+      "text": "Ils sont partis, Elle est venue."
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "3. Avec l'auxiliaire avoir"
+    },
+    {
+      "kind": "paragraph",
+      "content": [
+        { "type": "text", "text": "Pas d'accord avec le sujet. Accord avec le COD si celui-ci précède le verbe. Pas d'accord si le COD suit le verbe. Pas d'accord si le COD est remplacé par en." }
+      ]
+    },
+    {
+      "kind": "example",
+      "text": "Nos enquêtes ont échoué, Elle a reçu des lettres. Les lettres que j'ai reçues, Je les ai bien reçues. J'ai bien reçu les lettres. J'en ai acheté."
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "4. Verbes pronominaux"
+    },
+    {
+      "kind": "heading",
+      "level": 3,
+      "text": "a) Essentiellement pronominaux"
+    },
+    {
+      "kind": "paragraph",
+      "content": [
+        { "type": "text", "text": "Accord avec le sujet. Exceptions : accord avec le COD placé avant. Certains participes restent invariables (ex. s'entre-nuire)." }
+      ]
+    },
+    {
+      "kind": "example",
+      "text": "Ils se sont enfuis. Les droits que la direction s'est arrogés."
+    },
+    {
+      "kind": "list",
+      "ordered": false,
+      "items": [
+        "Se souvenir",
+        "S'abstenir",
+        "S'enfuir"
+      ]
+    },
+    {
+      "kind": "heading",
+      "level": 3,
+      "text": "b) Autres verbes pronominaux"
+    },
+    {
+      "kind": "paragraph",
+      "content": [
+        { "type": "strong", "text": "Verbes pronominaux réciproques" },
+        { "type": "text", "text": " : L'accord se fait généralement avec le pronom lorsqu'il est objet direct de l'action exprimée par le verbe. Si le verbe est suivi d'un objet direct, le participe passé ne s'accorde pas. Quand la construction du verbe pronominal réciproque est indirecte, on ne fait pas l'accord." }
+      ]
+    },
+    {
+      "kind": "example",
+      "text": "Elles se sont vues. Elles se sont échangé leurs maillots. Les rois se sont succédé. (succéder à quelqu'un)"
+    },
+    {
+      "kind": "list",
+      "ordered": false,
+      "items": [
+        "Se barrer",
+        "Se disputer",
+        "Se téléphoner",
+        "Se rencontrer",
+        "Se comprendre"
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "content": [
+        { "type": "strong", "text": "Verbes pronominaux réfléchis" },
+        { "type": "text", "text": " : On accorde le participe passé en genre et nombre avec le COD si le COD se trouve avant le participe. On n'accorde pas le participe passé si le COD est placé après le participe." }
+      ]
+    },
+    {
+      "kind": "example",
+      "text": "Elle s'est lavée. Elle s'est lavé les mains."
+    },
+    {
+      "kind": "list",
+      "ordered": false,
+      "items": [
+        "Se lever",
+        "Se laver",
+        "Se brosser",
+        "S'habiller",
+        "Se réveiller"
+      ]
+    },
+    {
+      "kind": "heading",
+      "level": 3,
+      "text": "c) Verbes pronominaux de sens passif"
+    },
+    {
+      "kind": "paragraph",
+      "content": [
+        { "type": "text", "text": "Accord avec le sujet." }
+      ]
+    },
+    {
+      "kind": "example",
+      "text": "Cette règle s'est appliquée."
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "5. Cas particuliers avec avoir + infinitif"
+    },
+    {
+      "kind": "paragraph",
+      "content": [
+        { "type": "text", "text": "Accord si le COD placé avant est sujet de l'infinitif. Pas d'accord si le COD n'est pas sujet de l'infinitif." }
+      ]
+    },
+    {
+      "kind": "example",
+      "text": "Ces oiseaux que j'ai vus voler. Les fruits que j'ai voulu cueillir."
+    },
+    {
+      "kind": "note",
+      "text": "Exception : faire et laisser suivis d'un infinitif → invariable."
+    },
+    {
+      "kind": "example",
+      "text": "Je l'ai fait nettoyer."
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "6. Cas avec le pronom en"
+    },
+    {
+      "kind": "paragraph",
+      "content": [
+        { "type": "text", "text": "Généralement invariable. Accord si un autre COD précède." }
+      ]
+    },
+    {
+      "kind": "example",
+      "text": "J'en ai reçu des réponses. Les réponses que j'en ai reçues."
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "7. D'autres exceptions"
+    },
+    {
+      "kind": "list",
+      "ordered": false,
+      "items": [
+        "Pas d'accord avec compléments de durée, mesure ou prix. Ex. : Les vingt ans qu'ils ont vécu ensemble.",
+        "Semi-auxiliaires (devoir, pouvoir, vouloir) suivis d'un infinitif sous-entendu → invariable. Ex. : Toutes les précautions que j'ai pu.",
+        "Verbes impersonnels avec avoir → invariable. Ex. : Tous les efforts qu'il a fallu.",
+        "Participes passés employés comme prépositions → invariables. Ex. : Étant donné la conjoncture.",
+        "Expressions comme ci-joint, ci-annexé, ci-inclus : variables si épithètes, invariables si adverbiales. Ex. : Les photos ci-annexées / Veuillez trouver ci-joint la copie.",
+        "Adverbes de quantité : accord avec le nom. Ex. : Combien de lettres tu as écrites.",
+        "Toujours invariable si précédé de que + qui. Ex. : Les hommes que j'avais prévu qui viendraient."
+      ]
+    },
+    {
+      "kind": "heading",
+      "level": 1,
+      "text": "Règles du choix de l'auxiliaire en français"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "1. Auxiliaire avoir"
+    },
+    {
+      "kind": "paragraph",
+      "content": [
+        { "type": "text", "text": "La majorité des verbes se conjuguent avec avoir." }
+      ]
+    },
+    {
+      "kind": "example",
+      "text": "J'ai mangé, Tu as fini, Ils ont joué."
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "2. Auxiliaire être"
+    },
+    {
+      "kind": "paragraph",
+      "content": [
+        { "type": "text", "text": "Utilisé avec : les verbes : aller, venir, entrer, sortir, monter, descendre, naître, mourir, tomber, rester, partir, arriver, passer, rester… et les verbes pronominaux (se lever, s'habiller, se souvenir…)." }
+      ]
+    },
+    {
+      "kind": "example",
+      "text": "Elle est arrivée, Nous sommes partis, Ils se sont levés."
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "3. Cas particuliers"
+    },
+    {
+      "kind": "paragraph",
+      "content": [
+        { "type": "strong", "text": "Monter, descendre, sortir, rentrer, passer" },
+        { "type": "text", "text": " : avec être si le verbe est intransitif (pas de COD) ; avec avoir si le verbe est transitif (COD présent)." }
+      ]
+    },
+    {
+      "kind": "example",
+      "text": "Je suis sorti tôt. / J'ai sorti la poubelle."
+    },
+    {
+      "kind": "paragraph",
+      "content": [
+        { "type": "strong", "text": "Pronominaux" },
+        { "type": "text", "text": " : accord selon la fonction du pronom (COD ou COI)." }
+      ]
+    },
+    {
+      "kind": "example",
+      "text": "Elle s'est lavée (elle-même → accord). / Elle s'est lavé les mains (COD les mains après → pas d'accord)."
+    },
+    {
+      "kind": "heading",
+      "level": 1,
+      "text": "Tableau récapitulatif des caractéristiques des modes et des temps verbaux"
+    },
+    {
+      "kind": "table",
+      "headers": ["Mode", "Temps verbal", "Caractérisation", "Exemple"],
+      "rows": [
+        [
+          "Indicatif",
+          "Passé composé",
+          "Exprime des actions complétées dans le passé qui ont une pertinence dans le présent",
+          "Hier, j'ai parlé des résultats des conférences scientifiques avec mes collègues."
+        ],
+        [
+          "Indicatif",
+          "Plus-que-parfait",
+          "Indique une action accomplie qui s'est produite avant une autre action passée. Ces actions expriment une action plus longue en durée.",
+          "Les livres que ce célèbre politique avait écrit pendant sa jeunesse, ont été trouvés dans la vieille maison de campagne d'un ami."
+        ],
+        [
+          "Indicatif",
+          "Futur antérieur",
+          "Exprime une action qui aura été complétée avant une autre action",
+          "Quand j'aurai réalisé toutes les tâches ménagères, je sortirai avec vous."
+        ],
+        [
+          "Indicatif",
+          "Passé Antérieur",
+          "Similaire au plus-que-parfait, pour décrire des actions complétées dans le passé, pourtant, le passé antérieur exprime une action de durée plus courte. Ce temps du passé appartient à un registre de langue soutenu.",
+          "« Quand la caissière lui eut rendu la monnaie de sa pièce de cent sous, Georges Duroy sortit du restaurant ». (Bel Ami, Maupassant, G. Première partie)"
+        ],
+        [
+          "Subjonctif",
+          "Passé",
+          "Ce temps est utilisé pour exprimer des actions dans le contexte d'une subordonnée qui se sont envisagées comme accomplies et antérieures à la principale.",
+          "Je doute qu'elle soit partie."
+        ],
+        [
+          "Subjonctif",
+          "Plus-que-parfait",
+          "Ce temps est employé pour exprimer une action dans une subordonnée au mode subjonctif, qui est accomplie et s'est produite avant une autre action passée. Ce temps appartient au registre de langue soutenu.",
+          "Il fallait que j'eusse parlé."
+        ],
+        [
+          "Conditionnel",
+          "Passé (première forme)",
+          "Ce temps est utilisé pour exprimer une action accomplie qui aurait pu se produire dans le passé sous certaines conditions.",
+          "Si elle avait eu la possibilité, elle serait partie."
+        ],
+        [
+          "Conditionnel",
+          "Passé (deuxième forme)",
+          "Sa nuance est la même que celle de la première forme. Cette forme est employée dans un registre de langue soutenu et littéraire. Au contraire du conditionnel passé première forme, celui-ci peut être dans la phrase principale.",
+          "Si elle eût eu (ou avait eu) la possibilité, elle fût partie."
+        ]
+      ]
+    }
+  ]
+}
