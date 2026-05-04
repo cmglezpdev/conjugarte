@@ -1,6 +1,4 @@
 import { createServerFn } from "@tanstack/react-start";
-import { readFile } from "node:fs/promises";
-import { resolve } from "node:path";
 import {
 	ExerciseSet,
 	Landing,
@@ -9,21 +7,28 @@ import {
 	TheoryDoc,
 } from "#/content/schema";
 
-const DATA_DIR = resolve(process.cwd(), "src", "content", "data");
+const dataModules = import.meta.glob("../content/data/**/*.json", {
+	eager: true,
+	import: "default",
+}) as Record<string, unknown>;
 
-const readJson = async (rel: string): Promise<unknown> => {
-	const raw = await readFile(resolve(DATA_DIR, rel), "utf8");
-	return JSON.parse(raw);
+const readJson = (rel: string): unknown => {
+	const key = `../content/data/${rel}`;
+	const data = dataModules[key];
+	if (!data) {
+		throw new Error(`Content file not found: ${rel}`);
+	}
+	return data;
 };
 
 const _loadLanding = createServerFn({ method: "GET" }).handler(async () => {
-	return Landing.parse(await readJson("landing.json"));
+	return Landing.parse(readJson("landing.json"));
 });
 
 const _loadTheory = createServerFn({ method: "GET" })
 	.inputValidator((lang: Language) => lang)
 	.handler(async ({ data: lang }) => {
-		return TheoryDoc.parse(await readJson(`${lang}/theory.json`));
+		return TheoryDoc.parse(readJson(`${lang}/theory.json`));
 	});
 
 const _loadExercises = createServerFn({ method: "GET" })
@@ -32,7 +37,7 @@ const _loadExercises = createServerFn({ method: "GET" })
 	)
 	.handler(async ({ data }) => {
 		const file = `${data.lang}/${data.level}${data.isControl ? "-control" : ""}.json`;
-		return ExerciseSet.parse(await readJson(file));
+		return ExerciseSet.parse(readJson(file));
 	});
 
 export const loadLanding = (): Promise<Landing> => _loadLanding();
@@ -44,5 +49,4 @@ export const loadExercises = (
 	lang: Language,
 	level: Level,
 	isControl: boolean,
-): Promise<ExerciseSet> =>
-	_loadExercises({ data: { lang, level, isControl } });
+): Promise<ExerciseSet> => _loadExercises({ data: { lang, level, isControl } });
