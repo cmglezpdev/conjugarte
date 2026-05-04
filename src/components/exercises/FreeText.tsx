@@ -87,6 +87,11 @@ export function FreeText({ exercise, onResult, onNext }: Props) {
 		state.status === "incorrect" ||
 		state.status === "partial";
 
+	// Block verification until every prompt has a non-empty answer.
+	const allAnswered = exercise.items.every(
+		(_, itemIdx) => (state.inputs[itemIdx] ?? "").trim().length > 0,
+	);
+
 	// Per-item correctness for visual feedback
 	const itemValidity: Record<number, boolean> = {};
 	if (isSubmitted) {
@@ -123,6 +128,7 @@ export function FreeText({ exercise, onResult, onNext }: Props) {
 						status={state.status}
 						onVerify={handleVerify}
 						onNext={onNext}
+						disabled={!allAnswered}
 					/>
 				</div>
 			}

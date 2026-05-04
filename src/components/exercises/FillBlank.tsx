@@ -13,7 +13,7 @@ import {
 } from "@dnd-kit/core";
 import { sortableKeyboardCoordinates } from "@dnd-kit/sortable";
 import { motion } from "motion/react";
-import { useReducer, useState } from "react";
+import { useMemo, useReducer, useState } from "react";
 import type { FillBlankExercise } from "#/content/schema";
 import { ExerciseCard } from "./_shared/ExerciseCard";
 import { FeedbackOverlay } from "./_shared/FeedbackOverlay";
@@ -25,17 +25,17 @@ import { VerifyButton } from "./_shared/VerifyButton";
 // Types
 // -----------------------------------------------------------------------
 
-// answers are indexed as: answers[itemIdx][blankIdx] = value
+// answers are indexed as: answers[itemIdx][blankIdx] = value (string for verify)
 type Answers = Record<number, Record<number, string>>;
 
-// wordBank mode: tracking which word is in which blank
-// bankSlot: null = word is in bank, [itemIdx, blankIdx] = placed in blank
-type WordPlacement = Record<string, [number, number] | null>;
+// wordBank mode: identity of each chip is its INDEX in exercise.wordBank
+// (NOT the string), so duplicate words like "Andare" / "Andare" remain
+// distinct entities. Placement maps bankIdx -> [itemIdx, blankIdx] | null.
+type WordPlacement = Record<number, [number, number] | null>;
 
 interface State {
 	status: ExerciseStatus;
 	answers: Answers;
-	// wordBank mode: word → placement
 	wordPlacements: WordPlacement;
 }
 
@@ -43,12 +43,18 @@ type Action =
 	| { type: "set"; itemIdx: number; blankIdx: number; value: string }
 	| {
 			type: "placeWord";
+			bankIdx: number;
 			word: string;
 			itemIdx: number;
 			blankIdx: number;
-			previousWord: string | null;
+			previousBankIdx: number | null;
 	  }
-	| { type: "returnWord"; word: string; itemIdx: number; blankIdx: number }
+	| {
+			type: "returnWord";
+			bankIdx: number;
+			itemIdx: number;
+			blankIdx: number;
+	  }
 	| { type: "submit"; outcome: "correct" | "incorrect" | "partial" }
 	| { type: "reset" };
 
@@ -66,14 +72,16 @@ function reducer(state: State, action: Action): State {
 			};
 		}
 		case "placeWord": {
-			// Place word into blank; if blank already had a word, return it to bank
+			// Place a chip (by bankIdx) into a blank. If the blank already held
+			// another chip, that previous chip is released back to the bank.
 			const item = state.answers[action.itemIdx] ?? {};
 			const newPlacements = { ...state.wordPlacements };
-			// Mark the new word as placed
-			newPlacements[action.word] = [action.itemIdx, action.blankIdx];
-			// If another word was already in this blank, return it to bank
-			if (action.previousWord && action.previousWord !== action.word) {
-				newPlacements[action.previousWord] = null;
+			newPlacements[action.bankIdx] = [action.itemIdx, action.blankIdx];
+			if (
+				action.previousBankIdx !== null &&
+				action.previousBankIdx !== action.bankIdx
+			) {
+				newPlacements[action.previousBankIdx] = null;
 			}
 			return {
 				...state,
@@ -90,21 +98,15 @@ function reducer(state: State, action: Action): State {
 		}
 		case "returnWord": {
 			const newPlacements = { ...state.wordPlacements };
-			newPlacements[action.word] = null;
+			newPlacements[action.bankIdx] = null;
 			const item = state.answers[action.itemIdx] ?? {};
-			const currentVal = item[action.blankIdx];
-			// Only clear the blank if this word is still there
-			const newItem = { ...item };
-			if (currentVal === action.word) {
-				newItem[action.blankIdx] = "";
-			}
 			return {
 				...state,
 				status: "answering",
 				wordPlacements: newPlacements,
 				answers: {
 					...state.answers,
-					[action.itemIdx]: newItem,
+					[action.itemIdx]: { ...item, [action.blankIdx]: "" },
 				},
 			};
 		}
@@ -113,6 +115,20 @@ function reducer(state: State, action: Action): State {
 		case "reset":
 			return { status: "idle", answers: {}, wordPlacements: {} };
 	}
+}
+
+// Reverse lookup: which bankIdx is currently sitting in this blank?
+function findBankIdxInBlank(
+	placements: WordPlacement,
+	itemIdx: number,
+	blankIdx: number,
+): number | null {
+	for (const [key, loc] of Object.entries(placements)) {
+		if (loc && loc[0] === itemIdx && loc[1] === blankIdx) {
+			return Number(key);
+		}
+	}
+	return null;
 }
 
 // -----------------------------------------------------------------------
@@ -188,22 +204,63 @@ function HintLabel({ children }: { children: React.ReactNode }) {
 }
 
 // -----------------------------------------------------------------------
-// WordBank mode — DraggableWordChip
+// WordBank mode — chip components
+// WordChipVisual is a pure presentational pill (used in the DragOverlay so
+// we don't double-register a useDraggable id). DraggableWordChip wraps it
+// with dnd-kit hooks for the actual chips in the bank.
 // -----------------------------------------------------------------------
 
-interface DraggableWordChipProps {
+interface WordChipVisualProps {
 	word: string;
-	disabled: boolean;
+	disabled?: boolean;
+	isDragging?: boolean;
 	isOverlay?: boolean;
 }
 
-function DraggableWordChip({
+function chipClassName({
+	disabled,
+	isDragging,
+	isOverlay,
+}: Pick<WordChipVisualProps, "disabled" | "isDragging" | "isOverlay">): string {
+	return [
+		"inline-flex cursor-grab items-center rounded-full border border-[var(--c-border)] bg-[var(--c-card)] px-3 py-1 text-sm font-medium text-[var(--c-fg)] shadow-sm select-none active:cursor-grabbing",
+		isDragging ? "opacity-30" : "",
+		isOverlay ? "shadow-md opacity-90" : "",
+		disabled ? "cursor-default opacity-50" : "",
+	]
+		.filter(Boolean)
+		.join(" ");
+}
+
+function WordChipVisual({
 	word,
 	disabled,
-	isOverlay = false,
+	isDragging,
+	isOverlay,
+}: WordChipVisualProps) {
+	return (
+		<span
+			data-testid={`word-chip-${word}`}
+			className={chipClassName({ disabled, isDragging, isOverlay })}
+		>
+			{word}
+		</span>
+	);
+}
+
+interface DraggableWordChipProps {
+	bankIdx: number;
+	word: string;
+	disabled: boolean;
+}
+
+function DraggableWordChip({
+	bankIdx,
+	word,
+	disabled,
 }: DraggableWordChipProps) {
 	const { attributes, listeners, setNodeRef, isDragging } = useDraggable({
-		id: `bank-word-${word}`,
+		id: `bank-word-${bankIdx}`,
 		disabled,
 	});
 
@@ -213,7 +270,7 @@ function DraggableWordChip({
 			ref={setNodeRef}
 			data-testid={`word-chip-${word}`}
 			aria-label={`Palabra del banco: ${word}`}
-			className={`inline-flex cursor-grab items-center rounded-full border border-[var(--c-border)] bg-[var(--c-card)] px-3 py-1 text-sm font-medium text-[var(--c-fg)] shadow-sm select-none active:cursor-grabbing ${isDragging ? "opacity-30" : ""} ${isOverlay ? "shadow-md opacity-90" : ""} ${disabled ? "cursor-default opacity-50" : ""}`}
+			className={chipClassName({ disabled, isDragging })}
 			{...(disabled ? {} : attributes)}
 			{...(disabled ? {} : listeners)}
 		>
@@ -232,7 +289,9 @@ interface DroppableBlankProps {
 	placedWord: string | null;
 	isSubmitted: boolean;
 	isCorrect: boolean | undefined;
-	onReturn: (word: string) => void;
+	/** Called when the user taps the placed word — the parent figures out
+	 *  which bankIdx is sitting in this blank and releases it. */
+	onReturn: () => void;
 }
 
 function DroppableBlank({
@@ -268,7 +327,7 @@ function DroppableBlank({
 				<button
 					type="button"
 					data-testid={`fill-blank-placed-${itemIdx}-${blankIdx}`}
-					onClick={() => !isSubmitted && onReturn(placedWord)}
+					onClick={() => !isSubmitted && onReturn()}
 					disabled={isSubmitted}
 					className="text-sm font-medium text-[var(--c-fg)] disabled:cursor-default"
 					aria-label={`Palabra colocada: ${placedWord}. Pulsa para devolver al banco.`}
@@ -295,7 +354,9 @@ export function FillBlank({ exercise, onResult, onNext }: Props) {
 		wordPlacements: {},
 	});
 
-	const [activeDragWord, setActiveDragWord] = useState<string | null>(null);
+	const [activeDragBankIdx, setActiveDragBankIdx] = useState<number | null>(
+		null,
+	);
 
 	const sensors = useSensors(
 		useSensor(PointerSensor),
@@ -341,68 +402,85 @@ export function FillBlank({ exercise, onResult, onNext }: Props) {
 		onResult({ score, correct: score >= 1 });
 	};
 
-	// WordBank drag handlers
+	// Block verification until every blank in every item has a non-empty value.
+	const allAnswered = exercise.items.every((item, itemIdx) =>
+		item.blanks.every(
+			(_, blankIdx) =>
+				(state.answers[itemIdx]?.[blankIdx] ?? "").trim().length > 0,
+		),
+	);
+
+	// WordBank drag handlers — IDs are now `bank-word-${bankIdx}` so duplicate
+	// words remain distinct entities in dnd-kit.
+	const parseBankIdx = (id: string): number | null => {
+		if (!id.startsWith("bank-word-")) return null;
+		const n = Number(id.slice("bank-word-".length));
+		return Number.isFinite(n) ? n : null;
+	};
+
 	const handleDragStart = (event: DragStartEvent) => {
-		const id = String(event.active.id);
-		if (id.startsWith("bank-word-")) {
-			setActiveDragWord(id.replace("bank-word-", ""));
-		}
+		const bankIdx = parseBankIdx(String(event.active.id));
+		if (bankIdx !== null) setActiveDragBankIdx(bankIdx);
 	};
 
 	const handleDragEnd = (event: DragEndEvent) => {
-		setActiveDragWord(null);
+		setActiveDragBankIdx(null);
 		const { active, over } = event;
 		if (!over) return;
 
-		const activeId = String(active.id);
+		const bankIdx = parseBankIdx(String(active.id));
+		if (bankIdx === null) return;
+		const word = exercise.wordBank?.[bankIdx];
+		if (!word) return;
+
 		const overId = String(over.id);
-
-		if (!activeId.startsWith("bank-word-")) return;
-		const word = activeId.replace("bank-word-", "");
-
 		if (!overId.startsWith("blank-")) return;
 		const parts = overId.split("-");
 		// blank-{itemIdx}-{blankIdx}
 		const itemIdx = Number(parts[1]);
 		const blankIdx = Number(parts[2]);
 
-		// Find if there's already a word in that blank
-		const existingWord = state.answers[itemIdx]?.[blankIdx] ?? null;
-		const previousWord =
-			existingWord && existingWord !== word ? existingWord : null;
+		// Whatever chip is already in this blank gets bumped back to the bank.
+		const previousBankIdx = findBankIdxInBlank(
+			state.wordPlacements,
+			itemIdx,
+			blankIdx,
+		);
 
 		dispatch({
 			type: "placeWord",
+			bankIdx,
 			word,
 			itemIdx,
 			blankIdx,
-			previousWord: previousWord || null,
+			previousBankIdx:
+				previousBankIdx !== null && previousBankIdx !== bankIdx
+					? previousBankIdx
+					: null,
 		});
 	};
 
-	const handleReturnWord = (
-		word: string,
-		itemIdx: number,
-		blankIdx: number,
-	) => {
-		dispatch({ type: "returnWord", word, itemIdx, blankIdx });
+	const handleReturnFromBlank = (itemIdx: number, blankIdx: number) => {
+		const bankIdx = findBankIdxInBlank(state.wordPlacements, itemIdx, blankIdx);
+		if (bankIdx === null) return;
+		dispatch({ type: "returnWord", bankIdx, itemIdx, blankIdx });
 	};
 
 	// Motion key for animation — changes on status to trigger animation
 	const animateKey = isSubmitted ? state.status : "idle";
 
-	// In wordBank mode, derive which words are still in the bank
-	const wordsInBank =
-		exercise.wordBank?.filter((word) => {
-			// A word is in the bank if it's not placed anywhere
-			// Check all blanks
-			for (const [_itemIdx, blankMap] of Object.entries(state.answers)) {
-				for (const [, val] of Object.entries(blankMap)) {
-					if (val === word) return false;
-				}
-			}
-			return true;
-		}) ?? [];
+	// In wordBank mode, derive which CHIPS (by bankIdx) are still in the bank.
+	const wordsInBank = useMemo<{ bankIdx: number; word: string }[]>(() => {
+		if (!exercise.wordBank) return [];
+		return exercise.wordBank
+			.map((word, bankIdx) => ({ bankIdx, word }))
+			.filter(({ bankIdx }) => state.wordPlacements[bankIdx] == null);
+	}, [exercise.wordBank, state.wordPlacements]);
+
+	const activeDragWord =
+		activeDragBankIdx !== null
+			? (exercise.wordBank?.[activeDragBankIdx] ?? null)
+			: null;
 
 	const content = (
 		<>
@@ -416,9 +494,10 @@ export function FillBlank({ exercise, onResult, onNext }: Props) {
 						Banco de palabras
 					</p>
 					<div className="flex min-h-8 flex-wrap gap-2">
-						{wordsInBank.map((word) => (
+						{wordsInBank.map(({ bankIdx, word }) => (
 							<DraggableWordChip
-								key={word}
+								key={bankIdx}
+								bankIdx={bankIdx}
 								word={word}
 								disabled={isSubmitted}
 							/>
@@ -466,8 +545,8 @@ export function FillBlank({ exercise, onResult, onNext }: Props) {
 												placedWord={placedWord || null}
 												isSubmitted={isSubmitted}
 												isCorrect={isSubmitted ? isCorrect : undefined}
-												onReturn={(word) =>
-													handleReturnWord(word, itemIdx, blankIdx)
+												onReturn={() =>
+													handleReturnFromBlank(itemIdx, blankIdx)
 												}
 											/>
 											{hint && <HintLabel>{hint}</HintLabel>}
@@ -525,6 +604,7 @@ export function FillBlank({ exercise, onResult, onNext }: Props) {
 				status={state.status}
 				onVerify={handleVerify}
 				onNext={onNext}
+				disabled={!allAnswered}
 			/>
 		</div>
 	);
@@ -545,11 +625,7 @@ export function FillBlank({ exercise, onResult, onNext }: Props) {
 					{content}
 					<DragOverlay>
 						{activeDragWord && (
-							<DraggableWordChip
-								word={activeDragWord}
-								disabled={false}
-								isOverlay
-							/>
+							<WordChipVisual word={activeDragWord} isOverlay />
 						)}
 					</DragOverlay>
 				</DndContext>

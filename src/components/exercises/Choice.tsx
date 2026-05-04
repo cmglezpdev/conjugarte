@@ -143,6 +143,19 @@ export function Choice({ exercise, onResult, onNext }: Props) {
 		state.status === "incorrect" ||
 		state.status === "partial";
 
+	// Verify is blocked until every item has at least one selection — this
+	// prevents the "show correct answers without trying" loophole and matches
+	// standard quiz UX.
+	const allAnswered = exercise.items.every((_, itemIdx) => {
+		if (state.mode === "single") {
+			return (
+				state.selections[itemIdx] !== null &&
+				state.selections[itemIdx] !== undefined
+			);
+		}
+		return (state.selections[itemIdx] ?? []).length > 0;
+	});
+
 	const handleVerify = () => {
 		let totalItems = 0;
 		let correctItems = 0;
@@ -183,6 +196,7 @@ export function Choice({ exercise, onResult, onNext }: Props) {
 						status={state.status}
 						onVerify={handleVerify}
 						onNext={onNext}
+						disabled={!allAnswered}
 					/>
 				</div>
 			}

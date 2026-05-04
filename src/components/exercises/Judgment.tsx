@@ -87,6 +87,12 @@ export function Judgment({ exercise, onResult, onNext }: Props) {
 		state.status === "incorrect" ||
 		state.status === "partial";
 
+	// Block verification until every sentence has been judged.
+	const allAnswered = exercise.items.every((_, itemIdx) => {
+		const j = state.judgments[itemIdx];
+		return j === true || j === false;
+	});
+
 	const handleVerify = () => {
 		const total = exercise.items.length;
 		let correct = 0;
@@ -114,6 +120,7 @@ export function Judgment({ exercise, onResult, onNext }: Props) {
 						status={state.status}
 						onVerify={handleVerify}
 						onNext={onNext}
+						disabled={!allAnswered}
 					/>
 				</div>
 			}

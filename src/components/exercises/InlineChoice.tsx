@@ -114,6 +114,15 @@ export function InlineChoice({ exercise, onResult, onNext }: Props) {
 		state.status === "incorrect" ||
 		state.status === "partial";
 
+	// Verify is blocked until every choice in every item is answered — this
+	// prevents revealing the correct answers without the user attempting.
+	const allAnswered = exercise.items.every((item, itemIdx) =>
+		item.choices.every((_, choiceIdx) => {
+			const selected = state.selections[itemIdx]?.[choiceIdx];
+			return selected !== null && selected !== undefined;
+		}),
+	);
+
 	// Per-choice correctness for visual feedback
 	const choiceValidity: Record<number, Record<number, boolean>> = {};
 	if (isSubmitted) {
@@ -156,6 +165,7 @@ export function InlineChoice({ exercise, onResult, onNext }: Props) {
 						status={state.status}
 						onVerify={handleVerify}
 						onNext={onNext}
+						disabled={!allAnswered}
 					/>
 				</div>
 			}
