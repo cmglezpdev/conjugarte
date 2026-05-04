@@ -386,9 +386,9 @@ export function Categorize({ exercise, onResult, onNext }: Props) {
 
 				{/* Category drop zones */}
 				<div className="mt-4 flex flex-wrap gap-3">
-					{exercise.categories.map((cat) => (
+					{exercise.categories.map((cat, catIdx) => (
 						<DroppableZone
-							key={cat}
+							key={`cat-${catIdx}`}
 							category={cat}
 							itemIdxs={categoryItems[cat] ?? []}
 							items={exercise.items}

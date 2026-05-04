@@ -181,10 +181,10 @@ export function InlineChoice({ exercise, onResult, onNext }: Props) {
 					const segments = parseSentence(item.sentence);
 
 					return (
-						<div key={item.sentence} className="leading-relaxed">
-							{segments.map((seg) => {
+						<div key={`item-${itemIdx}`} className="leading-relaxed">
+							{segments.map((seg, segIdx) => {
 								if (seg.type === "text") {
-									return <span key={`t:${seg.text}`}>{seg.text}</span>;
+									return <span key={`t-${segIdx}`}>{seg.text}</span>;
 								}
 
 								const choiceIdx = seg.index;
@@ -224,7 +224,7 @@ export function InlineChoice({ exercise, onResult, onNext }: Props) {
 
 											return (
 												<button
-													key={option}
+													key={`opt-${optIdx}`}
 													type="button"
 													data-testid={`inline-choice-option-${itemIdx}-${choiceIdx}-${optIdx}`}
 													className={pillClass}

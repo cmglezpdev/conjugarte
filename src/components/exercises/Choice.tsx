@@ -249,7 +249,7 @@ export function Choice({ exercise, onResult, onNext }: Props) {
 
 									return (
 										<motion.button
-											key={option}
+											key={`opt-${optIdx}`}
 											type="button"
 											// motion.button: aria-checked on role=radio/checkbox is valid
 											role={exercise.multiple ? "checkbox" : "radio"}

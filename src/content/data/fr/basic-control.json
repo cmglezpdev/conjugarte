@@ -14,7 +14,7 @@
       "items": [
         {
           "prompt": "Salir",
-          "options": ["sali", "salu", "sali", "salit"],
+          "options": ["sali", "salu", "salit"],
           "correct": 0
         },
         {

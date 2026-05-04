@@ -138,7 +138,7 @@ export function Judgment({ exercise, onResult, onNext }: Props) {
 
 					return (
 						<div
-							key={item.sentence}
+							key={`item-${itemIdx}`}
 							className={`flex flex-col gap-3 rounded-lg border p-4 transition-colors ${
 								isSubmitted
 									? isItemCorrect
