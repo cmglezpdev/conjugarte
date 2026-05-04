@@ -102,9 +102,11 @@ html:not([data-section]) body {
 		var(--c-bg);
 }
 
-a {
-	color: inherit;
-	text-decoration: none;
+@layer base {
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
 }
 
 code {
