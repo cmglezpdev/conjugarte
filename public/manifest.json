@@ -1,6 +1,7 @@
 {
-  "short_name": "TanStack App",
-  "name": "Create TanStack App Sample",
+  "short_name": "ConjugArte",
+  "name": "ConjugArte — Tiempos verbales compuestos en francés e italiano",
+  "description": "Aprende los tiempos verbales compuestos del francés y el italiano con teoría clara y ejercicios prácticos organizados por niveles.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,8 +19,9 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "lang": "es"
 }
