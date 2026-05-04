@@ -8,15 +8,11 @@ import {
 } from "../src/content/schema.ts";
 
 const ROOT = resolve(import.meta.dirname, "..");
-const CONTENT = join(ROOT, "content");
+const CONTENT = join(ROOT, "src", "content", "data");
 
 type Issue = { file: string; message: string };
 
 const issues: Issue[] = [];
-
-const expectedKindByPath: Record<string, z.ZodTypeAny> = {
-  "landing.json": Landing,
-};
 
 function expectedSchema(rel: string): z.ZodTypeAny | null {
   const segs = rel.split(/[\\/]/);

@@ -9,9 +9,37 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as ItRouteImport } from './routes/it'
+import { Route as FrRouteImport } from './routes/fr'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ItIndexRouteImport } from './routes/it/index'
+import { Route as FrIndexRouteImport } from './routes/fr/index'
+import { Route as ItTheoryRouteImport } from './routes/it/theory'
+import { Route as ItIntermediateRouteImport } from './routes/it/intermediate'
+import { Route as ItBasicRouteImport } from './routes/it/basic'
+import { Route as ItAdvancedRouteImport } from './routes/it/advanced'
+import { Route as FrTheoryRouteImport } from './routes/fr/theory'
+import { Route as FrIntermediateRouteImport } from './routes/fr/intermediate'
+import { Route as FrBasicRouteImport } from './routes/fr/basic'
+import { Route as FrAdvancedRouteImport } from './routes/fr/advanced'
+import { Route as ItIntermediateControlRouteImport } from './routes/it/intermediate.control'
+import { Route as ItBasicControlRouteImport } from './routes/it/basic.control'
+import { Route as ItAdvancedControlRouteImport } from './routes/it/advanced.control'
+import { Route as FrIntermediateControlRouteImport } from './routes/fr/intermediate.control'
+import { Route as FrBasicControlRouteImport } from './routes/fr/basic.control'
+import { Route as FrAdvancedControlRouteImport } from './routes/fr/advanced.control'
 
+const ItRoute = ItRouteImport.update({
+  id: '/it',
+  path: '/it',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FrRoute = FrRouteImport.update({
+  id: '/fr',
+  path: '/fr',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AboutRoute = AboutRouteImport.update({
   id: '/about',
   path: '/about',
@@ -22,35 +50,242 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ItIndexRoute = ItIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => ItRoute,
+} as any)
+const FrIndexRoute = FrIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => FrRoute,
+} as any)
+const ItTheoryRoute = ItTheoryRouteImport.update({
+  id: '/theory',
+  path: '/theory',
+  getParentRoute: () => ItRoute,
+} as any)
+const ItIntermediateRoute = ItIntermediateRouteImport.update({
+  id: '/intermediate',
+  path: '/intermediate',
+  getParentRoute: () => ItRoute,
+} as any)
+const ItBasicRoute = ItBasicRouteImport.update({
+  id: '/basic',
+  path: '/basic',
+  getParentRoute: () => ItRoute,
+} as any)
+const ItAdvancedRoute = ItAdvancedRouteImport.update({
+  id: '/advanced',
+  path: '/advanced',
+  getParentRoute: () => ItRoute,
+} as any)
+const FrTheoryRoute = FrTheoryRouteImport.update({
+  id: '/theory',
+  path: '/theory',
+  getParentRoute: () => FrRoute,
+} as any)
+const FrIntermediateRoute = FrIntermediateRouteImport.update({
+  id: '/intermediate',
+  path: '/intermediate',
+  getParentRoute: () => FrRoute,
+} as any)
+const FrBasicRoute = FrBasicRouteImport.update({
+  id: '/basic',
+  path: '/basic',
+  getParentRoute: () => FrRoute,
+} as any)
+const FrAdvancedRoute = FrAdvancedRouteImport.update({
+  id: '/advanced',
+  path: '/advanced',
+  getParentRoute: () => FrRoute,
+} as any)
+const ItIntermediateControlRoute = ItIntermediateControlRouteImport.update({
+  id: '/control',
+  path: '/control',
+  getParentRoute: () => ItIntermediateRoute,
+} as any)
+const ItBasicControlRoute = ItBasicControlRouteImport.update({
+  id: '/control',
+  path: '/control',
+  getParentRoute: () => ItBasicRoute,
+} as any)
+const ItAdvancedControlRoute = ItAdvancedControlRouteImport.update({
+  id: '/control',
+  path: '/control',
+  getParentRoute: () => ItAdvancedRoute,
+} as any)
+const FrIntermediateControlRoute = FrIntermediateControlRouteImport.update({
+  id: '/control',
+  path: '/control',
+  getParentRoute: () => FrIntermediateRoute,
+} as any)
+const FrBasicControlRoute = FrBasicControlRouteImport.update({
+  id: '/control',
+  path: '/control',
+  getParentRoute: () => FrBasicRoute,
+} as any)
+const FrAdvancedControlRoute = FrAdvancedControlRouteImport.update({
+  id: '/control',
+  path: '/control',
+  getParentRoute: () => FrAdvancedRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/fr': typeof FrRouteWithChildren
+  '/it': typeof ItRouteWithChildren
+  '/fr/advanced': typeof FrAdvancedRouteWithChildren
+  '/fr/basic': typeof FrBasicRouteWithChildren
+  '/fr/intermediate': typeof FrIntermediateRouteWithChildren
+  '/fr/theory': typeof FrTheoryRoute
+  '/it/advanced': typeof ItAdvancedRouteWithChildren
+  '/it/basic': typeof ItBasicRouteWithChildren
+  '/it/intermediate': typeof ItIntermediateRouteWithChildren
+  '/it/theory': typeof ItTheoryRoute
+  '/fr/': typeof FrIndexRoute
+  '/it/': typeof ItIndexRoute
+  '/fr/advanced/control': typeof FrAdvancedControlRoute
+  '/fr/basic/control': typeof FrBasicControlRoute
+  '/fr/intermediate/control': typeof FrIntermediateControlRoute
+  '/it/advanced/control': typeof ItAdvancedControlRoute
+  '/it/basic/control': typeof ItBasicControlRoute
+  '/it/intermediate/control': typeof ItIntermediateControlRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/fr/advanced': typeof FrAdvancedRouteWithChildren
+  '/fr/basic': typeof FrBasicRouteWithChildren
+  '/fr/intermediate': typeof FrIntermediateRouteWithChildren
+  '/fr/theory': typeof FrTheoryRoute
+  '/it/advanced': typeof ItAdvancedRouteWithChildren
+  '/it/basic': typeof ItBasicRouteWithChildren
+  '/it/intermediate': typeof ItIntermediateRouteWithChildren
+  '/it/theory': typeof ItTheoryRoute
+  '/fr': typeof FrIndexRoute
+  '/it': typeof ItIndexRoute
+  '/fr/advanced/control': typeof FrAdvancedControlRoute
+  '/fr/basic/control': typeof FrBasicControlRoute
+  '/fr/intermediate/control': typeof FrIntermediateControlRoute
+  '/it/advanced/control': typeof ItAdvancedControlRoute
+  '/it/basic/control': typeof ItBasicControlRoute
+  '/it/intermediate/control': typeof ItIntermediateControlRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/fr': typeof FrRouteWithChildren
+  '/it': typeof ItRouteWithChildren
+  '/fr/advanced': typeof FrAdvancedRouteWithChildren
+  '/fr/basic': typeof FrBasicRouteWithChildren
+  '/fr/intermediate': typeof FrIntermediateRouteWithChildren
+  '/fr/theory': typeof FrTheoryRoute
+  '/it/advanced': typeof ItAdvancedRouteWithChildren
+  '/it/basic': typeof ItBasicRouteWithChildren
+  '/it/intermediate': typeof ItIntermediateRouteWithChildren
+  '/it/theory': typeof ItTheoryRoute
+  '/fr/': typeof FrIndexRoute
+  '/it/': typeof ItIndexRoute
+  '/fr/advanced/control': typeof FrAdvancedControlRoute
+  '/fr/basic/control': typeof FrBasicControlRoute
+  '/fr/intermediate/control': typeof FrIntermediateControlRoute
+  '/it/advanced/control': typeof ItAdvancedControlRoute
+  '/it/basic/control': typeof ItBasicControlRoute
+  '/it/intermediate/control': typeof ItIntermediateControlRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about'
+  fullPaths:
+    | '/'
+    | '/about'
+    | '/fr'
+    | '/it'
+    | '/fr/advanced'
+    | '/fr/basic'
+    | '/fr/intermediate'
+    | '/fr/theory'
+    | '/it/advanced'
+    | '/it/basic'
+    | '/it/intermediate'
+    | '/it/theory'
+    | '/fr/'
+    | '/it/'
+    | '/fr/advanced/control'
+    | '/fr/basic/control'
+    | '/fr/intermediate/control'
+    | '/it/advanced/control'
+    | '/it/basic/control'
+    | '/it/intermediate/control'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about'
-  id: '__root__' | '/' | '/about'
+  to:
+    | '/'
+    | '/about'
+    | '/fr/advanced'
+    | '/fr/basic'
+    | '/fr/intermediate'
+    | '/fr/theory'
+    | '/it/advanced'
+    | '/it/basic'
+    | '/it/intermediate'
+    | '/it/theory'
+    | '/fr'
+    | '/it'
+    | '/fr/advanced/control'
+    | '/fr/basic/control'
+    | '/fr/intermediate/control'
+    | '/it/advanced/control'
+    | '/it/basic/control'
+    | '/it/intermediate/control'
+  id:
+    | '__root__'
+    | '/'
+    | '/about'
+    | '/fr'
+    | '/it'
+    | '/fr/advanced'
+    | '/fr/basic'
+    | '/fr/intermediate'
+    | '/fr/theory'
+    | '/it/advanced'
+    | '/it/basic'
+    | '/it/intermediate'
+    | '/it/theory'
+    | '/fr/'
+    | '/it/'
+    | '/fr/advanced/control'
+    | '/fr/basic/control'
+    | '/fr/intermediate/control'
+    | '/it/advanced/control'
+    | '/it/basic/control'
+    | '/it/intermediate/control'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
+  FrRoute: typeof FrRouteWithChildren
+  ItRoute: typeof ItRouteWithChildren
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/it': {
+      id: '/it'
+      path: '/it'
+      fullPath: '/it'
+      preLoaderRoute: typeof ItRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/fr': {
+      id: '/fr'
+      path: '/fr'
+      fullPath: '/fr'
+      preLoaderRoute: typeof FrRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/about': {
       id: '/about'
       path: '/about'
@@ -65,12 +300,232 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/it/': {
+      id: '/it/'
+      path: '/'
+      fullPath: '/it/'
+      preLoaderRoute: typeof ItIndexRouteImport
+      parentRoute: typeof ItRoute
+    }
+    '/fr/': {
+      id: '/fr/'
+      path: '/'
+      fullPath: '/fr/'
+      preLoaderRoute: typeof FrIndexRouteImport
+      parentRoute: typeof FrRoute
+    }
+    '/it/theory': {
+      id: '/it/theory'
+      path: '/theory'
+      fullPath: '/it/theory'
+      preLoaderRoute: typeof ItTheoryRouteImport
+      parentRoute: typeof ItRoute
+    }
+    '/it/intermediate': {
+      id: '/it/intermediate'
+      path: '/intermediate'
+      fullPath: '/it/intermediate'
+      preLoaderRoute: typeof ItIntermediateRouteImport
+      parentRoute: typeof ItRoute
+    }
+    '/it/basic': {
+      id: '/it/basic'
+      path: '/basic'
+      fullPath: '/it/basic'
+      preLoaderRoute: typeof ItBasicRouteImport
+      parentRoute: typeof ItRoute
+    }
+    '/it/advanced': {
+      id: '/it/advanced'
+      path: '/advanced'
+      fullPath: '/it/advanced'
+      preLoaderRoute: typeof ItAdvancedRouteImport
+      parentRoute: typeof ItRoute
+    }
+    '/fr/theory': {
+      id: '/fr/theory'
+      path: '/theory'
+      fullPath: '/fr/theory'
+      preLoaderRoute: typeof FrTheoryRouteImport
+      parentRoute: typeof FrRoute
+    }
+    '/fr/intermediate': {
+      id: '/fr/intermediate'
+      path: '/intermediate'
+      fullPath: '/fr/intermediate'
+      preLoaderRoute: typeof FrIntermediateRouteImport
+      parentRoute: typeof FrRoute
+    }
+    '/fr/basic': {
+      id: '/fr/basic'
+      path: '/basic'
+      fullPath: '/fr/basic'
+      preLoaderRoute: typeof FrBasicRouteImport
+      parentRoute: typeof FrRoute
+    }
+    '/fr/advanced': {
+      id: '/fr/advanced'
+      path: '/advanced'
+      fullPath: '/fr/advanced'
+      preLoaderRoute: typeof FrAdvancedRouteImport
+      parentRoute: typeof FrRoute
+    }
+    '/it/intermediate/control': {
+      id: '/it/intermediate/control'
+      path: '/control'
+      fullPath: '/it/intermediate/control'
+      preLoaderRoute: typeof ItIntermediateControlRouteImport
+      parentRoute: typeof ItIntermediateRoute
+    }
+    '/it/basic/control': {
+      id: '/it/basic/control'
+      path: '/control'
+      fullPath: '/it/basic/control'
+      preLoaderRoute: typeof ItBasicControlRouteImport
+      parentRoute: typeof ItBasicRoute
+    }
+    '/it/advanced/control': {
+      id: '/it/advanced/control'
+      path: '/control'
+      fullPath: '/it/advanced/control'
+      preLoaderRoute: typeof ItAdvancedControlRouteImport
+      parentRoute: typeof ItAdvancedRoute
+    }
+    '/fr/intermediate/control': {
+      id: '/fr/intermediate/control'
+      path: '/control'
+      fullPath: '/fr/intermediate/control'
+      preLoaderRoute: typeof FrIntermediateControlRouteImport
+      parentRoute: typeof FrIntermediateRoute
+    }
+    '/fr/basic/control': {
+      id: '/fr/basic/control'
+      path: '/control'
+      fullPath: '/fr/basic/control'
+      preLoaderRoute: typeof FrBasicControlRouteImport
+      parentRoute: typeof FrBasicRoute
+    }
+    '/fr/advanced/control': {
+      id: '/fr/advanced/control'
+      path: '/control'
+      fullPath: '/fr/advanced/control'
+      preLoaderRoute: typeof FrAdvancedControlRouteImport
+      parentRoute: typeof FrAdvancedRoute
+    }
   }
 }
+
+interface FrAdvancedRouteChildren {
+  FrAdvancedControlRoute: typeof FrAdvancedControlRoute
+}
+
+const FrAdvancedRouteChildren: FrAdvancedRouteChildren = {
+  FrAdvancedControlRoute: FrAdvancedControlRoute,
+}
+
+const FrAdvancedRouteWithChildren = FrAdvancedRoute._addFileChildren(
+  FrAdvancedRouteChildren,
+)
+
+interface FrBasicRouteChildren {
+  FrBasicControlRoute: typeof FrBasicControlRoute
+}
+
+const FrBasicRouteChildren: FrBasicRouteChildren = {
+  FrBasicControlRoute: FrBasicControlRoute,
+}
+
+const FrBasicRouteWithChildren =
+  FrBasicRoute._addFileChildren(FrBasicRouteChildren)
+
+interface FrIntermediateRouteChildren {
+  FrIntermediateControlRoute: typeof FrIntermediateControlRoute
+}
+
+const FrIntermediateRouteChildren: FrIntermediateRouteChildren = {
+  FrIntermediateControlRoute: FrIntermediateControlRoute,
+}
+
+const FrIntermediateRouteWithChildren = FrIntermediateRoute._addFileChildren(
+  FrIntermediateRouteChildren,
+)
+
+interface FrRouteChildren {
+  FrAdvancedRoute: typeof FrAdvancedRouteWithChildren
+  FrBasicRoute: typeof FrBasicRouteWithChildren
+  FrIntermediateRoute: typeof FrIntermediateRouteWithChildren
+  FrTheoryRoute: typeof FrTheoryRoute
+  FrIndexRoute: typeof FrIndexRoute
+}
+
+const FrRouteChildren: FrRouteChildren = {
+  FrAdvancedRoute: FrAdvancedRouteWithChildren,
+  FrBasicRoute: FrBasicRouteWithChildren,
+  FrIntermediateRoute: FrIntermediateRouteWithChildren,
+  FrTheoryRoute: FrTheoryRoute,
+  FrIndexRoute: FrIndexRoute,
+}
+
+const FrRouteWithChildren = FrRoute._addFileChildren(FrRouteChildren)
+
+interface ItAdvancedRouteChildren {
+  ItAdvancedControlRoute: typeof ItAdvancedControlRoute
+}
+
+const ItAdvancedRouteChildren: ItAdvancedRouteChildren = {
+  ItAdvancedControlRoute: ItAdvancedControlRoute,
+}
+
+const ItAdvancedRouteWithChildren = ItAdvancedRoute._addFileChildren(
+  ItAdvancedRouteChildren,
+)
+
+interface ItBasicRouteChildren {
+  ItBasicControlRoute: typeof ItBasicControlRoute
+}
+
+const ItBasicRouteChildren: ItBasicRouteChildren = {
+  ItBasicControlRoute: ItBasicControlRoute,
+}
+
+const ItBasicRouteWithChildren =
+  ItBasicRoute._addFileChildren(ItBasicRouteChildren)
+
+interface ItIntermediateRouteChildren {
+  ItIntermediateControlRoute: typeof ItIntermediateControlRoute
+}
+
+const ItIntermediateRouteChildren: ItIntermediateRouteChildren = {
+  ItIntermediateControlRoute: ItIntermediateControlRoute,
+}
+
+const ItIntermediateRouteWithChildren = ItIntermediateRoute._addFileChildren(
+  ItIntermediateRouteChildren,
+)
+
+interface ItRouteChildren {
+  ItAdvancedRoute: typeof ItAdvancedRouteWithChildren
+  ItBasicRoute: typeof ItBasicRouteWithChildren
+  ItIntermediateRoute: typeof ItIntermediateRouteWithChildren
+  ItTheoryRoute: typeof ItTheoryRoute
+  ItIndexRoute: typeof ItIndexRoute
+}
+
+const ItRouteChildren: ItRouteChildren = {
+  ItAdvancedRoute: ItAdvancedRouteWithChildren,
+  ItBasicRoute: ItBasicRouteWithChildren,
+  ItIntermediateRoute: ItIntermediateRouteWithChildren,
+  ItTheoryRoute: ItTheoryRoute,
+  ItIndexRoute: ItIndexRoute,
+}
+
+const ItRouteWithChildren = ItRoute._addFileChildren(ItRouteChildren)
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
+  FrRoute: FrRouteWithChildren,
+  ItRoute: ItRouteWithChildren,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
