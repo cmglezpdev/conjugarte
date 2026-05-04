@@ -11,7 +11,6 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as ItRouteImport } from './routes/it'
 import { Route as FrRouteImport } from './routes/fr'
-import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ItIndexRouteImport } from './routes/it/index'
 import { Route as FrIndexRouteImport } from './routes/fr/index'
@@ -38,11 +37,6 @@ const ItRoute = ItRouteImport.update({
 const FrRoute = FrRouteImport.update({
   id: '/fr',
   path: '/fr',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const AboutRoute = AboutRouteImport.update({
-  id: '/about',
-  path: '/about',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -133,7 +127,6 @@ const FrAdvancedControlRoute = FrAdvancedControlRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
   '/fr': typeof FrRouteWithChildren
   '/it': typeof ItRouteWithChildren
   '/fr/advanced': typeof FrAdvancedRouteWithChildren
@@ -155,7 +148,6 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
   '/fr/advanced': typeof FrAdvancedRouteWithChildren
   '/fr/basic': typeof FrBasicRouteWithChildren
   '/fr/intermediate': typeof FrIntermediateRouteWithChildren
@@ -176,7 +168,6 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
   '/fr': typeof FrRouteWithChildren
   '/it': typeof ItRouteWithChildren
   '/fr/advanced': typeof FrAdvancedRouteWithChildren
@@ -200,7 +191,6 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
-    | '/about'
     | '/fr'
     | '/it'
     | '/fr/advanced'
@@ -222,7 +212,6 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
-    | '/about'
     | '/fr/advanced'
     | '/fr/basic'
     | '/fr/intermediate'
@@ -242,7 +231,6 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
-    | '/about'
     | '/fr'
     | '/it'
     | '/fr/advanced'
@@ -265,7 +253,6 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  AboutRoute: typeof AboutRoute
   FrRoute: typeof FrRouteWithChildren
   ItRoute: typeof ItRouteWithChildren
 }
@@ -284,13 +271,6 @@ declare module '@tanstack/react-router' {
       path: '/fr'
       fullPath: '/fr'
       preLoaderRoute: typeof FrRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/about': {
-      id: '/about'
-      path: '/about'
-      fullPath: '/about'
-      preLoaderRoute: typeof AboutRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/': {
@@ -523,7 +503,6 @@ const ItRouteWithChildren = ItRoute._addFileChildren(ItRouteChildren)
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  AboutRoute: AboutRoute,
   FrRoute: FrRouteWithChildren,
   ItRoute: ItRouteWithChildren,
 }

@@ -171,6 +171,23 @@ const shakeVariants = {
 };
 
 // -----------------------------------------------------------------------
+// HintLabel — small neutral chip shown directly under a blank/input.
+// Uses a fixed grey (NOT --c-accent which is red in FR/IT themes and
+// would falsely signal "error") and is taken out of pointer flow.
+// -----------------------------------------------------------------------
+
+function HintLabel({ children }: { children: React.ReactNode }) {
+	// In-flow (NOT absolute): contributes to the parent flex-col's height so
+	// the line-box only grows where there's actually a hinted input. Other
+	// lines keep their natural leading.
+	return (
+		<span className="pointer-events-none mt-1 whitespace-nowrap text-[11px] font-medium leading-none text-[#6b7280]">
+			{children}
+		</span>
+	);
+}
+
+// -----------------------------------------------------------------------
 // WordBank mode — DraggableWordChip
 // -----------------------------------------------------------------------
 
@@ -441,7 +458,7 @@ export function FillBlank({ exercise, onResult, onNext }: Props) {
 										<span
 											// biome-ignore lint/suspicious/noArrayIndexKey: stable
 											key={segIdx}
-											className="relative inline-flex flex-col items-center"
+											className="relative inline-flex flex-col items-center align-middle"
 										>
 											<DroppableBlank
 												itemIdx={itemIdx}
@@ -453,11 +470,7 @@ export function FillBlank({ exercise, onResult, onNext }: Props) {
 													handleReturnWord(word, itemIdx, blankIdx)
 												}
 											/>
-											{hint && (
-												<span className="absolute -bottom-5 text-xs text-[var(--c-accent)]">
-													{hint}
-												</span>
-											)}
+											{hint && <HintLabel>{hint}</HintLabel>}
 										</span>
 									);
 								}
@@ -474,7 +487,7 @@ export function FillBlank({ exercise, onResult, onNext }: Props) {
 									<span
 										// biome-ignore lint/suspicious/noArrayIndexKey: stable
 										key={segIdx}
-										className="relative inline-flex flex-col items-center"
+										className="relative inline-flex flex-col items-center align-middle"
 									>
 										<motion.input
 											data-testid={`fill-blank-input-${itemIdx}-${blankIdx}`}
@@ -494,11 +507,7 @@ export function FillBlank({ exercise, onResult, onNext }: Props) {
 											whileFocus={{ scale: 1.06 }}
 											transition={{ duration: 0.15 }}
 										/>
-										{hint && (
-											<span className="absolute -bottom-5 text-xs text-[var(--color-accent)]">
-												{hint}
-											</span>
-										)}
+										{hint && <HintLabel>{hint}</HintLabel>}
 									</span>
 								);
 							})}

@@ -1,82 +1,17 @@
 import { AnimatePresence, motion } from "motion/react";
 import { useState } from "react";
+import type { Language } from "#/content/schema";
 import { useProgress } from "#/stores/progress";
 import ConjugArteHeader from "./ConjugArteHeader";
 import { Flag } from "./Flag";
-import { Sidebar, type SidebarLevel } from "./Sidebar";
-
-// -----------------------------------------------------------------------
-// Exercise ID generation — mirrors content/{lang}/{level}[-control].json
-// IDs follow the pattern: {lang}-{level}[-control]-{N}
-// Counts are hardcoded from the validated content files.
-// -----------------------------------------------------------------------
-
-function makeIds(
-	lang: string,
-	level: string,
-	isControl: boolean,
-	count: number,
-): string[] {
-	const suffix = isControl ? `-control` : "";
-	return Array.from(
-		{ length: count },
-		(_, i) => `${lang}-${level}${suffix}-${i + 1}`,
-	);
-}
-
-function buildLevels(section: "fr" | "it"): SidebarLevel[] {
-	return [
-		{
-			slug: "theory",
-			label: section === "fr" ? "À contretemps" : "Questione di forme",
-			total: 0,
-			ids: [],
-		},
-		{
-			slug: "basic",
-			label: section === "fr" ? "À toi le temps!" : "Fai parlare il tempo!",
-			total: 17,
-			ids: makeIds(section, "basic", false, 17),
-		},
-		{
-			slug: "basic-control",
-			label: section === "fr" ? "Le temps juste" : "Il tempo giusto",
-			total: 4,
-			ids: makeIds(section, "basic", true, 4),
-		},
-		{
-			slug: "intermediate",
-			label: section === "fr" ? "Le bon moment" : "Il momento giusto",
-			total: 15,
-			ids: makeIds(section, "intermediate", false, 15),
-		},
-		{
-			slug: "intermediate-control",
-			label: section === "fr" ? "À la minute" : "Al minuto",
-			total: 4,
-			ids: makeIds(section, "intermediate", true, 4),
-		},
-		{
-			slug: "advanced",
-			label: section === "fr" ? "Maître du temps" : "Maestro del tempo",
-			total: 13,
-			ids: makeIds(section, "advanced", false, 13),
-		},
-		{
-			slug: "advanced-control",
-			label: section === "fr" ? "Chrono final" : "Finale a cronometro",
-			total: 4,
-			ids: makeIds(section, "advanced", true, 4),
-		},
-	];
-}
+import { Sidebar } from "./Sidebar";
 
 // -----------------------------------------------------------------------
 // ResetSectionButton
 // -----------------------------------------------------------------------
 
 interface ResetSectionButtonProps {
-	section: "fr" | "it";
+	section: Language;
 }
 
 function ResetSectionButton({ section }: ResetSectionButtonProps) {
@@ -130,7 +65,7 @@ function ResetSectionButton({ section }: ResetSectionButtonProps) {
 // -----------------------------------------------------------------------
 
 interface SectionLayoutProps {
-	section: "fr" | "it";
+	section: Language;
 	pathname: string;
 	children: React.ReactNode;
 }
@@ -145,7 +80,6 @@ export function SectionLayout({
 	pathname,
 	children,
 }: SectionLayoutProps) {
-	const levels = buildLevels(section);
 	const [sidebarOpen, setSidebarOpen] = useState(false);
 
 	return (
@@ -155,7 +89,7 @@ export function SectionLayout({
 			<div className="flex flex-1 relative">
 				{/* ---- Desktop sidebar ---- */}
 				<aside className="hidden w-64 shrink-0 border-r border-[var(--c-border)] md:flex md:flex-col">
-					<Sidebar section={section} levels={levels} />
+					<Sidebar section={section} />
 					<div className="mt-auto border-t border-[var(--c-border)] pb-4">
 						<ResetSectionButton section={section} />
 					</div>
@@ -213,7 +147,6 @@ export function SectionLayout({
 								<div className="flex-1 overflow-y-auto">
 									<Sidebar
 										section={section}
-										levels={levels}
 										onNavigate={() => setSidebarOpen(false)}
 									/>
 								</div>

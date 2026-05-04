@@ -1,13 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { SectionHub } from "#/components/layout/SectionHub";
 
 export const Route = createFileRoute("/it/")({
 	component: ItIndex,
 });
 
 function ItIndex() {
-	return (
-		<main>
-			<h1>Italiano — Hub</h1>
-		</main>
-	);
+	return <SectionHub section="it" />;
 }
