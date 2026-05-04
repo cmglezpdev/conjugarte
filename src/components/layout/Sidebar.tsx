@@ -1,4 +1,5 @@
 import { Link } from "@tanstack/react-router";
+import { Flag } from "./Flag";
 import { ProgressBadge } from "./ProgressBadge";
 
 export interface SidebarLevel {
@@ -27,6 +28,12 @@ export function Sidebar({ section, levels, onNavigate }: SidebarProps) {
 			}
 			className="flex flex-col gap-1 px-2 py-4"
 		>
+			<div className="mb-2 flex items-center gap-2 px-3 pb-2 border-b border-[var(--c-border)]">
+				<Flag section={section} size={22} />
+				<span className="font-display text-sm font-bold text-[var(--c-primary)]">
+					{section === "fr" ? "Français" : "Italiano"}
+				</span>
+			</div>
 			{levels.map((level) => {
 				const to =
 					level.slug === "theory"

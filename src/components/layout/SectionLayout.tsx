@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { useState } from "react";
 import { useProgress } from "#/stores/progress";
 import ConjugArteHeader from "./ConjugArteHeader";
+import { Flag } from "./Flag";
 import { Sidebar, type SidebarLevel } from "./Sidebar";
 
 // -----------------------------------------------------------------------
@@ -185,7 +186,8 @@ export function SectionLayout({
 								className="fixed inset-y-0 left-0 z-40 flex w-64 flex-col border-r border-[var(--c-border)] bg-[var(--c-bg)] md:hidden"
 							>
 								<div className="flex items-center justify-between border-b border-[var(--c-border)] px-4 py-3">
-									<span className="font-display text-sm font-bold text-[var(--c-primary)]">
+									<span className="flex items-center gap-2 font-display text-sm font-bold text-[var(--c-primary)]">
+										<Flag section={section} size={20} />
 										{section === "fr" ? "Français" : "Italiano"}
 									</span>
 									<button
@@ -249,7 +251,8 @@ export function SectionLayout({
 								<line x1="2" y1="14" x2="16" y2="14" />
 							</svg>
 						</button>
-						<span className="text-sm font-medium text-[var(--c-fg)]">
+						<span className="flex items-center gap-2 text-sm font-medium text-[var(--c-fg)]">
+							<Flag section={section} size={18} />
 							{section === "fr" ? "Français" : "Italiano"}
 						</span>
 					</div>

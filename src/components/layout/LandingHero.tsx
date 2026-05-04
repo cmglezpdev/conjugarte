@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { useState } from "react";
 import { Button } from "#/components/ui/button";
 import type { Landing } from "#/content/schema";
+import { Flag } from "./Flag";
 
 type Lang = "es" | "fr" | "it";
 
@@ -93,7 +94,7 @@ export function LandingHero({ data }: LandingHeroProps) {
 					className="min-w-48 bg-[var(--c-primary)] text-[var(--c-primary-fg)] hover:opacity-90"
 				>
 					<Link to="/fr">
-						<span className="mr-2 text-lg">🇫🇷</span>
+						<Flag section="fr" size={24} className="mr-2" />
 						Français
 					</Link>
 				</Button>
@@ -105,7 +106,7 @@ export function LandingHero({ data }: LandingHeroProps) {
 					className="min-w-48 border-[var(--c-primary)] text-[var(--c-primary)] hover:bg-[var(--c-primary)] hover:text-[var(--c-primary-fg)]"
 				>
 					<Link to="/it">
-						<span className="mr-2 text-lg">🇮🇹</span>
+						<Flag section="it" size={24} className="mr-2" />
 						Italiano
 					</Link>
 				</Button>

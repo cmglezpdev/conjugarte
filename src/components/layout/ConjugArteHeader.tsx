@@ -1,4 +1,5 @@
 import { Link } from "@tanstack/react-router";
+import { Flag } from "./Flag";
 
 const SECTION_LABELS: Record<string, string> = {
 	fr: "Français",
@@ -33,7 +34,8 @@ export default function ConjugArteHeader({ section }: ConjugArteHeaderProps) {
 						>
 							/
 						</span>
-						<span className="text-sm font-medium text-[var(--c-accent)]">
+						<span className="flex items-center gap-1.5 text-sm font-medium text-[var(--c-accent)]">
+							<Flag section={section} size={18} />
 							{SECTION_LABELS[section]}
 						</span>
 					</>
