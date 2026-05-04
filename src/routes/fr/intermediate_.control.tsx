@@ -2,12 +2,12 @@ import { createFileRoute } from "@tanstack/react-router";
 import { LevelRunnerFromSet } from "#/components/level/LevelRunner";
 import { loadExercises } from "#/lib/content";
 
-export const Route = createFileRoute("/fr/basic/control")({
-	loader: () => loadExercises("fr", "basic", true),
-	component: FrBasicControl,
+export const Route = createFileRoute("/fr/intermediate_/control")({
+	loader: () => loadExercises("fr", "intermediate", true),
+	component: FrIntermediateControl,
 });
 
-function FrBasicControl() {
+function FrIntermediateControl() {
 	const exerciseSet = Route.useLoaderData();
 	return (
 		<main className="p-6">

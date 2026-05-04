@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { LevelRunnerFromSet } from "#/components/level/LevelRunner";
 import { loadExercises } from "#/lib/content";
 
-export const Route = createFileRoute("/fr/advanced/control")({
+export const Route = createFileRoute("/fr/advanced_/control")({
 	loader: () => loadExercises("fr", "advanced", true),
 	component: FrAdvancedControl,
 });
