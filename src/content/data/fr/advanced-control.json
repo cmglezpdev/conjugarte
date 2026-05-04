@@ -290,6 +290,16 @@
           "prompt": "Je vous demande pardon, monsieur, de vous déranger, mais pourriez-vous me dire à quelle époque {{0}} ce monument ?",
           "contextHint": "Bel Ami, Guy de Maupassant",
           "accepted": ["a été construit"]
+        },
+        {
+          "prompt": "Ce discours, demeuré célèbre, {{0}} (servir) de thème à Du Roy pour dix articles sur la colonie algérienne, pour toute sa série interrompue lors de ses débuts au journal, et il avait soutenu énergiquement l'idée d'une expédition militaire, bien qu'il {{1}} (convaincre) qu'elle n'aurait pas lieu. Il {{2}} (faire) vibrer la corde patriotique et bombardé l'Espagne avec tout l'arsenal d'arguments méprisants qu'on emploie contre les peuples dont les intérêts sont contraires aux vôtres.",
+          "contextHint": "Bel Ami, Guy de Maupassant",
+          "accepted": ["avait servi / fût convaincu / avait fait"]
+        },
+        {
+          "prompt": "Un écrivaillon anonyme de La Plume, {{0}} (s'en arracher) une, me cherche noise au sujet d'une vieille femme qu'il prétend {{1}} (être arrêtée) par un agent des mœurs, ce que je nie. Je {{2}} (voir) moi-même la dame Aubert, âgée de soixante ans au moins, et elle me {{3}} (raconter) par le menu sa querelle avec un boucher, au sujet d'une pesée de côtelettes, ce qui nécessita une explication devant le commissaire de police.",
+          "contextHint": "Bel Ami, Guy de Maupassant",
+          "accepted": ["s'en étant arraché / avoir été arrêtée / ai vu / a raconté"]
         }
       ]
     }

@@ -8,7 +8,7 @@
       "id": "it-intermediate-1",
       "number": 1,
       "title": "Passato prossimo — completare",
-      "instructions": "Completa con i verbi giusti al PASSATO PROSSIMO",
+      "instructions": "Completa con i verbi giusti al PASSATO PROSSIMO. Nota: alcuni verbi della lista (Mangiare, Andare, Rispondere, Arrivare, Essere, Dovere) compaiono più di una volta perché si usano in più frasi.",
       "kind": "fill-blank",
       "wordBank": [
         "Arrivare", "Vedere", "Succedere", "Telefonare", "Dimenticare",
@@ -147,10 +147,12 @@
           ]
         },
         {
-          "sentence": "C: Ieri alle 8.45 il tuo cellulare si {{0}} alla cella del ripetitore della tua strada e {{1}} questo numero. Chi {{2}}? Chi {{3}} a trovarti alle 9 mentre tu {{4}} la televisione? La tua vicina del primo piano {{5}} un uomo di circa 50 anni che {{6}} correndo nell'edificio.",
+          "sentence": "C: Ieri alle 8.45 il tuo cellulare si {{0}} alla cella del ripetitore della tua strada e {{1}} questo numero. Mi {{2}} (dire) che non sai di chi è e che tu non {{3}} (fare) chiamate. Chi {{4}}? Chi {{5}} a trovarti alle 9 mentre tu {{6}} la televisione? La tua vicina del primo piano {{7}} un uomo di circa 50 anni che {{8}} correndo nell'edificio.",
           "blanks": [
             { "answer": "è collegato" },
             { "answer": "ha chiamato" },
+            { "answer": "hai detto" },
+            { "answer": "hai fatto" },
             { "answer": "è stato" },
             { "answer": "è venuto" },
             { "answer": "guardavi" },
@@ -267,7 +269,7 @@
           ]
         },
         {
-          "sentence": "A: {{0}} (andare) propio come dici tu? Senti, quando {{1}} (tu - finire) di raccontarmi delle storie false, me lo dirai... Per me è andata così: ti {{2}} forse {{3}} (mandare) un messaggio su un altro telefono. {{4}} (tu - provare) a chiamare il tuo capo ma il telefono {{5}} e a questo punto {{6}} (tu - dovere) rischiare con il telefono che sapevi che era sotto controllo. Ma ci {{7}} troppo e lui {{8}}, ma non {{9}} in tempo prima che il suo assassino riuscisse a finire il suo orrendo lavoro.",
+          "sentence": "A: {{0}} (andare) propio come dici tu? Senti, quando {{1}} (tu - finire) di raccontarmi delle storie false, me lo dirai... Per me è andata così: ti {{2}} forse {{3}} (mandare) un messaggio su un altro telefono. {{4}} (tu - provare) a chiamare il tuo capo ma il telefono {{5}} e a questo punto {{6}} (dovere rischiare) con il telefono che sapevi che era sotto controllo. Ma ci {{7}} troppo e lui {{8}}, ma non {{9}} in tempo prima che il suo assassino riuscisse a finire il suo orrendo lavoro.",
           "blanks": [
             { "answer": "Sarà andata" },
             { "answer": "avrai finito" },
@@ -623,8 +625,9 @@
           ]
         },
         {
-          "sentence": "Io non {{0}} mai {{1}} (avere) problemi con la polizia e non volevo averne. Qualche anno dopo, dopo che mi {{2}} (arrestare) perché {{3}} (prendere) in prestito un'auto...",
+          "sentence": "Io non {{0}} (chiedere) niente. Io non {{1}} mai {{2}} (avere) problemi con la polizia e non volevo averne. Qualche anno dopo, dopo che mi {{3}} (arrestare) perché {{4}} (prendere) in prestito un'auto...",
           "blanks": [
+            { "answer": "avevo chiesto" },
             { "answer": "avevo" },
             { "answer": "avuto" },
             { "answer": "avevate arrestato" },

@@ -309,8 +309,8 @@
           ]
         },
         {
-          "sentence": "Ce matin, tu {{0}} vomi, ta maman pris un rendez-vous avec ton médecin.",
-          "blanks": [{ "answer": "as" }]
+          "sentence": "Ce matin, tu {{0}} vomi, ta maman {{1}} pris un rendez-vous avec ton médecin.",
+          "blanks": [{ "answer": "as" }, { "answer": "a" }]
         },
         {
           "sentence": "Ce soir, maman {{0}} décidé d'aller manger au restaurant, mais papa {{1}} déjà rentré la voiture et il est très fatigué par sa journée de travail.",
@@ -320,8 +320,9 @@
           ]
         },
         {
-          "sentence": "Maman lui {{0}} préparé un bon apéritif, lui {{1}} massé les épaules et lui a fait un petit bisou, finalement nous {{2}} ressortis pour aller dîner en ville.",
+          "sentence": "Maman lui {{0}} préparé un bon apéritif, lui {{1}} massé les épaules et lui {{2}} fait un petit bisou, finalement nous {{3}} ressortis pour aller dîner en ville.",
           "blanks": [
+            { "answer": "a" },
             { "answer": "a" },
             { "answer": "a" },
             { "answer": "sommes" }
@@ -743,12 +744,12 @@
           "blanks": [{ "answer": "avaient joué" }]
         },
         {
-          "sentence": "Vous {{0}} (écouter) la musique avant de dormir.",
+          "sentence": "Vous {{0}} (écouter) de la musique avant de dormir.",
           "blanks": [{ "answer": "aviez écouté" }]
         },
         {
           "sentence": "On {{0}} (travailler) beaucoup avant les vacances.",
-          "blanks": [{ "answer": "avait beaucoup travaillé" }]
+          "blanks": [{ "answer": "avait travaillé" }]
         },
         {
           "sentence": "Marie {{0}} (parler) avec Paul avant le cours.",

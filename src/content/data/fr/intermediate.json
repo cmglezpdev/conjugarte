@@ -152,66 +152,6 @@
     {
       "id": "fr-intermediate-5",
       "number": 5,
-      "title": "Choisissez la bonne réponse",
-      "kind": "choice",
-      "multiple": false,
-      "instructions": "Choisissez la bonne réponse (subjonctif passé).",
-      "items": [
-        {
-          "prompt": "Je suis désolée que tu _____________ malade.",
-          "options": ["sois tombé", "aies tombé", "soit tombé"],
-          "correct": 0
-        },
-        {
-          "prompt": "Il craint que son père _____________ qu'il n'avait pas fait son travail.",
-          "options": ["aient vu", "ait vu", "soit vu"],
-          "correct": 1
-        },
-        {
-          "prompt": "Elle s'attendent à ce que vous _____________ votre travail avant la classe.",
-          "options": ["ayez fait", "ait fait", "soyez fait"],
-          "correct": 0
-        },
-        {
-          "prompt": "Crois-tu que tous les étudiants _____________ en classe hier ?",
-          "options": ["soient allés", "ayons allés", "aient allés"],
-          "correct": 0
-        },
-        {
-          "prompt": "Il semble que mon frère _____________ une bonne note à son examen de maths.",
-          "options": ["ait eu", "sois eu", "soit eu"],
-          "correct": 0
-        },
-        {
-          "prompt": "Il ne suffit pas que je _____________ devant mon livre pendant des heures.",
-          "options": ["sois resté", "soient resté", "aie resté"],
-          "correct": 0
-        },
-        {
-          "prompt": "Essaie d'arriver avant qu'elles _____________ !",
-          "options": ["soient parties", "aie parties", "aient parties"],
-          "correct": 0
-        },
-        {
-          "prompt": "Nous nous habituerons à ce qu'il _____________ avant nous.",
-          "options": ["se soit servi", "se soyez servi", "se ait servi"],
-          "correct": 0
-        },
-        {
-          "prompt": "J'arriverai demain matin à condition qu'ils _____________ me chercher à l'heure.",
-          "options": ["soient venus", "sois venus", "aient venus"],
-          "correct": 0
-        },
-        {
-          "prompt": "Les professeurs demandent que les étudiants _____________ la grammaire.",
-          "options": ["aient préparé", "aies préparé", "soient préparés"],
-          "correct": 0
-        }
-      ]
-    },
-    {
-      "id": "fr-intermediate-6",
-      "number": 6,
       "title": "Plus-que-parfait ou passé antérieur",
       "kind": "fill-blank",
       "instructions": "Conjuguez les verbes entre parenthèses au plus-que-parfait ou au passé antérieur.",
@@ -250,8 +190,8 @@
       ]
     },
     {
-      "id": "fr-intermediate-7",
-      "number": 7,
+      "id": "fr-intermediate-6",
+      "number": 6,
       "title": "Futur antérieur",
       "kind": "fill-blank",
       "instructions": "Complétez avec le futur antérieur.",
@@ -291,8 +231,8 @@
       ]
     },
     {
-      "id": "fr-intermediate-8",
-      "number": 8,
+      "id": "fr-intermediate-7",
+      "number": 7,
       "title": "Futur simple et futur antérieur",
       "kind": "reorder",
       "instructions": "Faites une phrase comme dans l'exemple. Utilisez un futur simple et un futur antérieur selon l'ordre chronologique des actions. Exemple : Nous ferons la fête quand j'aurai eu une promotion.",
@@ -328,14 +268,14 @@
       ]
     },
     {
-      "id": "fr-intermediate-9",
-      "number": 9,
+      "id": "fr-intermediate-8",
+      "number": 8,
       "title": "Conditionnel passé – texte",
       "kind": "fill-blank",
       "instructions": "Complétez avec la conjugaison des verbes entre parenthèse au conditionnel passé.",
       "items": [
         {
-          "sentence": "Paul {{0}} (vouloir) être un grand artiste. Il {{1}} (adorer) être chanteur, savoir jouer et écrire de la musique. Il {{2}} (aimer) partir en tournée, faire le tour du monde avec d'autres musiciens. Il {{3}} (pouvoir) rencontrer des gens étonnants. Mais pour cela, il lui {{4}} (falloir) du courage et peut-être aussi un peu de talent.",
+          "sentence": "Paul {{0}} (vouloir) être un grand artiste. Il {{1}} (adorer) être chanteur, savoir jouer et écrire de la musique. Il {{2}} (aimer) partir en tournée, faire le tour du monde avec d'autres musiciens. Il {{3}} (pouvoir) rencontrer des gens étonnants. Mais pour cela, il lui {{4}} (falloir) du courage et peut-être aussi un peu de talent. Car la réalité est dure : Paul n'a jamais su chanter et il n'a jamais essayé d'apprendre à jouer d'un instrument.",
           "blanks": [
             { "answer": "aurait voulu" },
             { "answer": "aurait adoré" },
@@ -347,8 +287,8 @@
       ]
     },
     {
-      "id": "fr-intermediate-10",
-      "number": 10,
+      "id": "fr-intermediate-9",
+      "number": 9,
       "title": "Conditionnel passé – phrases conditionnelles",
       "kind": "fill-blank",
       "instructions": "Complétez avec le conditionnel passé des verbes entre parenthèses.",
@@ -376,8 +316,8 @@
       ]
     },
     {
-      "id": "fr-intermediate-11",
-      "number": 11,
+      "id": "fr-intermediate-10",
+      "number": 10,
       "title": "Subjonctif passé – relier des phrases",
       "kind": "fill-blank",
       "instructions": "Reliez les deux phrases selon le modèle. Exemple : Ils ont dû perdre notre adresse. – J'en ai bien peur. → J'ai bien peur qu'ils aient perdu notre adresse.",
@@ -417,8 +357,8 @@
       ]
     },
     {
-      "id": "fr-intermediate-12",
-      "number": 12,
+      "id": "fr-intermediate-11",
+      "number": 11,
       "title": "Subjonctif présent ou subjonctif passé",
       "kind": "fill-blank",
       "instructions": "Mettez les verbes entre parenthèses au subjonctif présent ou au subjonctif passé.",
@@ -457,8 +397,8 @@
       ]
     },
     {
-      "id": "fr-intermediate-13",
-      "number": 13,
+      "id": "fr-intermediate-12",
+      "number": 12,
       "title": "Accord du participe passé avec avoir",
       "kind": "fill-blank",
       "instructions": "Complétez avec le participe passé. Faites l'accord si nécessaire.",
@@ -498,8 +438,8 @@
       ]
     },
     {
-      "id": "fr-intermediate-14",
-      "number": 14,
+      "id": "fr-intermediate-13",
+      "number": 13,
       "title": "Participe passé des verbes impersonnels",
       "kind": "fill-blank",
       "instructions": "Dans les phrases suivantes, complétez avec le participe passé du verbe impersonnel.",
@@ -535,8 +475,8 @@
       ]
     },
     {
-      "id": "fr-intermediate-15",
-      "number": 15,
+      "id": "fr-intermediate-14",
+      "number": 14,
       "title": "Transformation à la voix passive",
       "kind": "reorder",
       "instructions": "Transformez les phrases suivantes à la voix passive.",

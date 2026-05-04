@@ -175,7 +175,7 @@
           "blanks": [{ "answer": "participé" }]
         },
         {
-          "sentence": "Vous lui prêtez des intentions qu'elle n'a pas {{0}}.",
+          "sentence": "Vous lui prêtez des intentions (f) qu'elle n'a pas {{0}}.",
           "blanks": [{ "answer": "manifestées" }]
         },
         {
@@ -353,9 +353,9 @@
       "instructions": "Choisissez les temps verbaux convenables.",
       "items": [
         {
-          "prompt": "Les grandes personnes {{0}} de laisser de côté les dessins de serpents boas ouverts ou fermés, et de m'intéresser plutôt à la géographie, à l'histoire, au calcul et à la grammaire. C'est ainsi que {{1}}, à l'âge de six ans, une magnifique carrière de peintre.",
+          "prompt": "Les grandes personnes {{0}} (me conseiller) de laisser de côté les dessins de serpents boas ouverts ou fermés, et de m'intéresser plutôt à la géographie, à l'histoire, au calcul et à la grammaire. C'est ainsi que {{1}} (j'abandonner), à l'âge de six ans, une magnifique carrière de peintre. {{2}} (je décourager) par l'insuccès de mon dessin numéro 1 et de mon dessin numéro 2.",
           "contextHint": "Le Petit Prince, Antoine de Saint-Exupéry",
-          "accepted": ["m'ont conseillé / j'ai abandonné"]
+          "accepted": ["m'ont conseillé / j'ai abandonné / j'avais été découragé"]
         },
         {
           "prompt": "{{0}} donc choisir un autre métier et {{1}} à piloter des avions. {{2}} un peu partout dans le monde. Et la géographie, c'est exact, {{3}} beaucoup.",
@@ -371,6 +371,35 @@
       "kind": "fill-blank",
       "instructions": "Complétez ce début de roman policier en mettant chaque verbe entre parenthèses au temps qui convient.",
       "items": [
+        {
+          "sentence": "Une pluie grise et froide {{0}} (tomber) depuis la veille. La ville de Versailles {{1}} (s'étirer) à travers un voile de brume qui la {{2}} (draper) d'un manteau sombre, bien que le mois de mai soit déjà presque achevé. Déployant ses ailes majestueuses sous l'averse, le château royal {{3}} (sembler) dormir. Bien campée sur sa monture, la statue de Louis XIV {{4}} (se dresser) au centre de la cour royale, comme pour rappeler aux visiteurs l'influence que le roi soleil {{5}} (avoir) en ces lieux. […] Un calme oppressant {{6}} (régner) sur le château de Versailles.",
+          "blanks": [
+            { "answer": "tombait", "hint": "tomber" },
+            { "answer": "s'étirait", "hint": "s'étirer" },
+            { "answer": "drapait", "hint": "draper" },
+            { "answer": "semblait", "hint": "sembler" },
+            { "answer": "se dressait", "hint": "se dresser" },
+            { "answer": "avait eue", "hint": "avoir" },
+            { "answer": "régnait", "hint": "régner" }
+          ]
+        },
+        {
+          "sentence": "Soudain, le hurlement lointain d'une sirène {{0}} (déchirer) le silence. Au rez-de-chaussée, une porte {{1}} (s'ouvrir) et la silhouette d'un agent abrité sous un parapluie {{2}} (se diriger) vers les grilles dorées qui {{3}} (fermer) la cour royale.",
+          "blanks": [
+            { "answer": "déchira", "hint": "déchirer" },
+            { "answer": "s'ouvrit", "hint": "s'ouvrir" },
+            { "answer": "se dirigea", "hint": "se diriger" },
+            { "answer": "fermaient", "hint": "fermer" }
+          ]
+        },
+        {
+          "sentence": "Devant le château, un véhicule de police {{0}} (s'immobiliser) et deux hommes en {{1}} (sortir). L'un d'eux, vêtu d'un imperméable gris, {{2}} (regarder) autour de lui, sans paraître se soucier de l'averse.",
+          "blanks": [
+            { "answer": "s'immobilisa", "hint": "s'immobiliser" },
+            { "answer": "sortirent", "hint": "sortir" },
+            { "answer": "regarda", "hint": "regarder" }
+          ]
+        },
         {
           "sentence": "C'est vous qui {{0}} ?",
           "blanks": [{ "answer": "avez appelé", "hint": "appeler" }]
