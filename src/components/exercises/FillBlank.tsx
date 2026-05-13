@@ -506,6 +506,18 @@ export function FillBlank({ exercise, onResult, onNext }: Props) {
 				</div>
 			)}
 
+			{/* Context hint — narrative restoration card */}
+			{exercise.contextHint && (
+				<div className="mb-4 border-l-4 border-[var(--c-primary)] bg-[var(--c-card)] p-4 italic text-[var(--c-fg-muted)]">
+					{exercise.contextHint.split("\n\n").map((chunk, i) => (
+						// biome-ignore lint/suspicious/noArrayIndexKey: stable split index
+						<p key={i} className={i > 0 ? "mb-2 mt-2" : "mb-2"}>
+							{chunk}
+						</p>
+					))}
+				</div>
+			)}
+
 			{/* Exercise items */}
 			<motion.div
 				animate={isSubmitted ? state.status : "idle"}
