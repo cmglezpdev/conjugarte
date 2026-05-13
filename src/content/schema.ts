@@ -29,6 +29,7 @@ const FillBlankItem = z.object({
 
 export const FillBlankExercise = ExerciseBase.extend({
 	kind: z.literal("fill-blank"),
+	contextHint: z.string().optional(),
 	wordBank: z.array(NonEmpty).optional(),
 	items: z.array(FillBlankItem).min(1),
 });
@@ -226,9 +227,10 @@ export const TheoryDoc = z.object({
 });
 export type TheoryDoc = z.infer<typeof TheoryDoc>;
 
-export const Landing = z.object({
-	es: NonEmpty,
-	fr: NonEmpty,
-	it: NonEmpty,
-});
+export const Landing = z
+	.object({
+		fr: NonEmpty,
+		it: NonEmpty,
+	})
+	.strict();
 export type Landing = z.infer<typeof Landing>;
