@@ -1,603 +1,616 @@
 {
-  "language": "fr",
-  "level": "advanced",
-  "control": false,
-  "title": "Au fil du temps",
-  "exercises": [
-    {
-      "id": "fr-advanced-1",
-      "number": 1,
-      "title": "Verbes pronominaux au passé composé",
-      "kind": "fill-blank",
-      "instructions": "Transformez les phrases en mettant le verbe au passé composé et accordez correctement :",
-      "items": [
-        {
-          "sentence": "Ils {{0}} à Paris.",
-          "blanks": [{ "answer": "se sont plu", "hint": "se plaire" }]
-        },
-        {
-          "sentence": "Elles {{0}} mutuellement.",
-          "blanks": [{ "answer": "se sont nui", "hint": "se nuire" }]
-        },
-        {
-          "sentence": "Les hommes {{0}} au pouvoir.",
-          "blanks": [{ "answer": "se sont succédé", "hint": "se succéder" }]
-        },
-        {
-          "sentence": "Ils {{0}} longtemps.",
-          "blanks": [{ "answer": "se sont haï", "hint": "se haïr" }]
-        },
-        {
-          "sentence": "Elles {{0}} avec tendresse.",
-          "blanks": [{ "answer": "se sont souri", "hint": "se sourire" }]
-        },
-        {
-          "sentence": "Ils {{0}} toute la nuit.",
-          "blanks": [{ "answer": "se sont parlé", "hint": "se parler" }]
-        },
-        {
-          "sentence": "Les voisins {{0}} souvent.",
-          "blanks": [{ "answer": "se sont téléphoné", "hint": "se téléphoner" }]
-        },
-        {
-          "sentence": "Elle {{0}} les mains.",
-          "blanks": [{ "answer": "s'est lavé", "hint": "se laver" }]
-        }
-      ]
-    },
-    {
-      "id": "fr-advanced-2",
-      "number": 2,
-      "title": "Accord du participe passé avec avoir",
-      "kind": "fill-blank",
-      "instructions": "Complétez les phrases en conjuguant le verbe entre parenthèses au passé composé. Faites attention à l'accord du participe passé.",
-      "items": [
-        {
-          "sentence": "Les vingt ans qu'ils ont {{0}} ensemble.",
-          "blanks": [{ "answer": "vécus", "hint": "vivre" }]
-        },
-        {
-          "sentence": "Les vingt ans qu'ils ont {{0}} dans cette maison.",
-          "blanks": [{ "answer": "vécu", "hint": "vivre" }]
-        },
-        {
-          "sentence": "Les déboires qu'ils ont {{0}} ensemble.",
-          "blanks": [{ "answer": "vécus", "hint": "vivre" }]
-        },
-        {
-          "sentence": "Les dix kilos qu'elle a {{0}}.",
-          "blanks": [{ "answer": "perdus", "hint": "perdre" }]
-        },
-        {
-          "sentence": "Les trois heures qu'il a {{0}}.",
-          "blanks": [{ "answer": "couru", "hint": "courir" }]
-        },
-        {
-          "sentence": "Les cent euros qu'il a {{0}}.",
-          "blanks": [{ "answer": "coûté", "hint": "coûter" }]
-        },
-        {
-          "sentence": "Les souffrances qu'ils ont {{0}}.",
-          "blanks": [{ "answer": "endurées", "hint": "endurer" }]
-        }
-      ]
-    },
-    {
-      "id": "fr-advanced-3",
-      "number": 3,
-      "title": "Faire et laisser suivis d'un infinitif",
-      "kind": "fill-blank",
-      "instructions": "Complétez avec le participe passé de faire ou laisser suivis d'un infinitif :",
-      "items": [
-        {
-          "sentence": "Ma robe, je l'ai {{0}}.",
-          "blanks": [{ "answer": "fait nettoyer", "hint": "faire/nettoyer" }]
-        },
-        {
-          "sentence": "Les enfants, je les ai {{0}}.",
-          "blanks": [{ "answer": "laissé jouer", "hint": "laisser/jouer" }]
-        },
-        {
-          "sentence": "Les documents, je les ai {{0}}.",
-          "blanks": [{ "answer": "fait imprimer", "hint": "faire/imprimer" }]
-        },
-        {
-          "sentence": "Les élèves, je les ai {{0}}.",
-          "blanks": [{ "answer": "laissé partir", "hint": "laisser/partir" }]
-        },
-        {
-          "sentence": "Les vitres, je les ai {{0}}.",
-          "blanks": [{ "answer": "fait laver", "hint": "faire/laver" }]
-        },
-        {
-          "sentence": "Les invités, je les ai {{0}}.",
-          "blanks": [{ "answer": "laissé entrer", "hint": "laisser/entrer" }]
-        },
-        {
-          "sentence": "Les devoirs, je les ai {{0}}.",
-          "blanks": [{ "answer": "fait corriger", "hint": "faire/corriger" }]
-        }
-      ]
-    },
-    {
-      "id": "fr-advanced-4",
-      "number": 4,
-      "title": "Participe passé avec auxiliaire avoir — accord",
-      "kind": "fill-blank",
-      "instructions": "Dans l'exercice suivant, appliquez la règle du participe passé employé avec l'auxiliaire avoir.",
-      "items": [
-        {
-          "sentence": "Pour le bal costumé, nous avions {{0}} de vieux vêtements.",
-          "blanks": [{ "answer": "vêtu" }]
-        },
-        {
-          "sentence": "Les tableaux qu'ils ont {{0}} se vendront facilement.",
-          "blanks": [{ "answer": "peints" }]
-        },
-        {
-          "sentence": "Les services qu'elle a {{0}} sont innombrables.",
-          "blanks": [{ "answer": "rendus" }]
-        },
-        {
-          "sentence": "Elle se souvient de l'histoire que je lui avais {{0}}.",
-          "blanks": [{ "answer": "racontée" }]
-        },
-        {
-          "sentence": "Ces timbres que tu as {{0}} dans ton album valent beaucoup d'argent.",
-          "blanks": [{ "answer": "collés" }]
-        },
-        {
-          "sentence": "Les dernières neiges ont déjà {{0}}.",
-          "blanks": [{ "answer": "fondu" }]
-        },
-        {
-          "sentence": "Les coquillages qu'elles ont {{0}} sont blanc et gris.",
-          "blanks": [{ "answer": "ramassés" }]
-        },
-        {
-          "sentence": "Ma fille m'a offert des fleurs qui m'ont beaucoup {{0}}.",
-          "blanks": [{ "answer": "plu" }]
-        },
-        {
-          "sentence": "La question que vous avez {{0}} demeure sans réponse.",
-          "blanks": [{ "answer": "posée" }]
-        },
-        {
-          "sentence": "Les vieux immeubles ont {{0}} car on ne les a pas {{1}}.",
-          "blanks": [{ "answer": "disparu" }, { "answer": "entretenus" }]
-        },
-        {
-          "sentence": "Pour l'examen, je révise les leçons que nous avons {{0}} cette semaine.",
-          "blanks": [{ "answer": "apprises" }]
-        },
-        {
-          "sentence": "Très compétitive, Mélisa a {{0}} à tous les concours.",
-          "blanks": [{ "answer": "participé" }]
-        },
-        {
-          "sentence": "Vous lui prêtez des intentions (f) qu'elle n'a pas {{0}}.",
-          "blanks": [{ "answer": "manifestées" }]
-        },
-        {
-          "sentence": "La pièce a {{0}} le succès qu'il avaient {{1}}.",
-          "blanks": [{ "answer": "eu" }, { "answer": "escompté" }]
-        },
-        {
-          "sentence": "La marchandise que j'ai {{0}} était défectueuse.",
-          "blanks": [{ "answer": "reçue" }]
-        }
-      ]
-    },
-    {
-      "id": "fr-advanced-5",
-      "number": 5,
-      "title": "Participe passé avec verbes pronominaux — accord",
-      "kind": "fill-blank",
-      "instructions": "Dans l'exercice suivant, appliquez la règle du participe passé employé avec un verbe à la forme pronominale.",
-      "items": [
-        {
-          "sentence": "Les courriels qu'elles se sont {{0}} étaient haineux.",
-          "blanks": [{ "answer": "envoyés" }]
-        },
-        {
-          "sentence": "Ils se sont {{0}} une aide mutuelle.",
-          "blanks": [{ "answer": "apporté" }]
-        },
-        {
-          "sentence": "Sans se connaître, ces gens se sont {{0}}.",
-          "blanks": [{ "answer": "souri" }]
-        },
-        {
-          "sentence": "Ces personnes se sont {{0}} à la réunion.",
-          "blanks": [{ "answer": "entrevues" }]
-        },
-        {
-          "sentence": "Les promesses qu'ils se sont {{0}} n'ont pas été respectées.",
-          "blanks": [{ "answer": "faites" }]
-        },
-        {
-          "sentence": "Elle s'est {{0}} compte de son erreur très rapidement.",
-          "blanks": [{ "answer": "rendu" }]
-        },
-        {
-          "sentence": "Ces hommes se sont {{0}} à eux-mêmes.",
-          "blanks": [{ "answer": "suffi" }]
-        },
-        {
-          "sentence": "Les paroles qu'ils se sont {{0}} étaient vraiment méchantes.",
-          "blanks": [{ "answer": "dites" }]
-        },
-        {
-          "sentence": "Elles se sont {{0}} tard hier soir.",
-          "blanks": [{ "answer": "rejointes" }]
-        },
-        {
-          "sentence": "Ils se sont {{0}} leurs coordonnées.",
-          "blanks": [{ "answer": "donné" }]
-        },
-        {
-          "sentence": "Lise et moi, nous nous sommes {{0}} des recettes.",
-          "blanks": [{ "answer": "échangé" }]
-        },
-        {
-          "sentence": "Les peines que nous nous sommes {{0}} sont vraies.",
-          "blanks": [{ "answer": "racontées" }]
-        },
-        {
-          "sentence": "Ces filles se sont {{0}} à la soirée.",
-          "blanks": [{ "answer": "imposées" }]
-        },
-        {
-          "sentence": "Rémi s'est {{0}} une nouvelle voiture.",
-          "blanks": [{ "answer": "acheté" }]
-        },
-        {
-          "sentence": "Paula s'est {{0}} de cet inconnu.",
-          "blanks": [{ "answer": "méfiée" }]
-        }
-      ]
-    },
-    {
-      "id": "fr-advanced-6",
-      "number": 6,
-      "title": "Passé antérieur — accord du participe passé",
-      "kind": "fill-blank",
-      "instructions": "Mettez le verbe au passé antérieur et faites l'accord du participe passé.",
-      "items": [
-        {
-          "sentence": "Le jardin commença à fleurir après qu'il {{0}} à faire chaud.",
-          "blanks": [{ "answer": "se fut mis", "hint": "se mettre" }]
-        },
-        {
-          "sentence": "Lorsqu'elle {{0}} son premier amoureux, son cœur battit follement.",
-          "blanks": [{ "answer": "eut revu", "hint": "revoir" }]
-        },
-        {
-          "sentence": "Après qu'il {{0}} son terrible secret, il se sentit soulagé.",
-          "blanks": [{ "answer": "eut révélé", "hint": "révéler" }]
-        },
-        {
-          "sentence": "Aussitôt que Julie {{0}} la vérité, elle fut furieuse.",
-          "blanks": [{ "answer": "eut découvert", "hint": "découvrir" }]
-        },
-        {
-          "sentence": "Après qu'il {{0}} sa correspondance, il sortit faire une promenade.",
-          "blanks": [{ "answer": "eut lu", "hint": "lire" }]
-        },
-        {
-          "sentence": "Dès qu'elle {{0}}, elle éclata en sanglots.",
-          "blanks": [{ "answer": "fut rentrée", "hint": "rentrer" }]
-        },
-        {
-          "sentence": "Sa vie devint un enfer quand elle {{0}} que son mari la trompait.",
-          "blanks": [{ "answer": "eut compris", "hint": "comprendre" }]
-        },
-        {
-          "sentence": "Après qu'il {{0}} ses enfants dans l'incendie, il sombra dans la folie.",
-          "blanks": [{ "answer": "eut perdu", "hint": "perdre" }]
-        },
-        {
-          "sentence": "Lorsque vous vous {{0}} mieux, nous recommençâmes à nous voir.",
-          "blanks": [{ "answer": "fûtes senti(e)(s)", "hint": "se sentir" }]
-        },
-        {
-          "sentence": "Dès que vous {{0}} la porte, le chat entra avec empressement.",
-          "blanks": [{ "answer": "eûtes ouvert", "hint": "ouvrir" }]
-        }
-      ]
-    },
-    {
-      "id": "fr-advanced-7",
-      "number": 7,
-      "title": "Temps littéraires — texte narratif",
-      "kind": "fill-blank",
-      "instructions": "Complétez avec ces temps littéraires.",
-      "items": [
-        {
-          "sentence": "Lorsque Marianne {{0}} la vieille maison, un silence étrange envahit le jardin. Il semblait que les murs eux-mêmes tremblaient encore de tout ce qu'ils {{1}} au cours des années.",
-          "blanks": [
-            { "answer": "eut quitté", "hint": "quitter, passé antérieur" },
-            { "answer": "avaient entendu", "hint": "entendre, plus-que-parfait" }
-          ]
-        },
-        {
-          "sentence": "Avant qu'elle ne {{0}} la route, elle jeta un dernier regard vers la fenêtre où, autrefois, sa mère lui faisait signe. Elle avançait lentement, comme si elle craignait que le passé, une fois encore, {{1}}.",
-          "blanks": [
-            { "answer": "ait pris", "hint": "prendre, subjonctif passé" },
-            { "answer": "l'eût retenue", "hint": "retenir, subjonctif plus-que-parfait" }
-          ]
-        },
-        {
-          "sentence": "Aussitôt qu'elle {{0}} le vieux portail, un vent froid se leva. Elle sut alors que, lorsque le soleil {{1}}, elle serait déjà loin, portée par une décision qu'elle n'{{2}} prendre auparavant.",
-          "blanks": [
-            { "answer": "eut atteint", "hint": "atteindre, passé antérieur" },
-            { "answer": "se sera levé", "hint": "se lever, futur antérieur" },
-            { "answer": "avait osé", "hint": "oser, plus-que-parfait" }
-          ]
-        },
-        {
-          "sentence": "Mais il fallait qu'elle parte, avant que la nuit ne {{0}} complètement. Elle marcha longtemps, jusqu'à ce que la fatigue {{1}}. Et quand elle {{2}} enfin au sommet de la colline, elle comprit que rien ne serait plus comme avant.",
-          "blanks": [
-            { "answer": "soit tombée", "hint": "tomber, subjonctif passé" },
-            { "answer": "l'ait emportée", "hint": "emporter, subjonctif passé" },
-            { "answer": "fut arrivée", "hint": "arriver, passé antérieur" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "fr-advanced-8",
-      "number": 8,
-      "title": "Choisissez les temps verbaux convenables — Le Petit Prince",
-      "kind": "free-text",
-      "instructions": "Choisissez les temps verbaux convenables.",
-      "items": [
-        {
-          "prompt": "Les grandes personnes {{0}} (me conseiller) de laisser de côté les dessins de serpents boas ouverts ou fermés, et de m'intéresser plutôt à la géographie, à l'histoire, au calcul et à la grammaire. C'est ainsi que {{1}} (j'abandonner), à l'âge de six ans, une magnifique carrière de peintre. {{2}} (je décourager) par l'insuccès de mon dessin numéro 1 et de mon dessin numéro 2.",
-          "contextHint": "Le Petit Prince, Antoine de Saint-Exupéry",
-          "accepted": ["m'ont conseillé / j'ai abandonné / j'avais été découragé"]
-        },
-        {
-          "prompt": "{{0}} donc choisir un autre métier et {{1}} à piloter des avions. {{2}} un peu partout dans le monde. Et la géographie, c'est exact, {{3}} beaucoup.",
-          "contextHint": "Le Petit Prince, Antoine de Saint-Exupéry",
-          "accepted": ["J'ai dû / j'ai appris / J'ai volé / m'a beaucoup servi"]
-        }
-      ]
-    },
-    {
-      "id": "fr-advanced-9",
-      "number": 9,
-      "title": "Roman policier — temps verbaux",
-      "kind": "fill-blank",
-      "instructions": "Complétez ce début de roman policier en mettant chaque verbe entre parenthèses au temps qui convient.",
-      "items": [
-        {
-          "sentence": "Une pluie grise et froide {{0}} (tomber) depuis la veille. La ville de Versailles {{1}} (s'étirer) à travers un voile de brume qui la {{2}} (draper) d'un manteau sombre, bien que le mois de mai soit déjà presque achevé. Déployant ses ailes majestueuses sous l'averse, le château royal {{3}} (sembler) dormir. Bien campée sur sa monture, la statue de Louis XIV {{4}} (se dresser) au centre de la cour royale, comme pour rappeler aux visiteurs l'influence que le roi soleil {{5}} (avoir) en ces lieux. […] Un calme oppressant {{6}} (régner) sur le château de Versailles.",
-          "blanks": [
-            { "answer": "tombait", "hint": "tomber" },
-            { "answer": "s'étirait", "hint": "s'étirer" },
-            { "answer": "drapait", "hint": "draper" },
-            { "answer": "semblait", "hint": "sembler" },
-            { "answer": "se dressait", "hint": "se dresser" },
-            { "answer": "avait eue", "hint": "avoir" },
-            { "answer": "régnait", "hint": "régner" }
-          ]
-        },
-        {
-          "sentence": "Soudain, le hurlement lointain d'une sirène {{0}} (déchirer) le silence. Au rez-de-chaussée, une porte {{1}} (s'ouvrir) et la silhouette d'un agent abrité sous un parapluie {{2}} (se diriger) vers les grilles dorées qui {{3}} (fermer) la cour royale.",
-          "blanks": [
-            { "answer": "déchira", "hint": "déchirer" },
-            { "answer": "s'ouvrit", "hint": "s'ouvrir" },
-            { "answer": "se dirigea", "hint": "se diriger" },
-            { "answer": "fermaient", "hint": "fermer" }
-          ]
-        },
-        {
-          "sentence": "Devant le château, un véhicule de police {{0}} (s'immobiliser) et deux hommes en {{1}} (sortir). L'un d'eux, vêtu d'un imperméable gris, {{2}} (regarder) autour de lui, sans paraître se soucier de l'averse.",
-          "blanks": [
-            { "answer": "s'immobilisa", "hint": "s'immobiliser" },
-            { "answer": "sortirent", "hint": "sortir" },
-            { "answer": "regarda", "hint": "regarder" }
-          ]
-        },
-        {
-          "sentence": "C'est vous qui {{0}} ?",
-          "blanks": [{ "answer": "avez appelé", "hint": "appeler" }]
-        },
-        {
-          "sentence": "Oui, répondit un homme entre deux agents aux tempes grisonnantes, {{0}} d'une voix mal assurée, en les {{1}} vers les jardins.",
-          "blanks": [
-            { "answer": "répondit", "hint": "répondre" },
-            { "answer": "guidant", "hint": "guider" }
-          ]
-        },
-        {
-          "sentence": "Comme d'habitude, {{0}} jeter un coup d'œil sur les bassins du Midi, tandis que mon collègue {{1}} à la salle du Jeu de Paume.",
-          "blanks": [
-            { "answer": "j'allais", "hint": "aller" },
-            { "answer": "se rendait", "hint": "se rendre" }
-          ]
-        },
-        {
-          "sentence": "En {{0}} du bosquet de la Colonnade, je {{1}} une masse sombre sur le sol, en plein milieu. C'est là que je {{2}} le corps sans vie d'un homme.",
-          "blanks": [
-            { "answer": "s'approchant", "hint": "s'approcher" },
-            { "answer": "distinguais", "hint": "distinguer" },
-            { "answer": "découvris", "hint": "découvrir" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "fr-advanced-10",
-      "number": 10,
-      "title": "Plus-que-parfait du subjonctif — textes classiques",
-      "kind": "fill-blank",
-      "instructions": "Conjuguez les verbes entre parenthèses au plus-que-parfait du subjonctif.",
-      "items": [
-        {
-          "sentence": "Un Renard jeune encor, quoique des plus madrés, Vit le premier cheval qu'il {{0}} de sa vie. (Jean de La Fontaine)",
-          "blanks": [{ "answer": "eût vu", "hint": "voir" }]
-        },
-        {
-          "sentence": "Savez-vous que ma femme voulait que je fondisse ma statue pour en faire une cloche à notre église ? C'est qu'elle en {{0}} la marraine. (Prosper Mérimée)",
-          "blanks": [{ "answer": "eût été", "hint": "être" }]
-        },
-        {
-          "sentence": "Là-dessus, comme s'il en avait trop dit et qu'il {{0}} de s'emporter, le ministre de la marine lui tourna le dos et disparut dans l'ombre. (Jean-François Parot)",
-          "blanks": [{ "answer": "eût craint", "hint": "craindre" }]
-        },
-        {
-          "sentence": "Cette peau projetait au sein de la profonde obscurité qui régnait dans le magasin des rayons lumineux que vous {{0}} d'une petite comète. (Honoré de Balzac)",
-          "blanks": [{ "answer": "eussiez dits", "hint": "dire" }]
-        },
-        {
-          "sentence": "Le voyageur qui {{0}} de loin le castel dessinant ses faîtages pointus sur le ciel, au-dessus des genêts et des bruyères, {{1}} une demeure convenable pour un hobereau de province. (Théophile Gautier)",
-          "blanks": [
-            { "answer": "eût aperçu", "hint": "apercevoir" },
-            { "answer": "l'eût jugé", "hint": "juger" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "fr-advanced-11",
-      "number": 11,
-      "title": "Passé composé vs passé simple — possible ou impossible ?",
-      "kind": "judgment",
-      "instructions": "Dites si ces passés composés peuvent être remplacés par des passés simples. Exemple : Racine est né en 1639 et il est mort en 1699. → Possible.",
-      "items": [
-        {
-          "sentence": "J'ai lavé mon pull à l'eau chaude et je ne peux plus le mettre.",
-          "possible": false
-        },
-        {
-          "sentence": "Il a neigé toute la nuit, maintenant la route est glissante.",
-          "possible": false
-        },
-        {
-          "sentence": "Paris a été libéré en 1944.",
-          "possible": true
-        },
-        {
-          "sentence": "Je suis en retard, j'ai attendu l'autobus pendant vingt minutes.",
-          "possible": false
-        },
-        {
-          "sentence": "Elle est partie ; elle doit être déjà arrivée chez elle.",
-          "possible": false
-        },
-        {
-          "sentence": "Napoléon a perdu la bataille de Waterloo en 1815.",
-          "possible": true
-        },
-        {
-          "sentence": "J'ai cassé mon téléphone et je ne peux plus appeler.",
-          "possible": false
-        },
-        {
-          "sentence": "Victor Hugo a publié Les Misérables en 1862.",
-          "possible": true
-        },
-        {
-          "sentence": "Nous avons visité le musée ce matin et nous en parlons encore.",
-          "possible": false
-        },
-        {
-          "sentence": "La Seconde Guerre mondiale a pris fin en 1945.",
-          "possible": true
-        }
-      ]
-    },
-    {
-      "id": "fr-advanced-12",
-      "number": 12,
-      "title": "Passé surcomposé",
-      "kind": "fill-blank",
-      "instructions": "Conjuguez ces verbes au passé surcomposé.",
-      "items": [
-        {
-          "sentence": "courir (tu) {{0}}",
-          "blanks": [{ "answer": "tu as eu couru" }]
-        },
-        {
-          "sentence": "trouver (elle) {{0}}",
-          "blanks": [{ "answer": "elle a eu trouvé" }]
-        },
-        {
-          "sentence": "comprendre (nous) {{0}}",
-          "blanks": [{ "answer": "nous avons eu compris" }]
-        },
-        {
-          "sentence": "partir (je) {{0}}",
-          "blanks": [{ "answer": "j'ai été parti(e)" }]
-        },
-        {
-          "sentence": "écrire (ils) {{0}}",
-          "blanks": [{ "answer": "ils ont eu écrit" }]
-        },
-        {
-          "sentence": "vivre (vous) {{0}}",
-          "blanks": [{ "answer": "vous avez eu vécu" }]
-        },
-        {
-          "sentence": "penser (tu) {{0}}",
-          "blanks": [{ "answer": "tu as eu pensé" }]
-        },
-        {
-          "sentence": "faire (elles) {{0}}",
-          "blanks": [{ "answer": "elles ont eu fait" }]
-        },
-        {
-          "sentence": "mentir (je) {{0}}",
-          "blanks": [{ "answer": "j'ai eu menti" }]
-        },
-        {
-          "sentence": "habiter (nous) {{0}}",
-          "blanks": [{ "answer": "nous avons eu habité" }]
-        },
-        {
-          "sentence": "vouloir (il) {{0}}",
-          "blanks": [{ "answer": "il a eu voulu" }]
-        },
-        {
-          "sentence": "découvrir (tu) {{0}}",
-          "blanks": [{ "answer": "tu as eu découvert" }]
-        }
-      ]
-    },
-    {
-      "id": "fr-advanced-13",
-      "number": 13,
-      "title": "Discours indirect",
-      "kind": "free-text",
-      "instructions": "Transformer les phrases au discours indirect :",
-      "items": [
-        {
-          "prompt": "« Tu as fini de faire ta valise ? » → Elle m'a demandé ___",
-          "accepted": ["si j'avais fini de faire ma valise"]
-        },
-        {
-          "prompt": "« Mange tes légumes ! » → Ils m'ont ordonné ___",
-          "accepted": ["de manger mes légumes"]
-        },
-        {
-          "prompt": "« Ils ont préféré quoi ? » → Elle a voulu savoir ___",
-          "accepted": ["ce qu'ils avaient préféré"]
-        },
-        {
-          "prompt": "« Oh non, c'est moche ! » → Elle s'est exclamée ___",
-          "accepted": ["que c'était moche"]
-        },
-        {
-          "prompt": "« Vous arrivez quand ? » → Il nous a demandé ___",
-          "accepted": ["quand nous arrivions"]
-        },
-        {
-          "prompt": "« Ne laisse pas la lumière ! » → Tu m'as ordonné ___",
-          "accepted": ["de ne pas laisser la lumière"]
-        }
-      ]
-    }
-  ]
+	"language": "fr",
+	"level": "advanced",
+	"control": false,
+	"title": "Au fil du temps",
+	"exercises": [
+		{
+			"id": "fr-advanced-1",
+			"number": 1,
+			"title": "Verbes pronominaux au passé composé",
+			"kind": "fill-blank",
+			"instructions": "Transformez les phrases en mettant le verbe au passé composé et accordez correctement :",
+			"items": [
+				{
+					"sentence": "Ils {{0}} à Paris.",
+					"blanks": [{ "answer": "se sont plu", "hint": "se plaire" }]
+				},
+				{
+					"sentence": "Elles {{0}} mutuellement.",
+					"blanks": [{ "answer": "se sont nui", "hint": "se nuire" }]
+				},
+				{
+					"sentence": "Les hommes {{0}} au pouvoir.",
+					"blanks": [{ "answer": "se sont succédé", "hint": "se succéder" }]
+				},
+				{
+					"sentence": "Ils {{0}} longtemps.",
+					"blanks": [{ "answer": "se sont haï", "hint": "se haïr" }]
+				},
+				{
+					"sentence": "Elles {{0}} avec tendresse.",
+					"blanks": [{ "answer": "se sont souri", "hint": "se sourire" }]
+				},
+				{
+					"sentence": "Ils {{0}} toute la nuit.",
+					"blanks": [{ "answer": "se sont parlé", "hint": "se parler" }]
+				},
+				{
+					"sentence": "Les voisins {{0}} souvent.",
+					"blanks": [{ "answer": "se sont téléphoné", "hint": "se téléphoner" }]
+				},
+				{
+					"sentence": "Elle {{0}} les mains.",
+					"blanks": [{ "answer": "s'est lavé", "hint": "se laver" }]
+				}
+			]
+		},
+		{
+			"id": "fr-advanced-2",
+			"number": 2,
+			"title": "Accord du participe passé avec avoir",
+			"kind": "fill-blank",
+			"instructions": "Complétez les phrases en conjuguant le verbe entre parenthèses au passé composé. Faites attention à l'accord du participe passé.",
+			"items": [
+				{
+					"sentence": "Les vingt ans qu'ils ont {{0}} ensemble.",
+					"blanks": [{ "answer": "vécus", "hint": "vivre" }]
+				},
+				{
+					"sentence": "Les vingt ans qu'ils ont {{0}} dans cette maison.",
+					"blanks": [{ "answer": "vécu", "hint": "vivre" }]
+				},
+				{
+					"sentence": "Les déboires qu'ils ont {{0}} ensemble.",
+					"blanks": [{ "answer": "vécus", "hint": "vivre" }]
+				},
+				{
+					"sentence": "Les dix kilos qu'elle a {{0}}.",
+					"blanks": [{ "answer": "perdus", "hint": "perdre" }]
+				},
+				{
+					"sentence": "Les trois heures qu'il a {{0}}.",
+					"blanks": [{ "answer": "couru", "hint": "courir" }]
+				},
+				{
+					"sentence": "Les cent euros qu'il a {{0}}.",
+					"blanks": [{ "answer": "coûté", "hint": "coûter" }]
+				},
+				{
+					"sentence": "Les souffrances qu'ils ont {{0}}.",
+					"blanks": [{ "answer": "endurées", "hint": "endurer" }]
+				}
+			]
+		},
+		{
+			"id": "fr-advanced-3",
+			"number": 3,
+			"title": "Faire et laisser suivis d'un infinitif",
+			"kind": "fill-blank",
+			"instructions": "Complétez avec le participe passé de faire ou laisser suivis d'un infinitif :",
+			"items": [
+				{
+					"sentence": "Ma robe, je l'ai {{0}}.",
+					"blanks": [{ "answer": "fait nettoyer", "hint": "faire/nettoyer" }]
+				},
+				{
+					"sentence": "Les enfants, je les ai {{0}}.",
+					"blanks": [{ "answer": "laissé jouer", "hint": "laisser/jouer" }]
+				},
+				{
+					"sentence": "Les documents, je les ai {{0}}.",
+					"blanks": [{ "answer": "fait imprimer", "hint": "faire/imprimer" }]
+				},
+				{
+					"sentence": "Les élèves, je les ai {{0}}.",
+					"blanks": [{ "answer": "laissé partir", "hint": "laisser/partir" }]
+				},
+				{
+					"sentence": "Les vitres, je les ai {{0}}.",
+					"blanks": [{ "answer": "fait laver", "hint": "faire/laver" }]
+				},
+				{
+					"sentence": "Les invités, je les ai {{0}}.",
+					"blanks": [{ "answer": "laissé entrer", "hint": "laisser/entrer" }]
+				},
+				{
+					"sentence": "Les devoirs, je les ai {{0}}.",
+					"blanks": [{ "answer": "fait corriger", "hint": "faire/corriger" }]
+				}
+			]
+		},
+		{
+			"id": "fr-advanced-4",
+			"number": 4,
+			"title": "Participe passé avec auxiliaire avoir — accord",
+			"kind": "fill-blank",
+			"instructions": "Dans l'exercice suivant, appliquez la règle du participe passé employé avec l'auxiliaire avoir.",
+			"items": [
+				{
+					"sentence": "Pour le bal costumé, nous avions {{0}} de vieux vêtements.",
+					"blanks": [{ "answer": "vêtu" }]
+				},
+				{
+					"sentence": "Les tableaux qu'ils ont {{0}} se vendront facilement.",
+					"blanks": [{ "answer": "peints" }]
+				},
+				{
+					"sentence": "Les services qu'elle a {{0}} sont innombrables.",
+					"blanks": [{ "answer": "rendus" }]
+				},
+				{
+					"sentence": "Elle se souvient de l'histoire que je lui avais {{0}}.",
+					"blanks": [{ "answer": "racontée" }]
+				},
+				{
+					"sentence": "Ces timbres que tu as {{0}} dans ton album valent beaucoup d'argent.",
+					"blanks": [{ "answer": "collés" }]
+				},
+				{
+					"sentence": "Les dernières neiges ont déjà {{0}}.",
+					"blanks": [{ "answer": "fondu" }]
+				},
+				{
+					"sentence": "Les coquillages qu'elles ont {{0}} sont blanc et gris.",
+					"blanks": [{ "answer": "ramassés" }]
+				},
+				{
+					"sentence": "Ma fille m'a offert des fleurs qui m'ont beaucoup {{0}}.",
+					"blanks": [{ "answer": "plu" }]
+				},
+				{
+					"sentence": "La question que vous avez {{0}} demeure sans réponse.",
+					"blanks": [{ "answer": "posée" }]
+				},
+				{
+					"sentence": "Les vieux immeubles ont {{0}} car on ne les a pas {{1}}.",
+					"blanks": [{ "answer": "disparu" }, { "answer": "entretenus" }]
+				},
+				{
+					"sentence": "Pour l'examen, je révise les leçons que nous avons {{0}} cette semaine.",
+					"blanks": [{ "answer": "apprises" }]
+				},
+				{
+					"sentence": "Très compétitive, Mélisa a {{0}} à tous les concours.",
+					"blanks": [{ "answer": "participé" }]
+				},
+				{
+					"sentence": "Vous lui prêtez des intentions (f) qu'elle n'a pas {{0}}.",
+					"blanks": [{ "answer": "manifestées" }]
+				},
+				{
+					"sentence": "La pièce a {{0}} le succès qu'il avaient {{1}}.",
+					"blanks": [{ "answer": "eu" }, { "answer": "escompté" }]
+				},
+				{
+					"sentence": "La marchandise que j'ai {{0}} était défectueuse.",
+					"blanks": [{ "answer": "reçue" }]
+				}
+			]
+		},
+		{
+			"id": "fr-advanced-5",
+			"number": 5,
+			"title": "Participe passé avec verbes pronominaux — accord",
+			"kind": "fill-blank",
+			"instructions": "Dans l'exercice suivant, appliquez la règle du participe passé employé avec un verbe à la forme pronominale.",
+			"items": [
+				{
+					"sentence": "Les courriels qu'elles se sont {{0}} étaient haineux.",
+					"blanks": [{ "answer": "envoyés" }]
+				},
+				{
+					"sentence": "Ils se sont {{0}} une aide mutuelle.",
+					"blanks": [{ "answer": "apporté" }]
+				},
+				{
+					"sentence": "Sans se connaître, ces gens se sont {{0}}.",
+					"blanks": [{ "answer": "souri" }]
+				},
+				{
+					"sentence": "Ces personnes se sont {{0}} à la réunion.",
+					"blanks": [{ "answer": "entrevues" }]
+				},
+				{
+					"sentence": "Les promesses qu'ils se sont {{0}} n'ont pas été respectées.",
+					"blanks": [{ "answer": "faites" }]
+				},
+				{
+					"sentence": "Elle s'est {{0}} compte de son erreur très rapidement.",
+					"blanks": [{ "answer": "rendu" }]
+				},
+				{
+					"sentence": "Ces hommes se sont {{0}} à eux-mêmes.",
+					"blanks": [{ "answer": "suffi" }]
+				},
+				{
+					"sentence": "Les paroles qu'ils se sont {{0}} étaient vraiment méchantes.",
+					"blanks": [{ "answer": "dites" }]
+				},
+				{
+					"sentence": "Elles se sont {{0}} tard hier soir.",
+					"blanks": [{ "answer": "rejointes" }]
+				},
+				{
+					"sentence": "Ils se sont {{0}} leurs coordonnées.",
+					"blanks": [{ "answer": "donné" }]
+				},
+				{
+					"sentence": "Lise et moi, nous nous sommes {{0}} des recettes.",
+					"blanks": [{ "answer": "échangé" }]
+				},
+				{
+					"sentence": "Les peines que nous nous sommes {{0}} sont vraies.",
+					"blanks": [{ "answer": "racontées" }]
+				},
+				{
+					"sentence": "Ces filles se sont {{0}} à la soirée.",
+					"blanks": [{ "answer": "imposées" }]
+				},
+				{
+					"sentence": "Rémi s'est {{0}} une nouvelle voiture.",
+					"blanks": [{ "answer": "acheté" }]
+				},
+				{
+					"sentence": "Paula s'est {{0}} de cet inconnu.",
+					"blanks": [{ "answer": "méfiée" }]
+				}
+			]
+		},
+		{
+			"id": "fr-advanced-6",
+			"number": 6,
+			"title": "Passé antérieur — accord du participe passé",
+			"kind": "fill-blank",
+			"instructions": "Mettez le verbe au passé antérieur et faites l'accord du participe passé.",
+			"items": [
+				{
+					"sentence": "Le jardin commença à fleurir après qu'il {{0}} à faire chaud.",
+					"blanks": [{ "answer": "se fut mis", "hint": "se mettre" }]
+				},
+				{
+					"sentence": "Lorsqu'elle {{0}} son premier amoureux, son cœur battit follement.",
+					"blanks": [{ "answer": "eut revu", "hint": "revoir" }]
+				},
+				{
+					"sentence": "Après qu'il {{0}} son terrible secret, il se sentit soulagé.",
+					"blanks": [{ "answer": "eut révélé", "hint": "révéler" }]
+				},
+				{
+					"sentence": "Aussitôt que Julie {{0}} la vérité, elle fut furieuse.",
+					"blanks": [{ "answer": "eut découvert", "hint": "découvrir" }]
+				},
+				{
+					"sentence": "Après qu'il {{0}} sa correspondance, il sortit faire une promenade.",
+					"blanks": [{ "answer": "eut lu", "hint": "lire" }]
+				},
+				{
+					"sentence": "Dès qu'elle {{0}}, elle éclata en sanglots.",
+					"blanks": [{ "answer": "fut rentrée", "hint": "rentrer" }]
+				},
+				{
+					"sentence": "Sa vie devint un enfer quand elle {{0}} que son mari la trompait.",
+					"blanks": [{ "answer": "eut compris", "hint": "comprendre" }]
+				},
+				{
+					"sentence": "Après qu'il {{0}} ses enfants dans l'incendie, il sombra dans la folie.",
+					"blanks": [{ "answer": "eut perdu", "hint": "perdre" }]
+				},
+				{
+					"sentence": "Lorsque vous vous {{0}} mieux, nous recommençâmes à nous voir.",
+					"blanks": [{ "answer": "fûtes sentis", "hint": "se sentir" }]
+				},
+				{
+					"sentence": "Dès que vous {{0}} la porte, le chat entra avec empressement.",
+					"blanks": [{ "answer": "eûtes ouvert", "hint": "ouvrir" }]
+				}
+			]
+		},
+		{
+			"id": "fr-advanced-7",
+			"number": 7,
+			"title": "Temps littéraires — texte narratif",
+			"kind": "fill-blank",
+			"instructions": "Complétez avec ces temps littéraires.",
+			"contextHint": "Lorsque Marianne {{0}} (quitter, passé antérieur) la vieille maison, un silence étrange envahit le jardin. Il semblait que les murs eux-mêmes tremblaient encore de tout ce qu'ils {{1}} (entendre, plus-que-parfait) au cours des années.\n\nAvant qu'elle ne {{2}} (prendre, subjonctif passé) la route, elle jeta un dernier regard vers la fenêtre où, autrefois, sa mère lui faisait signe. Elle avançait lentement, comme si elle craignait que le passé, une fois encore, {{3}} (la retenir, subjonctif plus-que-parfait).\n\nAussitôt qu'elle {{4}} (atteindre, passé antérieur) le vieux portail, un vent froid se leva. Elle sut alors que, lorsque le soleil {{5}} (se lever, futur antérieur), elle serait déjà loin, portée par une décision qu'elle n'{{6}} (oser, plus-que-parfait) prendre auparavant.\n\nMais il fallait qu'elle parte, avant que la nuit ne {{7}} (tomber, subjonctif passé) complètement. Elle marcha longtemps, jusqu'à ce que la fatigue {{8}} (l'emporter, subjonctif passé). Et quand elle {{9}} (arriver, passé antérieur) enfin au sommet de la colline, elle comprit que rien ne serait plus comme avant.",
+			"items": [
+				{
+					"sentence": "Lorsque Marianne {{0}} la vieille maison, un silence étrange envahit le jardin. Il semblait que les murs eux-mêmes tremblaient encore de tout ce qu'ils {{1}} au cours des années.",
+					"blanks": [
+						{ "answer": "eut quitté", "hint": "quitter, passé antérieur" },
+						{
+							"answer": "avaient entendu",
+							"hint": "entendre, plus-que-parfait"
+						}
+					]
+				},
+				{
+					"sentence": "Avant qu'elle ne {{0}} la route, elle jeta un dernier regard vers la fenêtre où, autrefois, sa mère lui faisait signe. Elle avançait lentement, comme si elle craignait que le passé, une fois encore, {{1}}.",
+					"blanks": [
+						{ "answer": "ait pris", "hint": "prendre, subjonctif passé" },
+						{
+							"answer": "l'eût retenue",
+							"hint": "retenir, subjonctif plus-que-parfait"
+						}
+					]
+				},
+				{
+					"sentence": "Aussitôt qu'elle {{0}} le vieux portail, un vent froid se leva. Elle sut alors que, lorsque le soleil {{1}}, elle serait déjà loin, portée par une décision qu'elle n'{{2}} prendre auparavant.",
+					"blanks": [
+						{ "answer": "eut atteint", "hint": "atteindre, passé antérieur" },
+						{ "answer": "se sera levé", "hint": "se lever, futur antérieur" },
+						{ "answer": "avait osé", "hint": "oser, plus-que-parfait" }
+					]
+				},
+				{
+					"sentence": "Mais il fallait qu'elle parte, avant que la nuit ne {{0}} complètement. Elle marcha longtemps, jusqu'à ce que la fatigue {{1}}. Et quand elle {{2}} enfin au sommet de la colline, elle comprit que rien ne serait plus comme avant.",
+					"blanks": [
+						{ "answer": "soit tombée", "hint": "tomber, subjonctif passé" },
+						{
+							"answer": "l'ait emportée",
+							"hint": "emporter, subjonctif passé"
+						},
+						{ "answer": "fut arrivée", "hint": "arriver, passé antérieur" }
+					]
+				}
+			]
+		},
+		{
+			"id": "fr-advanced-8",
+			"number": 8,
+			"title": "Choisissez les temps verbaux convenables — Le Petit Prince",
+			"kind": "free-text",
+			"instructions": "Choisissez les temps verbaux convenables.",
+			"items": [
+				{
+					"prompt": "Les grandes personnes {{0}} (me conseiller) de laisser de côté les dessins de serpents boas ouverts ou fermés, et de m'intéresser plutôt à la géographie, à l'histoire, au calcul et à la grammaire. C'est ainsi que {{1}} (j'abandonner), à l'âge de six ans, une magnifique carrière de peintre. {{2}} (je décourager) par l'insuccès de mon dessin numéro 1 et de mon dessin numéro 2.",
+					"contextHint": "Le Petit Prince, Antoine de Saint-Exupéry",
+					"accepted": [
+						"m'ont conseillé / j'ai abandonné / j'avais été découragé"
+					]
+				},
+				{
+					"prompt": "{{0}} donc choisir un autre métier et {{1}} à piloter des avions. {{2}} un peu partout dans le monde. Et la géographie, c'est exact, {{3}} beaucoup.",
+					"contextHint": "Le Petit Prince, Antoine de Saint-Exupéry",
+					"accepted": ["J'ai dû / j'ai appris / J'ai volé / m'a beaucoup servi"]
+				}
+			]
+		},
+		{
+			"id": "fr-advanced-9",
+			"number": 9,
+			"title": "Roman policier — temps verbaux",
+			"kind": "fill-blank",
+			"instructions": "Complétez ce début de roman policier en mettant chaque verbe entre parenthèses au temps qui convient.",
+			"contextHint": "Une pluie grise et froide {{0}} (tomber) depuis la veille. La ville de Versailles {{1}} (s'étirer) à travers un voile de brume qui la {{2}} (draper) d'un manteau sombre, bien que le mois de mai soit déjà presque achevé. Déployant ses ailes majestueuses sous l'averse, le château royal {{3}} (sembler) dormir. Bien campée sur sa monture, la statue de Louis XIV {{4}} (se dresser) au centre de la cour royale, comme pour rappeler aux visiteurs l'influence que le roi soleil {{5}} (avoir) en ces lieux. […] Un calme oppressant {{6}} (régner) sur le château de Versailles.\n\nSoudain, le hurlement lointain d'une sirène {{7}} (déchirer) le silence. Au rez-de-chaussée, une porte {{8}} (s'ouvrir) et la silhouette d'un agent abrité sous un parapluie {{9}} (se diriger) vers les grilles dorées qui {{10}} (fermer) la cour royale. Devant le château, un véhicule de police {{11}} (s'immobiliser) et deux hommes en {{12}} (sortir). L'un d'eux, vêtu d'un imperméable gris, {{13}} (regarder) autour de lui, sans paraître se soucier de l'averse.\n\n— Commissaire Axel Beaumont, de la P.J. de Versailles, et le commandant Massart. C'est vous qui {{14}} (appeler) ?\n— Oui, répondit un homme entre deux agents aux tempes grisonnantes, {{15}} (répondre) d'une voix mal assurée, en les {{16}} (guider) vers les jardins.\n— Venez, c'est par ici. […] Comme d'habitude, {{17}} (aller) jeter un coup d'œil sur les bassins du Midi, tandis que mon collègue {{18}} (se rendre) à la salle du Jeu de Paume. […] En {{19}} (s'approcher) du bosquet de la Colonnade, je {{20}} (distinguer) une masse sombre sur le sol, en plein milieu. […] C'est là que je {{21}} (découvrir) le corps sans vie d'un homme.\n\n— Christelle Maurin, L'ombre du soleil, © Librairie Arthème Fayard, 2009",
+			"items": [
+				{
+					"sentence": "Une pluie grise et froide {{0}} (tomber) depuis la veille. La ville de Versailles {{1}} (s'étirer) à travers un voile de brume qui la {{2}} (draper) d'un manteau sombre, bien que le mois de mai soit déjà presque achevé. Déployant ses ailes majestueuses sous l'averse, le château royal {{3}} (sembler) dormir. Bien campée sur sa monture, la statue de Louis XIV {{4}} (se dresser) au centre de la cour royale, comme pour rappeler aux visiteurs l'influence que le roi soleil {{5}} (avoir) en ces lieux. […] Un calme oppressant {{6}} (régner) sur le château de Versailles.",
+					"blanks": [
+						{ "answer": "tombait", "hint": "tomber" },
+						{ "answer": "s'étirait", "hint": "s'étirer" },
+						{ "answer": "drapait", "hint": "draper" },
+						{ "answer": "semblait", "hint": "sembler" },
+						{ "answer": "se dressait", "hint": "se dresser" },
+						{ "answer": "avait eue", "hint": "avoir" },
+						{ "answer": "régnait", "hint": "régner" }
+					]
+				},
+				{
+					"sentence": "Soudain, le hurlement lointain d'une sirène {{0}} (déchirer) le silence. Au rez-de-chaussée, une porte {{1}} (s'ouvrir) et la silhouette d'un agent abrité sous un parapluie {{2}} (se diriger) vers les grilles dorées qui {{3}} (fermer) la cour royale.",
+					"blanks": [
+						{ "answer": "déchira", "hint": "déchirer" },
+						{ "answer": "s'ouvrit", "hint": "s'ouvrir" },
+						{ "answer": "se dirigea", "hint": "se diriger" },
+						{ "answer": "fermaient", "hint": "fermer" }
+					]
+				},
+				{
+					"sentence": "Devant le château, un véhicule de police {{0}} (s'immobiliser) et deux hommes en {{1}} (sortir). L'un d'eux, vêtu d'un imperméable gris, {{2}} (regarder) autour de lui, sans paraître se soucier de l'averse.",
+					"blanks": [
+						{ "answer": "s'immobilisa", "hint": "s'immobiliser" },
+						{ "answer": "sortirent", "hint": "sortir" },
+						{ "answer": "regarda", "hint": "regarder" }
+					]
+				},
+				{
+					"sentence": "C'est vous qui {{0}} ?",
+					"blanks": [{ "answer": "avez appelé", "hint": "appeler" }]
+				},
+				{
+					"sentence": "Oui, répondit un homme entre deux agents aux tempes grisonnantes, {{0}} d'une voix mal assurée, en les {{1}} vers les jardins.",
+					"blanks": [
+						{ "answer": "répondit", "hint": "répondre" },
+						{ "answer": "guidant", "hint": "guider" }
+					]
+				},
+				{
+					"sentence": "Comme d'habitude, {{0}} jeter un coup d'œil sur les bassins du Midi, tandis que mon collègue {{1}} à la salle du Jeu de Paume.",
+					"blanks": [
+						{ "answer": "j'allais", "hint": "aller" },
+						{ "answer": "se rendait", "hint": "se rendre" }
+					]
+				},
+				{
+					"sentence": "En {{0}} du bosquet de la Colonnade, je {{1}} une masse sombre sur le sol, en plein milieu. C'est là que je {{2}} le corps sans vie d'un homme.",
+					"blanks": [
+						{ "answer": "s'approchant", "hint": "s'approcher" },
+						{ "answer": "distinguais", "hint": "distinguer" },
+						{ "answer": "découvris", "hint": "découvrir" }
+					]
+				}
+			]
+		},
+		{
+			"id": "fr-advanced-10",
+			"number": 10,
+			"title": "Plus-que-parfait du subjonctif — textes classiques",
+			"kind": "fill-blank",
+			"instructions": "Conjuguez les verbes entre parenthèses au plus-que-parfait du subjonctif.",
+			"items": [
+				{
+					"sentence": "Un Renard jeune encor, quoique des plus madrés, Vit le premier cheval qu'il {{0}} de sa vie. (Jean de La Fontaine)",
+					"blanks": [{ "answer": "eût vu", "hint": "voir" }]
+				},
+				{
+					"sentence": "Savez-vous que ma femme voulait que je fondisse ma statue pour en faire une cloche à notre église ? C'est qu'elle en {{0}} la marraine. (Prosper Mérimée)",
+					"blanks": [{ "answer": "eût été", "hint": "être" }]
+				},
+				{
+					"sentence": "Là-dessus, comme s'il en avait trop dit et qu'il {{0}} de s'emporter, le ministre de la marine lui tourna le dos et disparut dans l'ombre. (Jean-François Parot)",
+					"blanks": [{ "answer": "eût craint", "hint": "craindre" }]
+				},
+				{
+					"sentence": "Cette peau projetait au sein de la profonde obscurité qui régnait dans le magasin des rayons lumineux que vous {{0}} d'une petite comète. (Honoré de Balzac)",
+					"blanks": [{ "answer": "eussiez dits", "hint": "dire" }]
+				},
+				{
+					"sentence": "Le voyageur qui {{0}} de loin le castel dessinant ses faîtages pointus sur le ciel, au-dessus des genêts et des bruyères, {{1}} une demeure convenable pour un hobereau de province. (Théophile Gautier)",
+					"blanks": [
+						{ "answer": "eût aperçu", "hint": "apercevoir" },
+						{ "answer": "l'eût jugé", "hint": "juger" }
+					]
+				}
+			]
+		},
+		{
+			"id": "fr-advanced-11",
+			"number": 11,
+			"title": "Passé composé vs passé simple — possible ou impossible ?",
+			"kind": "judgment",
+			"instructions": "Dites si ces passés composés peuvent être remplacés par des passés simples. Exemple : Racine est né en 1639 et il est mort en 1699. → Possible.",
+			"items": [
+				{
+					"sentence": "J'ai lavé mon pull à l'eau chaude et je ne peux plus le mettre.",
+					"possible": false
+				},
+				{
+					"sentence": "Il a neigé toute la nuit, maintenant la route est glissante.",
+					"possible": false
+				},
+				{
+					"sentence": "Paris a été libéré en 1944.",
+					"possible": true
+				},
+				{
+					"sentence": "Je suis en retard, j'ai attendu l'autobus pendant vingt minutes.",
+					"possible": false
+				},
+				{
+					"sentence": "Elle est partie ; elle doit être déjà arrivée chez elle.",
+					"possible": false
+				},
+				{
+					"sentence": "Napoléon a perdu la bataille de Waterloo en 1815.",
+					"possible": true
+				},
+				{
+					"sentence": "J'ai cassé mon téléphone et je ne peux plus appeler.",
+					"possible": false
+				},
+				{
+					"sentence": "Victor Hugo a publié Les Misérables en 1862.",
+					"possible": true
+				},
+				{
+					"sentence": "Nous avons visité le musée ce matin et nous en parlons encore.",
+					"possible": false
+				},
+				{
+					"sentence": "La Seconde Guerre mondiale a pris fin en 1945.",
+					"possible": true
+				}
+			]
+		},
+		{
+			"id": "fr-advanced-12",
+			"number": 12,
+			"title": "Passé surcomposé",
+			"kind": "fill-blank",
+			"instructions": "Conjuguez ces verbes au passé surcomposé.",
+			"items": [
+				{
+					"sentence": "courir (tu) {{0}}",
+					"blanks": [{ "answer": "tu as eu couru" }]
+				},
+				{
+					"sentence": "trouver (elle) {{0}}",
+					"blanks": [{ "answer": "elle a eu trouvé" }]
+				},
+				{
+					"sentence": "comprendre (nous) {{0}}",
+					"blanks": [{ "answer": "nous avons eu compris" }]
+				},
+				{
+					"sentence": "partir (je) {{0}}",
+					"blanks": [{ "answer": "j'ai été parti(e)" }]
+				},
+				{
+					"sentence": "écrire (ils) {{0}}",
+					"blanks": [{ "answer": "ils ont eu écrit" }]
+				},
+				{
+					"sentence": "vivre (vous) {{0}}",
+					"blanks": [{ "answer": "vous avez eu vécu" }]
+				},
+				{
+					"sentence": "penser (tu) {{0}}",
+					"blanks": [{ "answer": "tu as eu pensé" }]
+				},
+				{
+					"sentence": "faire (elles) {{0}}",
+					"blanks": [{ "answer": "elles ont eu fait" }]
+				},
+				{
+					"sentence": "mentir (je) {{0}}",
+					"blanks": [{ "answer": "j'ai eu menti" }]
+				},
+				{
+					"sentence": "habiter (nous) {{0}}",
+					"blanks": [{ "answer": "nous avons eu habité" }]
+				},
+				{
+					"sentence": "vouloir (il) {{0}}",
+					"blanks": [{ "answer": "il a eu voulu" }]
+				},
+				{
+					"sentence": "découvrir (tu) {{0}}",
+					"blanks": [{ "answer": "tu as eu découvert" }]
+				}
+			]
+		},
+		{
+			"id": "fr-advanced-13",
+			"number": 13,
+			"title": "Discours indirect",
+			"kind": "free-text",
+			"instructions": "Transformer les phrases au discours indirect :",
+			"items": [
+				{
+					"prompt": "« Tu as fini de faire ta valise ? » → Elle m'a demandé ___",
+					"accepted": ["si j'avais fini de faire ma valise"]
+				},
+				{
+					"prompt": "« Mange tes légumes ! » → Ils m'ont ordonné ___",
+					"accepted": ["de manger mes légumes"]
+				},
+				{
+					"prompt": "« Ils ont préféré quoi ? » → Elle a voulu savoir ___",
+					"accepted": ["ce qu'ils avaient préféré"]
+				},
+				{
+					"prompt": "« Oh non, c'est moche ! » → Elle s'est exclamée ___",
+					"accepted": ["que c'était moche"]
+				},
+				{
+					"prompt": "« Vous arrivez quand ? » → Il nous a demandé ___",
+					"accepted": ["quand nous arrivions"]
+				},
+				{
+					"prompt": "« Ne laisse pas la lumière ! » → Tu m'as ordonné ___",
+					"accepted": ["de ne pas laisser la lumière"]
+				}
+			]
+		}
+	]
 }

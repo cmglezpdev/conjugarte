@@ -1,212 +1,350 @@
 {
-  "language": "it",
-  "level": "basic",
-  "control": true,
-  "title": "Esercizi di controllo",
-  "exercises": [
-    {
-      "id": "it-basic-control-1",
-      "number": 1,
-      "title": "Scegli tra le opzioni la corretta",
-      "instructions": "Per ogni spazio, scegli la forma corretta del passato prossimo",
-      "kind": "inline-choice",
-      "items": [
-        {
-          "sentence": "Professore, noi non {{0}} bene la lezione di ieri e non {{1}} fare i compiti a casa.",
-          "choices": [
-            { "options": ["abbiamo capito", "siamo capito", "siamo capiti"], "correct": 0 },
-            { "options": ["abbiamo potuto", "siamo potuto", "abbiamo potuti"], "correct": 0 }
-          ]
-        },
-        {
-          "sentence": "Ieri sera Marco e Luca {{0}} venire a casa mia a vedere la partita in televisione e così {{1}} stare tutta la sera da solo.",
-          "choices": [
-            { "options": ["non hanno potuto", "non sono potuto", "non sono potuti"], "correct": 2 },
-            { "options": ["io ho dovuto", "io sono dovuto", "io sono dovuti"], "correct": 0 }
-          ]
-        },
-        {
-          "sentence": "No, ieri sera {{0}} andare perché la macchina è rotta. {{1}} a casa e {{2}} un libro giallo e Sara {{3}} andare a dormire presto.",
-          "choices": [
-            { "options": ["noi abbiamo potuto", "noi non siamo potuto", "noi non siamo potuti"], "correct": 2 },
-            { "options": ["noi abbiamo rimasto", "noi siamo rimasto", "noi siamo rimasti"], "correct": 2 },
-            { "options": ["io ho letto", "io sono letto", "io sono letta"], "correct": 0 },
-            { "options": ["ha voluto", "è voluto", "è voluta"], "correct": 2 }
-          ]
-        },
-        {
-          "sentence": "Ieri sera {{0}} a ballare, {{1}} a casa molto tardi e questa mattina siamo molto stanche.",
-          "choices": [
-            { "options": ["noi abbiamo andato", "noi siamo andato", "noi siamo andate"], "correct": 2 },
-            { "options": ["abbiamo tornato", "siamo tornato", "siamo tornate"], "correct": 2 }
-          ]
-        },
-        {
-          "sentence": "Marcello e Carla {{0}} di cambiare casa e {{1}} un bell'appartamento in centro.",
-          "choices": [
-            { "options": ["hanno deciso", "sono deciso", "sono decisi"], "correct": 0 },
-            { "options": ["hanno comprato", "sono comprato", "sono comprati"], "correct": 0 }
-          ]
-        },
-        {
-          "sentence": "{{0}} molte cose belle a Parigi. È proprio una città da visitare.",
-          "choices": [
-            { "options": ["Noi abbiamo visto", "Siamo visto", "Siamo visti"], "correct": 0 }
-          ]
-        },
-        {
-          "sentence": "Perché ieri sera {{0}} venire a casa mia?",
-          "choices": [
-            { "options": ["tu non hai voluto", "tu non sei voluto", "tu non sei voluti"], "correct": 1 }
-          ]
-        },
-        {
-          "sentence": "{{0}} venire perché ieri pomeriggio Franco e Marco {{1}} dal motorino e {{2}} loro all'ospedale.",
-          "choices": [
-            { "options": ["Io non ho potuto", "Io non sono potuto", "Io non sono potuti"], "correct": 1 },
-            { "options": ["hanno caduto", "sono caduti", "sono caduto"], "correct": 1 },
-            { "options": ["io ho dovuto accompagnare", "io sono dovuto accompagnare", "io sono dovuti accompagnare"], "correct": 0 }
-          ]
-        },
-        {
-          "sentence": "La mamma ieri {{0}} mio fratello perché lui {{1}} male alla nonna.",
-          "choices": [
-            { "options": ["ha rimproverato", "è rimproverato", "è rimproverata"], "correct": 0 },
-            { "options": ["ha risposto", "sono risposto", "sono risposta"], "correct": 0 }
-          ]
-        },
-        {
-          "sentence": "Scusi, Signore {{0}} da molto tempo?",
-          "choices": [
-            { "options": ["ha arrivato", "è arrivato", "è arrivata"], "correct": 1 }
-          ]
-        },
-        {
-          "sentence": "Ragazzi, {{0}} il vostro nome e cognome nel registro di classe?",
-          "choices": [
-            { "options": ["avete scritto", "siete scritto", "siete scritti"], "correct": 0 }
-          ]
-        },
-        {
-          "sentence": "Ieri {{0}} la porta a chiave e poi {{1}} le chiavi... così {{2}} fuori di casa e {{3}} chiamare un fabbro per rientrare!",
-          "choices": [
-            { "options": ["io ho chiuso", "sono chiuso", "sono chiusi"], "correct": 0 },
-            { "options": ["ho perso", "sono perso", "sono persi"], "correct": 0 },
-            { "options": ["ho rimasto", "sono rimasto/a", "sono rimasti"], "correct": 1 },
-            { "options": ["ho dovuto", "sono dovuto", "sono dovuta"], "correct": 0 }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "it-basic-control-2",
-      "number": 2,
-      "title": "Completa le frasi con uno dei verbi indicati al passato prossimo",
-      "instructions": "Completa le frasi con uno dei verbi indicati al passato prossimo",
-      "kind": "fill-blank",
-      "wordBank": ["diventare", "aprire", "chiedere", "fare", "essere", "scrivere", "venire", "piangere", "salire", "potere"],
-      "items": [
-        {
-          "sentence": "Paola e Luisa {{0}} al sole in spiaggia tutta la mattina.",
-          "blanks": [{ "answer": "sono state", "hint": "essere" }]
-        },
-        {
-          "sentence": "I miei amici mi {{0}} una cartolina dalla montagna, come tanti anni fa!",
-          "blanks": [{ "answer": "hanno scritto", "hint": "scrivere" }]
-        },
-        {
-          "sentence": "Mio figlio {{0}} tutto il giorno perché ha mal di denti.",
-          "blanks": [{ "answer": "ha pianto", "hint": "piangere" }]
-        },
-        {
-          "sentence": "Mario e Marta non {{0}} andare al mare perché faceva troppo freddo.",
-          "blanks": [{ "answer": "sono potuti", "hint": "potere" }]
-        },
-        {
-          "sentence": "Ma come {{0}} grande tua figlia! Quanti anni ha?",
-          "blanks": [{ "answer": "è diventata", "hint": "diventare" }]
-        },
-        {
-          "sentence": "Francesca {{0}} in vacanza con una valigia piena di vestiti.",
-          "blanks": [{ "answer": "è venuta", "hint": "venire" }]
-        },
-        {
-          "sentence": "Ma qui {{0}} la finestra con questo vento?",
-          "blanks": [{ "answer": "ha aperto", "hint": "aprire" }]
-        },
-        {
-          "sentence": "Ieri Giuseppe {{0}} fino alla cima del Monte Orsaro.",
-          "blanks": [{ "answer": "è salito", "hint": "salire" }]
-        },
-        {
-          "sentence": "Che cosa {{0}} la notte scorsa? Avete una faccia così stanca!",
-          "blanks": [{ "answer": "avete fatto", "hint": "fare" }]
-        },
-        {
-          "sentence": "Alberto mi {{0}} di uscire con lui domani, ma io non ne ho voglia.",
-          "blanks": [{ "answer": "ha chiesto", "hint": "chiedere" }]
-        }
-      ]
-    },
-    {
-      "id": "it-basic-control-3",
-      "number": 3,
-      "title": "Completa il testo scegliendo il verbo corretto",
-      "instructions": "Completa il testo scegliendo il verbo corretto tra le opzioni indicate",
-      "kind": "inline-choice",
-      "items": [
-        {
-          "sentence": "Tre anni fa {{0}} in vacanza a Roma per cinque giorni. {{1}} con il mio ragazzo da Torino in treno. Poi, una coppia di amici {{2}} sul nostro treno a Bologna. {{3}} pochi vestiti nello zaino e tutti leggeri, perché quando {{4}} da Torino, c'erano 25 gradi! Quando {{5}} a Roma, faceva abbastanza freddo: non più di 17 gradi. {{6}} la vacanza sempre con la stessa felpa addosso, di giorno e di notte. Ma {{7}} molto, comunque! {{8}} chiese, monumenti e musei interessantissimi. La parte più bella {{9}} la visita a San Luigi dei Francesi e a Santa Maria del Popolo, nella piazza che ha lo stesso nome, dove {{10}} alcuni dipinti meravigliosi di Caravaggio. Quando {{11}} a Torino, {{12}} che sono nata per viaggiare e stare in vacanza.",
-          "choices": [
-            { "options": ["sono andata", "sono uscita"], "correct": 0 },
-            { "options": ["Sono partita", "ho preferito"], "correct": 0 },
-            { "options": ["è andata", "è salita"], "correct": 1 },
-            { "options": ["Abbiamo messo", "Abbiamo deciso"], "correct": 0 },
-            { "options": ["siamo partiti", "siamo finiti"], "correct": 0 },
-            { "options": ["abbiamo chiesto", "siamo arrivati"], "correct": 1 },
-            { "options": ["Abbiamo passato", "Abbiamo avuto"], "correct": 0 },
-            { "options": ["mi sono divertita", "mi sono nascosta"], "correct": 0 },
-            { "options": ["Ho visitato", "Ho imparato"], "correct": 0 },
-            { "options": ["ha avuto", "è stata"], "correct": 1 },
-            { "options": ["ho visto", "ho assaggiato"], "correct": 0 },
-            { "options": ["sono tornata", "sono partita"], "correct": 0 },
-            { "options": ["ho capito", "ho piaciuto"], "correct": 0 }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "it-basic-control-4",
-      "number": 4,
-      "title": "Completa il racconto del viaggio di Tania",
-      "instructions": "Completa il racconto con il passato prossimo dei verbi del banco. Attenzione: alcuni verbi si usano più di una volta (essere ×3, vedere ×2)",
-      "kind": "fill-blank",
-      "wordBank": ["fotografare", "essere", "essere", "essere", "andare", "montare", "partire", "diventare", "capire", "vedere", "vedere", "entrare", "scrivere", "parcheggiare", "prendere", "visitare", "fare", "arrivare"],
-      "items": [
-        {
-          "sentence": "L'unica volta che a. {{0}} un diario b. {{1}} tre anni fa per non dimenticare i posti meravigliosi che c. {{2}} in montagna. d. {{3}} il mio viaggio più bello! e. {{4}} nel Parco del Gran Paradiso tra Piemonte e Valle D'Aosta in estate. f. {{5}} in macchina con i miei amici: a Firenze c'erano almeno 35 gradi. Quando g. {{6}} in montagna l'aria h. {{7}} fresca e piacevole. Non i. {{8}} facile trovare il campeggio, ma quando finalmente Matteo l. {{9}} come funziona il suo navigatore, m. {{10}} che il campeggio era proprio a pochi metri. Velocissimi, n. {{11}} nel campeggio, o. {{12}} la macchina, p. {{13}} la tenda, poi q. {{14}} gli zaini e via subito: r. {{15}} la nostra prima lunghissima passeggiata. s. {{16}} piante e animali bellissimi. La sera t. {{17}} moltissime stelle.",
-          "blanks": [
-            { "answer": "ho scritto", "hint": "scrivere" },
-            { "answer": "è stato", "hint": "essere" },
-            { "answer": "ho visitato", "hint": "visitare" },
-            { "answer": "È stato", "hint": "essere" },
-            { "answer": "sono andata", "hint": "andare" },
-            { "answer": "Sono partita", "hint": "partire" },
-            { "answer": "siamo arrivati", "hint": "arrivare" },
-            { "answer": "è diventata", "hint": "diventare" },
-            { "answer": "è stato", "hint": "essere" },
-            { "answer": "ho capito", "hint": "capire" },
-            { "answer": "abbiamo visto", "hint": "vedere" },
-            { "answer": "siamo entrati", "hint": "entrare" },
-            { "answer": "abbiamo parcheggiato", "hint": "parcheggiare" },
-            { "answer": "abbiamo montato", "hint": "montare" },
-            { "answer": "abbiamo preso", "hint": "prendere" },
-            { "answer": "abbiamo fatto", "hint": "fare" },
-            { "answer": "ho fotografato", "hint": "fotografare" },
-            { "answer": "ho visto", "hint": "vedere" }
-          ]
-        }
-      ]
-    }
-  ]
+	"language": "it",
+	"level": "basic",
+	"control": true,
+	"title": "Esercizi di controllo",
+	"exercises": [
+		{
+			"id": "it-basic-control-1",
+			"number": 1,
+			"title": "Scegli tra le opzioni la corretta",
+			"instructions": "Per ogni spazio, scegli la forma corretta del passato prossimo",
+			"kind": "inline-choice",
+			"items": [
+				{
+					"sentence": "Professore, noi non {{0}} bene la lezione di ieri e non {{1}} fare i compiti a casa.",
+					"choices": [
+						{
+							"options": ["abbiamo capito", "siamo capito", "siamo capiti"],
+							"correct": 0
+						},
+						{
+							"options": ["abbiamo potuto", "siamo potuto", "abbiamo potuti"],
+							"correct": 0
+						}
+					]
+				},
+				{
+					"sentence": "Ieri sera Marco e Luca {{0}} venire a casa mia a vedere la partita in televisione e così {{1}} stare tutta la sera da solo.",
+					"choices": [
+						{
+							"options": [
+								"non hanno potuto",
+								"non sono potuto",
+								"non sono potuti"
+							],
+							"correct": 2
+						},
+						{
+							"options": ["io ho dovuto", "io sono dovuto", "io sono dovuti"],
+							"correct": 0
+						}
+					]
+				},
+				{
+					"sentence": "No, ieri sera {{0}} andare perché la macchina è rotta. {{1}} a casa e {{2}} un libro giallo e Sara {{3}} andare a dormire presto.",
+					"choices": [
+						{
+							"options": [
+								"noi abbiamo potuto",
+								"noi non siamo potuto",
+								"noi non siamo potuti"
+							],
+							"correct": 2
+						},
+						{
+							"options": [
+								"noi abbiamo rimasto",
+								"noi siamo rimasto",
+								"noi siamo rimasti"
+							],
+							"correct": 2
+						},
+						{
+							"options": ["io ho letto", "io sono letto", "io sono letta"],
+							"correct": 0
+						},
+						{ "options": ["ha voluto", "è voluto", "è voluta"], "correct": 2 }
+					]
+				},
+				{
+					"sentence": "Ieri sera {{0}} a ballare, {{1}} a casa molto tardi e questa mattina siamo molto stanche.",
+					"choices": [
+						{
+							"options": [
+								"noi abbiamo andato",
+								"noi siamo andato",
+								"noi siamo andate"
+							],
+							"correct": 2
+						},
+						{
+							"options": ["abbiamo tornato", "siamo tornato", "siamo tornate"],
+							"correct": 2
+						}
+					]
+				},
+				{
+					"sentence": "Marcello e Carla {{0}} di cambiare casa e {{1}} un bell'appartamento in centro.",
+					"choices": [
+						{
+							"options": ["hanno deciso", "sono deciso", "sono decisi"],
+							"correct": 0
+						},
+						{
+							"options": ["hanno comprato", "sono comprato", "sono comprati"],
+							"correct": 0
+						}
+					]
+				},
+				{
+					"sentence": "{{0}} molte cose belle a Parigi. È proprio una città da visitare.",
+					"choices": [
+						{
+							"options": ["Noi abbiamo visto", "Siamo visto", "Siamo visti"],
+							"correct": 0
+						}
+					]
+				},
+				{
+					"sentence": "Perché ieri sera {{0}} venire a casa mia?",
+					"choices": [
+						{
+							"options": [
+								"tu non hai voluto",
+								"tu non sei voluto",
+								"tu non sei voluta",
+								"tu non sei voluti"
+							],
+							"correct": 1
+						}
+					]
+				},
+				{
+					"sentence": "{{0}} venire perché ieri pomeriggio Franco e Marco {{1}} dal motorino e {{2}} loro all'ospedale.",
+					"choices": [
+						{
+							"options": [
+								"Io non ho potuto",
+								"Io non sono potuto",
+								"Io non sono potuti"
+							],
+							"correct": 1
+						},
+						{
+							"options": ["hanno caduto", "sono caduti", "sono caduto"],
+							"correct": 1
+						},
+						{
+							"options": [
+								"io ho dovuto accompagnare",
+								"io sono dovuto accompagnare",
+								"io sono dovuti accompagnare"
+							],
+							"correct": 0
+						}
+					]
+				},
+				{
+					"sentence": "La mamma ieri {{0}} mio fratello perché lui {{1}} male alla nonna.",
+					"choices": [
+						{
+							"options": [
+								"ha rimproverato",
+								"è rimproverato",
+								"è rimproverata"
+							],
+							"correct": 0
+						},
+						{
+							"options": ["ha risposto", "sono risposto", "sono risposta"],
+							"correct": 0
+						}
+					]
+				},
+				{
+					"sentence": "Scusi, Signore {{0}} da molto tempo?",
+					"choices": [
+						{
+							"options": ["ha arrivato", "è arrivato", "è arrivata"],
+							"correct": 1
+						}
+					]
+				},
+				{
+					"sentence": "Ragazzi, {{0}} il vostro nome e cognome nel registro di classe?",
+					"choices": [
+						{
+							"options": ["avete scritto", "siete scritto", "siete scritti"],
+							"correct": 0
+						}
+					]
+				},
+				{
+					"sentence": "Ieri {{0}} la porta a chiave e poi {{1}} le chiavi... così {{2}} fuori di casa e {{3}} chiamare un fabbro per rientrare!",
+					"choices": [
+						{
+							"options": ["io ho chiuso", "sono chiuso", "sono chiusi"],
+							"correct": 0
+						},
+						{
+							"options": ["ho perso", "sono perso", "sono persi"],
+							"correct": 0
+						},
+						{
+							"options": ["ho rimasto", "sono rimasto/a", "sono rimasti"],
+							"correct": 1
+						},
+						{
+							"options": ["ho dovuto", "sono dovuto", "sono dovuta"],
+							"correct": 0
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "it-basic-control-2",
+			"number": 2,
+			"title": "Completa le frasi con uno dei verbi indicati al passato prossimo",
+			"instructions": "Completa le frasi con uno dei verbi indicati al passato prossimo",
+			"kind": "fill-blank",
+			"wordBank": [
+				"diventare",
+				"aprire",
+				"chiedere",
+				"fare",
+				"essere",
+				"scrivere",
+				"venire",
+				"piangere",
+				"salire",
+				"potere"
+			],
+			"items": [
+				{
+					"sentence": "Paola e Luisa {{0}} al sole in spiaggia tutta la mattina.",
+					"blanks": [{ "answer": "sono state", "hint": "essere" }]
+				},
+				{
+					"sentence": "I miei amici mi {{0}} una cartolina dalla montagna, come tanti anni fa!",
+					"blanks": [{ "answer": "hanno scritto", "hint": "scrivere" }]
+				},
+				{
+					"sentence": "Mio figlio {{0}} tutto il giorno perché ha mal di denti.",
+					"blanks": [{ "answer": "ha pianto", "hint": "piangere" }]
+				},
+				{
+					"sentence": "Mario e Marta non {{0}} andare al mare perché faceva troppo freddo.",
+					"blanks": [{ "answer": "sono potuti", "hint": "potere" }]
+				},
+				{
+					"sentence": "Ma come {{0}} grande tua figlia! Quanti anni ha?",
+					"blanks": [{ "answer": "è diventata", "hint": "diventare" }]
+				},
+				{
+					"sentence": "Francesca {{0}} in vacanza con una valigia piena di vestiti.",
+					"blanks": [{ "answer": "è venuta", "hint": "venire" }]
+				},
+				{
+					"sentence": "Ma qui {{0}} la finestra con questo vento?",
+					"blanks": [{ "answer": "ha aperto", "hint": "aprire" }]
+				},
+				{
+					"sentence": "Ieri Giuseppe {{0}} fino alla cima del Monte Orsaro.",
+					"blanks": [{ "answer": "è salito", "hint": "salire" }]
+				},
+				{
+					"sentence": "Che cosa {{0}} la notte scorsa? Avete una faccia così stanca!",
+					"blanks": [{ "answer": "avete fatto", "hint": "fare" }]
+				},
+				{
+					"sentence": "Alberto mi {{0}} di uscire con lui domani, ma io non ne ho voglia.",
+					"blanks": [{ "answer": "ha chiesto", "hint": "chiedere" }]
+				}
+			]
+		},
+		{
+			"id": "it-basic-control-3",
+			"number": 3,
+			"title": "Completa il testo scegliendo il verbo corretto",
+			"instructions": "Completa il testo scegliendo il verbo corretto tra le opzioni indicate",
+			"kind": "inline-choice",
+			"items": [
+				{
+					"sentence": "Tre anni fa {{0}} in vacanza a Roma per cinque giorni. {{1}} con il mio ragazzo da Torino in treno. Poi, una coppia di amici {{2}} sul nostro treno a Bologna. {{3}} pochi vestiti nello zaino e tutti leggeri, perché quando {{4}} da Torino, c'erano 25 gradi! Quando {{5}} a Roma, faceva abbastanza freddo: non più di 17 gradi. {{6}} la vacanza sempre con la stessa felpa addosso, di giorno e di notte. Ma {{7}} molto, comunque! {{8}} chiese, monumenti e musei interessantissimi. La parte più bella {{9}} la visita a San Luigi dei Francesi e a Santa Maria del Popolo, nella piazza che ha lo stesso nome, dove {{10}} alcuni dipinti meravigliosi di Caravaggio. Quando {{11}} a Torino, {{12}} che sono nata per viaggiare e stare in vacanza.",
+					"choices": [
+						{ "options": ["sono andata", "sono uscita"], "correct": 0 },
+						{ "options": ["Sono partita", "ho preferito"], "correct": 0 },
+						{ "options": ["è andata", "è salita"], "correct": 1 },
+						{ "options": ["Abbiamo messo", "Abbiamo deciso"], "correct": 0 },
+						{ "options": ["siamo partiti", "siamo finiti"], "correct": 0 },
+						{ "options": ["abbiamo chiesto", "siamo arrivati"], "correct": 1 },
+						{ "options": ["Abbiamo passato", "Abbiamo avuto"], "correct": 0 },
+						{
+							"options": ["mi sono divertita", "mi sono nascosta"],
+							"correct": 0
+						},
+						{ "options": ["Ho visitato", "Ho imparato"], "correct": 0 },
+						{ "options": ["ha avuto", "è stata"], "correct": 1 },
+						{ "options": ["ho visto", "ho assaggiato"], "correct": 0 },
+						{ "options": ["sono tornata", "sono partita"], "correct": 0 },
+						{ "options": ["ho capito", "ho piaciuto"], "correct": 0 }
+					]
+				}
+			]
+		},
+		{
+			"id": "it-basic-control-4",
+			"number": 4,
+			"title": "Completa il racconto del viaggio di Tania",
+			"instructions": "Completa il racconto con il passato prossimo dei verbi del banco. Attenzione: alcuni verbi si usano più di una volta (essere ×3, vedere ×2)",
+			"kind": "fill-blank",
+			"wordBank": [
+				"fotografare",
+				"essere",
+				"essere",
+				"essere",
+				"andare",
+				"montare",
+				"partire",
+				"diventare",
+				"capire",
+				"vedere",
+				"vedere",
+				"entrare",
+				"scrivere",
+				"parcheggiare",
+				"prendere",
+				"visitare",
+				"fare",
+				"arrivare"
+			],
+			"items": [
+				{
+					"sentence": "L'unica volta che a. {{0}} un diario b. {{1}} tre anni fa per non dimenticare i posti meravigliosi che c. {{2}} in montagna. d. {{3}} il mio viaggio più bello! e. {{4}} nel Parco del Gran Paradiso tra Piemonte e Valle D'Aosta in estate. f. {{5}} in macchina con i miei amici: a Firenze c'erano almeno 35 gradi. Quando g. {{6}} in montagna l'aria h. {{7}} fresca e piacevole. Non i. {{8}} facile trovare il campeggio, ma quando finalmente Matteo l. {{9}} come funziona il suo navigatore, m. {{10}} che il campeggio era proprio a pochi metri. Velocissimi, n. {{11}} nel campeggio, o. {{12}} la macchina, p. {{13}} la tenda, poi q. {{14}} gli zaini e via subito: r. {{15}} la nostra prima lunghissima passeggiata. s. {{16}} piante e animali bellissimi. La sera t. {{17}} moltissime stelle.",
+					"blanks": [
+						{ "answer": "ho scritto", "hint": "scrivere" },
+						{ "answer": "è stato", "hint": "essere" },
+						{ "answer": "ho visitato", "hint": "visitare" },
+						{ "answer": "È stato", "hint": "essere" },
+						{ "answer": "sono andata", "hint": "andare" },
+						{ "answer": "Sono partita", "hint": "partire" },
+						{ "answer": "siamo arrivati", "hint": "arrivare" },
+						{ "answer": "è diventata", "hint": "diventare" },
+						{ "answer": "è stato", "hint": "essere" },
+						{ "answer": "ho capito", "hint": "capire" },
+						{ "answer": "abbiamo visto", "hint": "vedere" },
+						{ "answer": "siamo entrati", "hint": "entrare" },
+						{ "answer": "abbiamo parcheggiato", "hint": "parcheggiare" },
+						{ "answer": "abbiamo montato", "hint": "montare" },
+						{ "answer": "abbiamo preso", "hint": "prendere" },
+						{ "answer": "abbiamo fatto", "hint": "fare" },
+						{ "answer": "ho fotografato", "hint": "fotografare" },
+						{ "answer": "ho visto", "hint": "vedere" }
+					]
+				}
+			]
+		}
+	]
 }

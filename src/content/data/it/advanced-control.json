@@ -1,256 +1,259 @@
 {
-  "language": "it",
-  "level": "advanced",
-  "control": true,
-  "title": "Esercizi di controllo",
-  "exercises": [
-    {
-      "id": "it-advanced-control-1",
-      "number": 1,
-      "title": "Completa le frasi con uno dei verbi indicati al condizionale composto",
-      "instructions": "Completa le frasi con uno dei verbi indicati al condizionale composto. Verbi: dovere – volere – superare – conoscere – esserci – andare – venire – piacere – partire – perdere.",
-      "kind": "fill-blank",
-      "wordBank": ["dovere", "volere", "superare", "conoscere", "esserci", "andare", "venire", "piacere", "partire", "perdere"],
-      "items": [
-        {
-          "sentence": "1. Pensavo che Ursula {{0}} facilmente l'esame di italiano.",
-          "blanks": [
-            { "answer": "avrebbe superato", "hint": "superare" }
-          ]
-        },
-        {
-          "sentence": "2. Andrea {{0}} volentieri in vacanza con Roberto, ma doveva lavorare.",
-          "blanks": [
-            { "answer": "sarebbe andato", "hint": "andare" }
-          ]
-        },
-        {
-          "sentence": "3. Tu e Silvia {{0}} iniziare ad andare in palestra in ottobre.",
-          "blanks": [
-            { "answer": "avreste voluto", "hint": "volere" }
-          ]
-        },
-        {
-          "sentence": "4. Il pubblico ministero disse che il giudice {{0}} condannare l'imputato a 12 anni di carcere.",
-          "blanks": [
-            { "answer": "avrebbe dovuto", "hint": "dovere" }
-          ]
-        },
-        {
-          "sentence": "5. Due giorni fa pensavo che (tu) {{0}} per Parigi, ma ti vedo ancora qui!",
-          "blanks": [
-            { "answer": "saresti partito/partita", "hint": "partire" }
-          ]
-        },
-        {
-          "sentence": "6. Secondo quanto dicono i giornali, ieri notte in città {{0}} tre rapine.",
-          "blanks": [
-            { "answer": "ci sarebbero state", "hint": "esserci" }
-          ]
-        },
-        {
-          "sentence": "7. Se noi avessimo avuto un bravo avvocato, non {{0}} la causa.",
-          "blanks": [
-            { "answer": "avremmo perso", "hint": "perdere" }
-          ]
-        },
-        {
-          "sentence": "8. Se non mi fossi innamorato di te, non {{0}} il vero amore.",
-          "blanks": [
-            { "answer": "avrei conosciuto", "hint": "conoscere" }
-          ]
-        },
-        {
-          "sentence": "9. Ieri sera (io) {{0}} a casa tua, ma avevo un forte mal di testa.",
-          "blanks": [
-            { "answer": "sarei venuto", "hint": "venire" }
-          ]
-        },
-        {
-          "sentence": "10. A Enrico {{0}} studiare Legge all'università, ma ha scelto Medicina come suo padre.",
-          "blanks": [
-            { "answer": "sarebbe piaciuto", "hint": "piacere" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "it-advanced-control-2",
-      "number": 2,
-      "title": "Completa le frasi con un verbo alla forma passiva",
-      "instructions": "Completa le frasi con un verbo alla forma passiva (con essere e venire oppure andare). Usa i verbi indicati: costruire – bere – approvare – mangiare – arrestare – comprare – giudicare – vedere – aprire – prendere.",
-      "kind": "fill-blank",
-      "wordBank": ["costruire", "bere", "approvare", "mangiare", "arrestare", "comprare", "giudicare", "vedere", "aprire", "prendere"],
-      "items": [
-        {
-          "sentence": "1. La carne rossa {{0}} sempre meno a causa del colesterolo.",
-          "blanks": [
-            { "answer": ["è mangiata", "viene mangiata"], "hint": "mangiare" }
-          ]
-        },
-        {
-          "sentence": "2. Per i musulmani il vino non deve {{0}}.",
-          "blanks": [
-            { "answer": ["essere bevuto", "venire bevuto"], "hint": "bere" }
-          ]
-        },
-        {
-          "sentence": "3. Questa casa {{0}} entro la fine dell'anno.",
-          "blanks": [
-            { "answer": ["va costruita", "deve essere costruita"], "hint": "costruire" }
-          ]
-        },
-        {
-          "sentence": "4. Il cane di Silvia {{0}} ieri mentre correva nel parco.",
-          "blanks": [
-            { "answer": "è stato visto", "hint": "vedere" }
-          ]
-        },
-        {
-          "sentence": "5. Non ricordo quando {{0}} i mercati natalizi in centro.",
-          "blanks": [
-            { "answer": ["saranno aperti", "verranno aperti"], "hint": "aprire" }
-          ]
-        },
-        {
-          "sentence": "6. La nuova legge sulla scuola {{0}} ieri dal Parlamento.",
-          "blanks": [
-            { "answer": "è stata approvata", "hint": "approvare" }
-          ]
-        },
-        {
-          "sentence": "7. Abbiamo sbagliato. Questa decisione non doveva {{0}}.",
-          "blanks": [
-            { "answer": ["essere presa", "venire presa"], "hint": "prendere" }
-          ]
-        },
-        {
-          "sentence": "8. Questo CD non si può scaricare dal web. {{0}} a tutti i costi.",
-          "blanks": [
-            { "answer": ["Va comprato", "Deve essere comprato"], "hint": "comprare" }
-          ]
-        },
-        {
-          "sentence": "9. Brava! Le tue prove {{0}} positivamente dalla commissione.",
-          "blanks": [
-            { "answer": "sono state giudicate", "hint": "giudicare" }
-          ]
-        },
-        {
-          "sentence": "10. Secondo le notizie della radio il ladro {{0}} in pieno centro.",
-          "blanks": [
-            { "answer": "sarebbe stato arrestato", "hint": "arrestare" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "it-advanced-control-3",
-      "number": 3,
-      "title": "Completa le frasi con un verbo del riquadro al congiuntivo passato",
-      "instructions": "Completa le frasi con un verbo del riquadro al congiuntivo passato. Verbi: andare – partire – sbagliare – essere – succedere – fare – conoscersi – passare – abituare – sentire.",
-      "kind": "fill-blank",
-      "wordBank": ["andare", "partire", "sbagliare", "essere", "succedere", "fare", "conoscersi", "passare", "abituare", "sentire"],
-      "items": [
-        {
-          "sentence": "1. Guarda, qualcuno ha rovesciato il vaso dei fiori. Penso che {{0}} il gatto.",
-          "blanks": [
-            { "answer": "sia stato", "hint": "essere" }
-          ]
-        },
-        {
-          "sentence": "2. Mi auguro che Matteo si trovi bene a Berlino. Credo che {{0}} la scelta giusta.",
-          "blanks": [
-            { "answer": "abbia fatto", "hint": "fare" }
-          ]
-        },
-        {
-          "sentence": "3. Non so cosa {{0}} a Matilde, ma mi sembra molto triste.",
-          "blanks": [
-            { "answer": "sia successo", "hint": "succedere" }
-          ]
-        },
-        {
-          "sentence": "4. Sono contento che gli esami {{0}} bene a tutti gli studenti.",
-          "blanks": [
-            { "answer": "siano andati", "hint": "andare" }
-          ]
-        },
-        {
-          "sentence": "5. Che fine farà il congiuntivo in italiano? Sebbene {{0}} tanti anni dall'uscita del primo film di Fantozzi.",
-          "blanks": [
-            { "answer": "siano passati", "hint": "passare" }
-          ]
-        },
-        {
-          "sentence": "6. Infatti, credo che non ci sia un solo italiano che non {{0}} sentito questo errore almeno migliaia di volte.",
-          "blanks": [
-            { "answer": "abbia sentito", "hint": "sentire" }
-          ]
-        },
-        {
-          "sentence": "7. Ma è probabile che non sia così e che ormai tanti, troppi si {{0}} a questo uso sbagliato del congiuntivo.",
-          "blanks": [
-            { "answer": "siano abituati", "hint": "abituare" }
-          ]
-        },
-        {
-          "sentence": "8. Non credo che loro {{0}} all'università.",
-          "blanks": [
-            { "answer": ["si siano conosciuti", "si siano conosciute"], "hint": "conoscersi" }
-          ]
-        },
-        {
-          "sentence": "9. È tardissimo! Temo proprio che l'aereo {{0}} già {{1}}.",
-          "blanks": [
-            { "answer": "sia" },
-            { "answer": "partito", "hint": "partire" }
-          ]
-        },
-        {
-          "sentence": "10. Daniela pensa che tu {{0}} ad accettare quel lavoro.",
-          "blanks": [
-            { "answer": "abbia sbagliato", "hint": "sbagliare" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "it-advanced-control-4",
-      "number": 4,
-      "title": "Completa le frasi e abbinale",
-      "instructions": "Completa le frasi con il verbo al congiuntivo trapassato e abbinale alla colonna corrispondente.",
-      "kind": "match",
-      "pairs": [
-        {
-          "left": "Giovanna temeva che",
-          "right": "tu non l'avessi invitata perché eri arrabbiato con lei."
-        },
-        {
-          "left": "I nostri amici non credevano che",
-          "right": "avessimo deciso finalmente di sposarci."
-        },
-        {
-          "left": "I miei fratelli pensavano",
-          "right": "che io fossi sceso in cantina a prendere il vino."
-        },
-        {
-          "left": "Mamma vi ha telefonato perché pensava che",
-          "right": "aveste preso le chiavi della sua macchina."
-        },
-        {
-          "left": "Ero convinto che",
-          "right": "la mia fidanzata mi avesse tradito, così l'ho lasciata."
-        },
-        {
-          "left": "Giulia ha rimproverato i figli perché riteneva che",
-          "right": "si fossero comportati male durante la cena con i parenti."
-        },
-        {
-          "left": "Ho litigato con Paolo perché pensavo che",
-          "right": "non fosse stato sincero ed onesto con me."
-        }
-      ]
-    }
-  ]
+	"language": "it",
+	"level": "advanced",
+	"control": true,
+	"title": "Esercizi di controllo",
+	"exercises": [
+		{
+			"id": "it-advanced-control-1",
+			"number": 1,
+			"title": "Completa le frasi con uno dei verbi indicati al condizionale composto",
+			"instructions": "Completa le frasi con uno dei verbi indicati al condizionale composto. Verbi: dovere – volere – superare – conoscere – esserci – andare – venire – piacere – partire – perdere.",
+			"kind": "fill-blank",
+			"wordBank": [
+				"dovere",
+				"volere",
+				"superare",
+				"conoscere",
+				"esserci",
+				"andare",
+				"venire",
+				"piacere",
+				"partire",
+				"perdere"
+			],
+			"items": [
+				{
+					"sentence": "1. Pensavo che Ursula {{0}} facilmente l'esame di italiano.",
+					"blanks": [{ "answer": "avrebbe superato", "hint": "superare" }]
+				},
+				{
+					"sentence": "2. Andrea {{0}} volentieri in vacanza con Roberto, ma doveva lavorare.",
+					"blanks": [{ "answer": "sarebbe andato", "hint": "andare" }]
+				},
+				{
+					"sentence": "3. Tu e Silvia {{0}} iniziare ad andare in palestra in ottobre.",
+					"blanks": [{ "answer": "avreste voluto", "hint": "volere" }]
+				},
+				{
+					"sentence": "4. Il pubblico ministero disse che il giudice {{0}} condannare l'imputato a 12 anni di carcere.",
+					"blanks": [{ "answer": "avrebbe dovuto", "hint": "dovere" }]
+				},
+				{
+					"sentence": "5. Due giorni fa pensavo che (tu) {{0}} per Parigi, ma ti vedo ancora qui!",
+					"blanks": [{ "answer": "saresti partito/partita", "hint": "partire" }]
+				},
+				{
+					"sentence": "6. Secondo quanto dicono i giornali, ieri notte in città {{0}} tre rapine.",
+					"blanks": [{ "answer": "ci sarebbero state", "hint": "esserci" }]
+				},
+				{
+					"sentence": "7. Se noi avessimo avuto un bravo avvocato, non {{0}} la causa.",
+					"blanks": [{ "answer": "avremmo perso", "hint": "perdere" }]
+				},
+				{
+					"sentence": "8. Se non mi fossi innamorato di te, non {{0}} il vero amore.",
+					"blanks": [{ "answer": "avrei conosciuto", "hint": "conoscere" }]
+				},
+				{
+					"sentence": "9. Ieri sera (io) {{0}} a casa tua, ma avevo un forte mal di testa.",
+					"blanks": [{ "answer": "sarei venuto", "hint": "venire" }]
+				},
+				{
+					"sentence": "10. A Enrico {{0}} studiare Legge all'università, ma ha scelto Medicina come suo padre.",
+					"blanks": [{ "answer": "sarebbe piaciuto", "hint": "piacere" }]
+				}
+			]
+		},
+		{
+			"id": "it-advanced-control-2",
+			"number": 2,
+			"title": "Completa le frasi con un verbo alla forma passiva",
+			"instructions": "Completa le frasi con un verbo alla forma passiva (con essere e venire oppure andare). Usa i verbi indicati: costruire – bere – approvare – mangiare – arrestare – comprare – giudicare – vedere – aprire – prendere.",
+			"kind": "fill-blank",
+			"wordBank": [
+				"costruire",
+				"bere",
+				"approvare",
+				"mangiare",
+				"arrestare",
+				"comprare",
+				"giudicare",
+				"vedere",
+				"aprire",
+				"prendere"
+			],
+			"items": [
+				{
+					"sentence": "1. La carne rossa {{0}} sempre meno a causa del colesterolo.",
+					"blanks": [
+						{ "answer": ["è mangiata", "viene mangiata"], "hint": "mangiare" }
+					]
+				},
+				{
+					"sentence": "2. Per i musulmani il vino non deve {{0}}.",
+					"blanks": [
+						{ "answer": ["essere bevuto", "venire bevuto"], "hint": "bere" }
+					]
+				},
+				{
+					"sentence": "3. Questa casa {{0}} entro la fine dell'anno.",
+					"blanks": [
+						{
+							"answer": ["va costruita", "deve essere costruita"],
+							"hint": "costruire"
+						}
+					]
+				},
+				{
+					"sentence": "4. Il cane di Silvia {{0}} ieri mentre correva nel parco.",
+					"blanks": [{ "answer": "è stato visto", "hint": "vedere" }]
+				},
+				{
+					"sentence": "5. Non ricordo quando {{0}} i mercati natalizi in centro.",
+					"blanks": [
+						{
+							"answer": ["saranno aperti", "verranno aperti"],
+							"hint": "aprire"
+						}
+					]
+				},
+				{
+					"sentence": "6. La nuova legge sulla scuola {{0}} ieri dal Parlamento.",
+					"blanks": [{ "answer": "è stata approvata", "hint": "approvare" }]
+				},
+				{
+					"sentence": "7. Abbiamo sbagliato. Questa decisione non doveva {{0}}.",
+					"blanks": [
+						{ "answer": ["essere presa", "venire presa"], "hint": "prendere" }
+					]
+				},
+				{
+					"sentence": "8. Questo CD non si può scaricare dal web. {{0}} a tutti i costi.",
+					"blanks": [
+						{
+							"answer": ["Va comprato", "Deve essere comprato"],
+							"hint": "comprare"
+						}
+					]
+				},
+				{
+					"sentence": "9. Brava! Le tue prove {{0}} positivamente dalla commissione.",
+					"blanks": [{ "answer": "sono state giudicate", "hint": "giudicare" }]
+				},
+				{
+					"sentence": "10. Secondo le notizie della radio il ladro {{0}} in pieno centro.",
+					"blanks": [
+						{ "answer": "sarebbe stato arrestato", "hint": "arrestare" }
+					]
+				}
+			]
+		},
+		{
+			"id": "it-advanced-control-3",
+			"number": 3,
+			"title": "Completa le frasi con un verbo del riquadro al congiuntivo passato",
+			"instructions": "Completa le frasi con un verbo del riquadro al congiuntivo passato. Verbi: andare – partire – sbagliare – essere – succedere – fare – conoscersi – passare – abituare – sentire.",
+			"kind": "fill-blank",
+			"wordBank": [
+				"andare",
+				"partire",
+				"sbagliare",
+				"essere",
+				"succedere",
+				"fare",
+				"conoscersi",
+				"passare",
+				"abituare",
+				"sentire"
+			],
+			"items": [
+				{
+					"sentence": "1. Guarda, qualcuno ha rovesciato il vaso dei fiori. Penso che {{0}} il gatto.",
+					"blanks": [{ "answer": "sia stato", "hint": "essere" }]
+				},
+				{
+					"sentence": "2. Mi auguro che Matteo si trovi bene a Berlino. Credo che {{0}} la scelta giusta.",
+					"blanks": [{ "answer": "abbia fatto", "hint": "fare" }]
+				},
+				{
+					"sentence": "3. Non so cosa {{0}} a Matilde, ma mi sembra molto triste.",
+					"blanks": [{ "answer": "sia successo", "hint": "succedere" }]
+				},
+				{
+					"sentence": "4. Sono contento che gli esami {{0}} bene a tutti gli studenti.",
+					"blanks": [{ "answer": "siano andati", "hint": "andare" }]
+				},
+				{
+					"sentence": "5. Che fine farà il congiuntivo in italiano? Sebbene {{0}} tanti anni dall'uscita del primo film di Fantozzi.",
+					"blanks": [{ "answer": "siano passati", "hint": "passare" }]
+				},
+				{
+					"sentence": "6. Infatti, credo che non ci sia un solo italiano che non {{0}} sentito questo errore almeno migliaia di volte.",
+					"blanks": [{ "answer": "abbia sentito", "hint": "sentire" }]
+				},
+				{
+					"sentence": "7. Ma è probabile che non sia così e che ormai tanti, troppi si {{0}} a questo uso sbagliato del congiuntivo.",
+					"blanks": [{ "answer": "siano abituati", "hint": "abituare" }]
+				},
+				{
+					"sentence": "8. Non credo che loro {{0}} all'università.",
+					"blanks": [
+						{
+							"answer": ["si siano conosciuti", "si siano conosciute"],
+							"hint": "conoscersi"
+						}
+					]
+				},
+				{
+					"sentence": "9. È tardissimo! Temo proprio che l'aereo {{0}} già {{1}}.",
+					"blanks": [
+						{ "answer": "sia" },
+						{ "answer": "partito", "hint": "partire" }
+					]
+				},
+				{
+					"sentence": "10. Daniela pensa che tu {{0}} ad accettare quel lavoro.",
+					"blanks": [{ "answer": "abbia sbagliato", "hint": "sbagliare" }]
+				}
+			]
+		},
+		{
+			"id": "it-advanced-control-4",
+			"number": 4,
+			"title": "Completa le frasi e abbinale",
+			"instructions": "Completa le frasi con il verbo al congiuntivo trapassato e abbinale alla colonna corrispondente.",
+			"kind": "match",
+			"pairs": [
+				{
+					"left": "Giovanna temeva che",
+					"right": "tu non l'avessi invitata perché eri arrabbiato con lei."
+				},
+				{
+					"left": "I nostri amici non credevano che",
+					"right": "avessimo deciso finalmente di sposarci."
+				},
+				{
+					"left": "I miei fratelli pensavano",
+					"right": "che io fossi sceso in cantina a prendere il vino."
+				},
+				{
+					"left": "Mamma vi ha telefonato perché pensava che",
+					"right": "aveste preso le chiavi della sua macchina."
+				},
+				{
+					"left": "Ero convinto che",
+					"right": "la mia fidanzata mi avesse tradito, così l'ho lasciata."
+				},
+				{
+					"left": "Giulia ha rimproverato i figli perché riteneva che",
+					"right": "si fossero comportati male durante la cena con i parenti."
+				},
+				{
+					"left": "Ho litigato con Paolo perché pensavo che",
+					"right": "non fosse stato sincero ed onesto con me."
+				}
+			]
+		}
+	]
 }
