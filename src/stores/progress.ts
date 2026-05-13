@@ -19,6 +19,11 @@ export type ProgressStateV1 = {
 	byExerciseId: Record<string, ExerciseProgress>;
 };
 
+export type ProgressStateV2 = {
+	version: 2;
+	byExerciseId: Record<string, ExerciseProgress>;
+};
+
 export type ProgressActions = {
 	recordResult: (id: string, score: number) => void;
 	resetExercise: (id: string) => void;
@@ -33,7 +38,7 @@ export type ProgressActions = {
 // -----------------------------------------------------------------------
 
 export const selectCompletedCount = (
-	state: ProgressStateV1,
+	state: ProgressStateV2,
 	ids: ReadonlyArray<string>,
 ): number =>
 	ids.filter((id) => state.byExerciseId[id]?.status === "completed").length;
@@ -42,8 +47,8 @@ export const selectCompletedCount = (
 // Default state
 // -----------------------------------------------------------------------
 
-const defaultStateV1: ProgressStateV1 = {
-	version: 1,
+const defaultStateV2: ProgressStateV2 = {
+	version: 2,
 	byExerciseId: {},
 };
 
@@ -51,21 +56,35 @@ const defaultStateV1: ProgressStateV1 = {
 // Migration
 // -----------------------------------------------------------------------
 
-const migrate = (persisted: unknown, fromVersion: number): ProgressStateV1 => {
-	if (fromVersion === 0 || persisted == null) return defaultStateV1;
-	if (fromVersion === 1) return persisted as ProgressStateV1;
-	// Future versions: add migration branches here before removing old ones.
-	return defaultStateV1;
+export const ORPHANED_IDS = [
+	"it-intermediate-3",
+	"it-intermediate-13",
+	"it-basic-14",
+] as const;
+
+export const migrate = (
+	persisted: unknown,
+	fromVersion: number,
+): ProgressStateV2 => {
+	if (fromVersion === 0 || persisted == null) return defaultStateV2;
+	if (fromVersion === 1) {
+		const v1 = persisted as ProgressStateV1;
+		const filtered = { ...v1.byExerciseId };
+		for (const id of ORPHANED_IDS) delete filtered[id];
+		return { version: 2, byExerciseId: filtered };
+	}
+	if (fromVersion === 2) return persisted as ProgressStateV2;
+	return defaultStateV2;
 };
 
 // -----------------------------------------------------------------------
 // Store
 // -----------------------------------------------------------------------
 
-export const useProgress = create<ProgressStateV1 & ProgressActions>()(
+export const useProgress = create<ProgressStateV2 & ProgressActions>()(
 	persist(
 		(set) => ({
-			...defaultStateV1,
+			...defaultStateV2,
 
 			recordResult: (id, score) =>
 				set((s) => {
@@ -112,7 +131,7 @@ export const useProgress = create<ProgressStateV1 & ProgressActions>()(
 		}),
 		{
 			name: "conjugarte-progress",
-			version: 1,
+			version: 2,
 			skipHydration: true,
 			migrate,
 			partialize: (s) => ({ version: s.version, byExerciseId: s.byExerciseId }),
