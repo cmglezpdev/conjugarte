@@ -359,25 +359,25 @@
 			"id": "fr-advanced-8",
 			"number": 8,
 			"title": "Choisissez les temps verbaux convenables — Le Petit Prince",
-			"kind": "free-text",
+			"kind": "fill-blank",
 			"instructions": "Choisissez les temps verbaux convenables.",
+			"contextHint": "(Le petit prince, Antoine de Saint-Exupéry)",
 			"items": [
 				{
-					"prompt": "Les grandes personnes _____ (me conseiller) de laisser de côté les dessins de serpents boas ouverts ou fermés, et de m'intéresser plutôt à la géographie, à l'histoire, au calcul et à la grammaire. C'est ainsi que _____ (je abandonner), à l'âge de six ans, une magnifique carrière de peintre. _____ (je décourager) par l'insuccès de mon dessin numéro 1 et de mon dessin numéro 2. Les grandes personnes ne comprennent jamais rien toutes seules, et c'est fatigant, pour les enfants, de toujours et toujours leur donner des explications.",
-					"contextHint": "Le Petit Prince, Antoine de Saint-Exupéry",
-					"accepted": [
-						"m'ont conseillé / j'ai abandonné / j'avais été découragé",
-						"m'ont conseillé, j'ai abandonné, j'avais été découragé",
-						"m'ont conseillé j'ai abandonné j'avais été découragé"
+					"sentence": "Les grandes personnes {{0}} (me conseiller) de laisser de côté les dessins de serpents boas ouverts ou fermés, et de m'intéresser plutôt à la géographie, à l'histoire, au calcul et à la grammaire. C'est ainsi que {{1}} (je abandonner), à l'âge de six ans, une magnifique carrière de peintre. {{2}} (je décourager) par l'insuccès de mon dessin numéro 1 et de mon dessin numéro 2. Les grandes personnes ne comprennent jamais rien toutes seules, et c'est fatigant, pour les enfants, de toujours et toujours leur donner des explications.",
+					"blanks": [
+						{ "answer": "m'ont conseillé" },
+						{ "answer": "j'ai abandonné" },
+						{ "answer": ["J'avais été découragé", "j'avais été découragé"] }
 					]
 				},
 				{
-					"prompt": "_____ (je devoir) donc choisir un autre métier et _____ (je apprendre) à piloter des avions. _____ (je voler) un peu partout dans le monde. Et la géographie, c'est exact, _____ (me servir) beaucoup. Je savais reconnaître, du premier coup d'œil, la Chine de l'Arizona. C'est très utile, si l'on est égaré pendant la nuit.",
-					"contextHint": "Le Petit Prince, Antoine de Saint-Exupéry",
-					"accepted": [
-						"J'ai dû / j'ai appris / J'ai volé / m'a beaucoup servi",
-						"J'ai dû, j'ai appris, J'ai volé, m'a beaucoup servi",
-						"J'ai dû j'ai appris J'ai volé m'a beaucoup servi"
+					"sentence": "{{0}} (je devoir) donc choisir un autre métier et {{1}} (je apprendre) à piloter des avions. {{2}} (je voler) un peu partout dans le monde. Et la géographie, c'est exact, {{3}} (me servir) beaucoup. Je savais reconnaître, du premier coup d'œil, la Chine de l'Arizona. C'est très utile, si l'on est égaré pendant la nuit.",
+					"blanks": [
+						{ "answer": ["J'ai dû", "J'ai donc dû"] },
+						{ "answer": "j'ai appris" },
+						{ "answer": "J'ai volé" },
+						{ "answer": ["m'a servi", "m'a beaucoup servi"] }
 					]
 				}
 			]
