@@ -1,5 +1,9 @@
 import type { ExerciseStatus } from "./useExerciseState";
 
+function normalizeHeading(s: string): string {
+	return s.trim().replace(/\s+/g, " ").toLowerCase().normalize("NFC");
+}
+
 interface ExerciseCardProps {
 	title: string;
 	instructions?: string;
@@ -29,6 +33,12 @@ export function ExerciseCard({
 			? statusStyles[status]
 			: "border-[var(--color-border)]";
 
+	const instructionsDeduped =
+		instructions &&
+		normalizeHeading(instructions) !== normalizeHeading(title)
+			? instructions
+			: undefined;
+
 	return (
 		<div
 			className={`mx-auto w-full max-w-2xl rounded-xl border bg-[var(--color-card)] p-6 shadow-sm transition-all ${borderStyle}`}
@@ -36,12 +46,12 @@ export function ExerciseCard({
 			<h2 className="mb-2 text-xl font-semibold text-[var(--color-fg)]">
 				{title}
 			</h2>
-			{instructions && (
+			{instructionsDeduped && (
 				<p
 					data-testid="exercise-instructions"
 					className="mb-4 text-sm text-[var(--c-fg-muted)]"
 				>
-					{instructions}
+					{instructionsDeduped}
 				</p>
 			)}
 			<div className="space-y-4">{children}</div>

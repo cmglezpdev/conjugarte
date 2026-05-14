@@ -15,6 +15,7 @@ import { sortableKeyboardCoordinates } from "@dnd-kit/sortable";
 import { motion } from "motion/react";
 import { useMemo, useReducer, useState } from "react";
 import type { FillBlankExercise } from "#/content/schema";
+import { hintDuplicatesParenthetical } from "./_shared/blankHint";
 import { ContextHint } from "./_shared/ContextHint";
 import { ExerciseCard } from "./_shared/ExerciseCard";
 import { FeedbackOverlay } from "./_shared/FeedbackOverlay";
@@ -556,6 +557,9 @@ export function FillBlank({ exercise, onResult, onNext }: Props) {
 								const blankIdx = seg.index;
 								const isCorrect = blankValidity[itemIdx]?.[blankIdx];
 								const hint = item.blanks[blankIdx]?.hint;
+								const showHintBelow =
+									hint &&
+									!hintDuplicatesParenthetical(item.sentence, hint);
 
 								if (hasWordBank) {
 									// Drag-and-drop blank
@@ -582,7 +586,7 @@ export function FillBlank({ exercise, onResult, onNext }: Props) {
 													isCorrect={!!isCorrect}
 												/>
 											) : (
-												hint && <HintLabel>{hint}</HintLabel>
+												showHintBelow && <HintLabel>{hint}</HintLabel>
 											)}
 										</span>
 									);
@@ -626,7 +630,7 @@ export function FillBlank({ exercise, onResult, onNext }: Props) {
 												isCorrect={!!isCorrect}
 											/>
 										) : (
-											hint && <HintLabel>{hint}</HintLabel>
+											showHintBelow && <HintLabel>{hint}</HintLabel>
 										)}
 									</span>
 								);
