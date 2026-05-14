@@ -9,7 +9,6 @@
 			"number": 1,
 			"title": "Classifica i verbi",
 			"instructions": "Classifica i verbi in base alla fine del loro participio passato",
-			"contextHint": "Verbi: accendere, porre, offrire, uccidere, mangiare, mettere, dividere, leggere, chiudere, morire, parlare, risolvere, partire, vedere, nascondere, fare, cuocere, incidere, lavorare, proteggere, amare, spendere, togliere, tradurre, giungere, ridere, dipingere, reggere, rendere, conoscere, sciogliere, dormire, ammettere, condurre, dividere, credere, sentire, promettere, ricevere, attingere, produrre",
 			"kind": "categorize",
 			"categories": [
 				"-ato",

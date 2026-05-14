@@ -325,12 +325,6 @@ export function MatchFill({ exercise, onResult, onNext }: Props) {
 			}
 		>
 			<ContextHint text={exercise.contextHint} />
-			{!isSubmitted && (
-				<p className="mb-3 text-xs text-[var(--c-accent)]">
-					Completa los verbos y enlaza cada elemento de la columna izquierda
-					con uno de la derecha.
-				</p>
-			)}
 
 			<div className="grid gap-4 md:grid-cols-2">
 				<div className="space-y-3">
