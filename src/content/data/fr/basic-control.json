@@ -14,7 +14,7 @@
 			"items": [
 				{
 					"prompt": "Salir",
-					"options": ["salis", "salu", "sali", "salit"],
+					"options": ["sali", "salu", "sali", "salit"],
 					"correct": 2
 				},
 				{
@@ -156,16 +156,16 @@
 					"choices": [{ "options": ["sommes", "avons"], "correct": 0 }]
 				},
 				{
-					"sentence": "Je {{0}} descendu au parking.",
-					"choices": [{ "options": ["suis", "ai"], "correct": 0 }]
+					"sentence": "{{0}} descendu au parking.",
+					"choices": [{ "options": ["Je suis", "J'ai"], "correct": 0 }]
 				},
 				{
 					"sentence": "On {{0}} monté les bagages.",
 					"choices": [{ "options": ["est", "a"], "correct": 1 }]
 				},
 				{
-					"sentence": "J'{{0}} descendu les 11 étages à pied !",
-					"choices": [{ "options": ["ai", "suis"], "correct": 0 }]
+					"sentence": "{{0}} descendu les 11 étages à pied !",
+					"choices": [{ "options": ["J'ai", "Je suis"], "correct": 0 }]
 				},
 				{
 					"sentence": "Il {{0}} passé dire bonjour.",
@@ -180,7 +180,7 @@
 					"choices": [{ "options": ["avez", "êtes"], "correct": 0 }]
 				},
 				{
-					"sentence": "Vous {{0}} rentrés à quelle heure ?",
+					"sentence": "Vous {{0}} rentré à quelle heure ?",
 					"choices": [{ "options": ["êtes", "avez"], "correct": 0 }]
 				},
 				{
@@ -217,7 +217,7 @@
 					"blanks": [{ "answer": "avez déployée" }, { "answer": "a suscité" }]
 				},
 				{
-					"sentence": "Combien de cantates Bach {{0}} (écrire) au cours de sa vie ?",
+					"sentence": "Combien de cantates Bach {{0}}b (écrire) au cours de sa vie ?",
 					"blanks": [{ "answer": "a écrites" }]
 				},
 				{
@@ -229,7 +229,7 @@
 					"blanks": [{ "answer": "est tombé" }]
 				},
 				{
-					"sentence": "Tous ceux qui l'{{0}} (fréquenter) savent quelle grande artiste elle fut.",
+					"sentence": "Tous ceux qui la {{0}} (fréquenter) savent quelle grande artiste elle fut.",
 					"blanks": [{ "answer": "ont fréquentée" }]
 				},
 				{

@@ -115,7 +115,7 @@
 				},
 				{
 					"sentence": "Les devoirs, je les ai {{0}}.",
-					"blanks": [{ "answer": "fait corriger", "hint": "faire/corriger" }]
+					"blanks": [{ "answer": ["fait corrigé", "fait corriger"], "hint": "faire/corriger" }]
 				}
 			]
 		},
@@ -350,7 +350,7 @@
 							"answer": "l'ait emportée",
 							"hint": "emporter, subjonctif passé"
 						},
-						{ "answer": "fut arrivée", "hint": "arriver, passé antérieur" }
+						{ "answer": ["fut arrivé", "fut arrivée"], "hint": "arriver, passé antérieur" }
 					]
 				}
 			]
@@ -363,16 +363,22 @@
 			"instructions": "Choisissez les temps verbaux convenables.",
 			"items": [
 				{
-					"prompt": "Les grandes personnes {{0}} (me conseiller) de laisser de côté les dessins de serpents boas ouverts ou fermés, et de m'intéresser plutôt à la géographie, à l'histoire, au calcul et à la grammaire. C'est ainsi que {{1}} (je abandonner), à l'âge de six ans, une magnifique carrière de peintre. {{2}} (je décourager) par l'insuccès de mon dessin numéro 1 et de mon dessin numéro 2. Les grandes personnes ne comprennent jamais rien toutes seules, et c'est fatigant, pour les enfants, de toujours et toujours leur donner des explications.",
+					"prompt": "Les grandes personnes _____ (me conseiller) de laisser de côté les dessins de serpents boas ouverts ou fermés, et de m'intéresser plutôt à la géographie, à l'histoire, au calcul et à la grammaire. C'est ainsi que _____ (je abandonner), à l'âge de six ans, une magnifique carrière de peintre. _____ (je décourager) par l'insuccès de mon dessin numéro 1 et de mon dessin numéro 2. Les grandes personnes ne comprennent jamais rien toutes seules, et c'est fatigant, pour les enfants, de toujours et toujours leur donner des explications.",
 					"contextHint": "Le Petit Prince, Antoine de Saint-Exupéry",
 					"accepted": [
-						"m'ont conseillé / j'ai abandonné / j'avais été découragé"
+						"m'ont conseillé / j'ai abandonné / j'avais été découragé",
+						"m'ont conseillé, j'ai abandonné, j'avais été découragé",
+						"m'ont conseillé j'ai abandonné j'avais été découragé"
 					]
 				},
 				{
-					"prompt": "{{0}} (je devoir) donc choisir un autre métier et {{1}} (je apprendre) à piloter des avions. {{2}} (je voler) un peu partout dans le monde. Et la géographie, c'est exact, {{3}} (me servir) beaucoup. Je savais reconnaître, du premier coup d'œil, la Chine de l'Arizona. C'est très utile, si l'on est égaré pendant la nuit.",
+					"prompt": "_____ (je devoir) donc choisir un autre métier et _____ (je apprendre) à piloter des avions. _____ (je voler) un peu partout dans le monde. Et la géographie, c'est exact, _____ (me servir) beaucoup. Je savais reconnaître, du premier coup d'œil, la Chine de l'Arizona. C'est très utile, si l'on est égaré pendant la nuit.",
 					"contextHint": "Le Petit Prince, Antoine de Saint-Exupéry",
-					"accepted": ["J'ai dû / j'ai appris / J'ai volé / m'a beaucoup servi"]
+					"accepted": [
+						"J'ai dû / j'ai appris / J'ai volé / m'a beaucoup servi",
+						"J'ai dû, j'ai appris, J'ai volé, m'a beaucoup servi",
+						"J'ai dû j'ai appris J'ai volé m'a beaucoup servi"
+					]
 				}
 			]
 		},
@@ -465,7 +471,7 @@
 					"blanks": [{ "answer": "eussiez dits", "hint": "dire" }]
 				},
 				{
-					"sentence": "Le voyageur qui {{0}} de loin le castel dessinant ses faîtages pointus sur le ciel, au-dessus des genêts et des bruyères, {{1}} une demeure convenable pour un hobereau de province. (Théophile Gautier)",
+					"sentence": "Le voyageur qui {{0}} de loin le castel dessinant ses faîtages pointus sur le ciel, au-dessus des genêts et des bruyères, {{1}} une demeure convenable pour un hobereau de province ; mais, en approchant, son avis se fût modifié. (Théophile Gautier)",
 					"blanks": [
 						{ "answer": "eût aperçu", "hint": "apercevoir" },
 						{ "answer": "l'eût jugé", "hint": "juger" }

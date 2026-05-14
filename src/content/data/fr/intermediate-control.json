@@ -30,7 +30,7 @@
 			"instructions": "Complétez les textes suivants en conjuguant les verbes entre parenthèses au passé composé, à l'imparfait ou au plus-que-parfait. Attention aux accords.",
 			"items": [
 				{
-					"sentence": "Ce {{0}} (être) en juillet 2010. Il {{1}} (faire) très beau ce jour-là. Je {{2}} (ne rien avoir) de spécial à faire parce que je {{3}} (prendre) des congés mais je {{4}} (ne pas pouvoir) partir en vacances. Je {{5}} (décider) de sortir. Je {{6}} (prendre) le bus. Je {{7}} (descendre) au Jardin du Luxembourg. Il y {{8}} (avoir) beaucoup de monde. Les enfants {{9}} (courir) dans tous les sens. Les parents {{10}} (être) nerveux. L'atmosphère {{11}} (être) lourde, étouffante. Je {{12}} (marcher) un peu. Je {{13}} (vouloir) trouver un endroit calme pour lire un livre que je {{14}} (acheter) la veille et qu'une amie m'{{15}} (recommander). Je {{16}} (découvrir finalement) un coin éloigné de toute agitation. Je {{17}} (s'asseoir) sur un banc. Je {{18}} (pouvoir) entendre les oiseaux chanter. Je {{19}} (sortir) mon roman de mon sac. Je {{20}} (ne pas arriver) à lire. Il {{21}} (faire) trop chaud, je {{22}} (manquer) d'air, je {{23}} (ne pas bien se sentir). Quand l'orage {{24}} (éclater), je {{25}} (courir) me réfugier sous un kiosque (parce que je {{26}} (oublier) mon parapluie) et je {{27}} (se sentir) soulagée.",
+					"sentence": "Ce {{0}} (être) en juillet 2010. Il {{1}} (faire) très beau ce jour-là. Je {{2}} (ne rien avoir) de spécial à faire parce que je {{3}} (prendre) des congés mais je {{4}} (ne pas pouvoir) partir en vacances. Je {{5}} (décider) de sortir. Je {{6}} (prendre) le bus. Je {{7}} (descendre) au Jardin du Luxembourg. Il y {{8}} (avoir) beaucoup de monde. Les enfants {{9}} (courir) dans tous les sens. Les parents {{10}} (être) nerveux. L'atmosphère {{11}} (être) lourde, étouffante. Je {{12}} (marcher) un peu. Je {{13}} (vouloir) trouver un endroit calme pour lire un livre que je {{14}} (acheter) la veille et qu'une amie m'{{15}} (recommander). Je {{16}} (découvrir finalement) un coin éloigné de toute agitation. Je {{17}} (s'asseoir) sur un banc. Je {{18}} (pouvoir) entendre les oiseaux chanter. Je {{19}} (sortir) mon roman de mon sac. Je {{20}} (ne pas arriver) à lire. Il {{21}} (faire) trop chaud, je {{22}} (manquer) d'air, je {{23}} (ne pas bien se sentir). Quand l'orage {{24}} (éclater) je {{25}} (courir) me réfugier sous un kiosque (parce que je {{26}} (oublier) mon parapluie) et je {{27}} (se sentir) soulagée.",
 					"blanks": [
 						{ "answer": "C'était" },
 						{ "answer": "faisait" },
@@ -73,37 +73,37 @@
 			"contextHint": "Exemple : Si tu (choisir) avais choisi ce métier, tu (gagner) aurais gagné plus d'argent.",
 			"items": [
 				{
-					"sentence": "Si elle (venir) {{0}} chez nous, elle (être) {{1}} plus heureuse.",
+					"sentence": "Si elle {{0}} (venir) chez nous, elle {{1}} (être) plus heureuse.",
 					"blanks": [{ "answer": "était venue" }, { "answer": "aurait été" }]
 				},
 				{
-					"sentence": "Elle (rester) {{0}} avec lui s'il (avoir) {{1}} meilleur caractère.",
+					"sentence": "Elle {{0}} (rester) avec lui s'il {{1}} (avoir) meilleur caractère.",
 					"blanks": [{ "answer": "serait restée" }, { "answer": "avait eu" }]
 				},
 				{
-					"sentence": "Nous (agir) {{0}} plus rapidement si nous (savoir) {{1}} que c'était urgent.",
+					"sentence": "Nous {{0}} (agir) plus rapidement si nous {{1}} (savoir) que c'était urgent.",
 					"blanks": [{ "answer": "aurions agi" }, { "answer": "avions su" }]
 				},
 				{
-					"sentence": "Si vous (ne pas partir) {{0}}, vous (entendre) {{1}} son discours.",
+					"sentence": "Si vous {{0}} (ne pas partir), vous {{1}} (entendre) son discours.",
 					"blanks": [
 						{ "answer": "n'étiez pas partis" },
 						{ "answer": "auriez entendu" }
 					]
 				},
 				{
-					"sentence": "Si tu (pouvoir) {{0}} aller à Paris, tu (voir) {{1}} ce concert.",
+					"sentence": "Si tu {{0}} (pouvoir) aller à Paris, tu {{1}} (voir) ce concert.",
 					"blanks": [{ "answer": "avais pu" }, { "answer": "aurais vu" }]
 				},
 				{
-					"sentence": "Nous (comprendre) {{0}} si le prof (expliquer) {{1}} le problème.",
+					"sentence": "Nous {{0}} (comprendre) si le prof {{1}} (expliquer) le problème.",
 					"blanks": [
 						{ "answer": "aurions compris" },
 						{ "answer": "avait expliqué" }
 					]
 				},
 				{
-					"sentence": "Si vous (ne pas arriver) {{0}} en retard, nous (ne pas rater) {{1}} le bus.",
+					"sentence": "Si vous {{0}} (ne pas arriver) en retard, nous {{1}} (ne pas rater) le bus.",
 					"blanks": [
 						{ "answer": "n'étiez pas arrivés" },
 						{ "answer": "n'aurions pas raté" }

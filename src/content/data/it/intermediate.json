@@ -8,7 +8,7 @@
 			"id": "it-intermediate-1",
 			"number": 1,
 			"title": "Passato prossimo — completare",
-			"instructions": "Completa con i verbi giusti al PASSATO PROSSIMO",
+			"instructions": "Completa con i verbi justi al PASSATO PROSSIMO",
 			"contextHint": "Verbi: Arrivare, Dimenticare, Dovere, Mettere, Studiare, Rispondere, Spendere, Vedere, Mangiare, Esagerare, Cominciare, Arrivare, Chiamare, Andare, Succedere, Perdere, Mangiare, Vincere, Rispondere, Essere, Non potere, Telefonare, Bere, Fare, Andare, Andare, dovere, essere",
 			"kind": "fill-blank",
 			"items": [
@@ -124,7 +124,7 @@
 					"blanks": [{ "answer": "hai parlato" }]
 				},
 				{
-					"sentence": "A: Non {{0}} (parlare) con nessuno. Non {{1}} (avere) il cellulare. Ieri lo {{2}} (prendere) mia moglie e lei non {{3}} (essere) a casa. {{4}} (essere) da sua madre a Pisa.",
+					"sentence": "A: Non {{0}} (parlare) con nessuno. Non {{1}} (avere) il cellulare. Ieri lo {{2}} (perdere) mia moglie e lei non {{3}} (essere) a casa. {{4}} (essere) da sua madre a Pisa.",
 					"blanks": [
 						{ "answer": "ho parlato" },
 						{ "answer": "avevo" },
@@ -207,7 +207,7 @@
 					"right": "Uscirò per andare al cinema"
 				},
 				{
-					"left": "Avrai ancora voglia di chiacchierare",
+					"left": "Avrai ancora voglia di chiachierare",
 					"right": "Dopo che avrai finito di fare le tue tre ore di lezione?"
 				},
 				{
@@ -303,7 +303,7 @@
 					]
 				},
 				{
-					"sentence": "A: {{0}} (andare) proprio come dici tu? Senti, quando {{1}} (finire) di raccontarmi delle storie false, me lo dirai... Ora continuo io a fare delle ipotesi. Per me è andata così: ti {{2}} forse {{3}} (mandare) un messaggio su un altro telefono che non conosciamo. {{4}} (provare) a chiamare il tuo capo, sì, perché Marino era il tuo capo, ma il telefono {{5}} (scaricarsi) e a questo punto, visto che era un'emergenza, {{6}} (dovere rischiare) con il telefono che sapevi che era sotto controllo. La chiamata è durata tre secondi. Il tempo necessario per dire al capo: ''Ti apro il portone!''. Ma ci {{7}} (mettere) troppo e lui {{8}} (entrare), ma non {{9}} (fare) in tempo a far richiudere il portone prima che il suo assassino riuscisse a finire il suo orrendo lavoro. Hai detto la verità, Antonio, ma era solo una parte della verità: Marino non è mai entrato nel tuo appartamento. Ti piace la mia storia?",
+					"sentence": "A: {{0}} (andare) proprio come dici tu? Seni, quando {{1}} (finire) di raccontarmi delle storie false, me lo dirai... Ora continuo io a fare delle ipotesi. Per me è andata così: ti {{2}} forse {{3}} (mandare) un messaggio su un altro telefono che non conosciamo. {{4}} (provare) a chiamare il tuo capo, sì, perché Marino era il tuo capo, ma il telefono {{5}} (scaricarsi) e a questo punto, visto che era un'emergenza, {{6}} (dovere rischiare) con il telefono che sapevi che era sotto controllo. La chiamata è durata tre secondi. Il tempo necessario per dire al capo: ''Ti apro il portone!''. Ma ci {{7}} (mettere) troppo e lui {{8}} (entrare), ma non {{9}} (fare) in tempo a far richuidere il portone prima che il suo assassino riuscisse a finire il suo orrendo lavoro. Hai detto la verità, Antonio, ma era solo una parte della verità: Marimo non è mai entrato nel tuo appartamento. Ti piace la mia storia?",
 					"blanks": [
 						{ "answer": "Sarà andata" },
 						{ "answer": "avrai finito" },
@@ -347,31 +347,31 @@
 					"blanks": [{ "answer": "avrai finito" }]
 				},
 				{
-					"sentence": "Che cosa {{0}} (pensare) i tuoi genitori quando mi hanno visto con i capelli fucsia?",
+					"sentence": "Che cosa {{0}} (pensare) i toui genitori quando mi hanno visto con i capelli fucsia?",
 					"blanks": [{ "answer": "avranno pensato" }]
 				},
 				{
 					"sentence": "Dopo che {{0}} (accendere) il computer, vedrò se la zia Flora mi ha mandato un messaggio.",
-					"blanks": [{ "answer": "avrò acceso" }]
+					"blanks": [{ "answer": ["avrò accesso", "avrò acceso"] }]
 				},
 				{
-					"sentence": "Signor Fellini, quando {{0}} (finire) il trattamento e {{1}} (guarire) dalla polmonite, potrà tornare a lavorare.",
+					"sentence": "Signor Fellini, quandro {{0}} (finire) il trattamento e {{1}} (guarire) dalla polmonite, potrà tornare a lavorare.",
 					"blanks": [{ "answer": "avrà finito" }, { "answer": "sarà guarito" }]
 				},
 				{
-					"sentence": "Luca, dopo che {{0}} (fare) la visita specialistica, passa dall'ambulatorio per mostrarmi i risultati.",
+					"sentence": "Luca, dopo che {{0}} (fare) la visita specialistica, passa dalla visita dall'ambulatorio per mostrrmi i risultati.",
 					"blanks": [{ "answer": "avrai fatto" }]
 				},
 				{
 					"sentence": "Quando mi {{0}} (vaccinare) contro diverse malattie, potrò ottenere il visto per entrare in Ciad.",
-					"blanks": [{ "answer": "mi sarò vaccinato" }]
+					"blanks": [{ "answer": "sarò vaccinato" }]
 				},
 				{
 					"sentence": "Immagino che il medico ti {{0}} (prescrivere) qualche medicina, vista la tosse che hai.",
 					"blanks": [{ "answer": "avrà prescritto" }]
 				},
 				{
-					"sentence": "Dopo che i medici del pronto soccorso ti {{0}} (visitare), forse ti dovranno ricoverare in ortopedia per alcuni giorni.",
+					"sentence": "Dopo che i medici del pronto soccorso ti {{0}} (visitare), forse ti drovranno ricoverate in ortopedia per alcuni giorni.",
 					"blanks": [{ "answer": "avranno visitato" }]
 				}
 			]
@@ -510,7 +510,7 @@
 				},
 				{
 					"sentence": "Domenica {{0}} (essere) brutto tempo così Gianni e Ugo {{1}} (rimanere) a casa.",
-					"blanks": [{ "answer": "era" }, { "answer": "sono rimasti" }]
+					"blanks": [{ "answer": "era" }, { "answer": ["sono rimasto", "sono rimasti"] }]
 				}
 			]
 		},
@@ -577,7 +577,7 @@
 				{
 					"sentence": "Quando i genitori di Walter {{0}} (trasferirsi) in Canada, Walter {{1}} (compiere) da poco sette anni.",
 					"blanks": [
-						{ "answer": "si sono trasferiti" },
+						{ "answer": ["si hanno trasferito", "si sono trasferiti"] },
 						{ "answer": "aveva compiuto" }
 					]
 				},
@@ -590,7 +590,7 @@
 					]
 				},
 				{
-					"sentence": "Siccome Massimo {{0}} (andare) in palestra, Silvia {{1}} (dovere) andare a prendere Nicola a scuola.",
+					"sentence": "Sicomme Massimo {{0}} (andare) in palestra, Silvia {{1}} (dovere) andare a prendere Nicola a scuola.",
 					"blanks": [{ "answer": "era andato" }, { "answer": "ha dovuto" }]
 				},
 				{
@@ -604,7 +604,7 @@
 					"sentence": "Sandra e Giovanni {{0}} (lasciarsi) da qualche mese, quando Giovanni le {{1}} (chiedere) di tornare a stare con lui.",
 					"blanks": [
 						{ "answer": "si erano lasciati" },
-						{ "answer": "ha chiesto" }
+						{ "answer": ["ha chieso", "ha chiesto"] }
 					]
 				}
 			]
@@ -644,7 +644,7 @@
 					"blanks": [{ "answer": "avevi rubata" }]
 				},
 				{
-					"sentence": "A: Marino mi pagò un ottimo avvocato, dopo che mi {{0}} (mandare) dei soldi in carcere. E io lo ringraziai e gli dissi: «Me ne ricorderò». C: E poi? A: Tutto qua. Fino a ieri sera. È vero, il mio telefono era scarico e ho usato quello con il numero che conoscete... C: Mmm, Antonio. Non ci siamo. Non funziona. Troppo facile, troppo da favola per bambini, ci manca solo il lupo cattivo e siamo a posto. Dai, ricomincia…",
+					"sentence": "A: Marino mi pagò un ottimo avvocato, dopo che mi {{0}} (mandare) soldi in carcere. E io lo ringraziai e gli dissi: «Me ne ricorderò». C: E poi? A: Tutto qua. Fino a ieri sera. È vero, il mio telefono era scarico e ho usato quello con il numero che conoscete... C: Mmm, Antonio. Non ci siamo. Non funziona. Troppo facile, troppo da favola per bambini, ci manca solo il lupo cattivo e siamo a posto. Dai, ricomincia…",
 					"blanks": [{ "answer": "aveva mandato" }]
 				}
 			]
@@ -723,7 +723,7 @@
 					]
 				},
 				{
-					"correctOrder": ["La casa", "essere", "tutta", "sporca", "allora", "l'ho pulita"]
+					"correctOrder": ["La casa", "essere", "tutta", "sporca", "allora", "l'ho polita"]
 				},
 				{
 					"correctOrder": [
@@ -792,8 +792,8 @@
 					]
 				},
 				{
-					"prompt": "Allora / tutta / essere / l'ho pulita / la casa / sporca",
-					"accepted": ["La casa era tutta sporca, allora l'ho pulita."]
+					"prompt": "Allora / tutta / essere / l'ho polita / la casa / sporca",
+					"accepted": ["La casa era tutta sporca, allora l'ho polita.", "La casa era tutta sporca, allora l'ho pulita."]
 				},
 				{
 					"prompt": "Addormentarmi / sempre / leggere / prima di / un po'",

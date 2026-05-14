@@ -11,21 +11,28 @@
 			"instructions": "Ascoltare la telefonata e completare il testo.",
 			"kind": "audio-fill",
 			"audioUrl": "/audio/it-advanced-1.m4a",
-			"contextHint": "Andrea e Luca organizzano una cena con i vecchi compagni di scuola...\n\nAndrea: Pronto? Ciao Luca, sono Andrea!\n\nAndrea: Va be', siamo a un buon punto, credo. Ci risentiamo domani.\nLuca: Ok, ciao, buona serata.",
+			"contextHint": "Andrea e Luca organizzano una cena con i vecchi compagni di scuola...\nAndrea: Pronto? Ciao Luca, sono Andrea!\nLuca: Proprio te! ___ho ______ questa mattina al lavoro. Hai prenotato il ristorante per la cena del mese prossimo?\nAndrea: Sì, _'ho ____ ieri! E tu sei riuscito a rintracciare Ilaria e Mauro che lavorano all'estero?\nLuca: Ilaria sì, _'ho _______ casualmente dai suoi invece Mauro non _'ho ancora _________.\nProverò a __________ domani. Hai contattato gli animatori e il gruppo musicale?\nAndrea: Il gruppo sì ma gli animatori sei sicuro di ___________?\nLuca: Assolutamente sì, __ho _______ all'addio al celibato di mio cugino e __ hanno ________ a fare di tutto! Sono troppo forti!\nAndrea: Ok, se __ dici tu ci credo! Hai trovato le vecchie foto di quando andavamo a scuola?\nLuca: Quasi tutte, __ mancano ancora un po'.\nAndrea: Va be', siamo a un buon punto, credo. Ci risentiamo domani.\nLuca: Ok, ciao, buona serata.",
 			"items": [
 				{
-					"sentence": "Luca: Proprio te! {{0}} questa mattina al lavoro. Hai prenotato il ristorante per la cena del mese prossimo?",
-					"blanks": [{ "answer": "Ti ho cercato" }]
-				},
-				{
-					"sentence": "Andrea: Sì, {{0}} ieri! E tu sei riuscito a rintracciare Ilaria e Mauro che lavorano all'estero?",
-					"blanks": [{ "answer": "l'ho fatto" }]
-				},
-				{
-					"sentence": "Luca: Ilaria sì, {{0}} casualmente dai suoi invece Mauro non {{1}} ancora {{2}}.",
+					"sentence": "Luca: Proprio te! {{0}} ho {{1}} questa mattina al lavoro. Hai prenotato il ristorante per la cena del mese prossimo?",
 					"blanks": [
-						{ "answer": "l'ho trovata" },
-						{ "answer": "l'ho" },
+						{ "answer": "Ti" },
+						{ "answer": "cercato" }
+					]
+				},
+				{
+					"sentence": "Andrea: Sì, {{0}} ho {{1}} ieri! E tu sei riuscito a rintracciare Ilaria e Mauro che lavorano all'estero?",
+					"blanks": [
+						{ "answer": "l'" },
+						{ "answer": "fatto" }
+					]
+				},
+				{
+					"sentence": "Luca: Ilaria sì, {{0}} ho {{1}} casualmente dai suoi invece Mauro non {{2}} ho ancora {{3}}.",
+					"blanks": [
+						{ "answer": "l'" },
+						{ "answer": "trovata" },
+						{ "answer": "l'" },
 						{ "answer": "sentito" }
 					]
 				},
@@ -34,23 +41,25 @@
 					"blanks": [{ "answer": "richiamarlo" }]
 				},
 				{
-					"sentence": "Andrea: Il gruppo si ma gli animatori sei sicuro di {{0}}?",
+					"sentence": "Andrea: Il gruppo sì ma gli animatori sei sicuro di {{0}}?",
 					"blanks": [{ "answer": "volerli" }]
 				},
 				{
-					"sentence": "Luca: Assolutamente sì, {{0}} all'addio al celibato di mio cugino e {{1}} a fare di tutto! Sono troppo forti!",
+					"sentence": "Luca: Assolutamente sì, {{0}} ho {{1}} all'addio al celibato di mio cugino e {{2}} hanno {{3}} a fare di tutto! Sono troppo forti!",
 					"blanks": [
-						{ "answer": "li ho visti" },
-						{ "answer": ["ci hanno coinvolto", "ci hanno coinvolti"] }
+						{ "answer": "li" },
+						{ "answer": "visti" },
+						{ "answer": "ci" },
+						{ "answer": ["coinvolto", "coinvolti"] }
 					]
 				},
 				{
-					"sentence": "Andrea: Ok, se {{0}} ci credo! Hai trovato le vecchie foto di quando andavamo a scuola?",
-					"blanks": [{ "answer": "lo dici tu" }]
+					"sentence": "Andrea: Ok, se {{0}} dici tu ci credo! Hai trovato le vecchie foto di quando andavamo a scuola?",
+					"blanks": [{ "answer": "lo" }]
 				},
 				{
-					"sentence": "Luca: Quasi tutte, {{0}} ancora un po'.",
-					"blanks": [{ "answer": "ne mancano" }]
+					"sentence": "Luca: Quasi tutte, {{0}} mancano ancora un po'.",
+					"blanks": [{ "answer": "ne" }]
 				}
 			]
 		},
@@ -64,13 +73,13 @@
 				"è messo",
 				"fu ucciso",
 				"è coinvolto",
-				"è stata ispirata",
+				"è stata inspirata",
 				"è stata giudicata",
 				"è basato",
 				"venne acquistato e portato",
-				"venne accompagnato",
+				"venne accopagnato",
 				"venne dato",
-				"è interpretato"
+				"è interpretatto"
 			],
 			"items": [
 				{
@@ -79,18 +88,18 @@
 				},
 				{
 					"sentence": "La commovente storia b. {{0}} da fatti realmente accaduti.",
-					"blanks": [{ "answer": "è stata ispirata" }]
+					"blanks": [{ "answer": ["è stata inspirata", "è stata ispirata"] }]
 				},
 				{
 					"sentence": "Nel 1924 un cane di razza Akita, di nome Hachiko, c. {{0}} a Tokyo da Hidesamutoh Ueno, un professore universitario che nel film d. {{1}} da Richard Gere.",
 					"blanks": [
 						{ "answer": "venne acquistato e portato" },
-						{ "answer": "è interpretato" }
+						{ "answer": ["è interpretatto", "è interpretato"] }
 					]
 				},
 				{
-					"sentence": "Tra i due cominciò un rapporto quasi magico: tutti i giorni, alla stessa ora, il cane aspettava Ueno al ritorno dal lavoro, alla stazione dei treni. Per un anno intero, Ueno e. {{0}} in stazione da Hachiko che poi lo aspettava alla sera.",
-					"blanks": [{ "answer": "venne accompagnato" }]
+					"sentence": "Tra i due cominciò un rapporto quasi magico: tutti i giorni, alla stessa ora, il cane aspettava Ueno al ritorno dal lavoro, alla stazione dei treni. Per un anno intero, Uono e. {{0}} in stazione da Hachiko che poi lo aspettava alla sera.",
+					"blanks": [{ "answer": ["venne accopagnato", "venne accompagnato"] }]
 				},
 				{
 					"sentence": "Questa relazione di amicizia continuò fino a quando Ueno f. {{0}} da un infarto improvviso.",
@@ -142,7 +151,7 @@
 					"blanks": [{ "answer": "avrebbe scritto", "hint": "scrivere" }]
 				},
 				{
-					"sentence": "Se fossi stato avvisato in tempo {{0}} (venire) anch'io.",
+					"sentence": "Se fossi stato awisato in tempo {{0}} (venire) anch'io.",
 					"blanks": [{ "answer": "sarei venuto", "hint": "venire" }]
 				},
 				{
@@ -165,7 +174,7 @@
 			"items": [
 				{
 					"prompt": "Ti piacerebbe andare al cinema domani sera?\n________________________________________________ ieri sera?",
-					"accepted": ["Ti sarebbe piaciuto andare al cinema ieri sera?"]
+					"accepted": ["Ti sarebbe piaciuto andare al cinema ieri sera."]
 				},
 				{
 					"prompt": "Penso che sarebbe meglio andare in discoteca.\n________________________________________________ ieri sera.",
@@ -176,7 +185,7 @@
 				{
 					"prompt": "L'anno prossimo l'inflazione dovrebbe essere del 5%.\nL'anno scorso ____________________________________________",
 					"accepted": [
-						"L'anno scorso l'inflazione sarebbe dovuta essere del 5%."
+						"Lanno scorso l'inflazione sarebbe dovuta essere del 5%."
 					]
 				},
 				{
@@ -636,7 +645,7 @@
 				},
 				{
 					"sentence": "f. Una settimana fa mia sorella è caduta dalla bicicletta e nostra madre temeva che {{0}}, ma per fortuna è andato tutto bene.",
-					"blanks": [{ "answer": "si fosse fatta male", "hint": "farsi male" }]
+					"blanks": [{ "answer": ["si fosse fatta", "si fosse fatta male"], "hint": "farsi male" }]
 				},
 				{
 					"sentence": "g. Ieri sembrava che gli studenti {{0}} benissimo la lezione e stamattina non si ricordava niente nessuno!",
@@ -858,7 +867,7 @@
 			"kind": "fill-blank",
 			"items": [
 				{
-					"sentence": "Credevi forse che {{0}} (io scherzare) quando ti ho detto di riordinare la tua camera? Se fra mezz'ora non è tutto in ordine stasera niente cena!",
+					"sentence": "Credevi forse che {{0}} (io scherzare) quanto ti ho detto di riordinare la tua camera? Se fra mezz'ora non è tutto in ordine stasera niente cena!",
 					"blanks": [{ "answer": "avessi scherzato", "hint": "scherzare" }]
 				},
 				{
@@ -891,7 +900,7 @@
 					]
 				},
 				{
-					"sentence": "Sembrava che in quel momento tu {{0}} (soffrire) molto, così abbiamo deciso di chiamare qualcuno che {{1}} (essere) in grado di capire che cosa ti {{2}} (succedere).",
+					"sentence": "Sembrava che in quel momento tu {{0}} (soffrire) molto, così abbiamo deciso di chiamare qualcuno che {{1}} (essere) in grado di capire che cosa ti ti {{2}} (succedere).",
 					"blanks": [
 						{ "answer": "soffrissi", "hint": "soffrire" },
 						{ "answer": "fosse", "hint": "essere" },
@@ -899,7 +908,7 @@
 					]
 				},
 				{
-					"sentence": "Nonostante voi ci {{0}} (consigliare) di non farlo, noi abbiamo deciso lo stesso di comperare una macchina usata, ma adesso ce ne siamo pentiti amaramente.",
+					"sentence": "Nonostante voi ci ci {{0}} (consigliare) di non farlo, noi abbiamo deciso lo stesso di comperare una macchina usata, ma adesso ce ne siamo pentiti amaramente.",
 					"blanks": [
 						{ "answer": "aveste consigliato", "hint": "consigliare" }
 					]
@@ -913,9 +922,10 @@
 					]
 				},
 				{
-					"sentence": "Speravamo che la nonna {{0}} (decidersi) a venire a vivere con noi, invece ha detto che preferisce stare da sola, certo che è proprio testarda!",
+					"sentence": "Speravamo che la nonna {{0}} finalmente {{1}} (decidersi) a venire a vivere con noi, invece ha detto che preferisce stare da sola, certo che è proprio testarda!",
 					"blanks": [
-						{ "answer": "si fosse finalmente decisa", "hint": "decidersi" }
+						{ "answer": "si fosse" },
+						{ "answer": "decisa", "hint": "decidersi" }
 					]
 				}
 			]

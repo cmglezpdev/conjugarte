@@ -50,7 +50,7 @@
 					"blanks": [{ "answer": "avrei conosciuto", "hint": "conoscere" }]
 				},
 				{
-					"sentence": "9. Ieri sera (io) {{0}} a casa tua, ma avevo un forte mal di testa.",
+					"sentence": "9. leri sera (io) {{0}} a casa tua, ma avevo un forte mal di testa.",
 					"blanks": [{ "answer": "sarei venuto", "hint": "venire" }]
 				},
 				{
@@ -68,13 +68,13 @@
 			"kind": "fill-blank",
 			"items": [
 				{
-					"sentence": "1. La carne rossa {{0}} sempre meno a causa del colesterolo.",
+					"sentence": "1. La carne rossa {{0}} sempre meno a causa del colesterolo",
 					"blanks": [
 						{ "answer": ["è mangiata", "viene mangiata"], "hint": "mangiare" }
 					]
 				},
 				{
-					"sentence": "2. Per i musulmani il vino non deve {{0}}.",
+					"sentence": "2. Per i musulmani il vino non deve {{0}}",
 					"blanks": [
 						{ "answer": ["essere bevuto", "venire bevuto"], "hint": "bere" }
 					]
@@ -106,7 +106,7 @@
 					"blanks": [{ "answer": "è stata approvata", "hint": "approvare" }]
 				},
 				{
-					"sentence": "7. Abbiamo sbagliato. Questa decisione non doveva {{0}}.",
+					"sentence": "7. Abbiamo sbagliato. Questa decisione non doveva {{0}}",
 					"blanks": [
 						{ "answer": ["essere presa", "venire presa"], "hint": "prendere" }
 					]
@@ -157,11 +157,11 @@
 					"blanks": [{ "answer": "siano andati", "hint": "andare" }]
 				},
 				{
-					"sentence": "5. Che fine farà il congiuntivo in italiano? Sebbene {{0}} tanti anni dall'uscita del primo film di Fantozzi.",
+					"sentence": "5. Che fine farà il congiuntivo in italiano? Sabbene {{0}} tanti anni dall'uscita del primo film di Frantozzi.",
 					"blanks": [{ "answer": "siano passati", "hint": "passare" }]
 				},
 				{
-					"sentence": "6. Infatti, credo che non ci sia un solo italiano che non {{0}} sentito questo errore almeno migliaia di volte.",
+					"sentence": "6. Infatti, credo che non ci sia un solo italiano che non {{0}} sentito questo errore almeno megliaia di volte.",
 					"blanks": [{ "answer": "abbia", "hint": "sentire" }]
 				},
 				{
@@ -195,7 +195,7 @@
 			"number": 4,
 			"title": "Completa le frasi e abbinale (passo 1/2)",
 			"instructions": "Completa le frasi e abbinale",
-			"contextHint": "Colonna A: 1. Giovanna temeva che — 2. I nostri amici non credevano che — 3. I miei fratelli pensavano — 4. Mamma vi ha telefonato perché pensava che — 5. Ero convinto che — 6. Giulia ha rimproverato i figli perché riteneva che — 7. Ho litigato con Paolo perché pensavo che\n\nColonna B: a. _____________ (lui non essere) sincero ed onesto con me — b. _____________ (loro comportarsi) male durante la cena con i parenti — c. ________________ (voi prendere) le chiavi della sua macchina — d. la mia fidanzata mi _________ (tradire) così l'ho lasciata — e. Noi _______ finalmente ________ (decidere) di sposarci — f. tu non l'____________ (invitare) perché eri arrabbiato con lei — g. io ___________ (scendere) in cantina a prendere il vino",
+			"contextHint": "Colonna A: 1. Giovanna temeva che — 2. I nostri amici non credevano che — 3. I miei fratelli pensavano — 4. Mamma vi ha telefonato perché pensava che — 5. ??? convinto che — 6. Giulia ha rimproverato i figli perché riteneva che — 7. Ho litigato con Paolo perché pensavo che\n\nColonna B: a. _____________ (lui non essere) sincero ed onesto con me — b. _____________ (loro comportarsi) male durante la cena con i parenti — c. ________________ (voi prendere) le chiavi della sua macchina — d. la mia fidanzata mi _________ (tradire) così l'ho lasciata — e. Noi _______ finalmente ________ (decidere) di sposarci — f. tu non l'____________ (invitare) perché eri arrabbiato con lei — g. io ___________ (scendere) in cantina a prendere il vino",
 			"kind": "fill-blank",
 			"items": [
 				{
@@ -213,7 +213,7 @@
 					"blanks": [{ "answer": "aveste preso", "hint": "prendere" }]
 				},
 				{
-					"sentence": "d. La mia fidanzata mi {{0}} (tradire), così l'ho lasciata.",
+					"sentence": "d. la mia fidanzata mi {{0}} (tradire), così l'ho lasciata.",
 					"blanks": [{ "answer": "avesse tradito", "hint": "tradire" }]
 				},
 				{
@@ -224,11 +224,11 @@
 					]
 				},
 				{
-					"sentence": "f. Tu non l'{{0}} (invitare) perché eri arrabbiato con lei.",
+					"sentence": "f. tu non l'{{0}} (invitare) perché eri arrabbiato con lei.",
 					"blanks": [{ "answer": "avessi invitata", "hint": "invitare" }]
 				},
 				{
-					"sentence": "g. Io {{0}} (scendere) in cantina a prendere il vino.",
+					"sentence": "g. io {{0}} (scendere) in cantina a prendere il vino.",
 					"blanks": [{ "answer": "fossi sceso", "hint": "scendere" }]
 				}
 			]
@@ -250,14 +250,14 @@
 				},
 				{
 					"left": "3. I miei fratelli pensavano",
-					"right": "g. che io fossi sceso in cantina a prendere il vino."
+					"right": "g. io fossi sceso in cantina a prendere il vino."
 				},
 				{
 					"left": "4. Mamma vi ha telefonato perché pensava che",
 					"right": "c. aveste preso le chiavi della sua macchina."
 				},
 				{
-					"left": "5. Ero convinto che",
+					"left": "5. ??? convinto che",
 					"right": "d. la mia fidanzata mi avesse tradito, così l'ho lasciata."
 				},
 				{

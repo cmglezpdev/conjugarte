@@ -220,7 +220,7 @@
 				},
 				{
 					"sentence": "Il {{0}} la crêpe de côté à la mi-cuisson. (Retourner)",
-					"blanks": [{ "answer": "a retourné" }]
+					"blanks": [{ "answer": ["a retourné", "ai retourné"] }]
 				},
 				{
 					"sentence": "{{0}}-vous {{1}} la dernière version de cette histoire ? (Aimer)",
@@ -246,7 +246,7 @@
 				{
 					"sentence": "Nous nous {{0}} toute la soirée. (Se promener)",
 					"blanks": [
-						{ "answer": ["sommes promenés", "sommes promenées"] }
+						{ "answer": ["sommes promené", "sommes promenés", "sommes promenées"] }
 					]
 				},
 				{
@@ -312,8 +312,8 @@
 					]
 				},
 				{
-					"sentence": "Ce matin, tu {{0}} vomi, ta maman {{1}} pris un rendez-vous avec ton médecin.",
-					"blanks": [{ "answer": "as" }, { "answer": "a" }]
+					"sentence": "Ce matin, tu {{0}} vomi, ta maman pris un rendez-vous avec ton médecin.",
+					"blanks": [{ "answer": "as" }]
 				},
 				{
 					"sentence": "Ce soir, maman {{0}} décidé d'aller manger au restaurant, mais papa {{1}} déjà rentré la voiture, et il est très fatigué par sa journée de travail.",
@@ -338,7 +338,7 @@
 				},
 				{
 					"sentence": "Nous {{0}} rentrés tard hier soir, mes parents, mes sœurs et moi {{1}} mangé au restaurant.",
-					"blanks": [{ "answer": "sommes" }, { "answer": "avons" }]
+					"blanks": [{ "answer": "sommes" }, { "answer": ["ont", "avons"] }]
 				},
 				{
 					"sentence": "Quand la voiture s'{{0}} garée devant la maison, le chien du voisin {{1}} sorti de sa niche et {{2}} aboyé très fort. Même le coq de la ferme s'{{3}} réveillé et il {{4}} commencé à chanter.",
@@ -404,7 +404,7 @@
 				},
 				{
 					"sentence": "La robe ? Elle l'a {{0}} (choisir).",
-					"blanks": [{ "answer": "choisie" }]
+					"blanks": [{ "answer": ["chosie", "choisie"] }]
 				},
 				{
 					"sentence": "Les chansons ? Nous les avons {{0}} (écouter).",
@@ -594,7 +594,7 @@
 			"id": "fr-basic-14",
 			"number": 14,
 			"title": "Choisis l'auxiliaire être ou avoir",
-			"instructions": "Choisis l'auxiliaire être ou avoir selon ce qui convient.",
+			"instructions": "Choisis l'auxiliaire être ou avoir selon ce qui conveint.",
 			"kind": "choice",
 			"multiple": false,
 			"items": [
@@ -629,8 +629,8 @@
 					"correct": 3
 				},
 				{
-					"prompt": "Les touristes (avaient – était – avait – étaient) visité le musée.",
-					"options": ["avaient", "était", "avait", "étaient"],
+					"prompt": "Les touristes (avaient – était – avaient – étaient) visité le musée.",
+					"options": ["avaient", "était", "avaient", "étaient"],
 					"correct": 0
 				},
 				{
@@ -751,7 +751,7 @@
 				},
 				{
 					"sentence": "On {{0}} (travailler) beaucoup avant les vacances.",
-					"blanks": [{ "answer": "avait beaucoup travaillé" }]
+					"blanks": [{ "answer": "avait travaillé" }]
 				},
 				{
 					"sentence": "Marie {{0}} (parler) avec Paul avant le cours.",
@@ -768,7 +768,7 @@
 			"number": 17,
 			"title": "Mini dialogue",
 			"instructions": "Remplissez les espaces avec le passé composé ou le plus-que-parfait.",
-			"contextHint": "Verbes proposés : choisir — visiter — finir — jouer",
+			"contextHint": "Choiser, visiter, finir, jouer",
 			"kind": "fill-blank",
 			"items": [
 				{

@@ -16,7 +16,7 @@
 					"choices": [
 						{
 							"options": ["eravamo riusciti", "siamo riusciti"],
-							"correct": 1
+							"correct": [0, 1]
 						}
 					]
 				},
@@ -133,8 +133,8 @@
 					"blanks": [{ "answer": "avrà preso" }]
 				},
 				{
-					"sentence": "Ieri sono andata dal medico perché avevo forti dolori. - Ti {{0}} una visita specialistica? O no?",
-					"blanks": [{ "answer": "avrà prescritto" }]
+					"sentence": "leri sono andata dal medico perché avevo forti dolori. - Ti {{0}} una visita specialistical O no?",
+					"blanks": [{ "answer": ["avrà rescritto", "avrà prescritto"] }]
 				},
 				{
 					"sentence": "Andrea e Maria hanno comprato una macchina bellissima. - {{0}} tantissimi soldi!",
@@ -244,7 +244,7 @@
 				{
 					"sentence": "Quando {{0}} (iniziare) il film alla TV, Sara {{1}} già {{2}} (andare) a letto da un'ora.",
 					"blanks": [
-						{ "answer": "è iniziato" },
+						{ "answer": ["è inizito", "è iniziato"] },
 						{ "answer": "era" },
 						{ "answer": "andata" }
 					]
@@ -256,7 +256,7 @@
 			"number": 4,
 			"title": "Forma passiva con essere e/o venire",
 			"instructions": "Completa le frasi con un verbo alla forma passiva con essere e/o venire. Usa i verbi indicati.",
-			"contextHint": "Verbi indicati: vendere • premiare • pubblicare • addomesticare • raccogliere • costruire • usare",
+			"contextHint": "vendere • premiare • pubblicare • addomesticare • raccogliere • costruire • usare",
 			"kind": "fill-blank",
 			"items": [
 				{
@@ -266,7 +266,7 @@
 				{
 					"sentence": "L'anno prossimo i racconti di Mariella {{0}} in un libro dove {{1}} i lavori di giovani scrittori italiani.",
 					"blanks": [
-						{ "answer": ["saranno pubblicati", "verranno pubblicati"] },
+						{ "answer": ["saranno publicati", "verranno publicati", "saranno pubblicati", "verranno pubblicati"] },
 						{ "answer": ["saranno raccolti", "verranno raccolti"] }
 					]
 				},
@@ -280,7 +280,7 @@
 				},
 				{
 					"sentence": "Questa casa {{0}} pochi anni fa.",
-					"blanks": [{ "answer": "è stata costruita" }]
+					"blanks": [{ "answer": ["è stata construita", "è stata costruita"] }]
 				},
 				{
 					"sentence": "L'anno prossimo il mio calciatore preferito non giocherà più in Italia, perché {{0}} a una squadra tedesca.",

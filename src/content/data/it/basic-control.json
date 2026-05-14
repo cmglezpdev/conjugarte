@@ -7,7 +7,7 @@
 		{
 			"id": "it-basic-control-1",
 			"number": 1,
-			"title": "Scegli tra le opzioni la corretta",
+			"title": "Scegli tra le ozzioni la corretta",
 			"instructions": "Per ogni spazio, scegli la forma corretta del passato prossimo",
 			"kind": "inline-choice",
 			"items": [
@@ -19,7 +19,7 @@
 							"correct": 0
 						},
 						{
-							"options": ["abbiamo potuto", "siamo potuto", "abbiamo potuti"],
+							"options": ["abbiamo potuto", "siamo potuto", "abiamo potuti"],
 							"correct": 0
 						}
 					]
@@ -85,7 +85,7 @@
 					]
 				},
 				{
-					"sentence": "Marcello e Carla {{0}} di cambiare casa e {{1}} un bell'appartamento in centro.",
+					"sentence": "Marcello e Carla {{0}} di cambiare casa e {{1}} un bell'appartamento in centra.",
 					"choices": [
 						{
 							"options": ["hanno deciso", "sono deciso", "sono decisi"],
@@ -98,10 +98,10 @@
 					]
 				},
 				{
-					"sentence": "{{0}} molte cose belle a Parigi. È proprio una città da visitare.",
+					"sentence": "{{0}} molte cose belle a Parigi. È proprio una citta da visitare.",
 					"choices": [
 						{
-							"options": ["Noi abbiamo visto", "Siamo visto", "Siamo visti"],
+							"options": ["noi abbiamo visto", "siamo visto", "siamo visti"],
 							"correct": 0
 						}
 					]
@@ -113,7 +113,6 @@
 							"options": [
 								"tu non hai voluto",
 								"tu non sei voluto",
-								"tu non sei voluta",
 								"tu non sei voluti"
 							],
 							"correct": 1
@@ -121,7 +120,7 @@
 					]
 				},
 				{
-					"sentence": "{{0}} venire perché ieri pomeriggio Franco e Marco {{1}} dal motorino e {{2}} loro all'ospedale.",
+					"sentence": "{{0}} venire perché ieri pomeriggio Franco e Marco {{1}} dal motorino e {{2}} loro all'ospedale. Per fortuna stanno bene tutti e due!",
 					"choices": [
 						{
 							"options": [
@@ -132,14 +131,14 @@
 							"correct": 1
 						},
 						{
-							"options": ["hanno caduto", "sono caduti", "sono caduto"],
-							"correct": 1
+							"options": ["hanno caduto", "sono caduto", "sono caduti"],
+							"correct": 2
 						},
 						{
 							"options": [
 								"io ho dovuto accompagnare",
 								"io sono dovuto accompagnare",
-								"io sono dovuti accompagnare"
+								"io sono dovuti acompagnare"
 							],
 							"correct": 0
 						}
@@ -157,7 +156,7 @@
 							"correct": 0
 						},
 						{
-							"options": ["ha risposto", "sono risposto", "sono risposta"],
+							"options": ["ho risposto", "sono risposto", "sono risposta"],
 							"correct": 0
 						}
 					]
@@ -181,7 +180,7 @@
 					]
 				},
 				{
-					"sentence": "Ieri {{0}} la porta a chiave e poi {{1}} le chiavi... così {{2}} fuori di casa e {{3}} chiamare un fabbro per rientrare!",
+					"sentence": "Ieri {{0}} la porta a chiave e poi {{1}} le chiavi... cosi {{2}} fuori di casa e {{3}} chiamare un fabbro per rientrare!",
 					"choices": [
 						{
 							"options": ["io ho chiuso", "sono chiuso", "sono chiusi"],
@@ -192,11 +191,11 @@
 							"correct": 0
 						},
 						{
-							"options": ["ho rimasto", "sono rimasto/a", "sono rimasti"],
+							"options": ["ha rimasto", "sono rimasto/a", "sono rimasti"],
 							"correct": 1
 						},
 						{
-							"options": ["ho dovuto", "sono dovuto", "sono dovuta"],
+							"options": ["ho dovuto", "sono docuto", "sono dovuta"],
 							"correct": 0
 						}
 					]
@@ -223,11 +222,11 @@
 			],
 			"items": [
 				{
-					"sentence": "Paola e Luisa {{0}} al sole in spiaggia tutta la mattina.",
+					"sentence": "Paola e luisa {{0}} al sole in spiaggia tutta la mattina.",
 					"blanks": [{ "answer": "sono state", "hint": "essere" }]
 				},
 				{
-					"sentence": "I miei amici mi {{0}} una cartolina dalla montagna, come tanti anni fa!",
+					"sentence": "I miei amici mi {{0}} una cartolina dalla montagna, come tanti anni fa! Sono anche riusciti a trovare una identica!",
 					"blanks": [{ "answer": "hanno scritto", "hint": "scrivere" }]
 				},
 				{
@@ -235,7 +234,7 @@
 					"blanks": [{ "answer": "ha pianto", "hint": "piangere" }]
 				},
 				{
-					"sentence": "Mario e Marta non {{0}} andare al mare perché faceva troppo freddo.",
+					"sentence": "Mario e Marta non {{0}} anadre al mare perché faceva troppo freddo.",
 					"blanks": [{ "answer": "sono potuti", "hint": "potere" }]
 				},
 				{
@@ -255,11 +254,11 @@
 					"blanks": [{ "answer": "è salito", "hint": "salire" }]
 				},
 				{
-					"sentence": "Che cosa {{0}} la notte scorsa? Avete una faccia così stanca!",
+					"sentence": "Che cosa {{0}} la notte scorsa? Avete una Faccia così stanca!",
 					"blanks": [{ "answer": "avete fatto", "hint": "fare" }]
 				},
 				{
-					"sentence": "Alberto mi {{0}} di uscire con lui domani, ma io non ne ho voglia.",
+					"sentence": "Alberto mi {{0}} di uscire con lui domani, ma io non ne ho voglia, perché c'è un bel film alla televisione.",
 					"blanks": [{ "answer": "ha chiesto", "hint": "chiedere" }]
 				}
 			]
@@ -267,12 +266,12 @@
 		{
 			"id": "it-basic-control-3",
 			"number": 3,
-			"title": "Completa il testo scegliendo il verbo corretto",
+			"title": "Complet il testo scegliendo il verbo corretto",
 			"instructions": "Completa il testo scegliendo il verbo corretto tra le opzioni indicate",
 			"kind": "inline-choice",
 			"items": [
 				{
-					"sentence": "Tre anni fa {{0}} in vacanza a Roma per cinque giorni. {{1}} con il mio ragazzo da Torino in treno. Poi, una coppia di amici {{2}} sul nostro treno a Bologna. {{3}} pochi vestiti nello zaino e tutti leggeri, perché quando {{4}} da Torino, c'erano 25 gradi! Quando {{5}} a Roma, faceva abbastanza freddo: non più di 17 gradi. {{6}} la vacanza sempre con la stessa felpa addosso, di giorno e di notte. Ma {{7}} molto, comunque! {{8}} chiese, monumenti e musei interessantissimi. La parte più bella {{9}} la visita a San Luigi dei Francesi e a Santa Maria del Popolo, nella piazza che ha lo stesso nome, dove {{10}} alcuni dipinti meravigliosi di Caravaggio. Quando {{11}} a Torino, {{12}} che sono nata per viaggiare e stare in vacanza.",
+					"sentence": "Tre anni fa {{0}} in vacanza a Roma per cinque giorni. {{1}} con il mio ragazzo da Torino in treno. Poi, una coppia di amici {{2}} sul nostro treno a Bologna. {{3}} pochi vestiti nello zaino e tutti leggeri, perché quando {{4}} da Torino, c'erano 25 gradi! Quando {{5}} a Roma, faceva abbastanza freddo: non più di 17 gradi. {{6}} la vacanza sempre con la stessa felpa addosso, di giorno e di notte. Ma {{7}} molto, comunque! {{8}} chiese, monumenti e musei interessantissimi. La parte più bella {{9}} la visita a San Luigi dei Francesi e a Santa Maria del Popolo, nella piazza che ha lo stesso nome, dove {{10}} alcuni dipinti, meravigliosi di Caravaggio. Quando {{11}} a Torino, {{12}} che sono nata per viaggiare e stare in vacanza. Ma chi mi dà i soldi per farlo?",
 					"choices": [
 						{ "options": ["sono andata", "sono uscita"], "correct": 0 },
 						{ "options": ["Sono partita", "ho preferito"], "correct": 0 },
@@ -301,7 +300,7 @@
 			"instructions": "Completa il racconto con il passato prossimo dei verbi del banco. Attenzione: alcuni verbi si usano più di una volta (essere ×3, vedere ×2)",
 			"kind": "fill-blank",
 			"wordBank": [
-				"fotografare",
+				"Fotografare",
 				"essere",
 				"essere",
 				"essere",
@@ -322,12 +321,12 @@
 			],
 			"items": [
 				{
-					"sentence": "L'unica volta che a. {{0}} un diario b. {{1}} tre anni fa per non dimenticare i posti meravigliosi che c. {{2}} in montagna. d. {{3}} il mio viaggio più bello! e. {{4}} nel Parco del Gran Paradiso tra Piemonte e Valle D'Aosta in estate. f. {{5}} in macchina con i miei amici: a Firenze c'erano almeno 35 gradi. Quando g. {{6}} in montagna l'aria h. {{7}} fresca e piacevole. Non i. {{8}} facile trovare il campeggio, ma quando finalmente Matteo l. {{9}} come funziona il suo navigatore, m. {{10}} che il campeggio era proprio a pochi metri. Velocissimi, n. {{11}} nel campeggio, o. {{12}} la macchina, p. {{13}} la tenda, poi q. {{14}} gli zaini e via subito: r. {{15}} la nostra prima lunghissima passeggiata. s. {{16}} piante e animali bellissimi. La sera t. {{17}} moltissime stelle.",
+					"sentence": "L'unica volta che a. {{0}} un diario b. {{1}} tre anni fa per non dimentirare i posti meravigliosi che c. {{2}} in montagna. d. {{3}} il mio viaggio più bello! e. {{4}} nel Parco del Gran Paradiso tra Piemonte e Valle D'Acosta in estate. f. {{5}} in machina con i miei amici: a Firenze c'erano almeno 35 gradi. Quando g. {{6}} in montagna l'aria h. {{7}} fresca e piecevole. Non i. {{8}} facile trovare il campeggio, ma quando finalemente Matteo l. {{9}} come funziona il suo navigatore, m. {{10}} che il campeggio era proprio a pochi metri. Velocissimi, n. {{11}} nel campeggio, o. {{12}} la macchina, p. {{13}} la tenda, poi q. {{14}} gli zaini e via subito: r. {{15}} la nostra prima lunghissima passeggiata. La parte più bella del viaggio? La notte in un refugio a più di 2000 metri! s. {{16}} piante e animali bellissimi. La sera t. {{17}} moltissime stelle: erano così vicine",
 					"blanks": [
 						{ "answer": "ho scritto", "hint": "scrivere" },
 						{ "answer": "è stato", "hint": "essere" },
 						{ "answer": "ho visitato", "hint": "visitare" },
-						{ "answer": "È stato", "hint": "essere" },
+						{ "answer": ["È strato", "È stato"], "hint": "essere" },
 						{ "answer": "sono andata", "hint": "andare" },
 						{ "answer": "Sono partita", "hint": "partire" },
 						{ "answer": "siamo arrivati", "hint": "arrivare" },

@@ -8,7 +8,7 @@
 			"id": "it-basic-1",
 			"number": 1,
 			"title": "Classifica i verbi",
-			"instructions": "Classifica i verbi in base alla fine del loro participio passato",
+			"instructions": "Classifica i verbi in base alla fine del loro participio passado",
 			"kind": "categorize",
 			"categories": [
 				"-ato",
@@ -56,7 +56,7 @@
 				{ "word": "conoscere", "category": "-uto" },
 				{ "word": "sciogliere", "category": "-lto" },
 				{ "word": "dormire", "category": "-ito" },
-				{ "word": "ammettere", "category": "-sso" },
+				{ "word": "amettere", "category": "-sso" },
 				{ "word": "condurre", "category": "-otto" },
 				{ "word": "dividere", "category": "-iso/-uso" },
 				{ "word": "credere", "category": "-uto" },
@@ -300,7 +300,7 @@
 					"prompt": "(Io) Correggo gli esercizi.",
 					"accepted": [
 						"Ho corretto gli esercizi.",
-						"Io ho corretto gli esercizi."
+						"ho corretto gli esercizi"
 					]
 				},
 				{
@@ -401,8 +401,8 @@
 				{
 					"prompt": "Spesso, in primavera visito importanti città d'arte italiane. → La scorsa primavera _____",
 					"accepted": [
-						"La scorsa primavera ho visitato importanti città d'arte italiane.",
-						"La scorsa primavera ho visitato importante città d'arte italiana."
+						"La scorsa primavera ho visitato importante città d'arte italiana",
+						"La scorsa primavera ho visitato importanti città d'arte italiane"
 					]
 				},
 				{
@@ -432,8 +432,8 @@
 				{
 					"prompt": "Per il ponte del Primo maggio prenoto una camera in un agriturismo. → L'anno scorso per il ponte del Primo maggio _____",
 					"accepted": [
-						"L'anno scorso per il ponte del Primo maggio ho prenotato una camera in agriturismo.",
-						"L'anno scorso per il ponte del Primo maggio ho prenotato una camera in un agriturismo."
+						"Ho prenotato una camera in agriturismo",
+						"Ho prenotato una camera in un agriturismo"
 					]
 				}
 			]
@@ -592,7 +592,7 @@
 					"blanks": [{ "answer": "visti", "hint": "vedere" }]
 				},
 				{
-					"sentence": "Le chiavi? Le ho {{0}} (perdere).",
+					"sentence": "Le chiave? Le ho {{0}} (perdere).",
 					"blanks": [{ "answer": "perse", "hint": "perdere" }]
 				},
 				{
@@ -687,9 +687,9 @@
 				{ "label": "4.", "sentence": "Wanda" },
 				{ "label": "5.", "sentence": "Giorgio" },
 				{ "label": "6.", "sentence": "Marta e Agnese" },
-				{ "label": "7.", "sentence": "Che (voi)" },
-				{ "label": "8.", "sentence": "Oggi (io)" },
-				{ "label": "9.", "sentence": "Che cosa (tu)" },
+				{ "label": "7.", "sentence": "Che ed" },
+				{ "label": "8.", "sentence": "Oggi" },
+				{ "label": "9.", "sentence": "Che cosa" },
 				{ "label": "10.", "sentence": "Giovanna" }
 			],
 			"right": [
@@ -705,12 +705,12 @@
 				},
 				{
 					"label": "c.",
-					"sentence": "(io - rispondere) {{0}} alla lettera di Bruno",
+					"sentence": "(io - rispondere) {{0}} alia lettera di Bruno",
 					"blanks": [{ "answer": "ho risposto", "hint": "rispondere" }]
 				},
 				{
 					"label": "d.",
-					"sentence": "(prendere) {{0}} solo un caffè.",
+					"sentence": "(prendere) {{0}} solo un caffe.",
 					"blanks": [{ "answer": "ha preso", "hint": "prendere" }]
 				},
 				{
@@ -758,7 +758,7 @@
 					"blanks": [{ "answer": "Sono arrivata", "hint": "arrivare" }]
 				},
 				{
-					"sentence": "C: Che fortuna! {{0}} (andare) anche a Porto Venere?",
+					"sentence": "C: Che fortuna! {{0}} (andare) ance a Porto Venere?",
 					"blanks": [{ "answer": "Sei andata", "hint": "andare" }]
 				},
 				{
@@ -773,7 +773,7 @@
 					"blanks": [{ "answer": ["hai fatto", "avete fatto"], "hint": "fare" }]
 				},
 				{
-					"sentence": "F: Con Massimo e due ragazzi tedeschi {{0}} (fare) diverse passeggiate sui monti sopra Monterosso. Ieri sera {{1}} (addormentarsi) alle 9 e 30. C: Che romantico! F: Senti, ti lascio. Massimo vuole fare un bagno. C: C'è chi fa il bagno e chi deve lavorare... Ciao.",
+					"sentence": "F: Con Massimo e due ragazzi tedeschi {{0}} (fare) diverse passeggiate sui monti sopra Monterosso. Ieri sera {{1}} (addormentarsi) alle 9 e 30. C: Che romantico! F: Senti, ti lascio. Massimo cuole fare un bagno. C: C'è chi fa il bagno e chi deve lavorare... Ciao.",
 					"blanks": [
 						{ "answer": "abbiamo fatto", "hint": "fare" },
 						{ "answer": "mi sono addormentata", "hint": "addormentarsi" }
@@ -819,12 +819,12 @@
 			"right": [
 				{
 					"label": "a)",
-					"sentence": "Sì, (noi - partire) {{0}} mercoledì mattina in macchina",
+					"sentence": "Sì, (noi - partire) {{0}} mercoledì mattina in maquina",
 					"blanks": [{ "answer": "siamo partiti", "hint": "partire" }]
 				},
 				{
 					"label": "b)",
-					"sentence": "Penso di no. Alla fine (loro - decidere) {{0}} di stare a casa.",
+					"sentence": "Penso di no. Alle fine (loro - decidere) {{0}} di stare a casa.",
 					"blanks": [{ "answer": "hanno deciso", "hint": "decidere" }]
 				},
 				{
@@ -839,7 +839,7 @@
 				},
 				{
 					"label": "e)",
-					"sentence": "Che freddo! Perché non (lei - rimanere) {{0}} nel rifugio",
+					"sentence": "Che freddo! Perché non (lei - rimanere) {{0}} nel rifuggio",
 					"blanks": [{ "answer": "è rimasta", "hint": "rimanere" }]
 				}
 			],

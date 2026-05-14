@@ -17,14 +17,14 @@
 				},
 				{
 					"sentence": "Hier après-midi, je (dormir) {{0}} pendant trois heures. Cases pour les réponses : {{1}}",
-					"blanks": [{ "answer": "ai dormi" }, { "answer": "A" }]
+					"blanks": [{ "answer": ["dormi", "ai dormi"] }, { "answer": "A" }]
 				},
 				{
 					"sentence": "J'écoute le CD que j'(acheter) {{0}} avant-hier. Cases pour les réponses : {{1}}",
 					"blanks": [{ "answer": "ai acheté" }, { "answer": "B" }]
 				},
 				{
-					"sentence": "Mes enfants adorent le dessin animé de Blanche-Neige, ils l'{{0}} (regarder) au moins dix fois. Cases pour les réponses : {{1}}",
+					"sentence": "Mes enfants adorent le dessin animé de Blanche-Neige, ils le {{0}} (regarder) au moins dix fois. Cases pour les réponses : {{1}}",
 					"blanks": [{ "answer": "ont regardé" }, { "answer": "D" }]
 				},
 				{
@@ -120,7 +120,7 @@
 			"number": 4,
 			"title": "Mettez les phrases en ordre",
 			"kind": "reorder",
-			"instructions": "Mettez les phrases en ordre pour reconstituer le petit récit.\n\nJ'ai allumé toutes les lampes. / Je n'étais pas très rassuré. / J'ai fermé les volets. / Il faisait noir. / Je suis sorti de mon lit. / Je dormais profondément. / J'ai regardé dehors. / Je me suis recouché. / C'étaient les volets qui claquaient. / Un bruit m'a réveillé.\n\nQuand l'orage a éclaté, je dormais profondément. _________________________________",
+			"instructions": "Mettez les phrases en ordre pour reconstituer le petit récit.\n\nJ'ai allumé toutes les lampes. / Je n'étais pas très rassuré. / J'ai fermé les volets. / Il faisait noir. / Je suis sorti de mon lit. / J'ai regardé dehors. / Je me suis recouché. / C'étaient les volets qui claquaient. / Un bruit m'a réveillé.\n\nQuand l'orage a éclaté, je dormais profondément. _________________________________",
 			"items": [
 				{
 					"correctOrder": [
@@ -398,7 +398,7 @@
 			"items": [
 				{
 					"sentence": "Les fleurs que j'ai {{0}} (acheter) sont sur la table.",
-					"blanks": [{ "answer": "achetées" }]
+					"blanks": [{ "answer": ["achetée", "achetées"] }]
 				},
 				{
 					"sentence": "Les lettres qu'elle a {{0}} (écrire) étaient très longues.",
@@ -541,7 +541,9 @@
 					"prompt": "En France, on célèbre la fête nationale le 14 juillet.",
 					"accepted": [
 						"En France, la fête nationale est célébrée le 14 juillet.",
-						"En France, la fête nationale est célébrée le 14 juillet"
+						"En France, la fête nationale est célébrée le 14 juillet",
+						"En France, le président de la République est élu au suffrage universel direct.",
+						"En France, le président de la République est élu au suffrage universel direct"
 					]
 				}
 			]

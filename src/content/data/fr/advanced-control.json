@@ -117,10 +117,10 @@
 					"blanks": [{ "answer": "rapportas" }, { "answer": "eus lues" }]
 				},
 				{
-					"sentence": "Lorsque les locataires précédents {{0}} cet appartement, nous {{1}}.",
+					"sentence": "Lorsque les locataires précédents {{0}} cet appartement, nous nous y {{1}}.",
 					"blanks": [
 						{ "answer": "eurent quitté" },
-						{ "answer": "nous nous y installâmes" }
+						{ "answer": "installâmes" }
 					]
 				},
 				{
@@ -158,7 +158,7 @@
 					]
 				},
 				{
-					"sentence": "Il lui parut normal que ces tableaux {{0}} si chers.",
+					"sentence": "Il lui parut normal que ces tableaux {{0}} si cher.",
 					"choices": [
 						{
 							"options": ["eussent été", "eurent été"],
@@ -170,8 +170,8 @@
 					"sentence": "Il était nécessaire qu'il {{0}}.",
 					"choices": [
 						{
-							"options": ["fût venu", "fut venu"],
-							"correct": 0
+							"options": ["fut venu", "fût venu"],
+							"correct": 1
 						}
 					]
 				},
@@ -215,8 +215,8 @@
 					"sentence": "Il était impossible qu'elle {{0}} avant l'aube.",
 					"choices": [
 						{
-							"options": ["fût arrivée", "fut arrivée"],
-							"correct": 0
+							"options": ["fut arrivée", "fût arrivée"],
+							"correct": 1
 						}
 					]
 				},
@@ -224,8 +224,8 @@
 					"sentence": "On ne croyait pas que vous {{0}} cette lettre vous-mêmes.",
 					"choices": [
 						{
-							"options": ["eussiez écrit", "eûtes écrit"],
-							"correct": 0
+							"options": ["eûtes écrit", "eussiez écrit"],
+							"correct": 1
 						}
 					]
 				},
@@ -244,35 +244,52 @@
 			"id": "fr-advanced-control-4",
 			"number": 4,
 			"title": "Temps composés — Bel Ami",
-			"kind": "free-text",
+			"kind": "fill-blank",
 			"instructions": "Complétez avec les temps composés manquants (participes présents composés, infinitifs composés, gérondifs composés, temps composés de l'indicatif, du subjonctif ou du conditionnel).",
 			"items": [
 				{
-					"prompt": "(...) Et il se retrouva dans la rue avec son traitement dans sa poche. Il se paya un déjeuner succulent dans un bon restaurant à prix modérés qu'il connaissait ; puis, _________________ (acheter et laisser encore) La Vie Française sur la table où il ___________ (manger), il pénétra dans plusieurs magasins où il acheta de menus objets, rien que pour les faire livrer chez lui et donner son nom : Georges Duroy. Il ajoutait : « Je suis rédacteur de La Vie Française. (...)",
-					"accepted": ["ayant encore acheté et laissé / avait mangé"]
-				},
-				{
-					"prompt": "(...) « Il faut que je fasse grande attention ; je __________________ (être) mieux pendant un mois, et me voici repris depuis quelques jours. Je ________________ (attraper) froid mardi en sortant du théâtre. »(...)",
-					"accepted": ["j'ai été / J'aurai attrapé"]
-				},
-				{
-					"prompt": "(...) Comme il regretta de _______________ (ne rien dire) ! S'il ________________ (parler) avec énergie, cela ____________________ (ne point arriver).(...)",
-					"accepted": [
-						"n'avoir rien dit / avait parlé / ne serait point arrivé"
+					"sentence": "(...) Et il se retrouva dans la rue avec son traitement dans sa poche. Il se paya un déjeuner succulent dans un bon restaurant à prix modérés qu'il connaissait ; puis, {{0}} (acheter et laisser encore) La Vie Française sur la table où il {{1}} (manger), il pénétra dans plusieurs magasins où il acheta de menus objets, rien que pour les faire livrer chez lui et donner son nom : Georges Duroy. Il ajoutait : « Je suis rédacteur de La Vie Française. (...)",
+					"blanks": [
+						{ "answer": "ayant encore acheté et laissé" },
+						{ "answer": "avait mangé" }
 					]
 				},
 				{
-					"prompt": "(...) Je vous demande pardon, monsieur, de vous déranger, mais pourriez-vous me dire à quelle époque ____________________ (être construit) ce monument ?(...)",
-					"accepted": ["a été construit"]
+					"sentence": "(...) « Il faut que je fasse grande attention ; je {{0}} (être) mieux pendant un mois, et me voici repris depuis quelques jours. Je {{1}} (attraper) froid mardi en sortant du théâtre. »(...)",
+					"blanks": [
+						{ "answer": "j'ai été" },
+						{ "answer": "j'aurai attrapé" }
+					]
 				},
 				{
-					"prompt": "(...) Ce discours, demeuré célèbre, ___________________ (servir) de thème à Du Roy pour dix articles sur la colonie algérienne, pour toute sa série interrompue lors de ses débuts au journal, et il avait soutenu énergiquement l'idée d'une expédition militaire, bien qu'il ____________________ (convaincre) qu'elle n'aurait pas lieu. Il _________________ (faire) vibrer la corde patriotique et bombardé l'Espagne avec tout l'arsenal d'arguments méprisants qu'on emploie contre les peuples dont les intérêts sont contraires aux vôtres.(...)",
-					"accepted": ["avait servi / fût convaincu / avait fait"]
+					"sentence": "(...) Comme il regretta de {{0}} (ne rien dire) ! S'il {{1}} (parler) avec énergie, cela {{2}} (ne point arriver).(...)",
+					"blanks": [
+						{ "answer": "n'avoir rien dit" },
+						{ "answer": "avait parlé" },
+						{ "answer": "ne serait point arrivé" }
+					]
 				},
 				{
-					"prompt": "(...) Un écrivaillon anonyme de La Plume, __________________ (s'en arracher) une, me cherche noise au sujet d'une vieille femme qu'il prétend ______________ (être arrêtée) par un agent des mœurs, ce que je nie. Je ______________ (voir) moi-même la dame Aubert, âgée de soixante ans au moins, et elle me _____________ (raconter) par le menu sa querelle avec un boucher, au sujet d'une pesée de côtelettes, ce qui nécessita une explication devant le commissaire de police.\n(Bel Ami, Guy de Maupassant).",
-					"accepted": [
-						"s'en étant arraché / avoir été arrêtée / ai vu / a raconté"
+					"sentence": "(...) Je vous demande pardon, monsieur, de vous déranger, mais pourriez-vous me dire à quelle époque {{0}} (être construit) ce monument ?(...)",
+					"blanks": [
+						{ "answer": "a été construit" }
+					]
+				},
+				{
+					"sentence": "(...) Ce discours, demeuré célèbre, {{0}} (servir) de thème à Du Roy pour dix articles sur la colonie algérienne, pour toute sa série interrompue lors de ses débuts au journal, et il avait soutenu énergiquement l'idée d'une expédition militaire, bien qu'il {{1}} (convaincre) qu'elle n'aurait pas lieu. Il {{2}} (faire) vibrer la corde patriotique et bombardé l'Espagne avec tout l'arsenal d'arguments méprisants qu'on emploie contre les peuples dont les intérêts sont contraires aux vôtres.(...)",
+					"blanks": [
+						{ "answer": "avait servi" },
+						{ "answer": "fût convaincu" },
+						{ "answer": "avait fait" }
+					]
+				},
+				{
+					"sentence": "(...) Un écrivaillon anonyme de La Plume, {{0}} (s'en arracher) une, me cherche noise au sujet d'une vieille femme qu'il prétend {{1}} (être arrêtée) par un agent des mœurs, ce que je nie. Je {{2}} (voir) moi-même la dame Aubert, âgée de soixante ans au moins, et elle me {{3}} (raconter) par le menu sa querelle avec un boucher, au sujet d'une pesée de côtelettes, ce qui nécessita une explication devant le commissaire de police.\n(Bel Ami, Guy de Maupassant).",
+					"blanks": [
+						{ "answer": "s'en étant arraché" },
+						{ "answer": "avoir été arrêtée" },
+						{ "answer": "ai vu" },
+						{ "answer": "a raconté" }
 					]
 				}
 			]
