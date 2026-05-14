@@ -12,7 +12,7 @@
 			"kind": "inline-choice",
 			"items": [
 				{
-					"sentence": "come mi hai richiesto, ti mando quanto {{0}} a scoprire della vita di Antonio Buzzi a Lugano.",
+					"sentence": "Caro Pasquale, come mi hai richiesto, ti mando quanto {{0}} a scoprire della vita di Antonio Buzzi a Lugano.",
 					"choices": [
 						{
 							"options": ["eravamo riusciti", "siamo riusciti"],
@@ -24,7 +24,7 @@
 					"sentence": "Il Buzzi {{0}} da poco in Svizzera, quando un collega fuori servizio lo {{1}} mentre {{2}} di aprire una macchina.",
 					"choices": [
 						{
-							"options": ["arrivo", "era arrivato"],
+							"options": ["arrivò", "era arrivato"],
 							"correct": 1
 						},
 						{
@@ -72,7 +72,7 @@
 					]
 				},
 				{
-					"sentence": "{{0}} a non capire molto e a stare attenti a quello che {{1}} il Buzzi.",
+					"sentence": "{{0}} a non capire molto e a stare attenti a quello che {{1}} il Buzzi. Per un anno circa non successe nulla.",
 					"choices": [
 						{
 							"options": ["Avevamo cominciato", "Abbiamo cominciato"],
@@ -85,20 +85,20 @@
 					]
 				},
 				{
-					"sentence": "Poi un giorno fermammo un'auto a un posto di blocco e dentro {{0}} il Buzzi con due uomini, che {{1}} già qualche anno prima, appartenenti al clan dei Marino.",
+					"sentence": "Poi un giorno fermammo un'auto a un posto di blocco e dentro {{0}} il Buzzi con due uomini, che {{1}} qualche anno prima, appartenenti al clan dei Marino.",
 					"choices": [
 						{
 							"options": ["avevamo trovato", "abbiamo trovato"],
 							"correct": 1
 						},
 						{
-							"options": ["avevamo già arrestato", "arrestavamo"],
+							"options": ["avevamo già arrestato", "arrestavamo già"],
 							"correct": 0
 						}
 					]
 				},
 				{
-					"sentence": "Oggi, indagando su tua richiesta, {{0}} che il Buzzi {{1}} il lavoro di barista tre giorni dopo che lo {{2}} in auto con i due mafiosi.",
+					"sentence": "Da quel giorno, il Buzzi non fu più visto a Lugano. Oggi, indagando su tua richiesta, {{0}} che il Buzzi {{1}} il lavoro di barista tre giorni dopo che lo {{2}} in auto con i due mafiosi.",
 					"choices": [
 						{
 							"options": ["abbiamo scoperto", "avevamo scoperto"],
@@ -121,19 +121,8 @@
 			"number": 2,
 			"title": "Futuro anteriore — completare con verbi indicati",
 			"instructions": "Completa le frasi con uno dei verbi indicati al futuro anteriore.",
+			"contextHint": "Verbi indicati: prescrivere — studiare — inviare — prendere — finire — trovare — arrivare — mettere — pensare — spendere",
 			"kind": "fill-blank",
-			"wordBank": [
-				"prescrivere",
-				"studiare",
-				"inviare",
-				"prendere",
-				"finire",
-				"trovare",
-				"arrivare",
-				"mettere",
-				"pensare",
-				"spendere"
-			],
 			"items": [
 				{
 					"sentence": "Non appena Angela {{0}} di fare la doccia, mi telefonerà.",
@@ -267,16 +256,8 @@
 			"number": 4,
 			"title": "Forma passiva con essere e/o venire",
 			"instructions": "Completa le frasi con un verbo alla forma passiva con essere e/o venire. Usa i verbi indicati.",
+			"contextHint": "Verbi indicati: vendere • premiare • pubblicare • addomesticare • raccogliere • costruire • usare",
 			"kind": "fill-blank",
-			"wordBank": [
-				"vendere",
-				"premiare",
-				"pubblicare",
-				"addomesticare",
-				"raccogliere",
-				"costruire",
-				"usare"
-			],
 			"items": [
 				{
 					"sentence": "Ieri Mariella {{0}} per i suoi racconti.",

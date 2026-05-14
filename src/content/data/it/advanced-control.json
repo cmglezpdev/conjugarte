@@ -8,20 +8,9 @@
 			"id": "it-advanced-control-1",
 			"number": 1,
 			"title": "Completa le frasi con uno dei verbi indicati al condizionale composto",
-			"instructions": "Completa le frasi con uno dei verbi indicati al condizionale composto. Verbi: dovere – volere – superare – conoscere – esserci – andare – venire – piacere – partire – perdere.",
+			"instructions": "Completa le frasi con uno dei verbi indicati al condizionale composto.",
+			"contextHint": "Dovere – volere – superare – conoscere – esserci – andare – venire – piacere – partire – perdere",
 			"kind": "fill-blank",
-			"wordBank": [
-				"dovere",
-				"volere",
-				"superare",
-				"conoscere",
-				"esserci",
-				"andare",
-				"venire",
-				"piacere",
-				"partire",
-				"perdere"
-			],
 			"items": [
 				{
 					"sentence": "1. Pensavo che Ursula {{0}} facilmente l'esame di italiano.",
@@ -41,7 +30,12 @@
 				},
 				{
 					"sentence": "5. Due giorni fa pensavo che (tu) {{0}} per Parigi, ma ti vedo ancora qui!",
-					"blanks": [{ "answer": "saresti partito/partita", "hint": "partire" }]
+					"blanks": [
+						{
+							"answer": ["saresti partito", "saresti partita"],
+							"hint": "partire"
+						}
+					]
 				},
 				{
 					"sentence": "6. Secondo quanto dicono i giornali, ieri notte in città {{0}} tre rapine.",
@@ -69,20 +63,9 @@
 			"id": "it-advanced-control-2",
 			"number": 2,
 			"title": "Completa le frasi con un verbo alla forma passiva",
-			"instructions": "Completa le frasi con un verbo alla forma passiva (con essere e venire oppure andare). Usa i verbi indicati: costruire – bere – approvare – mangiare – arrestare – comprare – giudicare – vedere – aprire – prendere.",
+			"instructions": "Completa le frasi con un verbo alla forma passiva (con essere e venire oppure andare). Usa i verbi indicati.",
+			"contextHint": "Costruire – bere – approvare – mangiare – arrestare – comprare – giudicare – vedere – aprire – prendere",
 			"kind": "fill-blank",
-			"wordBank": [
-				"costruire",
-				"bere",
-				"approvare",
-				"mangiare",
-				"arrestare",
-				"comprare",
-				"giudicare",
-				"vedere",
-				"aprire",
-				"prendere"
-			],
 			"items": [
 				{
 					"sentence": "1. La carne rossa {{0}} sempre meno a causa del colesterolo.",
@@ -153,27 +136,16 @@
 			"id": "it-advanced-control-3",
 			"number": 3,
 			"title": "Completa le frasi con un verbo del riquadro al congiuntivo passato",
-			"instructions": "Completa le frasi con un verbo del riquadro al congiuntivo passato. Verbi: andare – partire – sbagliare – essere – succedere – fare – conoscersi – passare – abituare – sentire.",
+			"instructions": "Completa le frasi con un verbo del riquadro al congiuntivo passato.",
+			"contextHint": "andare – partire – sbagliare – essere – succedere – fare – conoscersi – passare – abituare – sentire",
 			"kind": "fill-blank",
-			"wordBank": [
-				"andare",
-				"partire",
-				"sbagliare",
-				"essere",
-				"succedere",
-				"fare",
-				"conoscersi",
-				"passare",
-				"abituare",
-				"sentire"
-			],
 			"items": [
 				{
 					"sentence": "1. Guarda, qualcuno ha rovesciato il vaso dei fiori. Penso che {{0}} il gatto.",
 					"blanks": [{ "answer": "sia stato", "hint": "essere" }]
 				},
 				{
-					"sentence": "2. Mi auguro che Matteo si trovi bene a Berlino. Credo che {{0}} la scelta giusta.",
+					"sentence": "2. Mi auguro che Matteo si trovi bene a Berlino. Credo che {{0}} la scelta giusta. Erano tre anni che cercava un lavoro adatto alle sue qualità.",
 					"blanks": [{ "answer": "abbia fatto", "hint": "fare" }]
 				},
 				{
@@ -190,7 +162,7 @@
 				},
 				{
 					"sentence": "6. Infatti, credo che non ci sia un solo italiano che non {{0}} sentito questo errore almeno migliaia di volte.",
-					"blanks": [{ "answer": "abbia sentito", "hint": "sentire" }]
+					"blanks": [{ "answer": "abbia", "hint": "sentire" }]
 				},
 				{
 					"sentence": "7. Ma è probabile che non sia così e che ormai tanti, troppi si {{0}} a questo uso sbagliato del congiuntivo.",
@@ -219,39 +191,82 @@
 			]
 		},
 		{
-			"id": "it-advanced-control-4",
+			"id": "it-advanced-control-4a",
 			"number": 4,
-			"title": "Completa le frasi e abbinale",
-			"instructions": "Completa le frasi con il verbo al congiuntivo trapassato e abbinale alla colonna corrispondente.",
+			"title": "Completa le frasi e abbinale (passo 1/2)",
+			"instructions": "Completa le frasi e abbinale",
+			"contextHint": "Colonna A: 1. Giovanna temeva che — 2. I nostri amici non credevano che — 3. I miei fratelli pensavano — 4. Mamma vi ha telefonato perché pensava che — 5. Ero convinto che — 6. Giulia ha rimproverato i figli perché riteneva che — 7. Ho litigato con Paolo perché pensavo che\n\nColonna B: a. _____________ (lui non essere) sincero ed onesto con me — b. _____________ (loro comportarsi) male durante la cena con i parenti — c. ________________ (voi prendere) le chiavi della sua macchina — d. la mia fidanzata mi _________ (tradire) così l'ho lasciata — e. Noi _______ finalmente ________ (decidere) di sposarci — f. tu non l'____________ (invitare) perché eri arrabbiato con lei — g. io ___________ (scendere) in cantina a prendere il vino",
+			"kind": "fill-blank",
+			"items": [
+				{
+					"sentence": "a. {{0}} (lui non essere) sincero ed onesto con me.",
+					"blanks": [{ "answer": "non fosse stato", "hint": "essere" }]
+				},
+				{
+					"sentence": "b. {{0}} (loro comportarsi) male durante la cena con i parenti.",
+					"blanks": [
+						{ "answer": "si fossero comportati", "hint": "comportarsi" }
+					]
+				},
+				{
+					"sentence": "c. {{0}} (voi prendere) le chiavi della sua macchina.",
+					"blanks": [{ "answer": "aveste preso", "hint": "prendere" }]
+				},
+				{
+					"sentence": "d. La mia fidanzata mi {{0}} (tradire), così l'ho lasciata.",
+					"blanks": [{ "answer": "avesse tradito", "hint": "tradire" }]
+				},
+				{
+					"sentence": "e. Noi {{0}} finalmente {{1}} (decidere) di sposarci.",
+					"blanks": [
+						{ "answer": "avessimo" },
+						{ "answer": "deciso", "hint": "decidere" }
+					]
+				},
+				{
+					"sentence": "f. Tu non l'{{0}} (invitare) perché eri arrabbiato con lei.",
+					"blanks": [{ "answer": "avessi invitata", "hint": "invitare" }]
+				},
+				{
+					"sentence": "g. Io {{0}} (scendere) in cantina a prendere il vino.",
+					"blanks": [{ "answer": "fossi sceso", "hint": "scendere" }]
+				}
+			]
+		},
+		{
+			"id": "it-advanced-control-4b",
+			"number": 4,
+			"title": "Abbina le frasi (passo 2/2)",
+			"instructions": "Completa le frasi e abbinale",
 			"kind": "match",
 			"pairs": [
 				{
-					"left": "Giovanna temeva che",
-					"right": "tu non l'avessi invitata perché eri arrabbiato con lei."
+					"left": "1. Giovanna temeva che",
+					"right": "f. tu non l'avessi invitata perché eri arrabbiato con lei."
 				},
 				{
-					"left": "I nostri amici non credevano che",
-					"right": "avessimo deciso finalmente di sposarci."
+					"left": "2. I nostri amici non credevano che",
+					"right": "e. noi avessimo finalmente deciso di sposarci."
 				},
 				{
-					"left": "I miei fratelli pensavano",
-					"right": "che io fossi sceso in cantina a prendere il vino."
+					"left": "3. I miei fratelli pensavano",
+					"right": "g. che io fossi sceso in cantina a prendere il vino."
 				},
 				{
-					"left": "Mamma vi ha telefonato perché pensava che",
-					"right": "aveste preso le chiavi della sua macchina."
+					"left": "4. Mamma vi ha telefonato perché pensava che",
+					"right": "c. aveste preso le chiavi della sua macchina."
 				},
 				{
-					"left": "Ero convinto che",
-					"right": "la mia fidanzata mi avesse tradito, così l'ho lasciata."
+					"left": "5. Ero convinto che",
+					"right": "d. la mia fidanzata mi avesse tradito, così l'ho lasciata."
 				},
 				{
-					"left": "Giulia ha rimproverato i figli perché riteneva che",
-					"right": "si fossero comportati male durante la cena con i parenti."
+					"left": "6. Giulia ha rimproverato i figli perché riteneva che",
+					"right": "b. si fossero comportati male durante la cena con i parenti."
 				},
 				{
-					"left": "Ho litigato con Paolo perché pensavo che",
-					"right": "non fosse stato sincero ed onesto con me."
+					"left": "7. Ho litigato con Paolo perché pensavo che",
+					"right": "a. lui non fosse stato sincero ed onesto con me."
 				}
 			]
 		}

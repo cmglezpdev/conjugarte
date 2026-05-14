@@ -8,38 +8,9 @@
 			"id": "it-intermediate-1",
 			"number": 1,
 			"title": "Passato prossimo — completare",
-			"instructions": "Completa con i verbi giusti al PASSATO PROSSIMO. Nota: alcuni verbi della lista (Mangiare, Andare, Rispondere, Arrivare, Essere, Dovere) compaiono più di una volta perché si usano in più frasi.",
+			"instructions": "Completa con i verbi giusti al PASSATO PROSSIMO",
+			"contextHint": "Verbi: Arrivare, Dimenticare, Dovere, Mettere, Studiare, Rispondere, Spendere, Vedere, Mangiare, Esagerare, Cominciare, Arrivare, Chiamare, Andare, Succedere, Perdere, Mangiare, Vincere, Rispondere, Essere, Non potere, Telefonare, Bere, Fare, Andare, Andare, dovere, essere",
 			"kind": "fill-blank",
-			"wordBank": [
-				"Arrivare",
-				"Vedere",
-				"Succedere",
-				"Telefonare",
-				"Dimenticare",
-				"Mangiare",
-				"Perdere",
-				"Bere",
-				"Dovere",
-				"Esagerare",
-				"Mangiare",
-				"Fare",
-				"Mettere",
-				"Cominciare",
-				"Vincere",
-				"Andare",
-				"Studiare",
-				"Arrivare",
-				"Rispondere",
-				"Andare",
-				"Rispondere",
-				"Chiamare",
-				"Essere",
-				"dovere",
-				"Spendere",
-				"Andare",
-				"Non potere",
-				"essere"
-			],
 			"items": [
 				{
 					"sentence": "Ma quanti cucchiaini di zucchero {{0}} (tu) nel caffè?",
@@ -163,7 +134,7 @@
 					]
 				},
 				{
-					"sentence": "C: Ieri alle 8.45 il tuo cellulare si {{0}} alla cella del ripetitore della tua strada e {{1}} questo numero. Mi {{2}} (dire) che non sai di chi è e che tu non {{3}} (fare) chiamate. Chi {{4}}? Chi {{5}} a trovarti alle 9 mentre tu {{6}} la televisione? La tua vicina del primo piano {{7}} un uomo di circa 50 anni che {{8}} correndo nell'edificio.",
+					"sentence": "C: Ieri alle 8.45 il tuo cellulare si {{0}} (collegare) alla cella del ripetitore della tua strada e {{1}} (chiamare) questo numero. Mi {{2}} (dire) che non sai di chi è e che tu non {{3}} (fare) chiamate. Chi {{4}} (essere)? Chi {{5}} (venire) a trovarti alle 9 mentre tu {{6}} (guardare) la televisione? La tua vicina del primo piano {{7}} (vedere) un uomo di circa 50 anni che {{8}} (entrare) correndo nell'edificio.",
 					"blanks": [
 						{ "answer": "è collegato" },
 						{ "answer": "ha chiamato" },
@@ -177,7 +148,7 @@
 					]
 				},
 				{
-					"sentence": "A: Non lo so. Da me non {{0}} nessuno. Quando {{1}} la partita {{2}} una doccia e {{3}} a letto. Non so nient'altro. E questa mattina {{4}} voi a prendermi mentre {{5}} e non so ancora per quale motivo.",
+					"sentence": "A: Non lo so. Da me non {{0}} (venire) nessuno. Quando {{1}} (finire) la partita {{2}} (fare) una doccia e {{3}} (andare) a letto. Non so nient'altro. E questa mattina {{4}} (venire) voi a prendermi mentre {{5}} (dormire) e non so ancora per quale motivo.",
 					"blanks": [
 						{ "answer": "è venuto" },
 						{ "answer": "è finita" },
@@ -188,7 +159,7 @@
 					]
 				},
 				{
-					"sentence": "C: Quell'uomo {{0}} un boss che {{1}} da anni, il tuo cellulare {{2}} un numero e subito dopo lui {{3}} ma da lì non {{4}} vivo.",
+					"sentence": "C: Quell'uomo {{0}} (essere) un boss che {{1}} (noi - cercare) da anni, il tuo cellulare {{2}} (chiamare) un numero e subito dopo lui {{3}} (arrivare) ma da lì non {{4}} (uscire) vivo.",
 					"blanks": [
 						{ "answer": "era" },
 						{ "answer": "cercavamo" },
@@ -203,7 +174,7 @@
 			"id": "it-intermediate-3a",
 			"number": 3,
 			"title": "Futuro anteriore — coniugare (passo 1/2)",
-			"instructions": "Coniuga al FUTURO ANTERIORE i verbi tra parentesi. Nel passo successivo abbinerai ogni frase con la sua continuazione.",
+			"instructions": "Abbina le frasi della colonna di sinistra con quelle della colonna di destra e completa le frasi con le forme al FUTURO ANTERIORE",
 			"kind": "fill-blank",
 			"items": [
 				{
@@ -211,16 +182,16 @@
 					"blanks": [{ "answer": "avrò finito" }]
 				},
 				{
-					"sentence": "Dopo che {{0}} (finire) di fare le tue tre ore di lezione?",
-					"blanks": [{ "answer": "avrai finito" }]
+					"sentence": "Quando Antonio {{0}} (dire) tutta la verità...",
+					"blanks": [{ "answer": "avrà detto" }]
 				},
 				{
 					"sentence": "Appena mi {{0}} (tornare) in mente...",
 					"blanks": [{ "answer": "sarà tornato" }]
 				},
 				{
-					"sentence": "Quando Antonio {{0}} (dire) tutta la verità...",
-					"blanks": [{ "answer": "avrà detto" }]
+					"sentence": "Dopo che {{0}} (finire) di fare le tue tre ore di lezione?",
+					"blanks": [{ "answer": "avrai finito" }]
 				}
 			]
 		},
@@ -228,28 +199,28 @@
 			"id": "it-intermediate-3b",
 			"number": 3,
 			"title": "Futuro anteriore — abbinare (passo 2/2)",
-			"instructions": "Ora abbina ogni frase della colonna A (con il verbo già coniugato) con la sua continuazione nella colonna B.",
+			"instructions": "Abbina le frasi della colonna di sinistra con quelle della colonna di destra e completa le frasi con le forme al FUTURO ANTERIORE",
 			"kind": "match",
 			"pairs": [
 				{
 					"left": "Dopo che avrò finito di cenare",
-					"right": "Deciderò se andare alla riunione o subito a letto"
+					"right": "Uscirò per andare al cinema"
 				},
 				{
-					"left": "Dopo che avrai finito di fare le tue tre ore di lezione?",
-					"right": "Avrai ancora voglia di chiacchierare"
-				},
-				{
-					"left": "Appena mi sarà tornato in mente",
-					"right": "Ti dirò il titolo del libro che ho letto"
+					"left": "Avrai ancora voglia di chiacchierare",
+					"right": "Dopo che avrai finito di fare le tue tre ore di lezione?"
 				},
 				{
 					"left": "Sono stanchissima. Dopo che mi sarò fatta una doccia",
-					"right": "Uscirò per andare al cinema"
+					"right": "Deciderò se andare alla riunione o subito a letto"
 				},
 				{
 					"left": "Mario è andato al centro commerciale e",
 					"right": "Come solito avrà molti soldi"
+				},
+				{
+					"left": "Ti dirò il titolo del libro che ho letto",
+					"right": "Appena mi sarà tornato in mente"
 				},
 				{
 					"left": "Quando Antonio avrà detto tutta la verità",
@@ -261,36 +232,58 @@
 			"id": "it-intermediate-4",
 			"number": 4,
 			"title": "Futuro anteriore — riformulare",
-			"instructions": "Riformulare le frasi con i verbi al FUTURO ANTERIORE. Esempio: Prima incontrerò Fabrizio e poi vedrò Laura. → Dopo che avrò incontrato Fabrizio, vedrò Laura.",
+			"instructions": "Riformulare le frasi con i verbi al FUTURO ANTERIORE",
+			"contextHint": "Esempio: Prima incontrerò Fabrizio e poi vedrò Laura.\nDopo che avrò incontrato Fabrizio, vedrò Laura.",
 			"kind": "fill-blank",
 			"items": [
 				{
-					"sentence": "Dopo che {{0}}, partiremo per Londra.",
-					"blanks": [{ "answer": "avremo visitato Parigi" }]
+					"sentence": "Prima visiteremo Parigi e poi partiremo per Londra. Dopo che {{0}}, {{1}}.",
+					"blanks": [
+						{ "answer": "avremo visitato Parigi" },
+						{ "answer": "partiremo per Londra" }
+					]
 				},
 				{
-					"sentence": "Quando {{0}}, andrò al cinema.",
-					"blanks": [{ "answer": "avrò finito di studiare" }]
+					"sentence": "Prima finirò di studiare, poi andrò al cinema. Quando {{0}}, {{1}}.",
+					"blanks": [
+						{ "answer": "avrò finito di studiare" },
+						{ "answer": "andrò al cinema" }
+					]
 				},
 				{
-					"sentence": "Appena {{0}}, saprò quanto posso spendere.",
-					"blanks": [{ "answer": "avrò fatto i conti" }]
+					"sentence": "Prima farò i conti e poi saprò quanto posso spendere. Appena {{0}}, {{1}}.",
+					"blanks": [
+						{ "answer": "avrò fatto i conti" },
+						{ "answer": "saprò quanto potrò spendere" }
+					]
 				},
 				{
-					"sentence": "Dopo che {{0}}, faremo il bagno.",
-					"blanks": [{ "answer": "avremo fatto un giro in bicicletta" }]
+					"sentence": "Prima andremo a fare un giro in bicicletta e poi faremo il bagno. Dopo che {{0}}, {{1}}.",
+					"blanks": [
+						{ "answer": "avremo fatto un giro in bicicletta" },
+						{ "answer": "faremo il bagno" }
+					]
 				},
 				{
-					"sentence": "Dopo che {{0}}, visiterò l'Acropoli.",
-					"blanks": [{ "answer": "sarò arrivato ad Atene" }]
+					"sentence": "Prima arriverò ad Atene e poi visiterò l'Acropoli. Dopo che {{0}}, {{1}}.",
+					"blanks": [
+						{ "answer": "sarò arrivato ad Atene" },
+						{ "answer": "visiterò l'Acropoli" }
+					]
 				},
 				{
-					"sentence": "Quando {{0}}, andrò a letto.",
-					"blanks": [{ "answer": "avrò finito di studiare" }]
+					"sentence": "Prima finirò di studiare e poi andrò a letto. Quando {{0}}, {{1}}.",
+					"blanks": [
+						{ "answer": "avrò finito di studiare" },
+						{ "answer": "andrò a letto" }
+					]
 				},
 				{
-					"sentence": "Appena {{0}}, verrò da te.",
-					"blanks": [{ "answer": "avrò parlato con Maria" }]
+					"sentence": "Prima parlerò con Maria e dopo verrò da te. Appena {{0}}, {{1}}.",
+					"blanks": [
+						{ "answer": "avrò parlato con Maria" },
+						{ "answer": "verrò da te" }
+					]
 				}
 			]
 		},
@@ -302,7 +295,7 @@
 			"kind": "fill-blank",
 			"items": [
 				{
-					"sentence": "A: Commissario, {{0}} (andare) a casa di altri, non a casa mia. {{1}} (loro - entrare) nel palazzo e gli {{2}} (loro - sparare) lì, ma io non so nulla.",
+					"sentence": "C: Allora, riprendiamo. Ti ricordo che sono già le due e mezza di notte. Vittorio Marino non è uscito vivo da casa tua. L'abbiamo trovato, morto, nel cortile. Ti conviene cominciare a dirci cos'è successo. A: Commissario, {{0}} (andare) a casa di altri, non a casa mia. {{1}} (loro - entrare) nel palazzo e gli {{2}} (loro - sparare) lì, ma io non so nulla.",
 					"blanks": [
 						{ "answer": "sarà andato" },
 						{ "answer": "Saranno entrati" },
@@ -310,7 +303,7 @@
 					]
 				},
 				{
-					"sentence": "A: {{0}} (andare) propio come dici tu? Senti, quando {{1}} (tu - finire) di raccontarmi delle storie false, me lo dirai... Per me è andata così: ti {{2}} forse {{3}} (mandare) un messaggio su un altro telefono. {{4}} (tu - provare) a chiamare il tuo capo ma il telefono {{5}} e a questo punto {{6}} (dovere rischiare) con il telefono che sapevi che era sotto controllo. Ma ci {{7}} troppo e lui {{8}}, ma non {{9}} in tempo prima che il suo assassino riuscisse a finire il suo orrendo lavoro.",
+					"sentence": "A: {{0}} (andare) proprio come dici tu? Senti, quando {{1}} (finire) di raccontarmi delle storie false, me lo dirai... Ora continuo io a fare delle ipotesi. Per me è andata così: ti {{2}} forse {{3}} (mandare) un messaggio su un altro telefono che non conosciamo. {{4}} (provare) a chiamare il tuo capo, sì, perché Marino era il tuo capo, ma il telefono {{5}} (scaricarsi) e a questo punto, visto che era un'emergenza, {{6}} (dovere rischiare) con il telefono che sapevi che era sotto controllo. La chiamata è durata tre secondi. Il tempo necessario per dire al capo: ''Ti apro il portone!''. Ma ci {{7}} (mettere) troppo e lui {{8}} (entrare), ma non {{9}} (fare) in tempo a far richiudere il portone prima che il suo assassino riuscisse a finire il suo orrendo lavoro. Hai detto la verità, Antonio, ma era solo una parte della verità: Marino non è mai entrato nel tuo appartamento. Ti piace la mia storia?",
 					"blanks": [
 						{ "answer": "Sarà andata" },
 						{ "answer": "avrai finito" },
@@ -375,7 +368,7 @@
 				},
 				{
 					"sentence": "Immagino che il medico ti {{0}} (prescrivere) qualche medicina, vista la tosse che hai.",
-					"blanks": [{ "answer": "ti avrà prescritto" }]
+					"blanks": [{ "answer": "avrà prescritto" }]
 				},
 				{
 					"sentence": "Dopo che i medici del pronto soccorso ti {{0}} (visitare), forse ti dovranno ricoverare in ortopedia per alcuni giorni.",
@@ -436,7 +429,8 @@
 			"id": "it-intermediate-8",
 			"number": 8,
 			"title": "Passato prossimo — modali con riflessivi",
-			"instructions": "Completare con i verbi al PASSATO PROSSIMO. Esempio: Ieri mattina Marco si è dovuto alzare / ha dovuto alzarsi alle cinque.",
+			"instructions": "Completare con i verbi al PASSATO PROSSIMO",
+			"contextHint": "Esempio: Ieri mattina Marco (dovere alzarsi) alle cinque.\nIeri mattina Marco si è dovuto alzare / ha dovuto alzarsi alle cinque.",
 			"kind": "fill-blank",
 			"items": [
 				{
@@ -623,11 +617,11 @@
 			"kind": "fill-blank",
 			"items": [
 				{
-					"sentence": "C: Bene, Antonio. Mi {{0}} (dire) che non ne sapevi niente, poi mi hai giurato di dirmi tutta la verità.",
+					"sentence": "C: Bene, Antonio. Mi {{0}} (dire) che non ne sapevi niente, poi mi hai giurato di dirmi tutta la verità. Una nuova verità. Sono tutto orecchi, forza...",
 					"blanks": [{ "answer": "avevi detto" }]
 				},
 				{
-					"sentence": "A: Commissario, tutto iniziò dopo che {{0}} (rientrare) dalla Svizzera, dove {{1}} (abitare) per tre anni. In Svizzera {{2}} (lavorare) con un compaesano di Marino che mi {{3}} (dare) un pacchetto da portare a Roma.",
+					"sentence": "A: Commissario, tutto iniziò dopo che {{0}} (rientrare) dalla Svizzera, dove {{1}} (abitare) per tre anni. In Svizzera {{2}} (lavorare) con un compaesano di Marino che mi {{3}} (dare) un pacchetto da portare a Roma. Un favore, nient'altro che un favore.",
 					"blanks": [
 						{ "answer": "ero rientrato" },
 						{ "answer": "avevo abitato" },
@@ -636,7 +630,7 @@
 					]
 				},
 				{
-					"sentence": "Io non {{0}} (chiedere) niente. Io non {{1}} mai {{2}} (avere) problemi con la polizia e non volevo averne. Qualche anno dopo, dopo che mi {{3}} (arrestare) perché {{4}} (prendere) in prestito un'auto...",
+					"sentence": "Io non {{0}} (chiedere) niente e lui non mi aveva detto niente, ma quando venne Marino in persona a prendere il pacchetto e lo aprì davanti a me, capii tutto. Era droga. Io non {{1}} mai {{2}} (avere) problemi con la polizia e non volevo averne. Marino mi disse: «Grazie, me ne ricorderò». E se ne andò. Qualche anno dopo, dopo che mi {{3}} (arrestare) perché {{4}} (prendere) in prestito un'auto...",
 					"blanks": [
 						{ "answer": "avevo chiesto" },
 						{ "answer": "avevo" },
@@ -650,7 +644,7 @@
 					"blanks": [{ "answer": "avevi rubata" }]
 				},
 				{
-					"sentence": "A: Marino mi pagò un ottimo avvocato, dopo che mi {{0}} (mandare) dei soldi in carcere.",
+					"sentence": "A: Marino mi pagò un ottimo avvocato, dopo che mi {{0}} (mandare) dei soldi in carcere. E io lo ringraziai e gli dissi: «Me ne ricorderò». C: E poi? A: Tutto qua. Fino a ieri sera. È vero, il mio telefono era scarico e ho usato quello con il numero che conoscete... C: Mmm, Antonio. Non ci siamo. Non funziona. Troppo facile, troppo da favola per bambini, ci manca solo il lupo cattivo e siamo a posto. Dai, ricomincia…",
 					"blanks": [{ "answer": "aveva mandato" }]
 				}
 			]
@@ -659,39 +653,39 @@
 			"id": "it-intermediate-13a",
 			"number": 13,
 			"title": "Riordinare le frasi (passo 1/2)",
-			"instructions": "Metti le parole nell'ordine giusto per formare una frase al PRESENTE. Nel passo successivo volgerai ogni frase al passato.",
+			"instructions": "Mettere le frasi nell'ordine giusto e poi volgere al passato",
 			"kind": "reorder",
 			"items": [
 				{
 					"correctOrder": [
 						"Luigi",
-						"incontra",
+						"incontrare",
 						"Rita",
 						"quando",
-						"va",
+						"andare",
 						"all'università"
 					]
 				},
 				{
 					"correctOrder": [
 						"Mentre",
-						"scendo",
+						"scendere",
 						"le scale",
 						"dell'università",
-						"incontro",
+						"incontrare",
 						"Paolo"
 					]
 				},
 				{
 					"correctOrder": [
-						"Devo",
+						"Dovere",
 						"cambiare",
 						"casa",
 						"perché",
 						"in quella",
 						"dove",
-						"abito",
-						"pago",
+						"abitare",
+						"pagare",
 						"troppo"
 					]
 				},
@@ -699,9 +693,9 @@
 					"correctOrder": [
 						"Ogni volta",
 						"che",
-						"vado",
+						"andare",
 						"a Firenze",
-						"prendo",
+						"prendere",
 						"l'autobus",
 						"numero 2"
 					]
@@ -710,30 +704,30 @@
 					"correctOrder": [
 						"Quando",
 						"Luisa",
-						"parte",
+						"partire",
 						"la madre",
-						"rimane",
+						"rimanere",
 						"sola"
 					]
 				},
 				{
-					"correctOrder": ["Quando", "lui", "parla", "nessuno", "lo", "ascolta"]
+					"correctOrder": ["Quando", "lui", "parlare", "nessuno", "lo", "ascoltare"]
 				},
 				{
 					"correctOrder": [
 						"Da luglio",
 						"a settembre",
-						"studio",
+						"studiare",
 						"la lingua italiana",
 						"all'università"
 					]
 				},
 				{
-					"correctOrder": ["La casa", "è tutta sporca", "allora", "la pulisco"]
+					"correctOrder": ["La casa", "essere", "tutta", "sporca", "allora", "l'ho pulita"]
 				},
 				{
 					"correctOrder": [
-						"Leggo",
+						"Leggere",
 						"sempre",
 						"un po'",
 						"prima di",
@@ -746,63 +740,63 @@
 			"id": "it-intermediate-13b",
 			"number": 13,
 			"title": "Volgere al passato (passo 2/2)",
-			"instructions": "Riscrivi ogni frase del passo 1 al PASSATO (passato prossimo e/o imperfetto, secondo il contesto).",
+			"instructions": "Mettere le frasi nell'ordine giusto e poi volgere al passato",
 			"kind": "free-text",
 			"items": [
 				{
-					"prompt": "Luigi incontra Rita quando va all'università.",
+					"prompt": "Quando / Luigi / all'università / Rita / incontrare / andare",
 					"accepted": [
 						"Luigi ha incontrato Rita quando andava all'università.",
 						"Quando andava all'università Luigi ha incontrato Rita."
 					]
 				},
 				{
-					"prompt": "Mentre scendo le scale dell'università, incontro Paolo.",
+					"prompt": "Paolo / mentre / le scale / scendere / incontrare / dell'università",
 					"accepted": [
 						"Mentre scendevo le scale dell'università ho incontrato Paolo.",
 						"Ho incontrato Paolo mentre scendevo le scale dell'università."
 					]
 				},
 				{
-					"prompt": "Devo cambiare casa, perché in quella dove abito pago troppo.",
+					"prompt": "Perché / dovere / casa / pagare / cambiare / dove / in quella / abitare / troppo",
 					"accepted": [
 						"Ho dovuto cambiare casa, perché in quella dove abitavo pagavo troppo."
 					]
 				},
 				{
-					"prompt": "Ogni volta che vado a Firenze prendo l'autobus numero 2.",
+					"prompt": "A Firenze / ogni volta / che / l'autobus / andare / numero 2 / prendere",
 					"accepted": [
 						"Ogni volta che sono andato a Firenze ho preso l'autobus numero 2.",
 						"Ho preso l'autobus numero 2 ogni volta che sono andato a Firenze."
 					]
 				},
 				{
-					"prompt": "Quando Luisa parte, la madre rimane sola.",
+					"prompt": "Luisa / rimanere / sola / partire / quando / la madre",
 					"accepted": [
 						"Quando Luisa è partita la madre è rimasta sola.",
 						"La madre è rimasta sola quando Luisa è partita."
 					]
 				},
 				{
-					"prompt": "Quando lui parla, nessuno lo ascolta.",
+					"prompt": "Ascoltare / lui / quando / nessuno / lo / parlare",
 					"accepted": [
 						"Quando lui ha parlato nessuno lo ha ascoltato.",
 						"Nessuno lo ha ascoltato quando lui ha parlato."
 					]
 				},
 				{
-					"prompt": "Da luglio a settembre studio la lingua italiana all'università.",
+					"prompt": "La lingua / studiare / da luglio a settembre / all'università / italiana",
 					"accepted": [
 						"Da luglio a settembre ho studiato la lingua italiana all'università.",
 						"Ho studiato la lingua italiana all'università da luglio a settembre."
 					]
 				},
 				{
-					"prompt": "La casa è tutta sporca, allora la pulisco.",
+					"prompt": "Allora / tutta / essere / l'ho pulita / la casa / sporca",
 					"accepted": ["La casa era tutta sporca, allora l'ho pulita."]
 				},
 				{
-					"prompt": "Leggo sempre un po' prima di addormentarmi.",
+					"prompt": "Addormentarmi / sempre / leggere / prima di / un po'",
 					"accepted": [
 						"Ho letto sempre un po' prima di addormentarmi.",
 						"Prima di addormentarmi ho letto sempre un po'."
@@ -814,7 +808,7 @@
 			"id": "it-intermediate-14",
 			"number": 14,
 			"title": "Forma passiva → attiva",
-			"instructions": "Trasforma le frasi dalla forma passiva alla forma attiva. Scrivi l'intera frase.",
+			"instructions": "Trasforma le frasi dalla forma passiva alla forma attiva",
 			"kind": "free-text",
 			"items": [
 				{
@@ -832,15 +826,13 @@
 				{
 					"prompt": "La notizia dell'arrivo in Italia del primo ministro russo non è ancora stata confermata dai media.",
 					"accepted": [
-						"Non hanno ancora confermato la notizia dell'arrivo in Italia del primo ministro russo.",
-						"I media non hanno ancora confermato la notizia dell'arrivo in Italia del primo ministro russo."
+						"Non hanno ancora confermato la notizia dell'arrivo in Italia del primo ministro russo."
 					]
 				},
 				{
 					"prompt": "Forse un quadro di Caravaggio è stato scoperto in Francia da un antiquario.",
 					"accepted": [
-						"Forse in Francia hanno scoperto un quadro di Caravaggio.",
-						"Forse un antiquario ha scoperto in Francia un quadro di Caravaggio."
+						"Forse in Francia hanno scoperto un quadro di Caravaggio."
 					]
 				},
 				{
@@ -852,8 +844,7 @@
 				{
 					"prompt": "Finalmente il mese prossimo il mio studio dovrebbe essere ridipinto da Federico.",
 					"accepted": [
-						"Finalmente il mese prossimo dovrebbero ridipingere il mio studio.",
-						"Finalmente il mese prossimo Federico dovrebbe ridipingere il mio studio."
+						"Finalmente il mese prossimo dovrebbero ridipingere il mio studio."
 					]
 				}
 			]
@@ -862,7 +853,7 @@
 			"id": "it-intermediate-15",
 			"number": 15,
 			"title": "Forma attiva → passiva",
-			"instructions": "Trasforma le frasi alla forma passiva. Scrivi l'intera frase.",
+			"instructions": "Trasforma le frasi alla forma passiva",
 			"kind": "free-text",
 			"items": [
 				{
@@ -872,8 +863,7 @@
 				{
 					"prompt": "Oggi pomeriggio hanno chiuso il ponte sul fiume Po a causa delle piogge insistenti.",
 					"accepted": [
-						"Oggi pomeriggio il ponte sul fiume Po è stato chiuso a causa delle piogge insistenti.",
-						"Il ponte sul fiume Po è stato chiuso oggi pomeriggio a causa delle piogge insistenti."
+						"Oggi pomeriggio il ponte sul fiume Po è stato chiuso a causa delle piogge insistenti."
 					]
 				},
 				{
@@ -885,22 +875,19 @@
 				{
 					"prompt": "Ieri hanno cancellato il mio volo da Lamezia Terme per problemi tecnici.",
 					"accepted": [
-						"Ieri il mio volo da Lamezia Terme è stato cancellato per problemi tecnici.",
-						"Il mio volo da Lamezia Terme è stato cancellato ieri per problemi tecnici."
+						"Ieri il mio volo da Lamezia Terme è stato cancellato per problemi tecnici."
 					]
 				},
 				{
 					"prompt": "Domani pubblicheranno il nuovo libro di Agata.",
 					"accepted": [
-						"Domani sarà pubblicato il nuovo libro di Agata.",
-						"Il nuovo libro di Agata sarà pubblicato domani."
+						"Domani sarà pubblicato il nuovo libro di Agata."
 					]
 				},
 				{
 					"prompt": "Ieri hanno ritrovato il ragazzo scomparso nei boschi.",
 					"accepted": [
-						"Il ragazzo scomparso nei boschi è stato ritrovato ieri.",
-						"Ieri è stato ritrovato il ragazzo scomparso nei boschi."
+						"Il ragazzo scomparso nei boschi è stato ritrovato ieri."
 					]
 				},
 				{

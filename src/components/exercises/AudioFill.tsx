@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import { useReducer } from "react";
 import type { AudioFillExercise } from "#/content/schema";
 import { useAudio } from "#/lib/audio";
+import { ContextHint } from "./_shared/ContextHint";
 import { ExerciseCard } from "./_shared/ExerciseCard";
 import { FeedbackOverlay } from "./_shared/FeedbackOverlay";
 import { answersMatch } from "./_shared/normalize";
@@ -317,6 +318,8 @@ export function AudioFill({ exercise, onResult, onNext }: Props) {
 		>
 			{/* Audio player */}
 			<AudioPlayer audioUrl={exercise.audioUrl} />
+
+			<ContextHint text={exercise.contextHint} />
 
 			{/* Fill-blank items */}
 			<motion.div

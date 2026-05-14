@@ -9,6 +9,7 @@
 			"number": 1,
 			"title": "Classifica i verbi",
 			"instructions": "Classifica i verbi in base alla fine del loro participio passato",
+			"contextHint": "Verbi: accendere, porre, offrire, uccidere, mangiare, mettere, dividere, leggere, chiudere, morire, parlare, risolvere, partire, vedere, nascondere, fare, cuocere, incidere, lavorare, proteggere, amare, spendere, togliere, tradurre, giungere, ridere, dipingere, reggere, rendere, conoscere, sciogliere, dormire, ammettere, condurre, dividere, credere, sentire, promettere, ricevere, attingere, produrre",
 			"kind": "categorize",
 			"categories": [
 				"-ato",
@@ -24,53 +25,54 @@
 				"-rto/-sto"
 			],
 			"items": [
-				{ "word": "mangiare", "category": "-ato" },
-				{ "word": "parlare", "category": "-ato" },
-				{ "word": "lavorare", "category": "-ato" },
-				{ "word": "amare", "category": "-ato" },
-				{ "word": "partire", "category": "-ito" },
-				{ "word": "dormire", "category": "-ito" },
-				{ "word": "sentire", "category": "-ito" },
-				{ "word": "offrire", "category": "-rto/-sto" },
-				{ "word": "vedere", "category": "-uto" },
-				{ "word": "credere", "category": "-uto" },
-				{ "word": "ricevere", "category": "-uto" },
-				{ "word": "leggere", "category": "-tto" },
-				{ "word": "fare", "category": "-tto" },
-				{ "word": "mettere", "category": "-sso" },
 				{ "word": "accendere", "category": "-eso" },
-				{ "word": "dividere", "category": "-iso/-uso" },
-				{ "word": "incidere", "category": "-iso/-uso" },
-				{ "word": "ridere", "category": "-iso/-uso" },
-				{ "word": "uccidere", "category": "-iso/-uso" },
-				{ "word": "spendere", "category": "-eso" },
-				{ "word": "dipingere", "category": "-nto" },
-				{ "word": "giungere", "category": "-nto" },
-				{ "word": "attingere", "category": "-nto" },
-				{ "word": "proteggere", "category": "-tto" },
-				{ "word": "reggere", "category": "-tto" },
-				{ "word": "risolvere", "category": "-lto" },
-				{ "word": "sciogliere", "category": "-lto" },
-				{ "word": "togliere", "category": "-lto" },
-				{ "word": "chiudere", "category": "-sso" },
-				{ "word": "promettere", "category": "-sso" },
-				{ "word": "ammettere", "category": "-sso" },
-				{ "word": "condurre", "category": "-tto" },
-				{ "word": "tradurre", "category": "-tto" },
-				{ "word": "produrre", "category": "-tto" },
 				{ "word": "porre", "category": "-rto/-sto" },
-				{ "word": "nascondere", "category": "-rto/-sto" },
+				{ "word": "offrire", "category": "-rto/-sto" },
+				{ "word": "uccidere", "category": "-iso/-uso" },
+				{ "word": "mangiare", "category": "-ato" },
+				{ "word": "mettere", "category": "-sso" },
+				{ "word": "dividere", "category": "-iso/-uso" },
+				{ "word": "leggere", "category": "-tto", "example": true },
+				{ "word": "chiudere", "category": "-iso/-uso" },
 				{ "word": "morire", "category": "-rto/-sto" },
-				{ "word": "cuocere", "category": "-otto" },
+				{ "word": "parlare", "category": "-ato" },
+				{ "word": "risolvere", "category": "-lto" },
+				{ "word": "partire", "category": "-ito" },
+				{ "word": "vedere", "category": "-uto" },
+				{ "word": "nascondere", "category": "-rto/-sto" },
+				{ "word": "fare", "category": "-tto" },
+				{ "word": "cuocere", "category": "-tto" },
+				{ "word": "incidere", "category": "-iso/-uso" },
+				{ "word": "lavorare", "category": "-ato" },
+				{ "word": "proteggere", "category": "-tto" },
+				{ "word": "amare", "category": "-ato" },
+				{ "word": "spendere", "category": "-eso" },
+				{ "word": "togliere", "category": "-lto" },
+				{ "word": "tradurre", "category": "-otto" },
+				{ "word": "giungere", "category": "-nto" },
+				{ "word": "ridere", "category": "-iso/-uso" },
+				{ "word": "dipingere", "category": "-nto" },
+				{ "word": "reggere", "category": "-tto" },
 				{ "word": "rendere", "category": "-eso" },
-				{ "word": "conoscere", "category": "-sso" }
+				{ "word": "conoscere", "category": "-uto" },
+				{ "word": "sciogliere", "category": "-lto" },
+				{ "word": "dormire", "category": "-ito" },
+				{ "word": "ammettere", "category": "-sso" },
+				{ "word": "condurre", "category": "-otto" },
+				{ "word": "dividere", "category": "-iso/-uso" },
+				{ "word": "credere", "category": "-uto" },
+				{ "word": "sentire", "category": "-ito" },
+				{ "word": "promettere", "category": "-sso" },
+				{ "word": "ricevere", "category": "-uto" },
+				{ "word": "attingere", "category": "-nto" },
+				{ "word": "produrre", "category": "-otto" }
 			]
 		},
 		{
 			"id": "it-basic-2",
 			"number": 2,
 			"title": "Osserva e scegli la forma corretta",
-			"instructions": "Osserva e scegli la forma corretta del participio passato",
+			"instructions": "Osserva e scegli la forma corretta",
 			"kind": "inline-choice",
 			"items": [
 				{
@@ -142,7 +144,7 @@
 			"id": "it-basic-4",
 			"number": 4,
 			"title": "Riordina le lettere e scrivi i participi",
-			"instructions": "Riordina le lettere e scrivi i participi passati",
+			"instructions": "Riordina le lettere e scrivi i participi",
 			"kind": "anagram",
 			"items": [
 				{ "scrambled": "entovu", "answer": "venuto" },
@@ -163,7 +165,7 @@
 			"id": "it-basic-5",
 			"number": 5,
 			"title": "Completa con l'ausiliare corretto",
-			"instructions": "Completa con l'ausiliare corretto (essere o avere)",
+			"instructions": "Completa con l'ausiliare corretto",
 			"kind": "fill-blank",
 			"items": [
 				{
@@ -220,7 +222,7 @@
 			"id": "it-basic-6",
 			"number": 6,
 			"title": "Metti il participio passato corretto",
-			"instructions": "Metti il participio passato corretto del verbo indicato",
+			"instructions": "Metti il participio passato corretto",
 			"kind": "fill-blank",
 			"items": [
 				{
@@ -338,47 +340,48 @@
 			"id": "it-basic-8",
 			"number": 8,
 			"title": "Trasforma al femminile o al plurale",
-			"instructions": "Trasforma al femminile o al plurale secondo il soggetto indicato. Esempio: Luca è arrivato → Maria è arrivata",
+			"instructions": "Trasforma al femminile o al plurale",
+			"contextHint": "Esempio: Luca è arrivato - Maria è arrivata",
 			"kind": "free-text",
 			"items": [
 				{
-					"prompt": "Marco è partito → (Anna)",
+					"prompt": "Marco è partito - (Anna)",
 					"accepted": ["Anna è partita."]
 				},
 				{
-					"prompt": "I ragazzi sono entrati → (Le ragazze)",
+					"prompt": "I ragazzi sono entrati - (Le ragazze)",
 					"accepted": ["Le ragazze sono entrate."]
 				},
 				{
-					"prompt": "Paolo è rimasto → (Laura)",
+					"prompt": "Paolo è rimasto - (Laura)",
 					"accepted": ["Laura è rimasta."]
 				},
 				{
-					"prompt": "I bambini sono usciti → (Le bambine)",
+					"prompt": "I bambini sono usciti - (Le bambine)",
 					"accepted": ["Le bambine sono uscite."]
 				},
 				{
-					"prompt": "Luca è andato → (Marta e Giulia)",
+					"prompt": "Luca è andato - (Marta e Giulia)",
 					"accepted": ["Marta e Giulia sono andate."]
 				},
 				{
-					"prompt": "Marco è tornato → (Le sorelle)",
+					"prompt": "Marco è tornato - (Le sorelle)",
 					"accepted": ["Le sorelle sono tornate."]
 				},
 				{
-					"prompt": "Il nonno è caduto → (la nonna)",
+					"prompt": "Il nonno è caduto - (la nonna)",
 					"accepted": ["La nonna è caduta."]
 				},
 				{
-					"prompt": "Gli amici sono venuti → (le amiche)",
+					"prompt": "Gli amici sono venuti - (le amiche)",
 					"accepted": ["Le amiche sono venute."]
 				},
 				{
-					"prompt": "Il bambino è nato → (le bambine)",
+					"prompt": "Il bambino è nato - (le bambine)",
 					"accepted": ["Le bambine sono nate."]
 				},
 				{
-					"prompt": "Il professore è arrivato → (le professoresse)",
+					"prompt": "Il professore è arrivato - (le professoresse)",
 					"accepted": ["Le professoresse sono arrivate."]
 				}
 			]
@@ -387,56 +390,48 @@
 			"id": "it-basic-9",
 			"number": 9,
 			"title": "Trasforma le frasi al passato prossimo",
-			"instructions": "Trasforma le frasi al passato prossimo usando il contesto temporale indicato",
+			"instructions": "Trasforma le frasi al passato prossimo",
 			"kind": "free-text",
 			"items": [
 				{
-					"prompt": "Tutte le domeniche Giorgio e i suoi amici fanno un'escursione in montagna.",
-					"contextHint": "Domenica scorsa",
+					"prompt": "Tutte le domeniche Giorgio e i suoi amici fanno un'escursione in montagna. → Domenica scorsa _____",
 					"accepted": [
 						"Domenica scorsa Giorgio e i suoi amici hanno fatto un'escursione in montagna."
 					]
 				},
 				{
-					"prompt": "Spesso, in primavera visito importanti città d'arte italiane.",
-					"contextHint": "La scorsa primavera",
+					"prompt": "Spesso, in primavera visito importanti città d'arte italiane. → La scorsa primavera _____",
 					"accepted": [
 						"La scorsa primavera ho visitato importanti città d'arte italiane.",
 						"La scorsa primavera ho visitato importante città d'arte italiana."
 					]
 				},
 				{
-					"prompt": "Sto imparando a nuotare.",
-					"contextHint": "Due anni fa",
+					"prompt": "Sto imparando a nuotare. → Due anni fa _____",
 					"accepted": ["Due anni fa ho imparato a nuotare."]
 				},
 				{
-					"prompt": "Cristina studia italiano a Venezia.",
-					"contextHint": "L'anno scorso",
+					"prompt": "Cristina studia italiano a Venezia. → L'anno scorso _____",
 					"accepted": ["L'anno scorso Cristina ha studiato italiano a Venezia."]
 				},
 				{
-					"prompt": "Vivo in Toscana.",
-					"contextHint": "Per alcuni anni",
+					"prompt": "Vivo in Toscana. → Per alcuni anni _____",
 					"accepted": ["Per alcuni anni ho vissuto in Toscana."]
 				},
 				{
-					"prompt": "Questo pomeriggio faccio una visita guidata dei Musei vaticani a Roma.",
-					"contextHint": "Sabato scorso",
+					"prompt": "Questo pomeriggio faccio una visita guidata dei Musei vaticani a Roma. → Sabato scorso _____",
 					"accepted": [
 						"Sabato scorso ho fatto una visita guidata dei Musei vaticani a Roma."
 					]
 				},
 				{
-					"prompt": "Cristina e Fabrizia arrivano da Firenze questo pomeriggio.",
-					"contextHint": "due giorni fa",
+					"prompt": "Cristina e Fabrizia arrivano da Firenze questo pomeriggio. → _____ due giorni fa.",
 					"accepted": [
 						"Cristina e Fabrizia sono arrivate da Firenze due giorni fa."
 					]
 				},
 				{
-					"prompt": "Per il ponte del Primo maggio prenoto una camera in un agriturismo.",
-					"contextHint": "L'anno scorso per il ponte del Primo maggio",
+					"prompt": "Per il ponte del Primo maggio prenoto una camera in un agriturismo. → L'anno scorso per il ponte del Primo maggio _____",
 					"accepted": [
 						"L'anno scorso per il ponte del Primo maggio ho prenotato una camera in agriturismo.",
 						"L'anno scorso per il ponte del Primo maggio ho prenotato una camera in un agriturismo."
@@ -448,7 +443,7 @@
 			"id": "it-basic-10",
 			"number": 10,
 			"title": "Scegliere la frase giusta tra le tre",
-			"instructions": "Scegliere la frase giusta tra le tre opzioni",
+			"instructions": "Scegliere la frase giusta tra le tre",
 			"kind": "choice",
 			"multiple": false,
 			"items": [
@@ -548,7 +543,7 @@
 			"id": "it-basic-11",
 			"number": 11,
 			"title": "Metti le parole nell'ordine corretto",
-			"instructions": "Metti le parole nell'ordine corretto per formare frasi al passato prossimo",
+			"instructions": "Metti le parole nell'ordine corretto",
 			"kind": "reorder",
 			"items": [
 				{ "correctOrder": ["Chiara", "è", "partita", "ieri"] },
@@ -569,7 +564,8 @@
 			"id": "it-basic-12",
 			"number": 12,
 			"title": "Completa con il pronome e fai l'accordo",
-			"instructions": "Completa con il participio passato concordato con il pronome diretto. Esempio: Le pizze? Le ho mangiate.",
+			"instructions": "Completa con il pronome e fai l'accordo.",
+			"contextHint": "Esempio: Le pizze? Le ho mangiate.",
 			"kind": "fill-blank",
 			"items": [
 				{
@@ -678,82 +674,88 @@
 			]
 		},
 		{
-			"id": "it-basic-14a",
+			"id": "it-basic-14",
 			"number": 14,
-			"title": "Coniugare i verbi al passato prossimo (passo 1/2)",
-			"instructions": "Coniuga i verbi al PASSATO PROSSIMO.",
-			"kind": "fill-blank",
-			"items": [
+			"title": "Completare e abbinare le colonne",
+			"instructions": "Completare le frasi con le forme al PASSATO PROSSIMO e abbina le frasi delle due colonne",
+			"kind": "match-fill",
+			"leftTitle": "A",
+			"rightTitle": "B",
+			"left": [
+				{ "label": "1.", "sentence": "Lucia" },
+				{ "label": "2.", "sentence": "Marta" },
+				{ "label": "3.", "sentence": "Marco" },
+				{ "label": "4.", "sentence": "Wanda" },
+				{ "label": "5.", "sentence": "Giorgio" },
+				{ "label": "6.", "sentence": "Marta e Agnese" },
+				{ "label": "7.", "sentence": "Che (voi)" },
+				{ "label": "8.", "sentence": "Oggi (io)" },
+				{ "label": "9.", "sentence": "Che cosa (tu)" },
+				{ "label": "10.", "sentence": "Giovanna" }
+			],
+			"right": [
 				{
-					"sentence": "{{0}} (uscire) dopo cena.",
+					"label": "a.",
+					"sentence": "(uscire) {{0}} dopo cena",
 					"blanks": [{ "answer": "è uscito", "hint": "uscire" }]
 				},
 				{
-					"sentence": "{{0}} (seguire) tutte le lezioni.",
+					"label": "b.",
+					"sentence": "(seguire) {{0}} tutte le lezioni.",
 					"blanks": [{ "answer": "ha seguito", "hint": "seguire" }]
 				},
 				{
-					"sentence": "Io {{0}} (rispondere) alla lettera di Bruno.",
+					"label": "c.",
+					"sentence": "(io - rispondere) {{0}} alla lettera di Bruno",
 					"blanks": [{ "answer": "ho risposto", "hint": "rispondere" }]
 				},
 				{
-					"sentence": "{{0}} (prendere) solo un caffè.",
+					"label": "d.",
+					"sentence": "(prendere) {{0}} solo un caffè.",
 					"blanks": [{ "answer": "ha preso", "hint": "prendere" }]
 				},
 				{
-					"sentence": "{{0}} (uscire) con i loro amici.",
+					"label": "e.",
+					"sentence": "(uscire) {{0}} con i loro amici.",
 					"blanks": [{ "answer": "sono uscite", "hint": "uscire" }]
 				},
 				{
-					"sentence": "{{0}} (prendere) un periodo di riposo.",
+					"label": "f.",
+					"sentence": "(prendere) {{0}} un periodo di riposo.",
 					"blanks": [{ "answer": "ha preso", "hint": "prendere" }]
 				},
 				{
-					"sentence": "Che cosa (tu) {{0}} (dire) a Marina?",
+					"label": "g.",
+					"sentence": "(tu - dire) {{0}} a Marina?",
 					"blanks": [{ "answer": "hai detto", "hint": "dire" }]
 				},
 				{
-					"sentence": "{{0}} (accettare) l'invito di Lucia.",
+					"label": "h.",
+					"sentence": "(accettare) {{0}} l'invito di Lucia.",
 					"blanks": [{ "answer": "ha accettato", "hint": "accettare" }]
 				},
 				{
-					"sentence": "Che (voi) {{0}} (scegliere)?",
+					"label": "i.",
+					"sentence": "(voi - scegliere) {{0}}?",
 					"blanks": [{ "answer": "avete scelto", "hint": "scegliere" }]
 				},
 				{
-					"sentence": "{{0}} (dormire) fino a tardi.",
+					"label": "j.",
+					"sentence": "(dormire) {{0}} fino a tardi",
 					"blanks": [{ "answer": "ha dormito", "hint": "dormire" }]
 				}
-			]
-		},
-		{
-			"id": "it-basic-14b",
-			"number": 14,
-			"title": "Abbinare le frasi delle due colonne (passo 2/2)",
-			"instructions": "Abbina ogni soggetto della colonna A con il predicato corretto della colonna B.",
-			"kind": "match",
-			"pairs": [
-				{ "left": "Lucia", "right": "ha preso un periodo di riposo." },
-				{ "left": "Marta", "right": "ha dormito fino a tardi." },
-				{ "left": "Marco", "right": "è uscito dopo cena." },
-				{ "left": "Wanda", "right": "ha accettato l'invito di Lucia." },
-				{ "left": "Giorgio", "right": "ha seguito tutte le lezioni." },
-				{ "left": "Marta e Agnese", "right": "sono uscite con i loro amici." },
-				{ "left": "Che (voi)", "right": "avete scelto?" },
-				{ "left": "Oggi (io)", "right": "ho risposto alla lettera di Bruno." },
-				{ "left": "Che cosa (tu)", "right": "hai detto a Marina?" },
-				{ "left": "Giovanna", "right": "ha preso solo un caffè." }
-			]
+			],
+			"matches": [5, 9, 0, 7, 1, 4, 8, 2, 6, 3]
 		},
 		{
 			"id": "it-basic-15",
 			"number": 15,
 			"title": "Completa la conversazione",
-			"instructions": "Completa la conversazione con i verbi al passato prossimo",
+			"instructions": "Completa la conversazione",
 			"kind": "fill-blank",
 			"items": [
 				{
-					"sentence": "F: Sono alle Cinque Terre. {{0}} (arrivare) tre giorni fa e sono in spiaggia.",
+					"sentence": "F: Pronto, Chiara? C: Sì, sono io. F: Ciao, sono Francesca. C: Ciao, Francesca. Dove sei? Ti sento male. F: Sono alle Cinque Terre. {{0}} (arrivare) tre giorni fa e sono in spiaggia.",
 					"blanks": [{ "answer": "Sono arrivata", "hint": "arrivare" }]
 				},
 				{
@@ -761,24 +763,20 @@
 					"blanks": [{ "answer": "Sei andata", "hint": "andare" }]
 				},
 				{
-					"sentence": "F: Ah, ti ricordi! È lì che {{0}} (conoscere) Lorenzo.",
-					"blanks": [{ "answer": "ho conosciuto", "hint": "conoscere" }]
-				},
-				{
-					"sentence": "F: No, non ci {{0}} (essere).",
-					"blanks": [{ "answer": "sono stata", "hint": "essere" }]
+					"sentence": "F: Ah, ti ricordi! È lì che {{0}} (conoscere) Lorenzo. No, non ci {{1}} (essere). Sono con Massimo, non mi sembra molto elegante....",
+					"blanks": [
+						{ "answer": "ho conosciuto", "hint": "conoscere" },
+						{ "answer": "sono stata", "hint": "essere" }
+					]
 				},
 				{
 					"sentence": "C: Che cosa {{0}} (fare) ieri?",
 					"blanks": [{ "answer": ["hai fatto", "avete fatto"], "hint": "fare" }]
 				},
 				{
-					"sentence": "F: Con Massimo e due ragazzi tedeschi {{0}} (fare) diverse passeggiate sui monti sopra Monterosso.",
-					"blanks": [{ "answer": "abbiamo fatto", "hint": "fare" }]
-				},
-				{
-					"sentence": "F: Ieri sera {{0}} (addormentarsi) alle 9 e 30.",
+					"sentence": "F: Con Massimo e due ragazzi tedeschi {{0}} (fare) diverse passeggiate sui monti sopra Monterosso. Ieri sera {{1}} (addormentarsi) alle 9 e 30. C: Che romantico! F: Senti, ti lascio. Massimo vuole fare un bagno. C: C'è chi fa il bagno e chi deve lavorare... Ciao.",
 					"blanks": [
+						{ "answer": "abbiamo fatto", "hint": "fare" },
 						{ "answer": "mi sono addormentata", "hint": "addormentarsi" }
 					]
 				}
@@ -788,36 +786,71 @@
 			"id": "it-basic-16",
 			"number": 16,
 			"title": "Abbina le frasi delle due colonne e metti il verbo al passato prossimo",
-			"instructions": "Abbina le frasi delle due colonne (A-B) e completa con il verbo al passato prossimo",
-			"kind": "match",
-			"pairs": [
+			"instructions": "Abbina le frasi delle due colonne e metti il verbo al passato prossimo",
+			"kind": "match-fill",
+			"leftTitle": "A",
+			"rightTitle": "B",
+			"left": [
 				{
-					"left": "Che cosa (tu - mangiare) hai mangiato ieri sera al ristorante?",
-					"right": "Un piatto di spaghetti, ma non mi è piaciuto molto."
+					"label": "1.",
+					"sentence": "Che cosa (tu - mangiare) {{0}} ieri sera al ristorante?",
+					"blanks": [{ "answer": "hai mangiato", "hint": "mangiare" }]
 				},
 				{
-					"left": "(voi - andare) Siete andati in montagna la settimana scorsa?",
-					"right": "Sì, siamo partiti mercoledì mattina in macchina."
+					"label": "2.",
+					"sentence": "(voi - andare) {{0}} in montagna la settimana scorsa?",
+					"blanks": [{ "answer": "Siete andati", "hint": "andare" }]
 				},
 				{
-					"left": "Sai se Luigi e Lucia (vedere) hanno visto il museo di Arte Moderna?",
-					"right": "Penso di no. Alla fine hanno deciso di stare a casa."
+					"label": "3.",
+					"sentence": "Sai se Luigi e Lucia (vedere) {{0}} il museo di Arte Moderna?",
+					"blanks": [{ "answer": "hanno visto", "hint": "vedere" }]
 				},
 				{
-					"left": "Antonella ieri notte (dormire) ha dormito in tenda all'aperto.",
-					"right": "Che freddo! Perché non è rimasta nel rifugio?"
+					"label": "4.",
+					"sentence": "Antonella ieri notte (dormire) {{0}} in tenda all'aperto",
+					"blanks": [{ "answer": "ha dormito", "hint": "dormire" }]
 				},
 				{
-					"left": "Perché (tu - comportarsi) ti sei comportato in quel modo ieri sera?",
-					"right": "Ho creduto di fare la cosa giusta."
+					"label": "5.",
+					"sentence": "Perché (tu - comportarsi) {{0}} in quel modo ieri sera?",
+					"blanks": [{ "answer": "ti sei comportato", "hint": "comportarsi" }]
 				}
-			]
+			],
+			"right": [
+				{
+					"label": "a)",
+					"sentence": "Sì, (noi - partire) {{0}} mercoledì mattina in macchina",
+					"blanks": [{ "answer": "siamo partiti", "hint": "partire" }]
+				},
+				{
+					"label": "b)",
+					"sentence": "Penso di no. Alla fine (loro - decidere) {{0}} di stare a casa.",
+					"blanks": [{ "answer": "hanno deciso", "hint": "decidere" }]
+				},
+				{
+					"label": "c)",
+					"sentence": "(io - credere) {{0}} di fare la cosa giusta",
+					"blanks": [{ "answer": "Ho creduto", "hint": "credere" }]
+				},
+				{
+					"label": "d)",
+					"sentence": "Un piatto di spaghetti, ma non mi (piacere) {{0}} molto",
+					"blanks": [{ "answer": "è piaciuto", "hint": "piacere" }]
+				},
+				{
+					"label": "e)",
+					"sentence": "Che freddo! Perché non (lei - rimanere) {{0}} nel rifugio",
+					"blanks": [{ "answer": "è rimasta", "hint": "rimanere" }]
+				}
+			],
+			"matches": [3, 0, 1, 4, 2]
 		},
 		{
 			"id": "it-basic-17",
 			"number": 17,
 			"title": "STANCHEZZA - Completa il testo",
-			"instructions": "Completa il brano coniugando i verbi al passato prossimo o all'imperfetto, secondo il contesto",
+			"instructions": "Completare i brani con i verbi al PASSATO",
 			"kind": "fill-blank",
 			"items": [
 				{

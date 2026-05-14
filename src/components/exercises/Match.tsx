@@ -1,8 +1,10 @@
 import { AnimatePresence, motion } from "motion/react";
 import { useCallback, useEffect, useReducer, useRef, useState } from "react";
 import type { MatchExercise } from "#/content/schema";
+import { ContextHint } from "./_shared/ContextHint";
 import { ExerciseCard } from "./_shared/ExerciseCard";
 import { FeedbackOverlay } from "./_shared/FeedbackOverlay";
+import { normalizeAnswer } from "./_shared/normalize";
 import type { ExerciseStatus } from "./_shared/useExerciseState";
 import { VerifyButton } from "./_shared/VerifyButton";
 
@@ -252,6 +254,9 @@ interface Props {
 
 export function Match({ exercise, onResult, onNext }: Props) {
 	const pairs = exercise.pairs;
+	const isCorrectPair = (leftIdx: number, rightIdx: number) =>
+		normalizeAnswer(pairs[leftIdx]?.right ?? "") ===
+		normalizeAnswer(pairs[rightIdx]?.right ?? "");
 
 	// Shuffle the right column once (stable via useMemo equivalent — in reducer init)
 	const [shuffledRightOrder] = useState<number[]>(() => {
@@ -295,11 +300,7 @@ export function Match({ exercise, onResult, onNext }: Props) {
 				originalToDisplayRight.get(origRightIdx) ?? origRightIdx;
 			let correct: boolean | undefined;
 			if (isSubmitted) {
-				// Correct if leftIdx's original correct pair is origRightIdx
-				correct = pairs[leftIdx].right === pairs[origRightIdx].right;
-				// Actually: correct iff the user paired left[leftIdx] with right[leftIdx]
-				// (which means origRightIdx === leftIdx)
-				correct = origRightIdx === leftIdx;
+				correct = isCorrectPair(leftIdx, origRightIdx);
 			}
 			return { leftIdx, rightIdx: displayRight, correct };
 		},
@@ -309,7 +310,7 @@ export function Match({ exercise, onResult, onNext }: Props) {
 		let correctCount = 0;
 		for (const [leftIdxStr, origRightIdx] of Object.entries(state.userPairs)) {
 			const leftIdx = Number(leftIdxStr);
-			if (leftIdx === origRightIdx) correctCount++;
+			if (isCorrectPair(leftIdx, origRightIdx)) correctCount++;
 		}
 		const total = pairs.length;
 		const score = total === 0 ? 0 : correctCount / total;
@@ -339,6 +340,8 @@ export function Match({ exercise, onResult, onNext }: Props) {
 				</div>
 			}
 		>
+			<ContextHint text={exercise.contextHint} />
+
 			{!isSubmitted && (
 				<p className="mb-3 text-xs text-[var(--c-accent)]">
 					Selecciona un elemento de la izquierda y luego uno de la derecha para
@@ -369,7 +372,7 @@ export function Match({ exercise, onResult, onNext }: Props) {
 
 						let pairedCorrect: boolean | undefined;
 						if (isSubmitted && isPaired) {
-							pairedCorrect = pairedRightOrigIdx === leftIdx;
+							pairedCorrect = isCorrectPair(leftIdx, pairedRightOrigIdx);
 						}
 
 						let cls =
@@ -451,7 +454,7 @@ export function Match({ exercise, onResult, onNext }: Props) {
 
 						let pairedCorrect: boolean | undefined;
 						if (isSubmitted && isPaired && leftIdxForThis !== undefined) {
-							pairedCorrect = origRightIdx === leftIdxForThis;
+							pairedCorrect = isCorrectPair(leftIdxForThis, origRightIdx);
 						}
 
 						let cls =

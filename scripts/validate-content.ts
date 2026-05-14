@@ -93,11 +93,14 @@ function checkExerciseSetIntegrity(file: string, data: unknown) {
         }
         for (let i = 0; i < it.choices.length; i++) {
           const c = it.choices[i];
-          if (c.correct >= c.options.length) {
-            issues.push({
-              file,
-              message: `exercise ${ex.id}: choice ${i} correct index ${c.correct} out of bounds`,
-            });
+          const correctIndexes = Array.isArray(c.correct) ? c.correct : [c.correct];
+          for (const correct of correctIndexes) {
+            if (correct >= c.options.length) {
+              issues.push({
+                file,
+                message: `exercise ${ex.id}: choice ${i} correct index ${correct} out of bounds`,
+              });
+            }
           }
         }
       }

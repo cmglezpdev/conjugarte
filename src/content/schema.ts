@@ -44,7 +44,10 @@ export const InlineChoiceExercise = ExerciseBase.extend({
 					.array(
 						z.object({
 							options: z.array(NonEmpty).min(2),
-							correct: z.number().int().nonnegative(),
+							correct: z.union([
+								z.number().int().nonnegative(),
+								z.array(z.number().int().nonnegative()).min(1),
+							]),
 						}),
 					)
 					.min(1),
@@ -80,6 +83,28 @@ export const MatchExercise = ExerciseBase.extend({
 			}),
 		)
 		.min(2),
+});
+
+const MatchFillColumnItem = z.object({
+	label: z.string().optional(),
+	sentence: NonEmpty,
+	blanks: z
+		.array(
+			z.object({
+				answer: z.union([NonEmpty, z.array(NonEmpty).min(1)]),
+				hint: z.string().optional(),
+			}),
+		)
+		.optional(),
+});
+
+export const MatchFillExercise = ExerciseBase.extend({
+	kind: z.literal("match-fill"),
+	leftTitle: z.string().optional(),
+	rightTitle: z.string().optional(),
+	left: z.array(MatchFillColumnItem).min(2),
+	right: z.array(MatchFillColumnItem).min(2),
+	matches: z.array(z.number().int().nonnegative()).min(2),
 });
 
 export const CategorizeExercise = ExerciseBase.extend({
@@ -155,6 +180,7 @@ export const Exercise = z.discriminatedUnion("kind", [
 	InlineChoiceExercise,
 	ChoiceExercise,
 	MatchExercise,
+	MatchFillExercise,
 	CategorizeExercise,
 	ReorderExercise,
 	JudgmentExercise,
@@ -171,6 +197,7 @@ export type FillBlankExercise = z.infer<typeof FillBlankExercise>;
 export type InlineChoiceExercise = z.infer<typeof InlineChoiceExercise>;
 export type ChoiceExercise = z.infer<typeof ChoiceExercise>;
 export type MatchExercise = z.infer<typeof MatchExercise>;
+export type MatchFillExercise = z.infer<typeof MatchFillExercise>;
 export type CategorizeExercise = z.infer<typeof CategorizeExercise>;
 export type ReorderExercise = z.infer<typeof ReorderExercise>;
 export type JudgmentExercise = z.infer<typeof JudgmentExercise>;

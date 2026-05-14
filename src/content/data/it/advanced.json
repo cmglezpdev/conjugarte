@@ -11,17 +11,18 @@
 			"instructions": "Ascoltare la telefonata e completare il testo.",
 			"kind": "audio-fill",
 			"audioUrl": "/audio/it-advanced-1.m4a",
+			"contextHint": "Andrea e Luca organizzano una cena con i vecchi compagni di scuola...\n\nAndrea: Pronto? Ciao Luca, sono Andrea!\n\nAndrea: Va be', siamo a un buon punto, credo. Ci risentiamo domani.\nLuca: Ok, ciao, buona serata.",
 			"items": [
 				{
 					"sentence": "Luca: Proprio te! {{0}} questa mattina al lavoro. Hai prenotato il ristorante per la cena del mese prossimo?",
 					"blanks": [{ "answer": "Ti ho cercato" }]
 				},
 				{
-					"sentence": "Andrea: Si, {{0}} ieri! E tu sei riuscito a rintracciare Ilaria e Mauro che lavorano all'estero?",
+					"sentence": "Andrea: Sì, {{0}} ieri! E tu sei riuscito a rintracciare Ilaria e Mauro che lavorano all'estero?",
 					"blanks": [{ "answer": "l'ho fatto" }]
 				},
 				{
-					"sentence": "Luca: Ilaria si, {{0}} casualmente dai suoi invece Mauro non {{1}} ancora {{2}}.",
+					"sentence": "Luca: Ilaria sì, {{0}} casualmente dai suoi invece Mauro non {{1}} ancora {{2}}.",
 					"blanks": [
 						{ "answer": "l'ho trovata" },
 						{ "answer": "l'ho" },
@@ -29,7 +30,7 @@
 					]
 				},
 				{
-					"sentence": "Provero a {{0}} domani. Hai contattato gli animatori e il gruppo musicale?",
+					"sentence": "Proverò a {{0}} domani. Hai contattato gli animatori e il gruppo musicale?",
 					"blanks": [{ "answer": "richiamarlo" }]
 				},
 				{
@@ -37,10 +38,10 @@
 					"blanks": [{ "answer": "volerli" }]
 				},
 				{
-					"sentence": "Luca: Assolutamente si, {{0}} all'addio al celibato di mio cugino e {{1}} a fare di tutto! Sono troppo forti!",
+					"sentence": "Luca: Assolutamente sì, {{0}} all'addio al celibato di mio cugino e {{1}} a fare di tutto! Sono troppo forti!",
 					"blanks": [
 						{ "answer": "li ho visti" },
-						{ "answer": "ci hanno coinvolto/i" }
+						{ "answer": ["ci hanno coinvolto", "ci hanno coinvolti"] }
 					]
 				},
 				{
@@ -88,7 +89,7 @@
 					]
 				},
 				{
-					"sentence": "Per un anno intero, Ueno e. {{0}} in stazione da Hachiko che poi lo aspettava alla sera.",
+					"sentence": "Tra i due cominciò un rapporto quasi magico: tutti i giorni, alla stessa ora, il cane aspettava Ueno al ritorno dal lavoro, alla stazione dei treni. Per un anno intero, Ueno e. {{0}} in stazione da Hachiko che poi lo aspettava alla sera.",
 					"blanks": [{ "answer": "venne accompagnato" }]
 				},
 				{
@@ -121,12 +122,12 @@
 			"kind": "fill-blank",
 			"items": [
 				{
-					"sentence": "Paolo e rimasto a casa per fare compagnia alla sorellina, anche se {{0}} (andare) molto volentieri in montagna.",
+					"sentence": "Paolo è rimasto a casa per fare compagnia alla sorellina, anche se {{0}} (andare) molto volentieri in montagna.",
 					"blanks": [{ "answer": "sarebbe andato", "hint": "andare" }]
 				},
 				{
 					"sentence": "Se avessi studiato di più non {{0}} (prendere) quel brutto voto.",
-					"blanks": [{ "answer": "avresti preso", "hint": "prendere" }]
+					"blanks": [{ "answer": "avrei preso", "hint": "prendere" }]
 				},
 				{
 					"sentence": "{{0}} (volere) chiamarti ieri, ma sono uscito con gli amici.",
@@ -158,47 +159,46 @@
 			"id": "it-advanced-4",
 			"number": 4,
 			"title": "Trasformare le frasi usando il CONDIZIONALE COMPOSTO",
-			"instructions": "Trasformare le frasi usando il CONDIZIONALE COMPOSTO. Esempio: Vorrei andare al mare domani. → Sarei voluto andare al mare ieri sera.",
-			"kind": "fill-blank",
+			"instructions": "Trasformare le frasi usando il CONDIZIONALE COMPOSTO.",
+			"contextHint": "Esempio Vorrei andare al mare domani.\nSarei voluto andare al mare ieri sera.",
+			"kind": "free-text",
 			"items": [
 				{
-					"sentence": "Ti piacerebbe andare al cinema domani sera? → {{0}} ieri sera?",
-					"blanks": [{ "answer": "Ti sarebbe piaciuto andare al cinema" }]
+					"prompt": "Ti piacerebbe andare al cinema domani sera?\n________________________________________________ ieri sera?",
+					"accepted": ["Ti sarebbe piaciuto andare al cinema ieri sera?"]
 				},
 				{
-					"sentence": "Penso che sarebbe meglio andare in discoteca. → {{0}} ieri sera.",
-					"blanks": [
-						{ "answer": "Penso che sarebbe stato meglio andare in discoteca" }
+					"prompt": "Penso che sarebbe meglio andare in discoteca.\n________________________________________________ ieri sera.",
+					"accepted": [
+						"Penso che sarebbe stato meglio andare in discoteca ieri sera."
 					]
 				},
 				{
-					"sentence": "L'anno prossimo l'inflazione dovrebbe essere del 5%. → L'anno scorso {{0}}",
-					"blanks": [{ "answer": "l'inflazione sarebbe dovuta essere del 5%" }]
-				},
-				{
-					"sentence": "Non so se Barbara capirebbe la mia scrittura. → Non sapevo {{0}}",
-					"blanks": [{ "answer": "se Barbara avrebbe capito la mia scrittura" }]
-				},
-				{
-					"sentence": "Ci aiutereste a pitturare la casa? → Non sapevamo {{0}}",
-					"blanks": [{ "answer": "se ci avreste aiutato a pitturare la casa" }]
-				},
-				{
-					"sentence": "Credo che Roberto ci presterebbe un po' di soldi. → Credevo {{0}}",
-					"blanks": [
-						{ "answer": "che Roberto ci avrebbe prestato un po' di soldi" }
+					"prompt": "L'anno prossimo l'inflazione dovrebbe essere del 5%.\nL'anno scorso ____________________________________________",
+					"accepted": [
+						"L'anno scorso l'inflazione sarebbe dovuta essere del 5%."
 					]
 				},
 				{
-					"sentence": "Vorrei mangiare una buona pizza stasera. → Ieri sera {{0}}",
-					"blanks": [{ "answer": "avrei voluto mangiare una buona pizza" }]
+					"prompt": "Non so se Barbara capirebbe la mia scrittura.\nNon sapevo________________________________________________",
+					"accepted": ["Non sapevo se Barbara avrebbe capito la mia scrittura."]
 				},
 				{
-					"sentence": "Chiamerei Antonio, ma ho saputo che è in vacanza. → Ieri sera {{0}}",
-					"blanks": [
-						{
-							"answer": "avrei chiamato Antonio, ma ho saputo che era in vacanza"
-						}
+					"prompt": "Ci aiutereste a pitturare la casa?\nNon sapevamo_____________________________________________",
+					"accepted": ["Non sapevamo se ci avreste aiutato a pitturare la casa."]
+				},
+				{
+					"prompt": "Credo che Roberto ci presterebbe un po' di soldi.\nCredevo___________________________________________________",
+					"accepted": ["Credevo che Roberto ci avrebbe prestato un po' di soldi."]
+				},
+				{
+					"prompt": "Vorrei mangiare una buona pizza stasera.\nIeri sera ________________________________________________",
+					"accepted": ["Ieri sera avrei voluto mangiare una buona pizza."]
+				},
+				{
+					"prompt": "Chiamerei Antonio, ma ho saputo che è in vacanza.\nIeri sera_________________________________________",
+					"accepted": [
+						"Ieri sera avrei chiamato Antonio, ma ho saputo che era in vacanza."
 					]
 				}
 			]
@@ -207,43 +207,39 @@
 			"id": "it-advanced-5",
 			"number": 5,
 			"title": "Riscrivere le frasi",
-			"instructions": "Riscrivere le frasi usando il condizionale composto. Esempio: Vorrei solo fare una bella dormita. → Avrei voluto solo fare una bella dormita.",
-			"kind": "fill-blank",
+			"instructions": "Riscrivere le frasi.",
+			"contextHint": "Esempio Vorrei solo fare una bella dormita.\nAvrei voluto solo fare una bella dormita.",
+			"kind": "free-text",
 			"items": [
 				{
-					"sentence": "Dovresti impegnarti di più. → {{0}}",
-					"blanks": [{ "answer": "Avresti dovuto impegnarti di più" }]
+					"prompt": "Dovresti impegnarti di più.",
+					"accepted": ["Avresti dovuto impegnarti di più."]
 				},
 				{
-					"sentence": "Sarei veramente felice di passare le vacanze con voi! → {{0}}",
-					"blanks": [
-						{
-							"answer": "Sarei stato veramente felice di passare le vacanze con voi"
-						}
+					"prompt": "Sarei veramente felice di passare le vacanze con voi!",
+					"accepted": [
+						"Sarei stato veramente felice di passare le vacanze con voi!"
 					]
 				},
 				{
-					"sentence": "Potrebbero fare diversamente? → {{0}}",
-					"blanks": [{ "answer": "Avrebbero potuto fare diversamente?" }]
+					"prompt": "Potrebbero fare diversamente?",
+					"accepted": ["Avrebbero potuto fare diversamente?"]
 				},
 				{
-					"sentence": "Non scommetterei una lira sulla vittoria della mia squadra. → {{0}}",
-					"blanks": [
-						{
-							"answer": "Non avrei scommesso una lira sulla vittoria della mia squadra"
-						}
+					"prompt": "Non scommetterei una lira sulla vittoria della mia squadra.",
+					"accepted": [
+						"Non avrei scommesso una lira sulla vittoria della mia squadra."
 					]
 				},
 				{
-					"sentence": "Tu vorresti andare al mare con questo tempo? → {{0}}",
-					"blanks": [
-						{ "answer": "Tu saresti voluto andare al mare con questo tempo?" }
-					]
+					"prompt": "Tu vorresti andare al mare con questo tempo?",
+					"accepted": ["Tu saresti voluto andare al mare con questo tempo?"]
 				},
 				{
-					"sentence": "I miei amici vorrebbero regalargli un libro. → {{0}}",
-					"blanks": [
-						{ "answer": "I miei amici avrebbero voluto regalargli un libro" }
+					"prompt": "I miei amici vorrebbero regalargli un libro.",
+					"accepted": [
+						"I miei amici avrebbero voluto regalare un libro a Giulio.",
+						"I miei amici avrebbero voluto regalargli un libro."
 					]
 				}
 			]
@@ -268,7 +264,7 @@
 					"blanks": [{ "answer": "abbia bevuto", "hint": "bere" }]
 				},
 				{
-					"sentence": "Con tutto questo traffico puo darsi che loro {{0}} (perdere) il treno.",
+					"sentence": "Con tutto questo traffico può darsi che loro {{0}} (perdere) il treno.",
 					"blanks": [{ "answer": "abbiano perso", "hint": "perdere" }]
 				},
 				{
@@ -324,105 +320,163 @@
 			"id": "it-advanced-7",
 			"number": 7,
 			"title": "Scegliere la risposta corretta",
-			"instructions": "Scegliere la risposta corretta tra le opzioni indicate.",
-			"kind": "choice",
-			"multiple": true,
+			"instructions": "Scegliere la risposta corretta.",
+			"kind": "inline-choice",
 			"items": [
 				{
-					"prompt": "Ormai sono le quattordici, penso che a quest'ora Giulio e Sara ___ di mangiare.",
-					"options": [
-						"abbiano già finito",
-						"siano già finiti",
-						"abbiano già finiti"
-					],
-					"correct": 0
+					"sentence": "Ormai sono le quattordici, penso che a quest'ora Giulio e Sara {{0}} di mangiare.",
+					"choices": [
+						{
+							"options": [
+								"abbiano già finito",
+								"siano già finiti",
+								"abbiano già finiti"
+							],
+							"correct": 0
+						}
+					]
 				},
 				{
-					"prompt": "Hai sentito le ultime novità? Pare che Giuliana ieri sera ___ con Carlo.",
-					"options": ["abbia litigato", "sia litigata", "abbia litigata"],
-					"correct": 0
+					"sentence": "Hai sentito le ultime novità? Pare che Giuliana ieri sera {{0}} con Carlo e {{1}} di casa sbattendo la porta.",
+					"choices": [
+						{
+							"options": ["abbia litigato", "sia litigata", "abbia litigata"],
+							"correct": 0
+						},
+						{
+							"options": ["abbia uscito", "sia uscita", "sia uscito"],
+							"correct": 1
+						}
+					]
 				},
 				{
-					"prompt": "... e ___ di casa sbattendo la porta.",
-					"options": ["abbia uscito", "sia uscita", "sia uscito"],
-					"correct": 1
+					"sentence": "Siamo felici che Giuseppe e Sonia {{0}} la nostra proposta, era tanto che desideravamo acquistare il loro appartamento.",
+					"choices": [
+						{
+							"options": [
+								"abbiano accettato",
+								"siano accettati",
+								"abbiano accettati"
+							],
+							"correct": 0
+						}
+					]
 				},
 				{
-					"prompt": "Siamo felici che Giuseppe e Sonia ___ la nostra proposta.",
-					"options": [
-						"abbiano accettato",
-						"siano accettati",
-						"abbiano accettati"
-					],
-					"correct": 0
+					"sentence": "Oggi partiamo per la Liguria, speriamo che sia bel tempo, dicono che ieri {{0}} su tutta la regione.",
+					"choices": [
+						{
+							"options": ["abbia piovuto", "sia piovuto", "abbia piovuti"],
+							"correct": [0, 1]
+						}
+					]
 				},
 				{
-					"prompt": "Oggi partiamo per la Liguria, speriamo che sia bel tempo, dicono che ieri ___ su tutta la regione.",
-					"options": ["abbia piovuto", "sia piovuto", "abbia piovuti"],
-					"correct": [0, 1]
+					"sentence": "È tardi, credo che ormai tutti {{0}}.",
+					"choices": [
+						{
+							"options": [
+								"se ne abbiano andato",
+								"se ne siano andato",
+								"se ne siano andati"
+							],
+							"correct": 2
+						}
+					]
 				},
 				{
-					"prompt": "È tardi, credo che ormai tutti ___.",
-					"options": [
-						"se ne abbiano andato",
-						"se ne siano andato",
-						"se ne siano andati"
-					],
-					"correct": 2
+					"sentence": "Giovanna spera che Marco entro giovedì {{0}} la tesina, così potranno partire per un week-end rilassante.",
+					"choices": [
+						{
+							"options": ["abbia finito", "sia finito", "sia finita"],
+							"correct": 0
+						}
+					]
 				},
 				{
-					"prompt": "Giovanna spera che Marco entro giovedì ___ la tesina.",
-					"options": ["abbia finito", "sia finito", "sia finita"],
-					"correct": 0
+					"sentence": "È uscito la settimana scorsa dall'ospedale. Credo che Claudio {{0}}.",
+					"choices": [
+						{
+							"options": [
+								"abbia completamente guarito",
+								"sia completamente guarito",
+								"sia completamente guariti"
+							],
+							"correct": 1
+						}
+					]
 				},
 				{
-					"prompt": "È uscito la settimana scorsa dall'ospedale. Credo che Claudio ___.",
-					"options": [
-						"abbia completamente guarito",
-						"sia completamente guarito",
-						"sia completamente guariti"
-					],
-					"correct": 1
+					"sentence": "Pare che Giulio {{0}} la macchina per portarla al lavaggio.",
+					"choices": [
+						{
+							"options": ["abbia preso", "sia preso", "sia presa"],
+							"correct": 0
+						}
+					]
 				},
 				{
-					"prompt": "Pare che Giulio ___ la macchina per portarla al lavaggio.",
-					"options": ["abbia preso", "sia preso", "sia presa"],
-					"correct": 0
+					"sentence": "Sono contento che tuo figlio {{0}} il concorso, finalmente potrà lavorare e diventare indipendente.",
+					"choices": [
+						{
+							"options": ["abbia superato", "sia superato", "sia superati"],
+							"correct": 0
+						}
+					]
 				},
 				{
-					"prompt": "Sono contento che tuo figlio ___ il concorso.",
-					"options": ["abbia superato", "sia superato", "sia superati"],
-					"correct": 0
+					"sentence": "Valerio non è ancora rientrato a casa, è molto probabile che {{0}} da Loredana.",
+					"choices": [
+						{
+							"options": ["abbia passato", "sia passato", "sia passata"],
+							"correct": 1
+						}
+					]
 				},
 				{
-					"prompt": "Valerio non è ancora rientrato a casa, è molto probabile che ___ da Loredana.",
-					"options": ["abbia passato", "sia passato", "sia passata"],
-					"correct": 1
+					"sentence": "Paola era molto preoccupata per la salute di Lucio e sembra che lui {{0}} di fumare per farla stare più tranquilla.",
+					"choices": [
+						{
+							"options": ["abbia smesso", "sia smesso", "sia smessa"],
+							"correct": 0
+						}
+					]
 				},
 				{
-					"prompt": "Paola era molto preoccupata per la salute di Lucio e sembra che lui ___ di fumare.",
-					"options": ["abbia smesso", "sia smesso", "sia smessa"],
-					"correct": 0
+					"sentence": "Ieri era l'ultimo giorno di carnevale, penso che i ragazzi ieri sera {{0}} a ballare.",
+					"choices": [
+						{
+							"options": ["abbiano andato", "siano andato", "siano andati"],
+							"correct": 2
+						}
+					]
 				},
 				{
-					"prompt": "Ieri era l'ultimo giorno di carnevale, penso che i ragazzi ieri sera ___ a ballare.",
-					"options": ["abbiano andato", "siano andato", "siano andati"],
-					"correct": 2
+					"sentence": "Ti vedo molto rilassato, sono contento che questa storia {{0}} per il meglio!",
+					"choices": [
+						{
+							"options": ["abbia finito", "sia finito", "sia finita"],
+							"correct": 2
+						}
+					]
 				},
 				{
-					"prompt": "Ti vedo molto rilassato, sono contento che questa storia ___ per il meglio!",
-					"options": ["abbia finito", "sia finito", "sia finita"],
-					"correct": 2
+					"sentence": "Bisogna che entro domani Giorgia {{0}} questo lavoro perché il cliente ha molta fretta.",
+					"choices": [
+						{
+							"options": ["abbia terminato", "sia terminato", "sia terminata"],
+							"correct": 0
+						}
+					]
 				},
 				{
-					"prompt": "Bisogna che entro domani Giorgia ___ questo lavoro.",
-					"options": ["abbia terminato", "sia terminato", "sia terminata"],
-					"correct": 0
-				},
-				{
-					"prompt": "Sembra che gli sposi ___ ieri dalle Maldive.",
-					"options": ["abbiano tornato", "sia tornato", "siano tornati"],
-					"correct": 2
+					"sentence": "Sembra che gli sposi {{0}} ieri dalle Maldive, ho visto la luce accesa in casa loro.",
+					"choices": [
+						{
+							"options": ["abbiano tornato", "sia tornato", "siano tornati"],
+							"correct": 2
+						}
+					]
 				}
 			]
 		},
@@ -430,7 +484,7 @@
 			"id": "it-advanced-8",
 			"number": 8,
 			"title": "Completa il brano con i verbi al passato",
-			"instructions": "Completa il brano con i verbi al passato (passato prossimo o imperfetto).",
+			"instructions": "Completa il brano con i verbi al passato.",
 			"kind": "fill-blank",
 			"items": [
 				{
@@ -504,9 +558,10 @@
 					"blanks": [{ "answer": "avessi scritto", "hint": "scrivere" }]
 				},
 				{
-					"sentence": "3. Il portiere pensava che Flavio ed io {{0}} (non partire) e ci ha cercato in tutto l'albergo.",
+					"sentence": "3. Il portiere pensava che Flavio ed io {{0}} ancora {{1}} (non partire) e ci ha cercato in tutto l'albergo.",
 					"blanks": [
-						{ "answer": "non fossimo ancora partiti", "hint": "partire" }
+						{ "answer": "non fossimo" },
+						{ "answer": "partiti", "hint": "partire" }
 					]
 				},
 				{
@@ -514,19 +569,25 @@
 					"blanks": [{ "answer": "avessero imparato", "hint": "imparare" }]
 				},
 				{
-					"sentence": "5. Piero non sapeva che Claudia {{0}} (acquistare) un cellulare nuovo e gliene ha regalato uno anche lui.",
+					"sentence": "5. Piero non sapeva che Claudia {{0}} (acquistare) un cellulare nuovo e gliene ha regalato uno anche lui, così adesso lei ne ha due uguali.",
 					"blanks": [{ "answer": "avesse acquistato", "hint": "acquistare" }]
 				},
 				{
-					"sentence": "6. Immaginavo che voi (= Valeria e Filippo) {{0}} (stare) in Inghilterra.",
-					"blanks": [{ "answer": "foste già stati", "hint": "stare" }]
+					"sentence": "6. Immaginavo che voi (= Valeria e Filippo) {{0}} già {{1}} (stare) in Inghilterra, così vi ho portato dei depliants sulla Francia.",
+					"blanks": [
+						{ "answer": "foste" },
+						{ "answer": "stati", "hint": "stare" }
+					]
 				},
 				{
-					"sentence": "7. Non ti {{0}} (io sposare)! Adesso sarei a New York e vivrei tranquilla!",
-					"blanks": [{ "answer": "avessi mai sposato", "hint": "sposare" }]
+					"sentence": "7. Non ti {{0}} mai {{1}} (io sposare)! Adesso sarei a New York e vivrei tranquilla!",
+					"blanks": [
+						{ "answer": "avessi" },
+						{ "answer": "sposato", "hint": "sposare" }
+					]
 				},
 				{
-					"sentence": "8. Lucia credeva che Renzo {{0}} (arrabbiarsi) perché lei era arrivata tardi all'appuntamento.",
+					"sentence": "8. Lucia credeva che Renzo {{0}} (arrabbiarsi) perché lei era arrivata tardi all'appuntamento, invece lui era arrabbiato per motivi di lavoro.",
 					"blanks": [{ "answer": "si fosse arrabbiato", "hint": "arrabbiarsi" }]
 				},
 				{
@@ -543,41 +604,34 @@
 			"id": "it-advanced-10",
 			"number": 10,
 			"title": "Completa con il verbo al congiuntivo trapassato",
-			"instructions": "Completa con il verbo al congiuntivo trapassato. Usa i verbi del riquadro: credere – farsi male – sporcare – spedire – spegnere – perdersi – laurearsi – sbagliarsi – capire – innamorarsi.",
+			"instructions": "Completa con il verbo al congiuntivo trapassato.",
+			"contextHint": "credere, sporcare, spegnere, laurearsi, capire, farsi male, spedire, perdersi, sbagliarsi, innamorarsi",
 			"kind": "fill-blank",
-			"wordBank": [
-				"credere",
-				"farsi male",
-				"sporcare",
-				"spedire",
-				"spegnere",
-				"perdersi",
-				"laurearsi",
-				"sbagliarsi",
-				"capire",
-				"innamorarsi"
-			],
 			"items": [
 				{
-					"sentence": "a. Lo zio credeva che tu {{0}} gli inviti per la festa di laurea di Gigi.",
-					"blanks": [{ "answer": "avessi già spedito", "hint": "spedire" }]
-				},
-				{
-					"sentence": "b. Mamma pensava che io non {{0}} il gas prima di uscire.",
-					"blanks": [{ "answer": "avessi spento", "hint": "spegnere" }]
-				},
-				{
-					"sentence": "c. Giulia era convinta che noi {{0}} a tutte le sue bugie.",
-					"blanks": [{ "answer": "avessimo creduto", "hint": "credere" }]
-				},
-				{
-					"sentence": "d. Paolo giudica sempre quello che fanno gli altri come se lui non {{0}} in vita sua.",
+					"sentence": "a. Lo zio credeva che tu {{0}} già {{1}} gli inviti per la festa di laurea di Gigi. La festa è fra tre giorni e nessuno degli invitati lo sa!",
 					"blanks": [
-						{ "answer": "si fosse mai sbagliato", "hint": "sbagliarsi" }
+						{ "answer": "avessi" },
+						{ "answer": "spedito", "hint": "spedire" }
 					]
 				},
 				{
-					"sentence": "e. Il professore pensava che voi {{0}} la sua macchina con la vernice.",
+					"sentence": "b. Mamma pensava che io non {{0}} il gas prima di uscire e mi ha chiamato in ufficio, ma per fortuna io me ne sono ricordata.",
+					"blanks": [{ "answer": "avessi spento", "hint": "spegnere" }]
+				},
+				{
+					"sentence": "c. Giulia era convinta che noi {{0}} a tutte le sue bugie, ma noi la conosciamo bene... sappiamo che è un Pinocchio in gonnella!",
+					"blanks": [{ "answer": "avessimo creduto", "hint": "credere" }]
+				},
+				{
+					"sentence": "d. Paolo giudica sempre quello che fanno gli altri come se lui non {{0}} mai {{1}} in vita sua. Farebbe meglio a pensare a quello che combina lui!",
+					"blanks": [
+						{ "answer": "si fosse" },
+						{ "answer": "sbagliato", "hint": "sbagliarsi" }
+					]
+				},
+				{
+					"sentence": "e. Il professore pensava che voi {{0}} la sua macchina con la vernice e invece sono stato io!",
 					"blanks": [{ "answer": "aveste sporcato", "hint": "sporcare" }]
 				},
 				{
@@ -589,15 +643,18 @@
 					"blanks": [{ "answer": "avessero capito", "hint": "capire" }]
 				},
 				{
-					"sentence": "h. I genitori di Lucilla pensavano che Graziano {{0}} di lei.",
+					"sentence": "h. I genitori di Lucilla pensavano che Graziano {{0}} di lei, ma non sapevano che lui era già sposato.",
 					"blanks": [{ "answer": "si fosse innamorato", "hint": "innamorarsi" }]
 				},
 				{
-					"sentence": "i. Ero convinta che voi (= Maria e Paola) {{0}} l'anno scorso.",
-					"blanks": [{ "answer": "vi foste già laureate", "hint": "laurearsi" }]
+					"sentence": "i. Ero convinta che voi (= Maria e Paola) {{0}} già {{1}} l'anno scorso, non credevo che aveste ancora tre esami da superare.",
+					"blanks": [
+						{ "answer": "vi foste" },
+						{ "answer": "laureate", "hint": "laurearsi" }
+					]
 				},
 				{
-					"sentence": "j. La polizia pensava che i due bambini {{0}} nei boschi.",
+					"sentence": "j. La polizia pensava che i due bambini {{0}} nei boschi, invece si erano nascosti in una casa abbandonata vicino al fiume.",
 					"blanks": [{ "answer": "si fossero persi", "hint": "perdersi" }]
 				}
 			]
@@ -606,7 +663,7 @@
 			"id": "it-advanced-11",
 			"number": 11,
 			"title": "Abbinare le frasi (Colonna A con Colonna B)",
-			"instructions": "Abbinare le frasi della colonna A con quelle della colonna B.",
+			"instructions": "Abbinare le frasi (Colonna A con Colonna B).",
 			"kind": "match",
 			"pairs": [
 				{
@@ -660,72 +717,135 @@
 			"items": [
 				{
 					"correctOrder": [
-						"Dopo la morte del padre,",
-						"pareva che il dolore le avesse cambiate profondamente,",
-						"Anna e Maria non sembravano più le stesse persone."
+						"Dopo",
+						"la morte del padre,",
+						"Anna e Maria",
+						"non",
+						"sembravano",
+						"più",
+						"le stesse persone,",
+						"pareva che",
+						"il dolore",
+						"le avesse cambiate",
+						"profondamente."
 					]
 				},
 				{
 					"correctOrder": [
-						"Una volta",
-						"sembrava che la seconda moglie di mio padre",
-						"si fosse già sposata."
+						"Sembrava che",
+						"la seconda moglie di mio padre",
+						"si fosse",
+						"già",
+						"sposata",
+						"una volta."
 					]
 				},
 				{
 					"correctOrder": [
-						"Non pensavo che tu fossi già tornato,",
-						"credevo che tu restassi ancora un po' al mare",
+						"Non",
+						"pensavo che",
+						"tu",
+						"fossi",
+						"già",
+						"tornato,",
+						"credevo che",
+						"tu restassi",
+						"ancora un po'",
+						"al mare",
 						"con i tuoi genitori."
 					]
 				},
 				{
 					"correctOrder": [
-						"Il professore non era sicuro",
-						"che noi avessimo compreso bene",
+						"Il professore",
+						"non",
+						"era sicuro che",
+						"noi",
+						"avessimo compreso",
+						"bene",
 						"quello che ci aveva detto."
 					]
 				},
 				{
 					"correctOrder": [
-						"Avrei preferito che voi mi aveste ascoltato",
-						"quando vi dicevo di non andare troppo veloci in macchina,",
-						"adesso la multa la pagate con i vostri soldi!"
+						"Avrei preferito che",
+						"voi",
+						"mi aveste ascoltato",
+						"quando",
+						"vi dicevo di",
+						"non andare",
+						"troppo veloci",
+						"in macchina,",
+						"adesso",
+						"la multa",
+						"la pagate",
+						"con i vostri soldi!"
 					]
 				},
 				{
 					"correctOrder": [
-						"Non sapevo che sarebbe venuto anche Filippo a questa gita,",
-						"se lo avessi saputo non sarei venuta,",
+						"Non sapevo che",
+						"sarebbe venuto",
+						"anche",
+						"Filippo",
+						"a questa gita,",
+						"se lo avessi saputo",
+						"non sarei venuta,",
 						"non lo sopporto."
 					]
 				},
 				{
 					"correctOrder": [
-						"Credevamo che Giuseppe e Nadia non avessero voluto venire al mare con noi,",
-						"invece non hanno potuto",
-						"perché Nadia si era fatta male a un ginocchio."
+						"Credevamo che",
+						"Giuseppe e Nadia",
+						"non",
+						"avessero voluto",
+						"venire",
+						"al mare",
+						"con noi,",
+						"invece",
+						"non",
+						"hanno potuto",
+						"perché",
+						"Nadia",
+						"si era fatta male",
+						"a un ginocchio."
 					]
 				},
 				{
 					"correctOrder": [
-						"Non pensavo che Carlo si fosse annoiato tanto alla festa di laurea di Federico,",
+						"Non pensavo che",
+						"Carlo",
+						"si fosse annoiato",
+						"tanto",
+						"alla festa",
+						"di laurea",
+						"di Federico,",
 						"se lo avessi immaginato",
-						"non lo avrei invitato."
+						"non lo avrei invitato.",
+						"Avremmo preferito che",
+						"avessi risposto",
+						"subito di no,",
+						"quando",
+						"ti abbiamo chiesto",
+						"di aiutarci,",
+						"se tu fossi stato",
+						"sincero con noi",
+						"non avremmo dovuto",
+						"cercare",
+						"qualcun altro",
+						"all'ultimo minuto!"
 					]
 				},
 				{
 					"correctOrder": [
-						"Avremmo preferito che avessi risposto subito di no,",
-						"quando ti abbiamo chiesto di aiutarci,",
-						"se tu fossi stato sincero con noi non avremmo dovuto cercare qualcun altro all'ultimo minuto!"
-					]
-				},
-				{
-					"correctOrder": [
-						"Franca e Daniela erano convinte",
-						"che avessimo ricevuto la loro lettera,",
-						"ma che non avessimo voluto rispondere loro."
+						"Franca e Daniela",
+						"erano convinte che",
+						"avessimo ricevuto",
+						"la loro lettera,",
+						"ma che",
+						"non avessimo voluto",
+						"rispondere loro."
 					]
 				}
 			]
@@ -734,18 +854,18 @@
 			"id": "it-advanced-13",
 			"number": 13,
 			"title": "Completa le frasi con i verbi al CONGIUNTIVO TRAPASSATO",
-			"instructions": "Completa le frasi con i verbi al CONGIUNTIVO TRAPASSATO. Attenzione: alcuni verbi richiedono il congiuntivo imperfetto invece del trapassato.",
+			"instructions": "Completa le frasi con i verbi al CONGIUNTIVO TRAPASSATO.",
 			"kind": "fill-blank",
 			"items": [
 				{
-					"sentence": "Credevi forse che {{0}} (io scherzare) quanto ti ho detto di riordinare la tua camera?",
+					"sentence": "Credevi forse che {{0}} (io scherzare) quando ti ho detto di riordinare la tua camera? Se fra mezz'ora non è tutto in ordine stasera niente cena!",
 					"blanks": [{ "answer": "avessi scherzato", "hint": "scherzare" }]
 				},
 				{
 					"sentence": "Riccardo non pensava che Caterina {{0}} (dipingere) così bene, era convinto che lei non {{1}} (sapere) tenere in mano nemmeno una matita.",
 					"blanks": [
 						{ "answer": "dipingesse", "hint": "dipingere" },
-						{ "answer": "non sapesse", "hint": "sapere" }
+						{ "answer": "sapesse", "hint": "sapere" }
 					]
 				},
 				{
@@ -779,13 +899,13 @@
 					]
 				},
 				{
-					"sentence": "Nonostante voi ci {{0}} (consigliare) di non farlo, noi abbiamo deciso lo stesso di comperare una macchina usata.",
+					"sentence": "Nonostante voi ci {{0}} (consigliare) di non farlo, noi abbiamo deciso lo stesso di comperare una macchina usata, ma adesso ce ne siamo pentiti amaramente.",
 					"blanks": [
-						{ "answer": "ci aveste consigliato", "hint": "consigliare" }
+						{ "answer": "aveste consigliato", "hint": "consigliare" }
 					]
 				},
 				{
-					"sentence": "Nonostante che noi, prima di partire per le vacanze, {{0}} (chiudere) la porta e {{1}} (assicurarsi) che anche le finestre {{2}} (essere) ben chiuse, i ladri sono entrati lo stesso.",
+					"sentence": "Nonostante che noi, prima di partire per le vacanze, {{0}} (chiudere) la porta e {{1}} (assicurarsi) che anche le finestre {{2}} (essere) ben chiuse, i ladri sono entrati lo stesso e ci hanno rubato tutto!",
 					"blanks": [
 						{ "answer": "avessimo chiuso", "hint": "chiudere" },
 						{ "answer": "ci fossimo assicurati", "hint": "assicurarsi" },
@@ -793,7 +913,7 @@
 					]
 				},
 				{
-					"sentence": "Speravamo che la nonna {{0}} (decidersi) a venire a vivere con noi.",
+					"sentence": "Speravamo che la nonna {{0}} (decidersi) a venire a vivere con noi, invece ha detto che preferisce stare da sola, certo che è proprio testarda!",
 					"blanks": [
 						{ "answer": "si fosse finalmente decisa", "hint": "decidersi" }
 					]

@@ -14,8 +14,8 @@
 			"items": [
 				{
 					"prompt": "Salir",
-					"options": ["sali", "salu", "sali", "salit"],
-					"correct": [0, 2]
+					"options": ["salis", "salu", "sali", "salit"],
+					"correct": 2
 				},
 				{
 					"prompt": "Vêtir",
@@ -229,7 +229,7 @@
 					"blanks": [{ "answer": "est tombé" }]
 				},
 				{
-					"sentence": "Tous ceux qui la {{0}} (fréquenter) savent quelle grande artiste elle fut.",
+					"sentence": "Tous ceux qui l'{{0}} (fréquenter) savent quelle grande artiste elle fut.",
 					"blanks": [{ "answer": "ont fréquentée" }]
 				},
 				{
@@ -255,78 +255,57 @@
 			"number": 4,
 			"title": "Choisissez l'imparfait ou le passé composé",
 			"instructions": "Choisissez l'imparfait ou le passé composé.",
-			"kind": "choice",
-			"multiple": false,
+			"kind": "inline-choice",
 			"items": [
 				{
-					"prompt": "Il _____ l'avenue quand une voiture _____ en face de lui.",
-					"options": [
-						"traversait / est arrivée",
-						"a traversé / arrivait",
-						"traversait / arrivait",
-						"a traversé / est arrivée"
-					],
-					"correct": 0
+					"sentence": "Il {{0}} l'avenue quand une voiture {{1}} en face de lui.",
+					"choices": [
+						{ "options": ["traversait", "a traversé"], "correct": 0 },
+						{ "options": ["arrivait", "est arrivée"], "correct": 1 }
+					]
 				},
 				{
-					"prompt": "Elle _____ tranquillement. Il _____ à pleuvoir.",
-					"options": [
-						"s'est promenée / a commencé",
-						"se promenait / a commencé",
-						"se promenait / commençait",
-						"s'est promenée / commençait"
-					],
-					"correct": 1
+					"sentence": "Elle {{0}} tranquillement. Il {{1}} à pleuvoir.",
+					"choices": [
+						{ "options": ["s'est promenée", "se promenait"], "correct": 1 },
+						{ "options": ["a commencé", "commençait"], "correct": 0 }
+					]
 				},
 				{
-					"prompt": "J'_____ sur le trottoir et, à un moment, j'_____ mon nom.",
-					"options": [
-						"ai avancé / ai entendu",
-						"avançais / entendais",
-						"avançais / ai entendu",
-						"ai avancé / entendais"
-					],
-					"correct": 2
+					"sentence": "J'{{0}} sur le trottoir et, à un moment, j'{{1}} mon nom.",
+					"choices": [
+						{ "options": ["ai avancé", "avançais"], "correct": 1 },
+						{ "options": ["ai entendu", "entendais"], "correct": 0 }
+					]
 				},
 				{
-					"prompt": "Elle _____ à la terrasse d'un café et elle _____ les gens passer quand, tout à coup, elle _____ un énorme bruit.",
-					"options": [
-						"était assise / regardait / a entendu",
-						"a été assise / regardait / a entendu",
-						"était assise / a regardé / entendait",
-						"a été assise / regardait / entendait"
-					],
-					"correct": 0
+					"sentence": "Elle {{0}} assise à la terrasse d'un café et elle {{1}} les gens passer quand, tout à coup, elle {{2}} un énorme bruit.",
+					"choices": [
+						{ "options": ["a été", "était"], "correct": 1 },
+						{ "options": ["a regardé", "regardait"], "correct": 1 },
+						{ "options": ["a entendu", "entendait"], "correct": 0 }
+					]
 				},
 				{
-					"prompt": "Je _____ mes courses quand, brusquement, il y _____ une explosion.",
-					"options": [
-						"faisais / a eu",
-						"ai fait / avait",
-						"faisais / avait",
-						"ai fait / a eu"
-					],
-					"correct": 0
+					"sentence": "{{0}} mes courses quand, brusquement, il y {{1}} une explosion.",
+					"choices": [
+						{ "options": ["Je faisais", "J'ai fait"], "correct": 0 },
+						{ "options": ["a eu", "avait"], "correct": 0 }
+					]
 				},
 				{
-					"prompt": "Vous vous _____ quand un ami _____.",
-					"options": [
-						"êtes reposés / arrivait",
-						"reposiez / est arrivé",
-						"reposiez / arrivait",
-						"êtes reposés / est arrivé"
-					],
-					"correct": 1
+					"sentence": "Vous vous {{0}} quand un ami {{1}}.",
+					"choices": [
+						{ "options": ["êtes reposés", "reposiez"], "correct": 1 },
+						{ "options": ["arrivait", "est arrivé"], "correct": 1 }
+					]
 				},
 				{
-					"prompt": "On _____ sur l'ordinateur quand il y _____ une panne d'électricité.",
-					"options": [
-						"a travaillé / a eu",
-						"travaillait / a eu",
-						"travaillait / avait",
-						"a travaillé / avait"
-					],
-					"correct": 1
+					"sentence": "On {{0}} sur l'ordinateur quand il y {{1}} une panne d'électricité.",
+					"choices": [
+						{ "options": ["a travaillé", "travaillait"], "correct": 1 },
+						{ "options": ["a eu", "avait"], "correct": 0 }
+					]
 				}
 			]
 		}

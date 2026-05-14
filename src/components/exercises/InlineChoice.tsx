@@ -65,6 +65,10 @@ function parseSentence(sentence: string): Segment[] {
 	return segments;
 }
 
+function correctIndexes(correct: number | number[]): number[] {
+	return Array.isArray(correct) ? correct : [correct];
+}
+
 // -----------------------------------------------------------------------
 // Props
 // -----------------------------------------------------------------------
@@ -130,7 +134,8 @@ export function InlineChoice({ exercise, onResult, onNext }: Props) {
 			choiceValidity[itemIdx] = {};
 			item.choices.forEach((choice, choiceIdx) => {
 				const selected = state.selections[itemIdx]?.[choiceIdx] ?? null;
-				choiceValidity[itemIdx][choiceIdx] = selected === choice.correct;
+				choiceValidity[itemIdx][choiceIdx] =
+					selected !== null && correctIndexes(choice.correct).includes(selected);
 			});
 		});
 	}
@@ -142,7 +147,8 @@ export function InlineChoice({ exercise, onResult, onNext }: Props) {
 			for (const [choiceIdx, choice] of item.choices.entries()) {
 				total++;
 				const selected = state.selections[itemIdx]?.[choiceIdx] ?? null;
-				if (selected === choice.correct) correct++;
+				if (selected !== null && correctIndexes(choice.correct).includes(selected))
+					correct++;
 			}
 		}
 		const score = total === 0 ? 0 : correct / total;
@@ -193,6 +199,7 @@ export function InlineChoice({ exercise, onResult, onNext }: Props) {
 								if (!choice) return null;
 								const selected = state.selections[itemIdx]?.[choiceIdx] ?? null;
 								const isCorrect = choiceValidity[itemIdx]?.[choiceIdx];
+								const correctArr = correctIndexes(choice.correct);
 
 								return (
 									<span
@@ -205,7 +212,7 @@ export function InlineChoice({ exercise, onResult, onNext }: Props) {
 												"rounded-full border px-3 py-0.5 text-sm font-medium transition-colors cursor-pointer ";
 
 											if (isSubmitted) {
-												if (optIdx === choice.correct) {
+												if (correctArr.includes(optIdx)) {
 													pillClass +=
 														"border-[var(--c-correct)] bg-[var(--c-correct)] text-white";
 												} else if (isSelected && !isCorrect) {
