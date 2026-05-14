@@ -1,295 +1,292 @@
 {
-  "language": "it",
-  "level": "intermediate",
-  "control": true,
-  "title": "Esercizi di controllo",
-  "exercises": [
-    {
-      "id": "it-intermediate-control-1",
-      "number": 1,
-      "title": "Scegli il tempo del verbo giusto",
-      "instructions": "Scegli il tempo del verbo giusto.",
-      "kind": "inline-choice",
-      "items": [
-        {
-          "sentence": "come mi hai richiesto, ti mando quanto {{0}} a scoprire della vita di Antonio Buzzi a Lugano.",
-          "choices": [
-            {
-              "options": ["eravamo riusciti", "siamo riusciti"],
-              "correct": 1
-            }
-          ]
-        },
-        {
-          "sentence": "Il Buzzi {{0}} da poco in Svizzera, quando un collega fuori servizio lo {{1}} mentre {{2}} di aprire una macchina.",
-          "choices": [
-            {
-              "options": ["arrivo", "era arrivato"],
-              "correct": 1
-            },
-            {
-              "options": ["ha sorpreso", "aveva sorpreso"],
-              "correct": 0
-            },
-            {
-              "options": ["aveva cercato", "cercava"],
-              "correct": 1
-            }
-          ]
-        },
-        {
-          "sentence": "Lui si {{0}} dicendo che {{1}} di un suo amico e che {{2}} le chiavi.",
-          "choices": [
-            {
-              "options": ["era difeso", "difendeva"],
-              "correct": 0
-            },
-            {
-              "options": ["era", "era stata"],
-              "correct": 0
-            },
-            {
-              "options": ["perdeva", "aveva perso"],
-              "correct": 1
-            }
-          ]
-        },
-        {
-          "sentence": "Allora, {{0}} delle indagini e scoprimmo che la macchina {{1}} a un tale di nome Domenico Rota e che prima {{2}} allo stesso Antonio Buzzi.",
-          "choices": [
-            {
-              "options": ["abbiamo fatto", "avevamo fatto"],
-              "correct": 0
-            },
-            {
-              "options": ["apparteneva", "era appartenuta"],
-              "correct": 0
-            },
-            {
-              "options": ["apparteneva", "era appartenuta"],
-              "correct": 1
-            }
-          ]
-        },
-        {
-          "sentence": "{{0}} a non capire molto e a stare attenti a quello che {{1}} il Buzzi.",
-          "choices": [
-            {
-              "options": ["Avevamo cominciato", "Abbiamo cominciato"],
-              "correct": 1
-            },
-            {
-              "options": ["faceva", "aveva fatto"],
-              "correct": 0
-            }
-          ]
-        },
-        {
-          "sentence": "Poi un giorno fermammo un'auto a un posto di blocco e dentro {{0}} il Buzzi con due uomini, che {{1}} già qualche anno prima, appartenenti al clan dei Marino.",
-          "choices": [
-            {
-              "options": ["avevamo trovato", "abbiamo trovato"],
-              "correct": 1
-            },
-            {
-              "options": ["avevamo già arrestato", "arrestavamo"],
-              "correct": 0
-            }
-          ]
-        },
-        {
-          "sentence": "Oggi, indagando su tua richiesta, {{0}} che il Buzzi {{1}} il lavoro di barista tre giorni dopo che lo {{2}} in auto con i due mafiosi.",
-          "choices": [
-            {
-              "options": ["abbiamo scoperto", "avevamo scoperto"],
-              "correct": 0
-            },
-            {
-              "options": ["lasciava", "aveva lasciato"],
-              "correct": 1
-            },
-            {
-              "options": ["avevamo trovato", "trovavamo"],
-              "correct": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "it-intermediate-control-2",
-      "number": 2,
-      "title": "Futuro anteriore — completare con verbi indicati",
-      "instructions": "Completa le frasi con uno dei verbi indicati al futuro anteriore.",
-      "kind": "fill-blank",
-      "wordBank": ["prescrivere", "studiare", "inviare", "prendere", "finire", "trovare", "arrivare", "mettere", "pensare", "spendere"],
-      "items": [
-        {
-          "sentence": "Non appena Angela {{0}} di fare la doccia, mi telefonerà.",
-          "blanks": [{ "answer": "avrà finito" }]
-        },
-        {
-          "sentence": "Signora Bianchi, lei guarirà dopo che {{0}} tutta la scatola di antibiotici.",
-          "blanks": [{ "answer": "avrà preso" }]
-        },
-        {
-          "sentence": "Ieri sono andata dal medico perché avevo forti dolori. - Ti {{0}} una visita specialistica? O no?",
-          "blanks": [{ "answer": "avrà prescritto" }]
-        },
-        {
-          "sentence": "Andrea e Maria hanno comprato una macchina bellissima. - {{0}} tantissimi soldi!",
-          "blanks": [{ "answer": "Avranno speso" }]
-        },
-        {
-          "sentence": "Quando (noi) {{0}} sulla cima del monte Marmagna, potremo vedere il Golfo dei Poeti e forse anche la Corsica.",
-          "blanks": [{ "answer": "saremo arrivati" }]
-        },
-        {
-          "sentence": "Dopo che (voi) {{0}} un nuovo lavoro, potrete affittare un appartamento più grande.",
-          "blanks": [{ "answer": "avrete trovato" }]
-        },
-        {
-          "sentence": "- Sono felice. Ho preso 30 e lode all'esame! - Brava! Sicuramente {{0}} molto.",
-          "blanks": [{ "answer": "avrai studiato" }]
-        },
-        {
-          "sentence": "Che cosa {{0}} i tuoi studenti quando ti hanno visto senza barba e baffi?",
-          "blanks": [{ "answer": "avranno pensato" }]
-        },
-        {
-          "sentence": "Ti manderò un'e-mail non appena mi {{0}} il tuo indirizzo.",
-          "blanks": [{ "answer": "avrai inviato" }]
-        },
-        {
-          "sentence": "Quanto tempo ci {{0}} Mauro a tornare a piedi da Bologna?",
-          "blanks": [{ "answer": "avrà messo" }]
-        }
-      ]
-    },
-    {
-      "id": "it-intermediate-control-3",
-      "number": 3,
-      "title": "Passato prossimo, Imperfetto o Trapassato prossimo",
-      "instructions": "Metti il verbo al passato prossimo, all'imperfetto o al trapassato prossimo.",
-      "kind": "fill-blank",
-      "items": [
-        {
-          "sentence": "Quando la polizia {{0}} (arrivare) i ladri {{1}} già {{2}} (scappare).",
-          "blanks": [
-            { "answer": "è arrivata" },
-            { "answer": "erano" },
-            { "answer": "scappati" }
-          ]
-        },
-        {
-          "sentence": "Anna {{0}} appena {{1}} (addormentarsi) quando qualcuno {{2}} (suonare) alla porta.",
-          "blanks": [
-            { "answer": "si era" },
-            { "answer": "addormentata" },
-            { "answer": "ha suonato" }
-          ]
-        },
-        {
-          "sentence": "Giovanna e Luigi {{0}} appena {{1}} (sposarsi) quando lei {{2}} (innamorarsi) di un altro uomo.",
-          "blanks": [
-            { "answer": "si erano" },
-            { "answer": "sposati" },
-            { "answer": "si è innamorata" }
-          ]
-        },
-        {
-          "sentence": "Il treno non {{0}} ancora {{1}} (arrivare) in stazione, ma già la gente {{2}} (volere) scendere.",
-          "blanks": [
-            { "answer": "era" },
-            { "answer": "arrivato" },
-            { "answer": "voleva" }
-          ]
-        },
-        {
-          "sentence": "Ogni giorno, quando Marina {{0}} (alzarsi) suo marito le {{1}} già {{2}} (preparare) la colazione.",
-          "blanks": [
-            { "answer": "si alzava" },
-            { "answer": "aveva" },
-            { "answer": "preparato" }
-          ]
-        },
-        {
-          "sentence": "Siamo in ritardo, lo so! Ma l'autobus {{0}} già {{1}} (partire) quando noi {{2}} (arrivare) alla fermata.",
-          "blanks": [
-            { "answer": "era" },
-            { "answer": "partito" },
-            { "answer": "siamo arrivati" }
-          ]
-        },
-        {
-          "sentence": "Mio nonno mi {{0}} (raccontare) sempre quello che {{1}} (lui - fare) durante la guerra.",
-          "blanks": [
-            { "answer": "raccontava" },
-            { "answer": "aveva fatto" }
-          ]
-        },
-        {
-          "sentence": "Mentre Francesca {{0}} (continuare) a parlare, io {{1}} già {{2}} (finire) di lavare i piatti.",
-          "blanks": [
-            { "answer": "continuava" },
-            { "answer": "avevo" },
-            { "answer": "finito" }
-          ]
-        },
-        {
-          "sentence": "Voi non {{0}} ancora {{1}} (nascere) quando io {{2}} già (andare) all'università.",
-          "blanks": [
-            { "answer": "eravate" },
-            { "answer": "nati" },
-            { "answer": "andavo" }
-          ]
-        },
-        {
-          "sentence": "Quando {{0}} (iniziare) il film alla TV, Sara {{1}} già {{2}} (andare) a letto da un'ora.",
-          "blanks": [
-            { "answer": "è iniziato" },
-            { "answer": "era" },
-            { "answer": "andata" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "it-intermediate-control-4",
-      "number": 4,
-      "title": "Forma passiva con essere e/o venire",
-      "instructions": "Completa le frasi con un verbo alla forma passiva con essere e/o venire. Usa i verbi indicati.",
-      "kind": "fill-blank",
-      "wordBank": ["vendere", "premiare", "pubblicare", "addomesticare", "raccogliere", "costruire", "usare"],
-      "items": [
-        {
-          "sentence": "Ieri Mariella {{0}} per i suoi racconti.",
-          "blanks": [{ "answer": "è stata premiata" }]
-        },
-        {
-          "sentence": "L'anno prossimo i racconti di Mariella {{0}} in un libro dove {{1}} i lavori di giovani scrittori italiani.",
-          "blanks": [
-            { "answer": ["saranno pubblicati", "verranno pubblicati"] },
-            { "answer": ["saranno raccolti", "verranno raccolti"] }
-          ]
-        },
-        {
-          "sentence": "L'ascensore del mio condominio non può {{0}} da ragazzi minori di 12 anni non accompagnati da un adulto.",
-          "blanks": [{ "answer": ["essere usato", "venire usato"] }]
-        },
-        {
-          "sentence": "Nel corso dei millenni molti animali {{0}} e ora vivono a contatto diretto con gli esseri umani.",
-          "blanks": [{ "answer": "sono stati addomesticati" }]
-        },
-        {
-          "sentence": "Questa casa {{0}} pochi anni fa.",
-          "blanks": [{ "answer": "è stata costruita" }]
-        },
-        {
-          "sentence": "L'anno prossimo il mio calciatore preferito non giocherà più in Italia, perché {{0}} a una squadra tedesca.",
-          "blanks": [{ "answer": ["sarà venduto", "verrà venduto"] }]
-        }
-      ]
-    }
-  ]
+	"language": "it",
+	"level": "intermediate",
+	"control": true,
+	"title": "Esercizi di controllo",
+	"exercises": [
+		{
+			"id": "it-intermediate-control-1",
+			"number": 1,
+			"title": "Scegli il tempo del verbo giusto",
+			"instructions": "Scegli il tempo del verbo giusto.",
+			"kind": "inline-choice",
+			"items": [
+				{
+					"sentence": "Caro Pasquale, come mi hai richiesto, ti mando quanto {{0}} a scoprire della vita di Antonio Buzzi a Lugano.",
+					"choices": [
+						{
+							"options": ["eravamo riusciti", "siamo riusciti"],
+							"correct": 1
+						}
+					]
+				},
+				{
+					"sentence": "Il Buzzi {{0}} da poco in Svizzera, quando un collega fuori servizio lo {{1}} mentre {{2}} di aprire una macchina.",
+					"choices": [
+						{
+							"options": ["arrivò", "era arrivato"],
+							"correct": 1
+						},
+						{
+							"options": ["ha sorpreso", "aveva sorpreso"],
+							"correct": 0
+						},
+						{
+							"options": ["aveva cercato", "cercava"],
+							"correct": 1
+						}
+					]
+				},
+				{
+					"sentence": "Lui si {{0}} dicendo che {{1}} di un suo amico e che {{2}} le chiavi.",
+					"choices": [
+						{
+							"options": ["era difeso", "difendeva"],
+							"correct": 0
+						},
+						{
+							"options": ["era", "era stata"],
+							"correct": 0
+						},
+						{
+							"options": ["perdeva", "aveva perso"],
+							"correct": 1
+						}
+					]
+				},
+				{
+					"sentence": "Allora, {{0}} delle indagini e scoprimmo che la macchina {{1}} a un tale di nome Domenico Rota e che prima {{2}} allo stesso Antonio Buzzi.",
+					"choices": [
+						{
+							"options": ["abbiamo fatto", "avevamo fatto"],
+							"correct": 0
+						},
+						{
+							"options": ["apparteneva", "era appartenuta"],
+							"correct": 0
+						},
+						{
+							"options": ["apparteneva", "era appartenuta"],
+							"correct": 1
+						}
+					]
+				},
+				{
+					"sentence": "{{0}} a non capire molto e a stare attenti a quello che {{1}} il Buzzi. Per un anno circa non successe nulla.",
+					"choices": [
+						{
+							"options": ["Avevamo cominciato", "Abbiamo cominciato"],
+							"correct": 1
+						},
+						{
+							"options": ["faceva", "aveva fatto"],
+							"correct": 0
+						}
+					]
+				},
+				{
+					"sentence": "Poi un giorno fermammo un'auto a un posto di blocco e dentro {{0}} il Buzzi con due uomini, che {{1}} qualche anno prima, appartenenti al clan dei Marino.",
+					"choices": [
+						{
+							"options": ["avevamo trovato", "abbiamo trovato"],
+							"correct": 1
+						},
+						{
+							"options": ["avevamo già arrestato", "arrestavamo già"],
+							"correct": 0
+						}
+					]
+				},
+				{
+					"sentence": "Da quel giorno, il Buzzi non fu più visto a Lugano. Oggi, indagando su tua richiesta, {{0}} che il Buzzi {{1}} il lavoro di barista tre giorni dopo che lo {{2}} in auto con i due mafiosi.",
+					"choices": [
+						{
+							"options": ["abbiamo scoperto", "avevamo scoperto"],
+							"correct": 0
+						},
+						{
+							"options": ["lasciava", "aveva lasciato"],
+							"correct": 1
+						},
+						{
+							"options": ["avevamo trovato", "trovavamo"],
+							"correct": 0
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "it-intermediate-control-2",
+			"number": 2,
+			"title": "Futuro anteriore — completare con verbi indicati",
+			"instructions": "Completa le frasi con uno dei verbi indicati al futuro anteriore.",
+			"contextHint": "Verbi indicati: prescrivere — studiare — inviare — prendere — finire — trovare — arrivare — mettere — pensare — spendere",
+			"kind": "fill-blank",
+			"items": [
+				{
+					"sentence": "Non appena Angela {{0}} di fare la doccia, mi telefonerà.",
+					"blanks": [{ "answer": "avrà finito" }]
+				},
+				{
+					"sentence": "Signora Bianchi, lei guarirà dopo che {{0}} tutta la scatola di antibiotici.",
+					"blanks": [{ "answer": "avrà preso" }]
+				},
+				{
+					"sentence": "Ieri sono andata dal medico perché avevo forti dolori. - Ti {{0}} una visita specialistica? O no?",
+					"blanks": [{ "answer": "avrà prescritto" }]
+				},
+				{
+					"sentence": "Andrea e Maria hanno comprato una macchina bellissima. - {{0}} tantissimi soldi!",
+					"blanks": [{ "answer": "Avranno speso" }]
+				},
+				{
+					"sentence": "Quando (noi) {{0}} sulla cima del monte Marmagna, potremo vedere il Golfo dei Poeti e forse anche la Corsica.",
+					"blanks": [{ "answer": "saremo arrivati" }]
+				},
+				{
+					"sentence": "Dopo che (voi) {{0}} un nuovo lavoro, potrete affittare un appartamento più grande.",
+					"blanks": [{ "answer": "avrete trovato" }]
+				},
+				{
+					"sentence": "- Sono felice. Ho preso 30 e lode all'esame! - Brava! Sicuramente {{0}} molto.",
+					"blanks": [{ "answer": "avrai studiato" }]
+				},
+				{
+					"sentence": "Che cosa {{0}} i tuoi studenti quando ti hanno visto senza barba e baffi?",
+					"blanks": [{ "answer": "avranno pensato" }]
+				},
+				{
+					"sentence": "Ti manderò un'e-mail non appena mi {{0}} il tuo indirizzo.",
+					"blanks": [{ "answer": "avrai inviato" }]
+				},
+				{
+					"sentence": "Quanto tempo ci {{0}} Mauro a tornare a piedi da Bologna?",
+					"blanks": [{ "answer": "avrà messo" }]
+				}
+			]
+		},
+		{
+			"id": "it-intermediate-control-3",
+			"number": 3,
+			"title": "Passato prossimo, Imperfetto o Trapassato prossimo",
+			"instructions": "Metti il verbo al passato prossimo, all'imperfetto o al trapassato prossimo.",
+			"kind": "fill-blank",
+			"items": [
+				{
+					"sentence": "Quando la polizia {{0}} (arrivare) i ladri {{1}} già {{2}} (scappare).",
+					"blanks": [
+						{ "answer": "è arrivata" },
+						{ "answer": "erano" },
+						{ "answer": "scappati" }
+					]
+				},
+				{
+					"sentence": "Anna {{0}} appena {{1}} (addormentarsi) quando qualcuno {{2}} (suonare) alla porta.",
+					"blanks": [
+						{ "answer": "si era" },
+						{ "answer": "addormentata" },
+						{ "answer": "ha suonato" }
+					]
+				},
+				{
+					"sentence": "Giovanna e Luigi {{0}} appena {{1}} (sposarsi) quando lei {{2}} (innamorarsi) di un altro uomo.",
+					"blanks": [
+						{ "answer": "si erano" },
+						{ "answer": "sposati" },
+						{ "answer": "si è innamorata" }
+					]
+				},
+				{
+					"sentence": "Il treno non {{0}} ancora {{1}} (arrivare) in stazione, ma già la gente {{2}} (volere) scendere.",
+					"blanks": [
+						{ "answer": "era" },
+						{ "answer": "arrivato" },
+						{ "answer": "voleva" }
+					]
+				},
+				{
+					"sentence": "Ogni giorno, quando Marina {{0}} (alzarsi) suo marito le {{1}} già {{2}} (preparare) la colazione.",
+					"blanks": [
+						{ "answer": "si alzava" },
+						{ "answer": "aveva" },
+						{ "answer": "preparato" }
+					]
+				},
+				{
+					"sentence": "Siamo in ritardo, lo so! Ma l'autobus {{0}} già {{1}} (partire) quando noi {{2}} (arrivare) alla fermata.",
+					"blanks": [
+						{ "answer": "era" },
+						{ "answer": "partito" },
+						{ "answer": "siamo arrivati" }
+					]
+				},
+				{
+					"sentence": "Mio nonno mi {{0}} (raccontare) sempre quello che {{1}} (lui - fare) durante la guerra.",
+					"blanks": [{ "answer": "raccontava" }, { "answer": "aveva fatto" }]
+				},
+				{
+					"sentence": "Mentre Francesca {{0}} (continuare) a parlare, io {{1}} già {{2}} (finire) di lavare i piatti.",
+					"blanks": [
+						{ "answer": "continuava" },
+						{ "answer": "avevo" },
+						{ "answer": "finito" }
+					]
+				},
+				{
+					"sentence": "Voi non {{0}} ancora {{1}} (nascere) quando io {{2}} già (andare) all'università.",
+					"blanks": [
+						{ "answer": "eravate" },
+						{ "answer": "nati" },
+						{ "answer": "andavo" }
+					]
+				},
+				{
+					"sentence": "Quando {{0}} (iniziare) il film alla TV, Sara {{1}} già {{2}} (andare) a letto da un'ora.",
+					"blanks": [
+						{ "answer": "è iniziato" },
+						{ "answer": "era" },
+						{ "answer": "andata" }
+					]
+				}
+			]
+		},
+		{
+			"id": "it-intermediate-control-4",
+			"number": 4,
+			"title": "Forma passiva con essere e/o venire",
+			"instructions": "Completa le frasi con un verbo alla forma passiva con essere e/o venire. Usa i verbi indicati.",
+			"contextHint": "Verbi indicati: vendere • premiare • pubblicare • addomesticare • raccogliere • costruire • usare",
+			"kind": "fill-blank",
+			"items": [
+				{
+					"sentence": "Ieri Mariella {{0}} per i suoi racconti.",
+					"blanks": [{ "answer": "è stata premiata" }]
+				},
+				{
+					"sentence": "L'anno prossimo i racconti di Mariella {{0}} in un libro dove {{1}} i lavori di giovani scrittori italiani.",
+					"blanks": [
+						{ "answer": ["saranno pubblicati", "verranno pubblicati"] },
+						{ "answer": ["saranno raccolti", "verranno raccolti"] }
+					]
+				},
+				{
+					"sentence": "L'ascensore del mio condominio non può {{0}} da ragazzi minori di 12 anni non accompagnati da un adulto.",
+					"blanks": [{ "answer": ["essere usato", "venire usato"] }]
+				},
+				{
+					"sentence": "Nel corso dei millenni molti animali {{0}} e ora vivono a contatto diretto con gli esseri umani.",
+					"blanks": [{ "answer": "sono stati addomesticati" }]
+				},
+				{
+					"sentence": "Questa casa {{0}} pochi anni fa.",
+					"blanks": [{ "answer": "è stata costruita" }]
+				},
+				{
+					"sentence": "L'anno prossimo il mio calciatore preferito non giocherà più in Italia, perché {{0}} a una squadra tedesca.",
+					"blanks": [{ "answer": ["sarà venduto", "verrà venduto"] }]
+				}
+			]
+		}
+	]
 }

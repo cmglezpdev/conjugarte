@@ -1,806 +1,809 @@
 {
-  "language": "fr",
-  "level": "basic",
-  "control": false,
-  "title": "À toi le temps !",
-  "exercises": [
-    {
-      "id": "fr-basic-1",
-      "number": 1,
-      "title": "Classez les verbes selon la terminaison de leur participe passé",
-      "instructions": "Classez les verbes selon la terminaison de leur participe passé",
-      "kind": "categorize",
-      "categories": ["-é", "-i", "-it", "-is", "-u", "-ert"],
-      "items": [
-        { "word": "choisir", "category": "-i" },
-        { "word": "finir", "category": "-i" },
-        { "word": "réussir", "category": "-i" },
-        { "word": "dormir", "category": "-i" },
-        { "word": "sortir", "category": "-i" },
-        { "word": "dire", "category": "-it" },
-        { "word": "mettre", "category": "-is" },
-        { "word": "prendre", "category": "-is" },
-        { "word": "apprendre", "category": "-is" },
-        { "word": "comprendre", "category": "-is" },
-        { "word": "écrire", "category": "-it" },
-        { "word": "attendre", "category": "-u" },
-        { "word": "entendre", "category": "-u" },
-        { "word": "perdre", "category": "-u" },
-        { "word": "répondre", "category": "-u" },
-        { "word": "courir", "category": "-u" },
-        { "word": "avoir", "category": "-u" },
-        { "word": "pouvoir", "category": "-u" },
-        { "word": "savoir", "category": "-u" },
-        { "word": "venir", "category": "-u" },
-        { "word": "vouloir", "category": "-u" },
-        { "word": "lire", "category": "-u" },
-        { "word": "rire", "category": "-u" },
-        { "word": "être", "category": "-é" },
-        { "word": "offrir", "category": "-ert" },
-        { "word": "ouvrir", "category": "-ert" }
-      ]
-    },
-    {
-      "id": "fr-basic-2",
-      "number": 2,
-      "title": "Complétez avec le participe passé",
-      "instructions": "Pour chaque phrase, choisissez un verbe et complétez avec le participe passé.",
-      "kind": "fill-blank",
-      "wordBank": ["vivre", "attendre", "perdre", "pleuvoir", "avoir", "recevoir", "répondre", "lire"],
-      "items": [
-        {
-          "sentence": "J'ai {{0}} mes clés !",
-          "blanks": [{ "answer": "perdu" }]
-        },
-        {
-          "sentence": "J'ai téléphoné mais on n'a pas {{0}} !",
-          "blanks": [{ "answer": "répondu" }]
-        },
-        {
-          "sentence": "Nous avons {{0}} une mauvaise nouvelle dans le journal !",
-          "blanks": [{ "answer": "lu" }]
-        },
-        {
-          "sentence": "Elle a {{0}} une réponse négative !",
-          "blanks": [{ "answer": "reçu" }]
-        },
-        {
-          "sentence": "Ils ont {{0}} longtemps dans un très petit appartement !",
-          "blanks": [{ "answer": "vécu" }]
-        },
-        {
-          "sentence": "Il y a {{0}} un grave accident sur l'autoroute !",
-          "blanks": [{ "answer": "eu" }]
-        },
-        {
-          "sentence": "Hier, Il a {{0}} toute la journée !",
-          "blanks": [{ "answer": "plu" }]
-        }
-      ]
-    },
-    {
-      "id": "fr-basic-3",
-      "number": 3,
-      "title": "Choisissez la ou les formes correctes du participe passé",
-      "instructions": "Choisissez la ou les formes correctes du participe passé.",
-      "kind": "choice",
-      "multiple": false,
-      "items": [
-        {
-          "prompt": "Vos copains et vous, vous vous êtes _____ avant la fête.",
-          "options": ["retrouvé", "retrouvés", "retrouvées"],
-          "correct": 1
-        },
-        {
-          "prompt": "Les frères d'Aurélie sont _____ ensemble.",
-          "options": ["venu", "venus", "venues"],
-          "correct": 1
-        },
-        {
-          "prompt": "Nous nous sommes tous _____ dans le jardin.",
-          "options": ["installé", "installée", "installés"],
-          "correct": 2
-        },
-        {
-          "prompt": "La soirée s'est bien _____.",
-          "options": ["passé", "passée", "passés"],
-          "correct": 1
-        },
-        {
-          "prompt": "Les amies d'Aurélie se sont beaucoup _____.",
-          "options": ["amusée", "amusés", "amusées"],
-          "correct": 2
-        },
-        {
-          "prompt": "Elle est _____ à 2 heures du matin.",
-          "options": ["partie", "parti", "parties"],
-          "correct": 0
-        },
-        {
-          "prompt": "On s'est _____ tard.",
-          "options": ["endormi", "endormis", "endormies"],
-          "correct": 1
-        },
-        {
-          "prompt": "Nous nous sommes _____ cet après-midi !",
-          "options": ["réveillé", "réveillés", "réveillées"],
-          "correct": 1
-        }
-      ]
-    },
-    {
-      "id": "fr-basic-4",
-      "number": 4,
-      "title": "Choisissez la bonne réponse",
-      "instructions": "Choisissez la bonne réponse (avoir ou être).",
-      "kind": "choice",
-      "multiple": false,
-      "items": [
-        {
-          "prompt": "J'(ai/est) mangé une pomme.",
-          "options": ["ai", "est"],
-          "correct": 0
-        },
-        {
-          "prompt": "Tu (as/es) regardé la télé.",
-          "options": ["as", "es"],
-          "correct": 0
-        },
-        {
-          "prompt": "Il (a/est) allé au cinéma.",
-          "options": ["a", "est"],
-          "correct": 1
-        },
-        {
-          "prompt": "Nous (avons/sommes) fini les devoirs.",
-          "options": ["avons", "sommes"],
-          "correct": 0
-        },
-        {
-          "prompt": "Vous (avez/êtes) restés à la maison.",
-          "options": ["avez", "êtes"],
-          "correct": 1
-        },
-        {
-          "prompt": "Elles (ont/sont) choisi une robe.",
-          "options": ["ont", "sont"],
-          "correct": 0
-        },
-        {
-          "prompt": "On (a/est) tombé.",
-          "options": ["a", "est"],
-          "correct": 1
-        },
-        {
-          "prompt": "Marie (a/est) chanté.",
-          "options": ["a", "est"],
-          "correct": 0
-        }
-      ]
-    },
-    {
-      "id": "fr-basic-5",
-      "number": 5,
-      "title": "Ajoutez l'auxiliaire avoir",
-      "instructions": "Ajoutez l'auxiliaire avoir aux phrases suivantes :",
-      "kind": "fill-blank",
-      "items": [
-        {
-          "sentence": "Nous {{0}} mangé un gâteau glacé pour mon anniversaire. (Manger)",
-          "blanks": [{ "answer": "avons" }]
-        },
-        {
-          "sentence": "{{0}}-tu {{1}} l'explication ? (Comprendre)",
-          "blanks": [{ "answer": "As" }, { "answer": "compris" }]
-        },
-        {
-          "sentence": "Il a vu le film dont je lui {{0}}. (Parler)",
-          "blanks": [{ "answer": "ai parlé" }]
-        },
-        {
-          "sentence": "J'{{0}} ce gars quand je lui {{1}}. (Reconnaître / Parler)",
-          "blanks": [{ "answer": "ai reconnu" }, { "answer": "ai parlé" }]
-        },
-        {
-          "sentence": "Natacha {{0}} ses vacances en Floride. (Passer)",
-          "blanks": [{ "answer": "a passé" }]
-        },
-        {
-          "sentence": "Pour mieux voir l'écran, elle {{0}} ses lunettes. (Mettre)",
-          "blanks": [{ "answer": "a mis" }]
-        },
-        {
-          "sentence": "Tu {{0}} les valises au grenier. (Monter)",
-          "blanks": [{ "answer": "as monté" }]
-        },
-        {
-          "sentence": "Ce chanteur {{0}} le spectacle avec une chanson d'amour. (Terminer)",
-          "blanks": [{ "answer": "a terminé" }]
-        },
-        {
-          "sentence": "Il {{0}} la crêpe de côté à la mi-cuisson. (Retourner)",
-          "blanks": [{ "answer": "a retourné" }]
-        },
-        {
-          "sentence": "{{0}}-vous {{1}} la dernière version de cette histoire ? (Aimer)",
-          "blanks": [{ "answer": "Avez" }, { "answer": "aimé" }]
-        }
-      ]
-    },
-    {
-      "id": "fr-basic-6",
-      "number": 6,
-      "title": "Ajoutez l'auxiliaire être",
-      "instructions": "Ajoutez l'auxiliaire être aux phrases suivantes :",
-      "kind": "fill-blank",
-      "items": [
-        {
-          "sentence": "Mes cousines {{0}} me visiter pendant les vacances. (Venir)",
-          "blanks": [{ "answer": "sont venues" }]
-        },
-        {
-          "sentence": "Cette femme {{0}} subitement. (Mourir)",
-          "blanks": [{ "answer": "est morte" }]
-        },
-        {
-          "sentence": "Nous {{0}} toute la soirée. (Se promener)",
-          "blanks": [{ "answer": ["nous sommes promenés", "nous sommes promenées"] }]
-        },
-        {
-          "sentence": "Julie, tu {{0}} en retard. (Arriver)",
-          "blanks": [{ "answer": "es arrivée" }]
-        },
-        {
-          "sentence": "Les étudiants {{0}} de la classe. (Sortir)",
-          "blanks": [{ "answer": "sont sortis" }]
-        },
-        {
-          "sentence": "Pendant l'été, je {{0}} dans mon pays natal. (Retourner)",
-          "blanks": [{ "answer": ["suis retourné", "suis retournée"] }]
-        },
-        {
-          "sentence": "Attention ! Vous {{0}} sur le journal. (S'asseoir)",
-          "blanks": [{ "answer": ["vous êtes assis", "vous êtes assises"] }]
-        },
-        {
-          "sentence": "Justin {{0}} dans la salle de classe. (Entrer)",
-          "blanks": [{ "answer": "est entré" }]
-        },
-        {
-          "sentence": "Ces petites filles, elles {{0}} en 2006. (Naître)",
-          "blanks": [{ "answer": "sont nées" }]
-        },
-        {
-          "sentence": "Ces amis {{0}} chaque fin de semaine. (Se voir)",
-          "blanks": [{ "answer": "se sont vus" }]
-        }
-      ]
-    },
-    {
-      "id": "fr-basic-7",
-      "number": 7,
-      "title": "Complète les phrases avec le verbe auxiliaire correct",
-      "instructions": "Complète les phrases avec le verbe auxiliaire correct.",
-      "kind": "fill-blank",
-      "items": [
-        {
-          "sentence": "C'est l'anniversaire de Marie, {{0}}-vous allés acheter un cadeau ?",
-          "blanks": [{ "answer": "êtes" }]
-        },
-        {
-          "sentence": "Mes parents {{0}} allés voir le dernier film de Marlon Brando.",
-          "blanks": [{ "answer": "sont" }]
-        },
-        {
-          "sentence": "J'{{0}} confondu l'auxiliaire être avec l'auxiliaire avoir dans ma dictée et j'{{1}} eu une mauvaise note. Après cette dictée j'{{2}} corrigé mes fautes et mon professeur m'{{3}} rajouté un point.",
-          "blanks": [
-            { "answer": "ai" },
-            { "answer": "ai" },
-            { "answer": "ai" },
-            { "answer": "a" }
-          ]
-        },
-        {
-          "sentence": "L'an dernier, nous {{0}} été en vacances en Espagne et mes cousins {{1}} partis en Italie. Cette année nous {{2}} décidé de partir tous ensemble visiter le Maroc.",
-          "blanks": [
-            { "answer": "avons" },
-            { "answer": "sont" },
-            { "answer": "avons" }
-          ]
-        },
-        {
-          "sentence": "Ce matin, tu {{0}} vomi, ta maman {{1}} pris un rendez-vous avec ton médecin.",
-          "blanks": [{ "answer": "as" }, { "answer": "a" }]
-        },
-        {
-          "sentence": "Ce soir, maman {{0}} décidé d'aller manger au restaurant, mais papa {{1}} déjà rentré la voiture et il est très fatigué par sa journée de travail.",
-          "blanks": [
-            { "answer": "a" },
-            { "answer": "a" }
-          ]
-        },
-        {
-          "sentence": "Maman lui {{0}} préparé un bon apéritif, lui {{1}} massé les épaules et lui {{2}} fait un petit bisou, finalement nous {{3}} ressortis pour aller dîner en ville.",
-          "blanks": [
-            { "answer": "a" },
-            { "answer": "a" },
-            { "answer": "a" },
-            { "answer": "sommes" }
-          ]
-        },
-        {
-          "sentence": "Nous {{0}} dîné dans une pizzeria et nous nous {{1}} promenés un peu à pied, dans les rues de Rouen, ensuite nous {{2}} rentrés à la maison.",
-          "blanks": [
-            { "answer": "avons" },
-            { "answer": "sommes" },
-            { "answer": "sommes" }
-          ]
-        },
-        {
-          "sentence": "Nous {{0}} rentrés tard hier soir, mes parents, mes sœurs et moi {{1}} mangé au restaurant.",
-          "blanks": [
-            { "answer": "sommes" },
-            { "answer": "ont" }
-          ]
-        },
-        {
-          "sentence": "Quand la voiture s'{{0}} garée devant la maison, le chien du voisin {{1}} sorti de sa niche et {{2}} aboyé très fort. Même le coq de la ferme s'{{3}} réveillé et il {{4}} commencé à chanter.",
-          "blanks": [
-            { "answer": "est" },
-            { "answer": "est" },
-            { "answer": "a" },
-            { "answer": "est" },
-            { "answer": "a" }
-          ]
-        },
-        {
-          "sentence": "Mes sœurs {{0}} bien ri de voir le coq se tromper d'heure. J'{{1}} ouvert le portail et la porte de garage, papa {{2}} rangé la voiture. Ma petite sœur {{3}} baillé et elle {{4}} montée tout de suite se coucher, je l'{{5}} suivi peu de temps après alors que ma grande sœur et mes parents {{6}} continué à discuter dans le salon.",
-          "blanks": [
-            { "answer": "ont" },
-            { "answer": "ai" },
-            { "answer": "a" },
-            { "answer": "a" },
-            { "answer": "est" },
-            { "answer": "ai" },
-            { "answer": "ont" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "fr-basic-8",
-      "number": 8,
-      "title": "Classez les verbes dans le tableau",
-      "instructions": "Classez les verbes dans le tableau selon le sujet.",
-      "kind": "categorize",
-      "categories": ["un homme", "une femme", "un homme et une femme", "deux femmes"],
-      "items": [
-        { "word": "est arrivée", "category": "une femme" },
-        { "word": "êtes sortis", "category": "un homme et une femme" },
-        { "word": "êtes montée", "category": "une femme" },
-        { "word": "est tombé", "category": "un homme" },
-        { "word": "sont rentrées", "category": "deux femmes" },
-        { "word": "est remontée", "category": "une femme" },
-        { "word": "sommes reparties", "category": "deux femmes" },
-        { "word": "êtes descendus", "category": "un homme et une femme" },
-        { "word": "est passé", "category": "un homme" },
-        { "word": "sont allées", "category": "deux femmes" },
-        { "word": "est mort", "category": "un homme" }
-      ]
-    },
-    {
-      "id": "fr-basic-9",
-      "number": 9,
-      "title": "Faites l'accord avec le COD",
-      "instructions": "Faites l'accord avec le COD. Exemple : Les pommes ? Je les ai mangées.",
-      "kind": "fill-blank",
-      "items": [
-        {
-          "sentence": "Les devoirs ? Je les ai {{0}} (finir).",
-          "blanks": [{ "answer": "finis" }]
-        },
-        {
-          "sentence": "La robe ? Elle l'a {{0}} (choisir).",
-          "blanks": [{ "answer": "choisie" }]
-        },
-        {
-          "sentence": "Les chansons ? Nous les avons {{0}} (écouter).",
-          "blanks": [{ "answer": "écoutées" }]
-        },
-        {
-          "sentence": "Le film ? Tu l'as {{0}} (regarder).",
-          "blanks": [{ "answer": "regardé" }]
-        },
-        {
-          "sentence": "Les amis ? Ils les ont {{0}} (inviter).",
-          "blanks": [{ "answer": "invités" }]
-        },
-        {
-          "sentence": "La maison ? On l'a {{0}} (visiter).",
-          "blanks": [{ "answer": "visitée" }]
-        },
-        {
-          "sentence": "Les lettres ? Vous les avez {{0}} (écrire).",
-          "blanks": [{ "answer": "écrites" }]
-        },
-        {
-          "sentence": "Le pain ? Je l'ai {{0}} (manger).",
-          "blanks": [{ "answer": "mangé" }]
-        }
-      ]
-    },
-    {
-      "id": "fr-basic-10",
-      "number": 10,
-      "title": "Conjuguez au passé composé",
-      "instructions": "Conjuguez au passé composé. Attention au choix de l'auxiliaire ! Beaucoup de mouvements !",
-      "kind": "fill-blank",
-      "items": [
-        {
-          "sentence": "Luc et moi, nous sommes allés (aller) au restaurant, nous {{0}} (ne pas rentrer) tôt, nous {{1}} (revenir) à 2 heures du matin, nous {{2}} (passer) une soirée très sympa.",
-          "blanks": [
-            { "answer": "ne sommes pas rentrés" },
-            { "answer": "sommes revenus" },
-            { "answer": "avons passé" }
-          ]
-        },
-        {
-          "sentence": "Sandra {{0}} (rester) chez elle, elle {{1}} (ne pas sortir) avec ses amies.",
-          "blanks": [
-            { "answer": "est restée" },
-            { "answer": "n'est pas sortie" }
-          ]
-        },
-        {
-          "sentence": "Stéphane {{0}} (descendre) très vite avec Lisa, ils {{1}} (descendre) leurs valises. La pauvre Lisa {{2}} (tomber) dans l'escalier !",
-          "blanks": [
-            { "answer": "est descendu" },
-            { "answer": "ont descendu" },
-            { "answer": "est tombée" }
-          ]
-        },
-        {
-          "sentence": "Un jour, Thomas {{0}} (partir) sans dire au revoir, il {{1}} (ne pas retourner) la tête, il {{2}} (ne jamais revenir).",
-          "blanks": [
-            { "answer": "est parti" },
-            { "answer": "n'a pas retourné" },
-            { "answer": "n'est jamais revenu" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "fr-basic-11",
-      "number": 11,
-      "title": "Transformez les phrases à la forme négative",
-      "instructions": "Transformez les phrases au passé composé à la forme négative. Plusieurs terminaisons sont possibles. Exemple : En général, je me réveille à 7h. → Hier, je ne me suis pas réveillé(e) à 7h.",
-      "kind": "free-text",
-      "items": [
-        {
-          "prompt": "Souvent, tu te couches tôt. → Samedi, _____ tôt.",
-          "accepted": ["tu ne t'es pas couché tôt", "tu ne t'es pas couchée tôt"]
-        },
-        {
-          "prompt": "Ils s'endorment tard. → Hier soir, _____ tard.",
-          "accepted": ["ils ne se sont pas endormis tard"]
-        },
-        {
-          "prompt": "On se repose le dimanche. → Dimanche dernier, _____.",
-          "accepted": ["on ne s'est pas reposé"]
-        },
-        {
-          "prompt": "Nous nous promenons le week-end. → Le week-end dernier, _____.",
-          "accepted": ["nous ne nous sommes pas promenés"]
-        },
-        {
-          "prompt": "Le matin, vous vous retrouvez au café. → Mais, ce matin, _____ au café.",
-          "accepted": ["vous ne vous êtes pas retrouvés au café"]
-        },
-        {
-          "prompt": "Elle s'ennuie toute seule le soir. → Hier soir, avec nous, elle _____ !",
-          "accepted": ["elle ne s'est pas ennuyée"]
-        }
-      ]
-    },
-    {
-      "id": "fr-basic-12",
-      "number": 12,
-      "title": "Mettez les mots dans l'ordre",
-      "instructions": "Mettez les mots dans l'ordre. Exemple : /aujourd'hui / mangé / j'ai / une pomme → J'ai mangé une pomme aujourd'hui.",
-      "kind": "reorder",
-      "items": [
-        { "correctOrder": ["je", "n'", "ai", "pas", "téléphoné"] },
-        { "correctOrder": ["Il", "n'", "a", "pas", "écrit"] },
-        { "correctOrder": ["Nous", "n'", "avons", "pas", "appelé"] },
-        { "correctOrder": ["Vous", "n'", "avez", "pas", "répondu"] },
-        { "correctOrder": ["Tu", "n'", "as", "pas", "signé"] },
-        { "correctOrder": ["Elles", "n'", "ont", "pas", "compris"] },
-        { "correctOrder": ["On", "n'", "a", "pas", "entendu"] }
-      ]
-    },
-    {
-      "id": "fr-basic-13",
-      "number": 13,
-      "title": "Conjuguez au passé composé ou à l'imparfait",
-      "instructions": "Conjuguez au passé composé ou à l'imparfait.",
-      "kind": "fill-blank",
-      "items": [
-        {
-          "sentence": "Lorsque je (arriver) {{0}} à Tokyo, il (faire) {{1}} chaud.",
-          "blanks": [
-            { "answer": "suis arrivé" },
-            { "answer": "faisait" }
-          ]
-        },
-        {
-          "sentence": "Hier, nous (aller) {{0}} au cinéma. Le film (être) {{1}} très bien, j'(adorer) {{2}} !",
-          "blanks": [
-            { "answer": "sommes allés" },
-            { "answer": "était" },
-            { "answer": "ai adoré" }
-          ]
-        },
-        {
-          "sentence": "Jacques (vouloir) {{0}} acheter des pommes au supermarché, mais le magasin (être) {{1}} fermé.",
-          "blanks": [
-            { "answer": "voulait" },
-            { "answer": "était" }
-          ]
-        },
-        {
-          "sentence": "Quand j'(être) {{0}} enfant, j'(avoir) {{1}} un chien, il (s'appeler) s'{{2}} Léon.",
-          "blanks": [
-            { "answer": "étais" },
-            { "answer": "avais" },
-            { "answer": "appelait" }
-          ]
-        },
-        {
-          "sentence": "Elle (rester) {{0}} à la maison toute la journée parce qu'elle (être) {{1}} malade.",
-          "blanks": [
-            { "answer": "est restée" },
-            { "answer": "était" }
-          ]
-        },
-        {
-          "sentence": "Avant, les gens (se déplacer) {{0}} à cheval. Il (falloir) {{1}} plusieurs jours pour traverser la France.",
-          "blanks": [
-            { "answer": "se déplaçaient" },
-            { "answer": "fallait" }
-          ]
-        },
-        {
-          "sentence": "Quand je (arriver) {{0}} au bureau ce matin à 9h10, tout le monde (travailler) {{1}} déjà au travail.",
-          "blanks": [
-            { "answer": "suis arrivé" },
-            { "answer": "travaillait" }
-          ]
-        },
-        {
-          "sentence": "Pierre (aller) {{0}} au judo tous les samedis. Un jour, il (oublier) {{1}} son kimono. Il (devoir) {{2}} rentrer à la maison le chercher.",
-          "blanks": [
-            { "answer": "allait" },
-            { "answer": "a oublié" },
-            { "answer": "a dû" }
-          ]
-        },
-        {
-          "sentence": "Ce matin, je (prendre) {{0}} mon bain quand le facteur (sonner) {{1}} à la porte.",
-          "blanks": [
-            { "answer": "prenais" },
-            { "answer": "a sonné" }
-          ]
-        },
-        {
-          "sentence": "Quand la grève (commencer) {{0}} jeudi, tous les trains (être) {{1}} en retard.",
-          "blanks": [
-            { "answer": "a commencé" },
-            { "answer": "étaient" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "fr-basic-14",
-      "number": 14,
-      "title": "Choisis l'auxiliaire être ou avoir",
-      "instructions": "Choisis l'auxiliaire être ou avoir selon ce qui convient (plus-que-parfait).",
-      "kind": "choice",
-      "multiple": false,
-      "items": [
-        {
-          "prompt": "Les loups (avait – avaient – était – étaient) rejoint la meute.",
-          "options": ["avait", "avaient", "était", "étaient"],
-          "correct": 1
-        },
-        {
-          "prompt": "Pauline et moi (avions – aviez – étions – étiez) arrivées à l'improviste.",
-          "options": ["avions", "aviez", "étions", "étiez"],
-          "correct": 2
-        },
-        {
-          "prompt": "Vous (avions – aviez – étions – étiez) souri durant tout le spectacle.",
-          "options": ["avions", "aviez", "étions", "étiez"],
-          "correct": 1
-        },
-        {
-          "prompt": "Hier soir, tu (avais – avait – étais – était) fait beaucoup de bruit.",
-          "options": ["avais", "avait", "étais", "était"],
-          "correct": 0
-        },
-        {
-          "prompt": "Simon (avais – avait – étais – était) caché sa console de jeux sous son lit.",
-          "options": ["avais", "avait", "étais", "était"],
-          "correct": 1
-        },
-        {
-          "prompt": "Les cerfs-volants des enfants s'(avait – avaient – était – étaient) envolés haut dans le ciel.",
-          "options": ["avait", "avaient", "était", "étaient"],
-          "correct": 3
-        },
-        {
-          "prompt": "Les touristes (avaient – était – avaient – étaient) visité le musée.",
-          "options": ["avaient", "était", "avaient", "étaient"],
-          "correct": 0
-        },
-        {
-          "prompt": "Nous (avions – étions – avait – était) montés au sommet de la colline.",
-          "options": ["avions", "étions", "avait", "était"],
-          "correct": 1
-        },
-        {
-          "prompt": "Tu (avais – étais – avait – était) écrit une longue lettre.",
-          "options": ["avais", "étais", "avait", "était"],
-          "correct": 0
-        },
-        {
-          "prompt": "Les portes (avaient – était – avaient – étaient) fermées brusquement.",
-          "options": ["avaient", "était", "avaient", "étaient"],
-          "correct": 3
-        }
-      ]
-    },
-    {
-      "id": "fr-basic-15",
-      "number": 15,
-      "title": "Barrez le verbe qui n'est pas au plus-que-parfait",
-      "instructions": "Dans chaque liste, barrez le verbe qui n'est pas conjugué au plus-que-parfait.",
-      "kind": "choice",
-      "multiple": false,
-      "items": [
-        {
-          "prompt": "nous avions mangé / tu avais rangé / j'ai trouvé",
-          "options": ["nous avions mangé", "tu avais rangé", "j'ai trouvé"],
-          "correct": 2
-        },
-        {
-          "prompt": "vous avez vu / elle avait donné / ils avaient pris",
-          "options": ["vous avez vu", "elle avait donné", "ils avaient pris"],
-          "correct": 0
-        },
-        {
-          "prompt": "nous étions partis / ils étaient venus / tu es allé",
-          "options": ["nous étions partis", "ils étaient venus", "tu es allé"],
-          "correct": 2
-        },
-        {
-          "prompt": "elle était restée / vous êtes sortis / j'étais entré",
-          "options": ["elle était restée", "vous êtes sortis", "j'étais entré"],
-          "correct": 1
-        },
-        {
-          "prompt": "j'avais écrit / nous avions lu / tu as compris",
-          "options": ["j'avais écrit", "nous avions lu", "tu as compris"],
-          "correct": 2
-        },
-        {
-          "prompt": "elles avaient chanté / vous aviez joué / il a dormi",
-          "options": ["elles avaient chanté", "vous aviez joué", "il a dormi"],
-          "correct": 2
-        },
-        {
-          "prompt": "nous avions étudié / j'avais préparé / ils ont commencé",
-          "options": ["nous avions étudié", "j'avais préparé", "ils ont commencé"],
-          "correct": 2
-        },
-        {
-          "prompt": "tu avais visité / elle avait vu / nous avons pris",
-          "options": ["tu avais visité", "elle avait vu", "nous avons pris"],
-          "correct": 2
-        },
-        {
-          "prompt": "ils avaient terminé / j'avais pensé / vous avez répondu",
-          "options": ["ils avaient terminé", "j'avais pensé", "vous avez répondu"],
-          "correct": 2
-        },
-        {
-          "prompt": "elle avait expliqué / nous avions attendu / tu es parti",
-          "options": ["elle avait expliqué", "nous avions attendu", "tu es parti"],
-          "correct": 2
-        }
-      ]
-    },
-    {
-      "id": "fr-basic-16",
-      "number": 16,
-      "title": "Complétez avec le plus-que-parfait",
-      "instructions": "Complétez avec le plus-que-parfait.",
-      "kind": "fill-blank",
-      "items": [
-        {
-          "sentence": "Avant le dîner, j'{{0}} (manger) une pomme.",
-          "blanks": [{ "answer": "avais mangé" }]
-        },
-        {
-          "sentence": "Quand tu es arrivé, nous {{0}} (finir) les devoirs.",
-          "blanks": [{ "answer": "avions fini" }]
-        },
-        {
-          "sentence": "Elle {{0}} (descendre) après son père.",
-          "blanks": [{ "answer": "était descendue" }]
-        },
-        {
-          "sentence": "Ils {{0}} (jouer) au foot avant de rentrer.",
-          "blanks": [{ "answer": "avaient joué" }]
-        },
-        {
-          "sentence": "Vous {{0}} (écouter) de la musique avant de dormir.",
-          "blanks": [{ "answer": "aviez écouté" }]
-        },
-        {
-          "sentence": "On {{0}} (travailler) beaucoup avant les vacances.",
-          "blanks": [{ "answer": "avait travaillé" }]
-        },
-        {
-          "sentence": "Marie {{0}} (parler) avec Paul avant le cours.",
-          "blanks": [{ "answer": "avait parlé" }]
-        },
-        {
-          "sentence": "Nous {{0}} (rester) à Paris.",
-          "blanks": [{ "answer": "étions restés" }]
-        }
-      ]
-    },
-    {
-      "id": "fr-basic-17",
-      "number": 17,
-      "title": "Mini dialogue",
-      "instructions": "Remplissez les espaces avec le passé composé ou le plus-que-parfait.",
-      "kind": "fill-blank",
-      "items": [
-        {
-          "sentence": "A: Tu {{0}} tes devoirs ?",
-          "blanks": [{ "answer": "as fini" }]
-        },
-        {
-          "sentence": "B: Oui, je les {{0}} avant le dîner.",
-          "blanks": [{ "answer": "avais finis" }]
-        },
-        {
-          "sentence": "A: Et Marie ? Elle {{0}} une robe ?",
-          "blanks": [{ "answer": "a choisi" }]
-        },
-        {
-          "sentence": "B: Oui, elle l'{{0}} hier.",
-          "blanks": [{ "answer": "avait choisie" }]
-        },
-        {
-          "sentence": "A: Super. Et finalement, pendant les vacances vous {{0}} Paris ?",
-          "blanks": [{ "answer": "avez visité" }]
-        },
-        {
-          "sentence": "B: Oui, nous l'{{0}} avant Lyon.",
-          "blanks": [{ "answer": "avions visité" }]
-        },
-        {
-          "sentence": "A: Et tes parents, ils {{0}} au foot au stade ?",
-          "blanks": [{ "answer": "ont joué" }]
-        },
-        {
-          "sentence": "B: Oui, ils y {{0}} le dernier jour.",
-          "blanks": [{ "answer": "ont joué" }]
-        }
-      ]
-    }
-  ]
+	"language": "fr",
+	"level": "basic",
+	"control": false,
+	"title": "À toi le temps !",
+	"exercises": [
+		{
+			"id": "fr-basic-1",
+			"number": 1,
+			"title": "Classez les verbes selon la terminaison de leur participe passé",
+			"instructions": "Classez les verbes et écrivez la forme du participe passé.",
+			"kind": "categorize",
+			"categories": ["-é", "-i", "-it", "-is", "-u", "-ert"],
+			"items": [
+				{ "word": "choisir", "category": "-i" },
+				{ "word": "finir", "category": "-i" },
+				{ "word": "réussir", "category": "-i" },
+				{ "word": "dormir", "category": "-i" },
+				{ "word": "sortir", "category": "-i" },
+				{ "word": "dire", "category": "-it" },
+				{ "word": "mettre", "category": "-is" },
+				{ "word": "prendre", "category": "-is" },
+				{ "word": "apprendre", "category": "-is", "example": true },
+				{ "word": "comprendre", "category": "-is" },
+				{ "word": "écrire", "category": "-it" },
+				{ "word": "attendre", "category": "-u" },
+				{ "word": "entendre", "category": "-u" },
+				{ "word": "perdre", "category": "-u" },
+				{ "word": "répondre", "category": "-u" },
+				{ "word": "courir", "category": "-u" },
+				{ "word": "avoir", "category": "-u" },
+				{ "word": "pouvoir", "category": "-u" },
+				{ "word": "savoir", "category": "-u" },
+				{ "word": "venir", "category": "-u" },
+				{ "word": "vouloir", "category": "-u" },
+				{ "word": "lire", "category": "-u" },
+				{ "word": "rire", "category": "-i" },
+				{ "word": "être", "category": "-é" },
+				{ "word": "offrir", "category": "-ert" },
+				{ "word": "ouvrir", "category": "-ert" }
+			]
+		},
+		{
+			"id": "fr-basic-2",
+			"number": 2,
+			"title": "Complétez avec le participe passé",
+			"instructions": "Pour chaque phrase, choisissez un verbe et complétez avec le participe passé.",
+			"contextHint": "Verbes proposés : vivre — attendre — perdre — pleuvoir — avoir — recevoir — répondre — lire\n\nExemple : Tu as attendu 10 heures à l'aéroport !",
+			"kind": "fill-blank",
+			"items": [
+				{
+					"sentence": "J'ai {{0}} mes clés !",
+					"blanks": [{ "answer": "perdu" }]
+				},
+				{
+					"sentence": "J'ai téléphoné mais on n'a pas {{0}} !",
+					"blanks": [{ "answer": "répondu" }]
+				},
+				{
+					"sentence": "Nous avons {{0}} une mauvaise nouvelle dans le journal !",
+					"blanks": [{ "answer": "lu" }]
+				},
+				{
+					"sentence": "Elle a {{0}} une réponse négative !",
+					"blanks": [{ "answer": "reçu" }]
+				},
+				{
+					"sentence": "Ils ont {{0}} longtemps dans un très petit appartement !",
+					"blanks": [{ "answer": "vécu" }]
+				},
+				{
+					"sentence": "Il y a {{0}} un grave accident sur l'autoroute !",
+					"blanks": [{ "answer": "eu" }]
+				},
+				{
+					"sentence": "Hier, Il a {{0}} toute la journée !",
+					"blanks": [{ "answer": "plu" }]
+				}
+			]
+		},
+		{
+			"id": "fr-basic-3",
+			"number": 3,
+			"title": "Choisissez la ou les formes correctes du participe passé",
+			"instructions": "Choisissez la ou les formes correctes du participe passé.",
+			"contextHint": "Exemple : Hier soir, nous sommes allé / allée / allés à la fête d'anniversaire d'Aurélie.",
+			"kind": "choice",
+			"multiple": false,
+			"items": [
+				{
+					"prompt": "Vos copains et vous, vous vous êtes _____ avant la fête.",
+					"options": ["retrouvé", "retrouvés", "retrouvées"],
+					"correct": 1
+				},
+				{
+					"prompt": "Les frères d'Aurélie sont _____ ensemble.",
+					"options": ["venu", "venus", "venues"],
+					"correct": 1
+				},
+				{
+					"prompt": "Nous nous sommes tous _____ dans le jardin.",
+					"options": ["installé", "installée", "installés"],
+					"correct": 2
+				},
+				{
+					"prompt": "La soirée s'est bien _____.",
+					"options": ["passé", "passée", "passés"],
+					"correct": 1
+				},
+				{
+					"prompt": "Les amies d'Aurélie se sont beaucoup _____.",
+					"options": ["amusée", "amusés", "amusées"],
+					"correct": 2
+				},
+				{
+					"prompt": "Elle est _____ à 2 heures du matin.",
+					"options": ["partie", "parti", "parties"],
+					"correct": 0
+				},
+				{
+					"prompt": "On s'est _____ tard.",
+					"options": ["endormi", "endormis", "endormies"],
+					"correct": 1
+				},
+				{
+					"prompt": "Nous nous sommes _____ cet après-midi !",
+					"options": ["réveillé", "réveillés", "réveillées"],
+					"correct": 1
+				}
+			]
+		},
+		{
+			"id": "fr-basic-4",
+			"number": 4,
+			"title": "Choisissez la bonne réponse",
+			"instructions": "Choisissez la bonne réponse.",
+			"kind": "choice",
+			"multiple": false,
+			"items": [
+				{
+					"prompt": "J'(ai/est) mangé une pomme.",
+					"options": ["ai", "est"],
+					"correct": 0
+				},
+				{
+					"prompt": "Tu (as/es) regardé la télé.",
+					"options": ["as", "es"],
+					"correct": 0
+				},
+				{
+					"prompt": "Il (a/est) allé au cinéma.",
+					"options": ["a", "est"],
+					"correct": 1
+				},
+				{
+					"prompt": "Nous (avons/sommes) fini les devoirs.",
+					"options": ["avons", "sommes"],
+					"correct": 0
+				},
+				{
+					"prompt": "Vous (avez/êtes) restés à la maison.",
+					"options": ["avez", "êtes"],
+					"correct": 1
+				},
+				{
+					"prompt": "Elles (ont/sont) choisi une robe.",
+					"options": ["ont", "sont"],
+					"correct": 0
+				},
+				{
+					"prompt": "On (a/est) tombé.",
+					"options": ["a", "est"],
+					"correct": 1
+				},
+				{
+					"prompt": "Marie (a/est) chanté.",
+					"options": ["a", "est"],
+					"correct": 0
+				}
+			]
+		},
+		{
+			"id": "fr-basic-5",
+			"number": 5,
+			"title": "Ajoutez l'auxiliaire avoir",
+			"instructions": "Ajoutez l'auxiliaire avoir aux phrases suivantes :",
+			"kind": "fill-blank",
+			"items": [
+				{
+					"sentence": "Nous {{0}} mangé un gâteau glacé pour mon anniversaire. (Manger)",
+					"blanks": [{ "answer": "avons" }]
+				},
+				{
+					"sentence": "{{0}}-tu {{1}} l'explication ? (Comprendre)",
+					"blanks": [{ "answer": "As" }, { "answer": "compris" }]
+				},
+				{
+					"sentence": "Il a vu le film dont je lui {{0}}. (Parler)",
+					"blanks": [{ "answer": "ai parlé" }]
+				},
+				{
+					"sentence": "J'{{0}} ce gars quand je lui {{1}}. (Reconnaître / Parler)",
+					"blanks": [{ "answer": "ai reconnu" }, { "answer": "ai parlé" }]
+				},
+				{
+					"sentence": "Natacha {{0}} ses vacances en Floride. (Passer)",
+					"blanks": [{ "answer": "a passé" }]
+				},
+				{
+					"sentence": "Pour mieux voir l'écran, elle {{0}} ses lunettes. (Mettre)",
+					"blanks": [{ "answer": "a mis" }]
+				},
+				{
+					"sentence": "Tu {{0}} les valises au grenier. (Monter)",
+					"blanks": [{ "answer": "as monté" }]
+				},
+				{
+					"sentence": "Ce chanteur {{0}} le spectacle avec une chanson d'amour. (Terminer)",
+					"blanks": [{ "answer": "a terminé" }]
+				},
+				{
+					"sentence": "Il {{0}} la crêpe de côté à la mi-cuisson. (Retourner)",
+					"blanks": [{ "answer": "a retourné" }]
+				},
+				{
+					"sentence": "{{0}}-vous {{1}} la dernière version de cette histoire ? (Aimer)",
+					"blanks": [{ "answer": "Avez" }, { "answer": "aimé" }]
+				}
+			]
+		},
+		{
+			"id": "fr-basic-6",
+			"number": 6,
+			"title": "Ajoutez l'auxiliaire être",
+			"instructions": "Ajoutez l'auxiliaire être aux phrases suivantes :",
+			"kind": "fill-blank",
+			"items": [
+				{
+					"sentence": "Mes cousines {{0}} me visiter pendant les vacances. (Venir)",
+					"blanks": [{ "answer": "sont venues" }]
+				},
+				{
+					"sentence": "Cette femme {{0}} subitement. (Mourir)",
+					"blanks": [{ "answer": "est morte" }]
+				},
+				{
+					"sentence": "Nous nous {{0}} toute la soirée. (Se promener)",
+					"blanks": [
+						{ "answer": ["sommes promenés", "sommes promenées"] }
+					]
+				},
+				{
+					"sentence": "Julie, tu {{0}} en retard. (Arriver)",
+					"blanks": [{ "answer": "es arrivée" }]
+				},
+				{
+					"sentence": "Les étudiants {{0}} de la classe. (Sortir)",
+					"blanks": [{ "answer": "sont sortis" }]
+				},
+				{
+					"sentence": "Pendant l'été, je {{0}} dans mon pays natal. (Retourner)",
+					"blanks": [{ "answer": ["suis retourné", "suis retournée"] }]
+				},
+				{
+					"sentence": "Attention ! Vous vous {{0}} sur le journal. (S'asseoir)",
+					"blanks": [{ "answer": ["êtes assis", "êtes assises"] }]
+				},
+				{
+					"sentence": "Justin {{0}} dans la salle de classe. (Entrer)",
+					"blanks": [{ "answer": "est entré" }]
+				},
+				{
+					"sentence": "Ces petites filles, elles {{0}} en 2006. (Naître)",
+					"blanks": [{ "answer": "sont nées" }]
+				},
+				{
+					"sentence": "Ces amis se {{0}} chaque fin de semaine. (Se voir)",
+					"blanks": [{ "answer": "sont vus" }]
+				}
+			]
+		},
+		{
+			"id": "fr-basic-7",
+			"number": 7,
+			"title": "Complète les phrases avec le verbe auxiliaire correct",
+			"instructions": "Complète les phrases avec le verbe auxiliaire correct.",
+			"kind": "fill-blank",
+			"items": [
+				{
+					"sentence": "C'est l'anniversaire de Marie, {{0}}-vous allés acheter un cadeau ?",
+					"blanks": [{ "answer": "êtes" }]
+				},
+				{
+					"sentence": "Mes parents {{0}} allés voir le dernier film de Marlon Brando.",
+					"blanks": [{ "answer": "sont" }]
+				},
+				{
+					"sentence": "J'{{0}} confondu l'auxiliaire être avec l'auxiliaire avoir dans ma dictée et j'{{1}} eu une mauvaise note. Après cette dictée j'{{2}} corrigé mes fautes et mon professeur m'{{3}} rajouté un point.",
+					"blanks": [
+						{ "answer": "ai" },
+						{ "answer": "ai" },
+						{ "answer": "ai" },
+						{ "answer": "a" }
+					]
+				},
+				{
+					"sentence": "L'an dernier, nous {{0}} été en vacances en Espagne et mes cousins {{1}} partis en Italie. Cette année nous {{2}} décidé de partir tous ensemble visiter le Maroc.",
+					"blanks": [
+						{ "answer": "avons" },
+						{ "answer": "sont" },
+						{ "answer": "avons" }
+					]
+				},
+				{
+					"sentence": "Ce matin, tu {{0}} vomi, ta maman {{1}} pris un rendez-vous avec ton médecin.",
+					"blanks": [{ "answer": "as" }, { "answer": "a" }]
+				},
+				{
+					"sentence": "Ce soir, maman {{0}} décidé d'aller manger au restaurant, mais papa {{1}} déjà rentré la voiture, et il est très fatigué par sa journée de travail.",
+					"blanks": [{ "answer": "a" }, { "answer": "a" }]
+				},
+				{
+					"sentence": "Maman lui {{0}} préparé un bon apéritif, lui {{1}} massé les épaules et lui {{2}} fait un petit bisou, finalement nous {{3}} ressortis pour aller dîner en ville.",
+					"blanks": [
+						{ "answer": "a" },
+						{ "answer": "a" },
+						{ "answer": "a" },
+						{ "answer": "sommes" }
+					]
+				},
+				{
+					"sentence": "Nous {{0}} dîné dans une pizzeria et nous nous {{1}} promenés un peu à pied, dans les rues de Rouen, ensuite nous {{2}} rentrés à la maison.",
+					"blanks": [
+						{ "answer": "avons" },
+						{ "answer": "sommes" },
+						{ "answer": "sommes" }
+					]
+				},
+				{
+					"sentence": "Nous {{0}} rentrés tard hier soir, mes parents, mes sœurs et moi {{1}} mangé au restaurant.",
+					"blanks": [{ "answer": "sommes" }, { "answer": "avons" }]
+				},
+				{
+					"sentence": "Quand la voiture s'{{0}} garée devant la maison, le chien du voisin {{1}} sorti de sa niche et {{2}} aboyé très fort. Même le coq de la ferme s'{{3}} réveillé et il {{4}} commencé à chanter.",
+					"blanks": [
+						{ "answer": "est" },
+						{ "answer": "est" },
+						{ "answer": "a" },
+						{ "answer": "est" },
+						{ "answer": "a" }
+					]
+				},
+				{
+					"sentence": "Mes sœurs {{0}} bien ri de voir le coq se tromper d'heure. J'{{1}} ouvert le portail et la porte de garage, papa {{2}} rangé la voiture. Ma petite sœur {{3}} baillé et elle {{4}} montée tout de suite se coucher, je l'{{5}} suivi peu de temps après alors que ma grande sœur et mes parents {{6}} continué à discuter dans le salon.",
+					"blanks": [
+						{ "answer": "ont" },
+						{ "answer": "ai" },
+						{ "answer": "a" },
+						{ "answer": "a" },
+						{ "answer": "est" },
+						{ "answer": "ai" },
+						{ "answer": "ont" }
+					]
+				}
+			]
+		},
+		{
+			"id": "fr-basic-8",
+			"number": 8,
+			"title": "Classez les verbes dans le tableau",
+			"instructions": "Classez les verbes dans le tableau.",
+			"kind": "categorize",
+			"categories": [
+				"un homme",
+				"une femme",
+				"un homme et une femme",
+				"deux femmes"
+			],
+			"items": [
+				{ "word": "est arrivée", "category": "une femme", "example": true },
+				{ "word": "êtes sortis", "category": "un homme et une femme" },
+				{ "word": "êtes montée", "category": "une femme" },
+				{ "word": "est tombé", "category": "un homme" },
+				{ "word": "sont rentrées", "category": "deux femmes" },
+				{ "word": "est remontée", "category": "une femme" },
+				{ "word": "sommes reparties", "category": "deux femmes" },
+				{ "word": "êtes descendus", "category": "un homme et une femme" },
+				{ "word": "est passé", "category": "un homme" },
+				{ "word": "sont allées", "category": "deux femmes" },
+				{ "word": "est mort", "category": "un homme" }
+			]
+		},
+		{
+			"id": "fr-basic-9",
+			"number": 9,
+			"title": "Faites l'accord avec le COD",
+			"instructions": "Faites l'accord avec le COD.",
+			"contextHint": "Exemple : Les pommes ? Je les ai mangées.",
+			"kind": "fill-blank",
+			"items": [
+				{
+					"sentence": "Les devoirs ? Je les ai {{0}} (finir).",
+					"blanks": [{ "answer": "finis" }]
+				},
+				{
+					"sentence": "La robe ? Elle l'a {{0}} (choisir).",
+					"blanks": [{ "answer": "choisie" }]
+				},
+				{
+					"sentence": "Les chansons ? Nous les avons {{0}} (écouter).",
+					"blanks": [{ "answer": "écoutées" }]
+				},
+				{
+					"sentence": "Le film ? Tu l'as {{0}} (regarder).",
+					"blanks": [{ "answer": "regardé" }]
+				},
+				{
+					"sentence": "Les amis ? Ils les ont {{0}} (inviter).",
+					"blanks": [{ "answer": "invités" }]
+				},
+				{
+					"sentence": "La maison ? On l'a {{0}} (visiter).",
+					"blanks": [{ "answer": "visitée" }]
+				},
+				{
+					"sentence": "Les lettres ? Vous les avez {{0}} (écrire).",
+					"blanks": [{ "answer": "écrites" }]
+				},
+				{
+					"sentence": "Le pain ? Je l'ai {{0}} (manger).",
+					"blanks": [{ "answer": "mangé" }]
+				}
+			]
+		},
+		{
+			"id": "fr-basic-10",
+			"number": 10,
+			"title": "Conjuguez au passé composé",
+			"instructions": "Conjuguez au passé composé. Attention au choix de l'auxiliaire ! Beaucoup de mouvements !",
+			"kind": "fill-blank",
+			"items": [
+				{
+					"sentence": "Luc et moi, nous sommes allés (aller) au restaurant, nous {{0}} (ne pas rentrer) tôt, nous {{1}} (revenir) à 2 heures du matin, nous {{2}} (passer) une soirée très sympa.",
+					"blanks": [
+						{ "answer": "ne sommes pas rentrés" },
+						{ "answer": "sommes revenus" },
+						{ "answer": "avons passé" }
+					]
+				},
+				{
+					"sentence": "Sandra {{0}} (rester) chez elle, elle {{1}} (ne pas sortir) avec ses amies.",
+					"blanks": [
+						{ "answer": "est restée" },
+						{ "answer": "n'est pas sortie" }
+					]
+				},
+				{
+					"sentence": "Stéphane {{0}} (descendre) très vite avec Lisa, ils {{1}} (descendre) leurs valises. La pauvre Lisa {{2}} (tomber) dans l'escalier !",
+					"blanks": [
+						{ "answer": "est descendu" },
+						{ "answer": "ont descendu" },
+						{ "answer": "est tombée" }
+					]
+				},
+				{
+					"sentence": "Un jour, Thomas {{0}} (partir) sans dire au revoir, il {{1}} (ne pas retourner) la tête, il {{2}} (ne jamais revenir).",
+					"blanks": [
+						{ "answer": "est parti" },
+						{ "answer": "n'a pas retourné" },
+						{ "answer": "n'est jamais revenu" }
+					]
+				}
+			]
+		},
+		{
+			"id": "fr-basic-11",
+			"number": 11,
+			"title": "Transformez les phrases à la forme négative",
+			"instructions": "Transformez les phrases au passé composé à la forme négative. Plusieurs terminaisons sont possibles.",
+			"contextHint": "Exemple : En général, je me réveille à 7 h. → Hier, je ne me suis pas réveillé(e) à 7 h.",
+			"kind": "free-text",
+			"items": [
+				{
+					"prompt": "Souvent, tu te couches tôt. → Samedi, _____ tôt.",
+					"accepted": [
+						"tu ne t'es pas couché tôt",
+						"tu ne t'es pas couchée tôt"
+					]
+				},
+				{
+					"prompt": "Ils s'endorment tard. → Hier soir, _____ tard.",
+					"accepted": ["ils ne se sont pas endormis tard"]
+				},
+				{
+					"prompt": "On se repose le dimanche. → Dimanche dernier, _____.",
+					"accepted": ["on ne s'est pas reposé"]
+				},
+				{
+					"prompt": "Nous nous promenons le week-end. → Le week-end dernier, _____.",
+					"accepted": [
+						"nous ne nous sommes pas promenés",
+						"nous ne nous sommes pas promenées"
+					]
+				},
+				{
+					"prompt": "Le matin, vous vous retrouvez au café. → Mais, ce matin, _____ au café.",
+					"accepted": ["vous ne vous êtes pas retrouvés au café"]
+				},
+				{
+					"prompt": "Elle s'ennuie toute seule le soir. → Hier soir, avec nous, elle _____ !",
+					"accepted": ["elle ne s'est pas ennuyée"]
+				}
+			]
+		},
+		{
+			"id": "fr-basic-12",
+			"number": 12,
+			"title": "Mettez les mots dans l'ordre",
+			"instructions": "Mettez les mots dans l'ordre.",
+			"contextHint": "Exemple : /aujourd'hui / mangé / j'ai / une pomme → J'ai mangé une pomme aujourd'hui.",
+			"kind": "reorder",
+			"items": [
+				{ "correctOrder": ["Je", "n'", "ai", "pas", "téléphoné"] },
+				{ "correctOrder": ["Il", "n'", "a", "pas", "écrit"] },
+				{ "correctOrder": ["Nous", "n'", "avons", "pas", "appelé"] },
+				{ "correctOrder": ["Vous", "n'", "avez", "pas", "répondu"] },
+				{ "correctOrder": ["Tu", "n'", "as", "pas", "signé"] },
+				{ "correctOrder": ["Elles", "n'", "ont", "pas", "compris"] },
+				{ "correctOrder": ["On", "n'", "a", "pas", "entendu"] }
+			]
+		},
+		{
+			"id": "fr-basic-13",
+			"number": 13,
+			"title": "Conjuguez au passé composé ou à l'imparfait",
+			"instructions": "Conjuguez au passé composé ou à l'imparfait.",
+			"kind": "fill-blank",
+			"items": [
+				{
+					"sentence": "Lorsque je (arriver) {{0}} à Tokyo, il (faire) {{1}} chaud.",
+					"blanks": [{ "answer": "suis arrivé" }, { "answer": "faisait" }]
+				},
+				{
+					"sentence": "Hier, nous (aller) {{0}} au cinéma. Le film (être) {{1}} très bien, j'(adorer) {{2}} !",
+					"blanks": [
+						{ "answer": "sommes allés" },
+						{ "answer": "était" },
+						{ "answer": "ai adoré" }
+					]
+				},
+				{
+					"sentence": "Jacques (vouloir) {{0}} acheter des pommes au supermarché, mais le magasin (être) {{1}} fermé.",
+					"blanks": [{ "answer": "voulait" }, { "answer": "était" }]
+				},
+				{
+					"sentence": "Quand j'(être) {{0}} enfant, j'(avoir) {{1}} un chien, il (s'appeler) s'{{2}} Léon.",
+					"blanks": [
+						{ "answer": "étais" },
+						{ "answer": "avais" },
+						{ "answer": "appelait" }
+					]
+				},
+				{
+					"sentence": "Elle (rester) {{0}} à la maison toute la journée parce qu'elle (être) {{1}} malade.",
+					"blanks": [{ "answer": "est restée" }, { "answer": "était" }]
+				},
+				{
+					"sentence": "Avant, les gens (se déplacer) {{0}} à cheval. Il (falloir) {{1}} plusieurs jours pour traverser la France.",
+					"blanks": [{ "answer": "se déplaçaient" }, { "answer": "fallait" }]
+				},
+				{
+					"sentence": "Quand je (arriver) {{0}} au bureau ce matin à 9h10, tout le monde (travailler) {{1}} déjà au travail.",
+					"blanks": [{ "answer": "suis arrivé" }, { "answer": "travaillait" }]
+				},
+				{
+					"sentence": "Pierre (aller) {{0}} au judo tous les samedis. Un jour, il (oublier) {{1}} son kimono. Il (devoir) {{2}} rentrer à la maison le chercher.",
+					"blanks": [
+						{ "answer": "allait" },
+						{ "answer": "a oublié" },
+						{ "answer": "a dû" }
+					]
+				},
+				{
+					"sentence": "Ce matin, je (prendre) {{0}} mon bain quand le facteur (sonner) {{1}} à la porte.",
+					"blanks": [{ "answer": "prenais" }, { "answer": "a sonné" }]
+				},
+				{
+					"sentence": "Quand la grève (commencer) {{0}} jeudi, tous les trains (être) {{1}} en retard.",
+					"blanks": [{ "answer": "a commencé" }, { "answer": "étaient" }]
+				}
+			]
+		},
+		{
+			"id": "fr-basic-14",
+			"number": 14,
+			"title": "Choisis l'auxiliaire être ou avoir",
+			"instructions": "Choisis l'auxiliaire être ou avoir selon ce qui convient.",
+			"kind": "choice",
+			"multiple": false,
+			"items": [
+				{
+					"prompt": "Les loups (avait – avaient – était – étaient) rejoint la meute.",
+					"options": ["avait", "avaient", "était", "étaient"],
+					"correct": 1
+				},
+				{
+					"prompt": "Pauline et moi (avions – aviez – étions – étiez) arrivées à l'improviste.",
+					"options": ["avions", "aviez", "étions", "étiez"],
+					"correct": 2
+				},
+				{
+					"prompt": "Vous (avions – aviez – étions – étiez) souri durant tout le spectacle.",
+					"options": ["avions", "aviez", "étions", "étiez"],
+					"correct": 1
+				},
+				{
+					"prompt": "Hier soir, tu (avais – avait – étais – était) fait beaucoup de bruit.",
+					"options": ["avais", "avait", "étais", "était"],
+					"correct": 0
+				},
+				{
+					"prompt": "Simon (avais – avait – étais – était) caché sa console de jeux sous son lit.",
+					"options": ["avais", "avait", "étais", "était"],
+					"correct": 1
+				},
+				{
+					"prompt": "Les cerfs-volants des enfants s'(avait – avaient – était – étaient) envolés haut dans le ciel.",
+					"options": ["avait", "avaient", "était", "étaient"],
+					"correct": 3
+				},
+				{
+					"prompt": "Les touristes (avaient – était – avait – étaient) visité le musée.",
+					"options": ["avaient", "était", "avait", "étaient"],
+					"correct": 0
+				},
+				{
+					"prompt": "Nous (avions – étions – avait – était) montés au sommet de la colline.",
+					"options": ["avions", "étions", "avait", "était"],
+					"correct": 1
+				},
+				{
+					"prompt": "Tu (avais – étais – avait – était) écrit une longue lettre.",
+					"options": ["avais", "étais", "avait", "était"],
+					"correct": 0
+				},
+				{
+					"prompt": "Les portes (avaient – était – avait – étaient) fermées brusquement.",
+					"options": ["avaient", "était", "avait", "étaient"],
+					"correct": 3
+				}
+			]
+		},
+		{
+			"id": "fr-basic-15",
+			"number": 15,
+			"title": "Barrez le verbe qui n'est pas au plus-que-parfait",
+			"instructions": "Dans chaque liste, barrez le verbe qui n'est pas conjugué au plus-que-parfait.",
+			"kind": "choice",
+			"multiple": false,
+			"items": [
+				{
+					"prompt": "nous avions mangé / tu avais rangé / j'ai trouvé",
+					"options": ["nous avions mangé", "tu avais rangé", "j'ai trouvé"],
+					"correct": 2
+				},
+				{
+					"prompt": "vous avez vu / elle avait donné / ils avaient pris",
+					"options": ["vous avez vu", "elle avait donné", "ils avaient pris"],
+					"correct": 0
+				},
+				{
+					"prompt": "nous étions partis / ils étaient venus / tu es allé",
+					"options": ["nous étions partis", "ils étaient venus", "tu es allé"],
+					"correct": 2
+				},
+				{
+					"prompt": "elle était restée / vous êtes sortis / j'étais entré",
+					"options": ["elle était restée", "vous êtes sortis", "j'étais entré"],
+					"correct": 1
+				},
+				{
+					"prompt": "j'avais écrit / nous avions lu / tu as compris",
+					"options": ["j'avais écrit", "nous avions lu", "tu as compris"],
+					"correct": 2
+				},
+				{
+					"prompt": "elles avaient chanté / vous aviez joué / il a dormi",
+					"options": ["elles avaient chanté", "vous aviez joué", "il a dormi"],
+					"correct": 2
+				},
+				{
+					"prompt": "nous avions étudié / j'avais préparé / ils ont commencé",
+					"options": [
+						"nous avions étudié",
+						"j'avais préparé",
+						"ils ont commencé"
+					],
+					"correct": 2
+				},
+				{
+					"prompt": "tu avais visité / elle avait vu / nous avons pris",
+					"options": ["tu avais visité", "elle avait vu", "nous avons pris"],
+					"correct": 2
+				},
+				{
+					"prompt": "ils avaient terminé / j'avais pensé / vous avez répondu",
+					"options": [
+						"ils avaient terminé",
+						"j'avais pensé",
+						"vous avez répondu"
+					],
+					"correct": 2
+				},
+				{
+					"prompt": "elle avait expliqué / nous avions attendu / tu es parti",
+					"options": [
+						"elle avait expliqué",
+						"nous avions attendu",
+						"tu es parti"
+					],
+					"correct": 2
+				}
+			]
+		},
+		{
+			"id": "fr-basic-16",
+			"number": 16,
+			"title": "Complétez avec le plus-que-parfait",
+			"instructions": "Complétez avec le plus-que-parfait.",
+			"kind": "fill-blank",
+			"items": [
+				{
+					"sentence": "Avant le dîner, j'{{0}} (manger) une pomme.",
+					"blanks": [{ "answer": "avais mangé" }]
+				},
+				{
+					"sentence": "Quand tu es arrivé, nous {{0}} (finir) les devoirs.",
+					"blanks": [{ "answer": "avions fini" }]
+				},
+				{
+					"sentence": "Elle {{0}} (descendre) après son père.",
+					"blanks": [{ "answer": "était descendue" }]
+				},
+				{
+					"sentence": "Ils {{0}} (jouer) au foot avant de rentrer.",
+					"blanks": [{ "answer": "avaient joué" }]
+				},
+				{
+					"sentence": "Vous {{0}} (écouter) de la musique avant de dormir.",
+					"blanks": [{ "answer": "aviez écouté" }]
+				},
+				{
+					"sentence": "On {{0}} (travailler) beaucoup avant les vacances.",
+					"blanks": [{ "answer": "avait beaucoup travaillé" }]
+				},
+				{
+					"sentence": "Marie {{0}} (parler) avec Paul avant le cours.",
+					"blanks": [{ "answer": "avait parlé" }]
+				},
+				{
+					"sentence": "Nous {{0}} (rester) à Paris.",
+					"blanks": [{ "answer": "étions restés" }]
+				}
+			]
+		},
+		{
+			"id": "fr-basic-17",
+			"number": 17,
+			"title": "Mini dialogue",
+			"instructions": "Remplissez les espaces avec le passé composé ou le plus-que-parfait.",
+			"contextHint": "Verbes proposés : choisir — visiter — finir — jouer",
+			"kind": "fill-blank",
+			"items": [
+				{
+					"sentence": "A: Tu {{0}} tes devoirs ?",
+					"blanks": [{ "answer": "as fini" }]
+				},
+				{
+					"sentence": "B: Oui, je les {{0}} avant le dîner.",
+					"blanks": [{ "answer": "avais finis" }]
+				},
+				{
+					"sentence": "A: Et Marie ? Elle {{0}} une robe ?",
+					"blanks": [{ "answer": "a choisi" }]
+				},
+				{
+					"sentence": "B: Oui, elle l'{{0}} hier.",
+					"blanks": [{ "answer": "avait choisie" }]
+				},
+				{
+					"sentence": "A: Super. Et finalement, pendant les vacances vous {{0}} Paris ?",
+					"blanks": [{ "answer": "avez visité" }]
+				},
+				{
+					"sentence": "B: Oui, nous l'{{0}} avant Lyon.",
+					"blanks": [{ "answer": "avions visité" }]
+				},
+				{
+					"sentence": "A: Et tes parents, ils {{0}} au foot au stade ?",
+					"blanks": [{ "answer": "ont joué" }]
+				},
+				{
+					"sentence": "B: Oui, ils y {{0}} le dernier jour.",
+					"blanks": [{ "answer": "ont joué" }]
+				}
+			]
+		}
+	]
 }

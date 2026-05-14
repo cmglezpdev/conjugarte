@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import { useReducer } from "react";
 import type { AudioFillExercise } from "#/content/schema";
 import { useAudio } from "#/lib/audio";
+import { ContextHint } from "./_shared/ContextHint";
 import { ExerciseCard } from "./_shared/ExerciseCard";
 import { FeedbackOverlay } from "./_shared/FeedbackOverlay";
 import { answersMatch } from "./_shared/normalize";
@@ -302,6 +303,7 @@ export function AudioFill({ exercise, onResult, onNext }: Props) {
 	return (
 		<ExerciseCard
 			title={exercise.title}
+			instructions={exercise.instructions}
 			status={state.status}
 			footer={
 				<div className="space-y-2">
@@ -316,6 +318,8 @@ export function AudioFill({ exercise, onResult, onNext }: Props) {
 		>
 			{/* Audio player */}
 			<AudioPlayer audioUrl={exercise.audioUrl} />
+
+			<ContextHint text={exercise.contextHint} />
 
 			{/* Fill-blank items */}
 			<motion.div
@@ -348,6 +352,11 @@ export function AudioFill({ exercise, onResult, onNext }: Props) {
 										: "border-[var(--c-incorrect)]";
 								}
 
+								const expectedAnswer = item.blanks[blankIdx]?.answer;
+								const canonicalExpected = Array.isArray(expectedAnswer)
+									? (expectedAnswer[0] ?? "")
+									: (expectedAnswer ?? "");
+
 								return (
 									<span
 										// biome-ignore lint/suspicious/noArrayIndexKey: stable
@@ -370,10 +379,23 @@ export function AudioFill({ exercise, onResult, onNext }: Props) {
 											className={`mx-1 inline-block w-24 rounded border px-2 py-0.5 text-center text-[var(--c-fg)] focus:outline-none focus:ring-2 focus:ring-[var(--c-primary)] ${inputBorderClass}`}
 											aria-label={`Blanco ${blankIdx + 1} del ítem ${itemIdx + 1}`}
 										/>
-										{hint && (
-											<span className="absolute -bottom-5 text-xs text-[var(--c-accent)]">
-												{hint}
+										{isSubmitted ? (
+											<span
+												data-testid={`audio-fill-expected-${itemIdx}-${blankIdx}`}
+												className={`pointer-events-none mt-1 whitespace-nowrap text-[11px] font-semibold leading-none ${
+													isCorrect
+														? "text-[var(--c-correct)]"
+														: "text-[var(--c-incorrect)]"
+												}`}
+											>
+												{canonicalExpected}
 											</span>
+										) : (
+											hint && (
+												<span className="absolute -bottom-5 text-xs text-[var(--c-accent)]">
+													{hint}
+												</span>
+											)
 										)}
 									</span>
 								);

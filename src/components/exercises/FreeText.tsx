@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { useReducer } from "react";
 import type { FreeTextExercise } from "#/content/schema";
+import { ContextHint } from "./_shared/ContextHint";
 import { ExerciseCard } from "./_shared/ExerciseCard";
 import { FeedbackOverlay } from "./_shared/FeedbackOverlay";
 import { answersMatch } from "./_shared/normalize";
@@ -120,6 +121,7 @@ export function FreeText({ exercise, onResult, onNext }: Props) {
 	return (
 		<ExerciseCard
 			title={exercise.title}
+			instructions={exercise.instructions}
 			status={state.status}
 			footer={
 				<div className="space-y-2">
@@ -133,6 +135,7 @@ export function FreeText({ exercise, onResult, onNext }: Props) {
 				</div>
 			}
 		>
+			<ContextHint text={exercise.contextHint} />
 			<motion.div
 				animate={isSubmitted ? state.status : "idle"}
 				// biome-ignore lint/suspicious/noExplicitAny: motion variants typing

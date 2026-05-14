@@ -15,6 +15,7 @@ import { sortableKeyboardCoordinates } from "@dnd-kit/sortable";
 import { motion } from "motion/react";
 import { useReducer, useState } from "react";
 import type { CategorizeExercise } from "#/content/schema";
+import { ContextHint } from "./_shared/ContextHint";
 import { ExerciseCard } from "./_shared/ExerciseCard";
 import { FeedbackOverlay } from "./_shared/FeedbackOverlay";
 import type { ExerciseStatus } from "./_shared/useExerciseState";
@@ -99,6 +100,8 @@ interface WordChipProps {
 	disabled: boolean;
 	isCorrect?: boolean;
 	isSubmitted: boolean;
+	correctCategory?: string;
+	isExample?: boolean;
 }
 
 function WordChip({
@@ -107,30 +110,70 @@ function WordChip({
 	disabled,
 	isCorrect,
 	isSubmitted,
+	correctCategory,
+	isExample,
 }: WordChipProps) {
+	const effectiveDisabled = disabled || Boolean(isExample);
 	const { attributes, listeners, setNodeRef, isDragging } = useDraggable({
 		id: `item-${itemIdx}`,
-		disabled,
+		disabled: effectiveDisabled,
 	});
 
 	let borderColor = "border-[var(--c-border)]";
-	if (isSubmitted && isCorrect !== undefined) {
+	if (isExample) {
+		borderColor = "border-[var(--c-primary)]";
+	} else if (isSubmitted && isCorrect !== undefined) {
 		borderColor = isCorrect
 			? "border-[var(--c-correct)]"
 			: "border-[var(--c-incorrect)]";
 	}
+
+	const showCorrection =
+		!isExample &&
+		isSubmitted &&
+		isCorrect === false &&
+		Boolean(correctCategory);
+
+	const cursorClass = isExample
+		? "cursor-default"
+		: effectiveDisabled
+			? "cursor-default"
+			: "cursor-grab active:cursor-grabbing";
+	const bgClass = isExample
+		? "bg-[var(--c-primary)]/10"
+		: isDragging
+			? "opacity-40"
+			: "bg-[var(--c-card)]";
 
 	return (
 		<motion.div
 			ref={setNodeRef}
 			layout
 			data-testid={`categorize-chip-${itemIdx}`}
-			aria-label={`Palabra: ${word}`}
-			className={`inline-flex cursor-grab items-center rounded-full border px-3 py-1.5 text-sm font-medium text-[var(--c-fg)] shadow-sm select-none active:cursor-grabbing ${borderColor} ${isDragging ? "opacity-40" : "bg-[var(--c-card)]"} ${disabled ? "cursor-default" : ""}`}
-			{...(disabled ? {} : attributes)}
-			{...(disabled ? {} : listeners)}
+			aria-label={
+				isExample ? `Ejemplo: ${word}` : `Palabra: ${word}`
+			}
+			className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm font-medium text-[var(--c-fg)] shadow-sm select-none ${borderColor} ${bgClass} ${cursorClass}`}
+			{...(effectiveDisabled ? {} : attributes)}
+			{...(effectiveDisabled ? {} : listeners)}
 		>
-			{word}
+			<span>{word}</span>
+			{isExample && (
+				<span
+					data-testid={`categorize-example-badge-${itemIdx}`}
+					className="text-[10px] font-semibold uppercase tracking-wide text-[var(--c-primary)]"
+				>
+					ej.
+				</span>
+			)}
+			{showCorrection && (
+				<span
+					data-testid={`categorize-correct-${itemIdx}`}
+					className="text-xs font-semibold text-[var(--c-correct)]"
+				>
+					→ {correctCategory}
+				</span>
+			)}
 		</motion.div>
 	);
 }
@@ -199,6 +242,8 @@ function DroppableZone({
 							disabled={disabled}
 							isCorrect={isSubmitted ? correctness[itemIdx] : undefined}
 							isSubmitted={isSubmitted}
+							correctCategory={item.category}
+							isExample={item.example}
 						/>
 					);
 				})}
@@ -252,7 +297,9 @@ function NeutralBank({
 							itemIdx={itemIdx}
 							word={item.word}
 							disabled={disabled}
+							isCorrect={isSubmitted ? false : undefined}
 							isSubmitted={isSubmitted}
+							correctCategory={item.category}
 						/>
 					);
 				})}
@@ -266,9 +313,20 @@ function NeutralBank({
 // -----------------------------------------------------------------------
 
 export function Categorize({ exercise, onResult, onNext }: Props) {
+	// Example items are pre-placed in their correct category as a model the
+	// learner can read but should not move. Their indices stay in `placement`
+	// and are skipped from the bank/scoring elsewhere.
+	const initialPlacement = (() => {
+		const p: Placement = {};
+		exercise.items.forEach((item, idx) => {
+			if (item.example) p[idx] = item.category;
+		});
+		return p;
+	})();
+
 	const [state, dispatch] = useReducer(reducer, {
 		status: "idle",
-		placement: {},
+		placement: initialPlacement,
 	});
 
 	const [activeItemIdx, setActiveItemIdx] = useState<number | null>(null);
@@ -337,9 +395,11 @@ export function Categorize({ exercise, onResult, onNext }: Props) {
 	};
 
 	const handleVerify = () => {
-		const total = exercise.items.length;
+		let total = 0;
 		let correct = 0;
 		exercise.items.forEach((item, itemIdx) => {
+			if (item.example) return; // pre-placed model, not counted
+			total++;
 			const placed = state.placement[itemIdx] ?? null;
 			if (placed === item.category) correct++;
 		});
@@ -358,6 +418,7 @@ export function Categorize({ exercise, onResult, onNext }: Props) {
 	return (
 		<ExerciseCard
 			title={exercise.title}
+			instructions={exercise.instructions}
 			status={state.status}
 			footer={
 				<div className="space-y-2">
@@ -370,6 +431,7 @@ export function Categorize({ exercise, onResult, onNext }: Props) {
 				</div>
 			}
 		>
+			<ContextHint text={exercise.contextHint} />
 			<DndContext
 				sensors={sensors}
 				collisionDetection={closestCenter}

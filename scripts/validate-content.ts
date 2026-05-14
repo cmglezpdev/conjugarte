@@ -42,19 +42,34 @@ function checkExerciseSetIntegrity(file: string, data: unknown) {
   if (!parsed.success) return;
   const set = parsed.data;
   const seenIds = new Set<string>();
-  const seenNumbers = new Set<number>();
+  const seenNumbers = new Map<number, string>();
+  // Hybrid splits share a `number` across two consecutive exercises whose IDs
+  // follow the convention `{base}a` / `{base}b` (e.g. it-intermediate-3a + 3b).
+  // We allow exactly that pattern; any other number collision is still an error.
+  const isHybridSibling = (idA: string, idB: string): boolean => {
+    const stripA = idA.replace(/[ab]$/, "");
+    const stripB = idB.replace(/[ab]$/, "");
+    if (stripA !== stripB || stripA === idA || stripB === idB) return false;
+    const suffixA = idA.slice(-1);
+    const suffixB = idB.slice(-1);
+    return (
+      (suffixA === "a" && suffixB === "b") ||
+      (suffixA === "b" && suffixB === "a")
+    );
+  };
   for (const ex of set.exercises) {
     if (seenIds.has(ex.id)) {
       issues.push({ file, message: `duplicate exercise id "${ex.id}"` });
     }
     seenIds.add(ex.id);
-    if (seenNumbers.has(ex.number)) {
+    const prevId = seenNumbers.get(ex.number);
+    if (prevId !== undefined && !isHybridSibling(prevId, ex.id)) {
       issues.push({
         file,
         message: `duplicate exercise number ${ex.number} (id=${ex.id})`,
       });
     }
-    seenNumbers.add(ex.number);
+    seenNumbers.set(ex.number, ex.id);
 
     if (ex.kind === "categorize") {
       const cats = new Set(ex.categories);
@@ -78,11 +93,14 @@ function checkExerciseSetIntegrity(file: string, data: unknown) {
         }
         for (let i = 0; i < it.choices.length; i++) {
           const c = it.choices[i];
-          if (c.correct >= c.options.length) {
-            issues.push({
-              file,
-              message: `exercise ${ex.id}: choice ${i} correct index ${c.correct} out of bounds`,
-            });
+          const correctIndexes = Array.isArray(c.correct) ? c.correct : [c.correct];
+          for (const correct of correctIndexes) {
+            if (correct >= c.options.length) {
+              issues.push({
+                file,
+                message: `exercise ${ex.id}: choice ${i} correct index ${correct} out of bounds`,
+              });
+            }
           }
         }
       }

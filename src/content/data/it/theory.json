@@ -1,483 +1,514 @@
 {
-  "language": "it",
-  "title": "Ausiliari in italiano",
-  "blocks": [
-    {
-      "kind": "heading",
-      "level": 1,
-      "text": "Ausiliari in italiano"
-    },
-    {
-      "kind": "heading",
-      "level": 2,
-      "text": "1. Avere"
-    },
-    {
-      "kind": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "Regole generali: con l'ausiliare avere, normalmente non c'è accordo."
-        }
-      ]
-    },
-    {
-      "kind": "example",
-      "text": "Domenica mio marito ed io abbiamo mangiato al ristorante."
-    },
-    {
-      "kind": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "L'ausiliare avere si usa generalmente quando nella frase c'è un complemento oggetto, cioè con i verbi transitivi."
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "content": [
-        {
-          "type": "strong",
-          "text": "Ausiliare dei tempi composti dei verbi transitivi:"
-        }
-      ]
-    },
-    {
-      "kind": "example",
-      "text": "Ho mangiato.",
-      "translation": "J'ai mangé."
-    },
-    {
-      "kind": "example",
-      "text": "Verrò quando avrò finito.",
-      "translation": "Je viendrai quand j'aurai fini."
-    },
-    {
-      "kind": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "Il participio passato usato con avere è invariabile, tranne quando è preceduto da un pronome complemento oggetto diretto (lo, la, li, le) o dal pronome ne:"
-        }
-      ]
-    },
-    {
-      "kind": "example",
-      "text": "Li ho visti.",
-      "translation": "Je les ai vus."
-    },
-    {
-      "kind": "example",
-      "text": "Hai preso delle cassette? Sì, ne ho prese dieci.",
-      "translation": "Tu as pris des cassettes ? Oui, j'en ai pris dix."
-    },
-    {
-      "kind": "paragraph",
-      "content": [
-        {
-          "type": "strong",
-          "text": "Accordo con il verbo fare usato come secondo ausiliare:"
-        }
-      ]
-    },
-    {
-      "kind": "example",
-      "text": "Giulia? – L'ho già fatta mangiare.",
-      "translation": "Giulia ? - Je l'ai déjà fait manger."
-    },
-    {
-      "kind": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "Con il relativo che (complemento oggetto) e l'interrogativo quanto, non c'è accordo:"
-        }
-      ]
-    },
-    {
-      "kind": "example",
-      "text": "Non ho ancora visto i libri che hai comprato.",
-      "translation": "Je n'ai pas encore vu les livres que tu as achetés."
-    },
-    {
-      "kind": "example",
-      "text": "Quanti film hai visto?",
-      "translation": "Combien de films as-tu vus ?"
-    },
-    {
-      "kind": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "Uso particolare di avere seguito da \"da\" per esprimere un obbligo personale, spesso equivalente a \"dovere\":"
-        }
-      ]
-    },
-    {
-      "kind": "example",
-      "text": "Non posso oggi, ho da fare.",
-      "translation": "Je ne peux pas aujourd'hui, j'ai à faire."
-    },
-    {
-      "kind": "example",
-      "text": "Ho da finire questa relazione.",
-      "translation": "Je dois terminer ce rapport."
-    },
-    {
-      "kind": "heading",
-      "level": 2,
-      "text": "2. Essere"
-    },
-    {
-      "kind": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "Regole generali: quando usiamo l'ausiliare essere il participio passato si accorda con il soggetto in genere e numero."
-        }
-      ]
-    },
-    {
-      "kind": "example",
-      "text": "In estate Luigi è partito per l'Italia, anche sua moglie è andata con lui e tutti e due sono rimasti lì per due mesi."
-    },
-    {
-      "kind": "note",
-      "text": "Se l'infinito è essere si usa sempre l'ausiliare essere."
-    },
-    {
-      "kind": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "L'ausiliare essere si usa generalmente con i verbi che non hanno un complemento oggetto, cioè con i verbi intransitivi; in particolare nei seguenti casi:"
-        }
-      ]
-    },
-    {
-      "kind": "list",
-      "ordered": false,
-      "items": [
-        "Con verbi che indicano movimento, ad eccezione dei verbi passare, viaggiare, camminare, girare.",
-        "Con i verbi che indicano stato: restare, rimanere, essere, stare, ecc.",
-        "Con i verbi che indicano cambio di stato: diventare, nascere, morire, crescere, ecc.",
-        "Con i verbi riflessivi, reciproci, intransitivi pronominali, riflessivi apparenti, come: alzarsi, lavarsi, incontrarsi, svegliarsi, ecc.",
-        "Con verbi intransitivi di uso comune, come: succedere, accadere, capitare, sembrare, parere, piacere, dispiacere, occorrere, riuscire, apparire, sparire, avvenire, fuggire, ecc."
-      ]
-    },
-    {
-      "kind": "example",
-      "text": "Non sono venuta perché l'altro ieri ho lavorato tutto il giorno."
-    },
-    {
-      "kind": "example",
-      "text": "- E come siete andati? - Siamo andati con la macchina."
-    },
-    {
-      "kind": "example",
-      "text": "Siamo rimasti tutto il giorno dentro casa."
-    },
-    {
-      "kind": "example",
-      "text": "Sabato non è stato possibile lasciare l'albergo a causa della pioggia."
-    },
-    {
-      "kind": "example",
-      "text": "Il figlio di mia sorella è diventato adulto."
-    },
-    {
-      "kind": "example",
-      "text": "Stamattina mi sono alzata presto."
-    },
-    {
-      "kind": "example",
-      "text": "Franca e Santiago si sono incontrati alla fermata dell'autobus."
-    },
-    {
-      "kind": "example",
-      "text": "Tu non ti sei accorto di nulla."
-    },
-    {
-      "kind": "example",
-      "text": "Io mi sono lavata le mani."
-    },
-    {
-      "kind": "example",
-      "text": "Lo splendido paesaggio di questa zona mi è piaciuto molto."
-    },
-    {
-      "kind": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "Con verbi di moto, come: andare, arrivare, partire, tornare, ecc."
-        }
-      ]
-    },
-    {
-      "kind": "example",
-      "text": "Luca è tornato a Parigi."
-    },
-    {
-      "kind": "heading",
-      "level": 2,
-      "text": "3. Gli ausiliari dei verbi intransitivi"
-    },
-    {
-      "kind": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "I verbi intransitivi che esprimono uno stato o un cambiamento fisico o morale si coniugano con essere nei tempi composti:"
-        }
-      ]
-    },
-    {
-      "kind": "list",
-      "ordered": false,
-      "items": [
-        "vivere, sembrare, cominciare, finire, correre, crescere, diminuire, migliorare, ingrassare, dimagrire, invecchiare, piacere, dispiacere, cambiare, riuscire, costare, cessare."
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "content": [
-        {
-          "type": "strong",
-          "text": "Accordo obbligatorio:"
-        }
-      ]
-    },
-    {
-      "kind": "example",
-      "text": "Sei dimagrita, Silvia!",
-      "translation": "Tu as maigri, Silvia !"
-    },
-    {
-      "kind": "example",
-      "text": "Sono molto invecchiati.",
-      "translation": "Ils ont beaucoup vieilli."
-    },
-    {
-      "kind": "paragraph",
-      "content": [
-        {
-          "type": "strong",
-          "text": "Differenza tra transitivo e intransitivo:"
-        }
-      ]
-    },
-    {
-      "kind": "example",
-      "text": "Sei cambiata.",
-      "translation": "Tu as changé."
-    },
-    {
-      "kind": "example",
-      "text": "Hai cambiato appartamento?",
-      "translation": "Tu as changé d'appartement ?"
-    },
-    {
-      "kind": "example",
-      "text": "Questo malato è peggiorato.",
-      "translation": "Ce malade a empiré."
-    },
-    {
-      "kind": "example",
-      "text": "Hai peggiorato la situazione.",
-      "translation": "Tu as empiré la situation."
-    },
-    {
-      "kind": "example",
-      "text": "I prezzi sono aumentati.",
-      "translation": "Les prix ont augmenté."
-    },
-    {
-      "kind": "example",
-      "text": "Hanno aumentato i prezzi.",
-      "translation": "Ils ont augmenté les prix."
-    },
-    {
-      "kind": "note",
-      "text": "Con alcuni verbi, normalmente intransitivi, si usa avere quando sono seguiti da un complemento oggetto ma si usa essere quando non lo sono."
-    },
-    {
-      "kind": "example",
-      "text": "Ho finito il primo esercizio e ora mi riposo un po'."
-    },
-    {
-      "kind": "example",
-      "text": "La lezione è finita tardi oggi."
-    },
-    {
-      "kind": "note",
-      "text": "Anche altri verbi si comportano come finire: scendere, salire, passare, continuare, bruciare, saltare, cambiare, aumentare, diminuire."
-    },
-    {
-      "kind": "example",
-      "text": "Da giovane, sono salito sulla vetta del Monte Rossa."
-    },
-    {
-      "kind": "example",
-      "text": "Ho salito le scale correndo."
-    },
-    {
-      "kind": "heading",
-      "level": 2,
-      "text": "4. I verbi a doppio ausiliare: dovere, potere, volere"
-    },
-    {
-      "kind": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "Con i verbi potere, dovere e volere si usa essere o avere, come richiede il verbo che segue:"
-        }
-      ]
-    },
-    {
-      "kind": "example",
-      "text": "L'estate non sono potuto andare in vacanza."
-    },
-    {
-      "kind": "example",
-      "text": "Ho dovuto chiudere la finestra perché fa freddo."
-    },
-    {
-      "kind": "table",
-      "headers": ["Con essere", "Con avere"],
-      "rows": [
-        ["Sono venuto → sono dovuto venire (j'ai dû venir)", "Ho aiutato → ho voluto/potuto/dovuto aiutare (j'ai voulu/pu/dû aider)"],
-        ["sono potuto venire (j'ai pu venir)", ""],
-        ["è voluta venire (elle a voulu venir)", ""]
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "Con il si impersonale si usa sempre essere:"
-        }
-      ]
-    },
-    {
-      "kind": "example",
-      "text": "Si sarebbe dovuto pensare a questo problema prima della riunione.",
-      "translation": "On aurait dû penser à ce problème avant la réunion."
-    },
-    {
-      "kind": "heading",
-      "level": 2,
-      "text": "5. Gli ausiliari del passivo"
-    },
-    {
-      "kind": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "Il passivo corrisponde a essere + participio passato:"
-        }
-      ]
-    },
-    {
-      "kind": "example",
-      "text": "Il presidente è stato eletto.",
-      "translation": "Le président a été élu."
-    },
-    {
-      "kind": "example",
-      "text": "È stata chiamata subito.",
-      "translation": "Elle a été tout de suite appelée."
-    },
-    {
-      "kind": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "Nei titoli dei giornali, essere è spesso sottinteso:"
-        }
-      ]
-    },
-    {
-      "kind": "example",
-      "text": "Sequestrati dalla polizia dieci chili di eroina.",
-      "translation": "La police a confisqué dix kilos d'héroïne."
-    },
-    {
-      "kind": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "Il passivo può formarsi con:"
-        }
-      ]
-    },
-    {
-      "kind": "list",
-      "ordered": false,
-      "items": [
-        "venire (ai tempi semplici, indica un evento o risultato): Venne assolto. (Il fut acquitté.)",
-        "andare (con verbi come smarrire): Il pacco è andato smarrito. (Le paquet a été perdu.)",
-        "andare può esprimere anche un'idea di obbligo: Questo film va visto assolutamente. (Ce film doit être vu absolument.)"
-      ]
-    },
-    {
-      "kind": "heading",
-      "level": 2,
-      "text": "6. Gli ausiliari nelle espressioni impersonali"
-    },
-    {
-      "kind": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "Nei tempi composti, l'ausiliare è essere:"
-        }
-      ]
-    },
-    {
-      "kind": "example",
-      "text": "È piovuto.",
-      "translation": "Il a plu."
-    },
-    {
-      "kind": "example",
-      "text": "È nevicato.",
-      "translation": "Il a neigé."
-    },
-    {
-      "kind": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "Oggi, avere sostituisce essere ed è obbligatorio nelle espressioni impersonali con fare:"
-        }
-      ]
-    },
-    {
-      "kind": "example",
-      "text": "Ha fatto freddo tutta la settimana.",
-      "translation": "Il a fait froid toute la semaine."
-    },
-    {
-      "kind": "heading",
-      "level": 2,
-      "text": "Tabella riassuntiva delle caratteristiche dei modi e dei tempi"
-    },
-    {
-      "kind": "table",
-      "headers": ["Temps verbal", "Caractérisation", "Exemple"],
-      "rows": [
-        ["Indicativo — Passato prossimo", "Fa riferimento ad azioni passate e concluse, ma con un legame con il presente.", "Io sono andata al cinema."],
-        ["Indicativo — Trapassato prossimo", "Fa riferimento a un'azione passata che avviene prima di un'altra azione passata.", "Avevo finito di lavorare quando mi hai chiamato."],
-        ["Indicativo — Trapassato remoto", "Fa riferimento a un'azione che si è verificata immediatamente prima di un'altra azione passata.", "Appena ebbi finito di mangiare, uscii."],
-        ["Indicativo — Futuro anteriore", "Esprime un'azione che avrà luogo nel futuro, ma prima di un'altra azione (generalmente espressa al futuro semplice).", "Quando arriverai alla festa, io avrò già finito di preparare la cena."],
-        ["Congiuntivo — Congiuntivo passato", "Per esprimere azioni passate in contesti di incertezza, ipotesi, ecc.", "Non credo che abbia capito."],
-        ["Congiuntivo — Congiuntivo trapassato", "Per esprimere azioni passate avvenute prima di un'altra azione passata in contesti di incertezza, ipotesi, ecc.", "Non credevo che avesse già finito."],
-        ["Condizionale — Condizionale passato", "Per esprimere azioni passate in contesti di possibilità, cortesia, ecc.", "Avrei voluto venire, ma non ho potuto."]
-      ]
-    }
-  ]
+	"language": "it",
+	"title": "Ausiliari in italiano",
+	"blocks": [
+		{
+			"kind": "heading",
+			"level": 1,
+			"text": "Ausiliari in italiano"
+		},
+		{
+			"kind": "heading",
+			"level": 2,
+			"text": "1. Avere"
+		},
+		{
+			"kind": "paragraph",
+			"content": [
+				{
+					"type": "text",
+					"text": "Regole generali: con l'ausiliare avere, normalmente non c'è accordo."
+				}
+			]
+		},
+		{
+			"kind": "example",
+			"text": "Domenica mio marito ed io abbiamo mangiato al ristorante."
+		},
+		{
+			"kind": "paragraph",
+			"content": [
+				{
+					"type": "text",
+					"text": "L'ausiliare avere si usa generalmente quando nella frase c'è un complemento oggetto, cioè con i verbi transitivi."
+				}
+			]
+		},
+		{
+			"kind": "paragraph",
+			"content": [
+				{
+					"type": "strong",
+					"text": "Ausiliare dei tempi composti dei verbi transitivi:"
+				}
+			]
+		},
+		{
+			"kind": "example",
+			"text": "Ho mangiato.",
+			"translation": "J'ai mangé."
+		},
+		{
+			"kind": "example",
+			"text": "Verrò quando avrò finito.",
+			"translation": "Je viendrai quand j'aurai fini."
+		},
+		{
+			"kind": "paragraph",
+			"content": [
+				{
+					"type": "text",
+					"text": "Il participio passato usato con avere è invariabile, tranne quando è preceduto da un pronome complemento oggetto diretto (lo, la, li, le) o dal pronome ne:"
+				}
+			]
+		},
+		{
+			"kind": "example",
+			"text": "Li ho visti.",
+			"translation": "Je les ai vus."
+		},
+		{
+			"kind": "example",
+			"text": "Hai preso delle cassette? Sì, ne ho prese dieci.",
+			"translation": "Tu as pris des cassettes ? Oui, j'en ai pris dix."
+		},
+		{
+			"kind": "paragraph",
+			"content": [
+				{
+					"type": "strong",
+					"text": "Accordo con il verbo fare usato come secondo ausiliare:"
+				}
+			]
+		},
+		{
+			"kind": "example",
+			"text": "Giulia? – L'ho già fatta mangiare.",
+			"translation": "Giulia ? - Je l'ai déjà fait manger."
+		},
+		{
+			"kind": "paragraph",
+			"content": [
+				{
+					"type": "text",
+					"text": "Con il relativo che (complemento oggetto) e l'interrogativo quanto, non c'è accordo:"
+				}
+			]
+		},
+		{
+			"kind": "example",
+			"text": "Non ho ancora visto i libri che hai comprato.",
+			"translation": "Je n'ai pas encore vu les livres que tu as achetés."
+		},
+		{
+			"kind": "example",
+			"text": "Quanti film hai visto?",
+			"translation": "Combien de films as-tu vus ?"
+		},
+		{
+			"kind": "paragraph",
+			"content": [
+				{
+					"type": "text",
+					"text": "Uso particolare di avere seguito da \"da\" per esprimere un obbligo personale, spesso equivalente a \"dovere\":"
+				}
+			]
+		},
+		{
+			"kind": "example",
+			"text": "Non posso oggi, ho da fare.",
+			"translation": "Je ne peux pas aujourd'hui, j'ai à faire."
+		},
+		{
+			"kind": "example",
+			"text": "Ho da finire questa relazione.",
+			"translation": "Je dois terminer ce rapport."
+		},
+		{
+			"kind": "heading",
+			"level": 2,
+			"text": "2. Essere"
+		},
+		{
+			"kind": "paragraph",
+			"content": [
+				{
+					"type": "text",
+					"text": "Regole generali: quando usiamo l'ausiliare essere il participio passato si accorda con il soggetto in genere e numero."
+				}
+			]
+		},
+		{
+			"kind": "example",
+			"text": "In estate Luigi è partito per l'Italia, anche sua moglie è andata con lui e tutti e due sono rimasti lì per due mesi."
+		},
+		{
+			"kind": "note",
+			"text": "Se l'infinito è essere si usa sempre l'ausiliare essere."
+		},
+		{
+			"kind": "paragraph",
+			"content": [
+				{
+					"type": "text",
+					"text": "L'ausiliare essere si usa generalmente con i verbi che non hanno un complemento oggetto, cioè con i verbi intransitivi; in particolare nei seguenti casi:"
+				}
+			]
+		},
+		{
+			"kind": "list",
+			"ordered": false,
+			"items": [
+				"Con verbi che indicano movimento, ad eccezione dei verbi passare, viaggiare, camminare, girare.",
+				"Con i verbi che indicano stato: restare, rimanere, essere, stare, ecc.",
+				"Con i verbi che indicano cambio di stato: diventare, nascere, morire, crescere, ecc.",
+				"Con i verbi riflessivi, reciproci, intransitivi pronominali, riflessivi apparenti, come: alzarsi, lavarsi, incontrarsi, svegliarsi, ecc.",
+				"Con verbi intransitivi di uso comune, come: succedere, accadere, capitare, sembrare, parere, piacere, dispiacere, occorrere, riuscire, apparire, sparire, avvenire, fuggire, ecc."
+			]
+		},
+		{
+			"kind": "example",
+			"text": "Non sono venuta perché l'altro ieri ho lavorato tutto il giorno."
+		},
+		{
+			"kind": "example",
+			"text": "- E come siete andati? - Siamo andati con la macchina."
+		},
+		{
+			"kind": "example",
+			"text": "Siamo rimasti tutto il giorno dentro casa."
+		},
+		{
+			"kind": "example",
+			"text": "Sabato non è stato possibile lasciare l'albergo a causa della pioggia."
+		},
+		{
+			"kind": "example",
+			"text": "Il figlio di mia sorella è diventato adulto."
+		},
+		{
+			"kind": "example",
+			"text": "Stamattina mi sono alzata presto."
+		},
+		{
+			"kind": "example",
+			"text": "Franca e Santiago si sono incontrati alla fermata dell'autobus."
+		},
+		{
+			"kind": "example",
+			"text": "Tu non ti sei accorto di nulla."
+		},
+		{
+			"kind": "example",
+			"text": "Io mi sono lavata le mani."
+		},
+		{
+			"kind": "example",
+			"text": "Lo splendido paesaggio di questa zona mi è piaciuto molto."
+		},
+		{
+			"kind": "paragraph",
+			"content": [
+				{
+					"type": "text",
+					"text": "Con verbi di moto, come: andare, arrivare, partire, tornare, ecc."
+				}
+			]
+		},
+		{
+			"kind": "example",
+			"text": "Luca è tornato a Parigi."
+		},
+		{
+			"kind": "heading",
+			"level": 2,
+			"text": "3. Gli ausiliari dei verbi intransitivi"
+		},
+		{
+			"kind": "paragraph",
+			"content": [
+				{
+					"type": "text",
+					"text": "I verbi intransitivi che esprimono uno stato o un cambiamento fisico o morale si coniugano con essere nei tempi composti:"
+				}
+			]
+		},
+		{
+			"kind": "list",
+			"ordered": false,
+			"items": [
+				"vivere, sembrare, cominciare, finire, correre, crescere, diminuire, migliorare, ingrassare, dimagrire, invecchiare, piacere, dispiacere, cambiare, riuscire, costare, cessare."
+			]
+		},
+		{
+			"kind": "paragraph",
+			"content": [
+				{
+					"type": "strong",
+					"text": "Accordo obbligatorio:"
+				}
+			]
+		},
+		{
+			"kind": "example",
+			"text": "Sei dimagrita, Silvia!",
+			"translation": "Tu as maigri, Silvia !"
+		},
+		{
+			"kind": "example",
+			"text": "Sono molto invecchiati.",
+			"translation": "Ils ont beaucoup vieilli."
+		},
+		{
+			"kind": "paragraph",
+			"content": [
+				{
+					"type": "strong",
+					"text": "Differenza tra transitivo e intransitivo:"
+				}
+			]
+		},
+		{
+			"kind": "example",
+			"text": "Sei cambiata.",
+			"translation": "Tu as changé."
+		},
+		{
+			"kind": "example",
+			"text": "Hai cambiato appartamento?",
+			"translation": "Tu as changé d'appartement ?"
+		},
+		{
+			"kind": "example",
+			"text": "Questo malato è peggiorato.",
+			"translation": "Ce malade a empiré."
+		},
+		{
+			"kind": "example",
+			"text": "Hai peggiorato la situazione.",
+			"translation": "Tu as empiré la situation."
+		},
+		{
+			"kind": "example",
+			"text": "I prezzi sono aumentati.",
+			"translation": "Les prix ont augmenté."
+		},
+		{
+			"kind": "example",
+			"text": "Hanno aumentato i prezzi.",
+			"translation": "Ils ont augmenté les prix."
+		},
+		{
+			"kind": "note",
+			"text": "Con alcuni verbi, normalmente intransitivi, si usa avere quando sono seguiti da un complemento oggetto ma si usa essere quando non lo sono."
+		},
+		{
+			"kind": "example",
+			"text": "Ho finito il primo esercizio e ora mi riposo un po'."
+		},
+		{
+			"kind": "example",
+			"text": "La lezione è finita tardi oggi."
+		},
+		{
+			"kind": "note",
+			"text": "Anche altri verbi si comportano come finire: scendere, salire, passare, continuare, bruciare, saltare, cambiare, aumentare, diminuire."
+		},
+		{
+			"kind": "example",
+			"text": "Da giovane, sono salito sulla vetta del Monte Rossa."
+		},
+		{
+			"kind": "example",
+			"text": "Ho salito le scale correndo."
+		},
+		{
+			"kind": "heading",
+			"level": 2,
+			"text": "4. I verbi a doppio ausiliare: dovere, potere, volere"
+		},
+		{
+			"kind": "paragraph",
+			"content": [
+				{
+					"type": "text",
+					"text": "Con i verbi potere, dovere e volere si usa essere o avere, come richiede il verbo che segue:"
+				}
+			]
+		},
+		{
+			"kind": "example",
+			"text": "L'estate non sono potuto andare in vacanza."
+		},
+		{
+			"kind": "example",
+			"text": "Ho dovuto chiudere la finestra perché fa freddo."
+		},
+		{
+			"kind": "table",
+			"headers": ["Con essere", "Con avere"],
+			"rows": [
+				[
+					"Sono venuto → sono dovuto venire (j'ai dû venir)",
+					"Ho aiutato → ho voluto/potuto/dovuto aiutare (j'ai voulu/pu/dû aider)"
+				],
+				["sono potuto venire (j'ai pu venir)", ""],
+				["è voluta venire (elle a voulu venir)", ""]
+			]
+		},
+		{
+			"kind": "paragraph",
+			"content": [
+				{
+					"type": "text",
+					"text": "Con il si impersonale si usa sempre essere:"
+				}
+			]
+		},
+		{
+			"kind": "example",
+			"text": "Si sarebbe dovuto pensare a questo problema prima della riunione.",
+			"translation": "On aurait dû penser à ce problème avant la réunion."
+		},
+		{
+			"kind": "heading",
+			"level": 2,
+			"text": "5. Gli ausiliari del passivo"
+		},
+		{
+			"kind": "paragraph",
+			"content": [
+				{
+					"type": "text",
+					"text": "Il passivo corrisponde a essere + participio passato:"
+				}
+			]
+		},
+		{
+			"kind": "example",
+			"text": "Il presidente è stato eletto.",
+			"translation": "Le président a été élu."
+		},
+		{
+			"kind": "example",
+			"text": "È stata chiamata subito.",
+			"translation": "Elle a été tout de suite appelée."
+		},
+		{
+			"kind": "paragraph",
+			"content": [
+				{
+					"type": "text",
+					"text": "Nei titoli dei giornali, essere è spesso sottinteso:"
+				}
+			]
+		},
+		{
+			"kind": "example",
+			"text": "Sequestrati dalla polizia dieci chili di eroina.",
+			"translation": "La police a confisqué dix kilos d'héroïne."
+		},
+		{
+			"kind": "paragraph",
+			"content": [
+				{
+					"type": "text",
+					"text": "Il passivo può formarsi con:"
+				}
+			]
+		},
+		{
+			"kind": "list",
+			"ordered": false,
+			"items": [
+				"venire (ai tempi semplici, indica un evento o risultato): Venne assolto. (Il fut acquitté.)",
+				"andare (con verbi come smarrire): Il pacco è andato smarrito. (Le paquet a été perdu.)",
+				"andare può esprimere anche un'idea di obbligo: Questo film va visto assolutamente. (Ce film doit être vu absolument.)"
+			]
+		},
+		{
+			"kind": "heading",
+			"level": 2,
+			"text": "6. Gli ausiliari nelle espressioni impersonali"
+		},
+		{
+			"kind": "paragraph",
+			"content": [
+				{
+					"type": "text",
+					"text": "Nei tempi composti, l'ausiliare è essere:"
+				}
+			]
+		},
+		{
+			"kind": "example",
+			"text": "È piovuto.",
+			"translation": "Il a plu."
+		},
+		{
+			"kind": "example",
+			"text": "È nevicato.",
+			"translation": "Il a neigé."
+		},
+		{
+			"kind": "paragraph",
+			"content": [
+				{
+					"type": "text",
+					"text": "Oggi, avere sostituisce essere ed è obbligatorio nelle espressioni impersonali con fare:"
+				}
+			]
+		},
+		{
+			"kind": "example",
+			"text": "Ha fatto freddo tutta la settimana.",
+			"translation": "Il a fait froid toute la semaine."
+		},
+		{
+			"kind": "heading",
+			"level": 2,
+			"text": "Tabella riassuntiva delle caratteristiche dei modi e dei tempi"
+		},
+		{
+			"kind": "table",
+			"headers": ["Temps verbal", "Caractérisation", "Exemple"],
+			"rows": [
+				[
+					"Indicativo — Passato prossimo",
+					"Fa riferimento ad azioni passate e concluse, ma con un legame con il presente.",
+					"Io sono andata al cinema."
+				],
+				[
+					"Indicativo — Trapassato prossimo",
+					"Fa riferimento a un'azione passata che avviene prima di un'altra azione passata.",
+					"Avevo finito di lavorare quando mi hai chiamato."
+				],
+				[
+					"Indicativo — Trapassato remoto",
+					"Fa riferimento a un'azione che si è verificata immediatamente prima di un'altra azione passata.",
+					"Appena ebbi finito di mangiare, uscii."
+				],
+				[
+					"Indicativo — Futuro anteriore",
+					"Esprime un'azione che avrà luogo nel futuro, ma prima di un'altra azione (generalmente espressa al futuro semplice).",
+					"Quando arriverai alla festa, io avrò già finito di preparare la cena."
+				],
+				[
+					"Congiuntivo — Congiuntivo passato",
+					"Per esprimere azioni passate in contesti di incertezza, ipotesi, ecc.",
+					"Non credo che abbia capito."
+				],
+				[
+					"Congiuntivo — Congiuntivo trapassato",
+					"Per esprimere azioni passate avvenute prima di un'altra azione passata in contesti di incertezza, ipotesi, ecc.",
+					"Non credevo che avesse già finito."
+				],
+				[
+					"Condizionale — Condizionale passato",
+					"Per esprimere azioni passate in contesti di possibilità, cortesia, ecc.",
+					"Avrei voluto venire, ma non ho potuto."
+				]
+			]
+		}
+	]
 }

@@ -1,318 +1,313 @@
 {
-  "language": "fr",
-  "level": "basic",
-  "control": true,
-  "title": "Exercices de contrôle",
-  "exercises": [
-    {
-      "id": "fr-basic-control-1",
-      "number": 1,
-      "title": "Choisissez la forme correcte du participe passé",
-      "instructions": "Choisissez la forme correcte du participe passé (masculin singulier).",
-      "kind": "choice",
-      "multiple": false,
-      "items": [
-        {
-          "prompt": "Salir",
-          "options": ["sali", "salu", "salit"],
-          "correct": 0
-        },
-        {
-          "prompt": "Vêtir",
-          "options": ["vêtu", "vêtis", "vêtit", "vêté"],
-          "correct": 0
-        },
-        {
-          "prompt": "Découvrir",
-          "options": ["découvri", "découvert", "découvré", "découvrit"],
-          "correct": 1
-        },
-        {
-          "prompt": "Secourir",
-          "options": ["secouri", "secouru", "secouris", "secourit"],
-          "correct": 1
-        },
-        {
-          "prompt": "Apercevoir",
-          "options": ["aperçu", "aperçut", "aperci", "aperçé"],
-          "correct": 0
-        },
-        {
-          "prompt": "Devoir",
-          "options": ["dû", "du", "devoi", "devu"],
-          "correct": 0
-        },
-        {
-          "prompt": "Mouvoir",
-          "options": ["mû", "mouvi", "mouvu", "mouvé"],
-          "correct": 0
-        },
-        {
-          "prompt": "Asseoir",
-          "options": ["assis", "assi", "assé", "assit"],
-          "correct": 0
-        },
-        {
-          "prompt": "Rompre",
-          "options": ["rompu", "rompris", "rompit", "rompé"],
-          "correct": 0
-        },
-        {
-          "prompt": "Comprendre",
-          "options": ["compris", "comprit", "compré", "compru"],
-          "correct": 0
-        },
-        {
-          "prompt": "Émettre",
-          "options": ["émis", "émit", "émé", "émés"],
-          "correct": 0
-        },
-        {
-          "prompt": "Peindre",
-          "options": ["peint", "peindu", "peinis", "peiné"],
-          "correct": 0
-        },
-        {
-          "prompt": "Feindre",
-          "options": ["feint", "feindu", "feinis", "feiné"],
-          "correct": 0
-        },
-        {
-          "prompt": "Joindre",
-          "options": ["joint", "joindu", "joinis", "joiné"],
-          "correct": 0
-        },
-        {
-          "prompt": "Coudre",
-          "options": ["cousu", "coudri", "coudé", "cousit"],
-          "correct": 0
-        },
-        {
-          "prompt": "Moudre",
-          "options": ["moulu", "moudri", "moudé", "moudus"],
-          "correct": 0
-        },
-        {
-          "prompt": "Vivre",
-          "options": ["vécu", "vivu", "vivri", "vivé"],
-          "correct": 0
-        },
-        {
-          "prompt": "Conclure",
-          "options": ["conclu", "conclut", "conclui", "conclué"],
-          "correct": 0
-        },
-        {
-          "prompt": "Exclure",
-          "options": ["exclu", "exclut", "exclui", "exclué"],
-          "correct": 0
-        },
-        {
-          "prompt": "Clore",
-          "options": ["clos", "clou", "clori", "clus"],
-          "correct": 0
-        },
-        {
-          "prompt": "Croire",
-          "options": ["cru", "croi", "croisé", "crut"],
-          "correct": 0
-        },
-        {
-          "prompt": "Inclure",
-          "options": ["inclus", "inclut", "inclui", "inclué"],
-          "correct": 0
-        },
-        {
-          "prompt": "Résoudre",
-          "options": ["résolu", "résoudri", "résout", "résousé"],
-          "correct": 0
-        },
-        {
-          "prompt": "Construire",
-          "options": ["construit", "construis", "construé", "construvi"],
-          "correct": 0
-        },
-        {
-          "prompt": "Fondre",
-          "options": ["fondu", "fondri", "fondé", "fondus"],
-          "correct": 0
-        },
-        {
-          "prompt": "Circonscrire",
-          "options": ["circonscrit", "circonscri", "circonscru", "circonscré"],
-          "correct": 0
-        }
-      ]
-    },
-    {
-      "id": "fr-basic-control-2",
-      "number": 2,
-      "title": "Choisissez la forme correcte de l'auxiliaire",
-      "instructions": "Choisissez la forme correcte de l'auxiliaire.",
-      "kind": "choice",
-      "multiple": false,
-      "items": [
-        {
-          "prompt": "Nous _____ montés en ascenseur.",
-          "options": ["sommes", "avons"],
-          "correct": 0
-        },
-        {
-          "prompt": "Je _____ descendu au parking.",
-          "options": ["suis", "ai"],
-          "correct": 0
-        },
-        {
-          "prompt": "On _____ monté les bagages.",
-          "options": ["est", "a"],
-          "correct": 1
-        },
-        {
-          "prompt": "J'_____ descendu les 11 étages à pied !",
-          "options": ["ai", "suis"],
-          "correct": 0
-        },
-        {
-          "prompt": "Il _____ passé dire bonjour.",
-          "options": ["est", "a"],
-          "correct": 0
-        },
-        {
-          "prompt": "Elles _____ rentré les valises.",
-          "options": ["sont", "ont"],
-          "correct": 1
-        },
-        {
-          "prompt": "Vous _____ passé un bon week-end ?",
-          "options": ["avez", "êtes"],
-          "correct": 0
-        },
-        {
-          "prompt": "Vous _____ rentrés à quelle heure ?",
-          "options": ["êtes", "avez"],
-          "correct": 0
-        },
-        {
-          "prompt": "Nous _____ sortis tard hier soir.",
-          "options": ["sommes", "avons"],
-          "correct": 0
-        },
-        {
-          "prompt": "Ils _____ sorti les lunettes de soleil.",
-          "options": ["sont", "ont"],
-          "correct": 1
-        },
-        {
-          "prompt": "Vous _____ rentré la voiture dans le garage ?",
-          "options": ["êtes", "avez"],
-          "correct": 1
-        },
-        {
-          "prompt": "On _____ passé un moment agréable.",
-          "options": ["est", "a"],
-          "correct": 1
-        }
-      ]
-    },
-    {
-      "id": "fr-basic-control-3",
-      "number": 3,
-      "title": "Mettez les verbes au passé composé",
-      "instructions": "Mettez les verbes entre parenthèse au passé composé.",
-      "kind": "fill-blank",
-      "items": [
-        {
-          "sentence": "Le musée regorge de trésors que les conservateurs successifs {{0}} (rassembler) au fil des décennies.",
-          "blanks": [{ "answer": "ont rassemblés" }]
-        },
-        {
-          "sentence": "La persévérance que vous {{0}} (déployer) dans ce dossier {{1}} (susciter) l'admiration générale.",
-          "blanks": [
-            { "answer": "avez déployée" },
-            { "answer": "a suscité" }
-          ]
-        },
-        {
-          "sentence": "Combien de cantates Bach {{0}} (écrire) au cours de sa vie ?",
-          "blanks": [{ "answer": "a écrites" }]
-        },
-        {
-          "sentence": "Des obstacles, des pièges, qui n'en {{0}} (croiser) sur son chemin ?",
-          "blanks": [{ "answer": "a croisé" }]
-        },
-        {
-          "sentence": "Il {{0}} (tomber) encore dix millimètres de pluie dans la journée d'hier.",
-          "blanks": [{ "answer": "est tombé" }]
-        },
-        {
-          "sentence": "Tous ceux qui la {{0}} (fréquenter) savent quelle grande artiste elle fut.",
-          "blanks": [{ "answer": "ont fréquentée" }]
-        },
-        {
-          "sentence": "Que de rumeurs elle {{0}} (propager) sans cesse !",
-          "blanks": [{ "answer": "a propagées" }]
-        },
-        {
-          "sentence": "À la station de métro Odéon, il {{0}} (monter) moins de voyageurs qu'il n'en {{1}} (descendre).",
-          "blanks": [
-            { "answer": "est monté" },
-            { "answer": "est descendu" }
-          ]
-        },
-        {
-          "sentence": "Les conditions qu'on nous {{0}} (accorder) défient toute concurrence.",
-          "blanks": [{ "answer": "a accordées" }]
-        },
-        {
-          "sentence": "La démarche que nous {{0}} (entreprendre) n'était pas simple.",
-          "blanks": [{ "answer": "avons entreprise" }]
-        }
-      ]
-    },
-    {
-      "id": "fr-basic-control-4",
-      "number": 4,
-      "title": "Choisissez l'imparfait ou le passé composé",
-      "instructions": "Choisissez l'imparfait ou le passé composé.",
-      "kind": "choice",
-      "multiple": false,
-      "items": [
-        {
-          "prompt": "Il _____ l'avenue quand une voiture _____ en face de lui.",
-          "options": ["traversait / est arrivée", "a traversé / arrivait", "traversait / arrivait", "a traversé / est arrivée"],
-          "correct": 0
-        },
-        {
-          "prompt": "Elle _____ tranquillement. Il _____ à pleuvoir.",
-          "options": ["s'est promenée / a commencé", "se promenait / a commencé", "se promenait / commençait", "s'est promenée / commençait"],
-          "correct": 1
-        },
-        {
-          "prompt": "J'_____ sur le trottoir et, à un moment, j'_____ mon nom.",
-          "options": ["ai avancé / ai entendu", "avançais / entendais", "avançais / ai entendu", "ai avancé / entendais"],
-          "correct": 2
-        },
-        {
-          "prompt": "Elle _____ à la terrasse d'un café et elle _____ les gens passer quand, tout à coup, elle _____ un énorme bruit.",
-          "options": ["était assise / regardait / a entendu", "a été assise / regardait / a entendu", "était assise / a regardé / entendait", "a été / regardait / entendait"],
-          "correct": 0
-        },
-        {
-          "prompt": "Je _____ mes courses quand, brusquement, il y _____ une explosion.",
-          "options": ["faisais / a eu", "ai fait / avait", "faisais / avait", "ai fait / a eu"],
-          "correct": 0
-        },
-        {
-          "prompt": "Vous vous _____ quand un ami _____.",
-          "options": ["êtes reposés / arrivait", "vous reposiez / est arrivé", "vous reposiez / arrivait", "êtes reposés / est arrivé"],
-          "correct": 1
-        },
-        {
-          "prompt": "On _____ sur l'ordinateur quand il y _____ une panne d'électricité.",
-          "options": ["a travaillé / a eu", "travaillait / a eu", "travaillait / avait", "a travaillé / avait"],
-          "correct": 1
-        }
-      ]
-    }
-  ]
+	"language": "fr",
+	"level": "basic",
+	"control": true,
+	"title": "Exercices de contrôle",
+	"exercises": [
+		{
+			"id": "fr-basic-control-1",
+			"number": 1,
+			"title": "Choisissez la forme correcte du participe passé",
+			"instructions": "Choisissez la forme correcte du participe passé (masculin singulier).",
+			"kind": "choice",
+			"multiple": false,
+			"items": [
+				{
+					"prompt": "Salir",
+					"options": ["salis", "salu", "sali", "salit"],
+					"correct": 2
+				},
+				{
+					"prompt": "Vêtir",
+					"options": ["vêtu", "vêtis", "vêtit", "vêté"],
+					"correct": 0
+				},
+				{
+					"prompt": "Découvrir",
+					"options": ["découvri", "découvert", "découvré", "découvrit"],
+					"correct": 1
+				},
+				{
+					"prompt": "Secourir",
+					"options": ["secouri", "secouru", "secouris", "secourit"],
+					"correct": 1
+				},
+				{
+					"prompt": "Apercevoir",
+					"options": ["aperçu", "aperçut", "aperci", "aperçé"],
+					"correct": 0
+				},
+				{
+					"prompt": "Devoir",
+					"options": ["dû", "du", "devoi", "devu"],
+					"correct": 0
+				},
+				{
+					"prompt": "Mouvoir",
+					"options": ["mû", "mouvi", "mouvu", "mouvé"],
+					"correct": 0
+				},
+				{
+					"prompt": "Asseoir",
+					"options": ["assis", "assi", "assé", "assit"],
+					"correct": 0
+				},
+				{
+					"prompt": "Rompre",
+					"options": ["rompu", "rompris", "rompit", "rompé"],
+					"correct": 0
+				},
+				{
+					"prompt": "Comprendre",
+					"options": ["compris", "comprit", "compré", "compru"],
+					"correct": 0
+				},
+				{
+					"prompt": "Émettre",
+					"options": ["émis", "émit", "émé", "émés"],
+					"correct": 0
+				},
+				{
+					"prompt": "Peindre",
+					"options": ["peint", "peindu", "peinis", "peiné"],
+					"correct": 0
+				},
+				{
+					"prompt": "Feindre",
+					"options": ["feint", "feindu", "feinis", "feiné"],
+					"correct": 0
+				},
+				{
+					"prompt": "Joindre",
+					"options": ["joint", "joindu", "joinis", "joiné"],
+					"correct": 0
+				},
+				{
+					"prompt": "Coudre",
+					"options": ["cousu", "coudri", "coudé", "cousit"],
+					"correct": 0
+				},
+				{
+					"prompt": "Moudre",
+					"options": ["moulu", "moudri", "moudé", "moudus"],
+					"correct": 0
+				},
+				{
+					"prompt": "Vivre",
+					"options": ["vécu", "vivu", "vivri", "vivé"],
+					"correct": 0
+				},
+				{
+					"prompt": "Conclure",
+					"options": ["conclu", "conclut", "conclui", "conclué"],
+					"correct": 0
+				},
+				{
+					"prompt": "Exclure",
+					"options": ["exclu", "exclut", "exclui", "exclué"],
+					"correct": 0
+				},
+				{
+					"prompt": "Clore",
+					"options": ["clos", "clou", "clori", "clus"],
+					"correct": 0
+				},
+				{
+					"prompt": "Croire",
+					"options": ["cru", "croi", "croisé", "crut"],
+					"correct": 0
+				},
+				{
+					"prompt": "Inclure",
+					"options": ["inclus", "inclut", "inclui", "inclué"],
+					"correct": 0
+				},
+				{
+					"prompt": "Résoudre",
+					"options": ["résolu", "résoudri", "résout", "résousé"],
+					"correct": 0
+				},
+				{
+					"prompt": "Construire",
+					"options": ["construit", "construis", "construé", "construvi"],
+					"correct": 0
+				},
+				{
+					"prompt": "Fondre",
+					"options": ["fondu", "fondri", "fondé", "fondus"],
+					"correct": 0
+				},
+				{
+					"prompt": "Circonscrire",
+					"options": ["circonscrit", "circonscri", "circonscru", "circonscré"],
+					"correct": 0
+				}
+			]
+		},
+		{
+			"id": "fr-basic-control-2",
+			"number": 2,
+			"title": "Choisissez la forme correcte de l'auxiliaire",
+			"instructions": "Choisissez la forme correcte de l'auxiliaire.",
+			"kind": "inline-choice",
+			"items": [
+				{
+					"sentence": "Nous {{0}} montés en ascenseur.",
+					"choices": [{ "options": ["sommes", "avons"], "correct": 0 }]
+				},
+				{
+					"sentence": "Je {{0}} descendu au parking.",
+					"choices": [{ "options": ["suis", "ai"], "correct": 0 }]
+				},
+				{
+					"sentence": "On {{0}} monté les bagages.",
+					"choices": [{ "options": ["est", "a"], "correct": 1 }]
+				},
+				{
+					"sentence": "J'{{0}} descendu les 11 étages à pied !",
+					"choices": [{ "options": ["ai", "suis"], "correct": 0 }]
+				},
+				{
+					"sentence": "Il {{0}} passé dire bonjour.",
+					"choices": [{ "options": ["est", "a"], "correct": 0 }]
+				},
+				{
+					"sentence": "Elles {{0}} rentré les valises.",
+					"choices": [{ "options": ["sont", "ont"], "correct": 1 }]
+				},
+				{
+					"sentence": "Vous {{0}} passé un bon week-end ?",
+					"choices": [{ "options": ["avez", "êtes"], "correct": 0 }]
+				},
+				{
+					"sentence": "Vous {{0}} rentrés à quelle heure ?",
+					"choices": [{ "options": ["êtes", "avez"], "correct": 0 }]
+				},
+				{
+					"sentence": "Nous {{0}} sortis tard hier soir.",
+					"choices": [{ "options": ["sommes", "avons"], "correct": 0 }]
+				},
+				{
+					"sentence": "Ils {{0}} sorti les lunettes de soleil.",
+					"choices": [{ "options": ["sont", "ont"], "correct": 1 }]
+				},
+				{
+					"sentence": "Vous {{0}} rentré la voiture dans le garage ?",
+					"choices": [{ "options": ["êtes", "avez"], "correct": 1 }]
+				},
+				{
+					"sentence": "On {{0}} passé un moment agréable.",
+					"choices": [{ "options": ["est", "a"], "correct": 1 }]
+				}
+			]
+		},
+		{
+			"id": "fr-basic-control-3",
+			"number": 3,
+			"title": "Mettez les verbes au passé composé",
+			"instructions": "Mettez les verbes entre parenthèse au passé composé.",
+			"kind": "fill-blank",
+			"items": [
+				{
+					"sentence": "Le musée regorge de trésors que les conservateurs successifs {{0}} (rassembler) au fil des décennies.",
+					"blanks": [{ "answer": "ont rassemblés" }]
+				},
+				{
+					"sentence": "La persévérance que vous {{0}} (déployer) dans ce dossier {{1}} (susciter) l'admiration générale.",
+					"blanks": [{ "answer": "avez déployée" }, { "answer": "a suscité" }]
+				},
+				{
+					"sentence": "Combien de cantates Bach {{0}} (écrire) au cours de sa vie ?",
+					"blanks": [{ "answer": "a écrites" }]
+				},
+				{
+					"sentence": "Des obstacles, des pièges, qui n'en {{0}} (croiser) sur son chemin ?",
+					"blanks": [{ "answer": "a croisé" }]
+				},
+				{
+					"sentence": "Il {{0}} (tomber) encore dix millimètres de pluie dans la journée d'hier.",
+					"blanks": [{ "answer": "est tombé" }]
+				},
+				{
+					"sentence": "Tous ceux qui l'{{0}} (fréquenter) savent quelle grande artiste elle fut.",
+					"blanks": [{ "answer": "ont fréquentée" }]
+				},
+				{
+					"sentence": "Que de rumeurs elle {{0}} (propager) sans cesse !",
+					"blanks": [{ "answer": "a propagées" }]
+				},
+				{
+					"sentence": "À la station de métro Odéon, il {{0}} (monter) moins de voyageurs qu'il n'en {{1}} (descendre).",
+					"blanks": [{ "answer": "est monté" }, { "answer": "est descendu" }]
+				},
+				{
+					"sentence": "Les conditions qu'on nous {{0}} (accorder) défient toute concurrence.",
+					"blanks": [{ "answer": "a accordées" }]
+				},
+				{
+					"sentence": "La démarche que nous {{0}} (entreprendre) n'était pas simple.",
+					"blanks": [{ "answer": "avons entreprise" }]
+				}
+			]
+		},
+		{
+			"id": "fr-basic-control-4",
+			"number": 4,
+			"title": "Choisissez l'imparfait ou le passé composé",
+			"instructions": "Choisissez l'imparfait ou le passé composé.",
+			"kind": "inline-choice",
+			"items": [
+				{
+					"sentence": "Il {{0}} l'avenue quand une voiture {{1}} en face de lui.",
+					"choices": [
+						{ "options": ["traversait", "a traversé"], "correct": 0 },
+						{ "options": ["arrivait", "est arrivée"], "correct": 1 }
+					]
+				},
+				{
+					"sentence": "Elle {{0}} tranquillement. Il {{1}} à pleuvoir.",
+					"choices": [
+						{ "options": ["s'est promenée", "se promenait"], "correct": 1 },
+						{ "options": ["a commencé", "commençait"], "correct": 0 }
+					]
+				},
+				{
+					"sentence": "J'{{0}} sur le trottoir et, à un moment, j'{{1}} mon nom.",
+					"choices": [
+						{ "options": ["ai avancé", "avançais"], "correct": 1 },
+						{ "options": ["ai entendu", "entendais"], "correct": 0 }
+					]
+				},
+				{
+					"sentence": "Elle {{0}} assise à la terrasse d'un café et elle {{1}} les gens passer quand, tout à coup, elle {{2}} un énorme bruit.",
+					"choices": [
+						{ "options": ["a été", "était"], "correct": 1 },
+						{ "options": ["a regardé", "regardait"], "correct": 1 },
+						{ "options": ["a entendu", "entendait"], "correct": 0 }
+					]
+				},
+				{
+					"sentence": "{{0}} mes courses quand, brusquement, il y {{1}} une explosion.",
+					"choices": [
+						{ "options": ["Je faisais", "J'ai fait"], "correct": 0 },
+						{ "options": ["a eu", "avait"], "correct": 0 }
+					]
+				},
+				{
+					"sentence": "Vous vous {{0}} quand un ami {{1}}.",
+					"choices": [
+						{ "options": ["êtes reposés", "reposiez"], "correct": 1 },
+						{ "options": ["arrivait", "est arrivé"], "correct": 1 }
+					]
+				},
+				{
+					"sentence": "On {{0}} sur l'ordinateur quand il y {{1}} une panne d'électricité.",
+					"choices": [
+						{ "options": ["a travaillé", "travaillait"], "correct": 1 },
+						{ "options": ["a eu", "avait"], "correct": 0 }
+					]
+				}
+			]
+		}
+	]
 }
