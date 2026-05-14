@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from "motion/react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { ExerciseResult } from "#/components/exercises/ExerciseRenderer";
 import { ExerciseRenderer } from "#/components/exercises/ExerciseRenderer";
 import type { Exercise, ExerciseSet } from "#/content/schema";
@@ -12,7 +12,29 @@ import { useProgress } from "#/stores/progress";
 interface LevelRunnerProps {
 	exercises: Exercise[];
 	levelTitle: string;
+	/** Jump to this exercise by JSON `id` (wins over `initialNumber`). */
+	initialExerciseId?: string;
+	/** Jump by JSON `number`, or 1-based index if no exercise has that number. */
+	initialNumber?: number;
 	onLevelComplete?: () => void;
+}
+
+function resolveExerciseIndex(
+	exercises: Exercise[],
+	initialExerciseId?: string,
+	initialNumber?: number,
+): number {
+	if (initialExerciseId) {
+		const i = exercises.findIndex((e) => e.id === initialExerciseId);
+		if (i >= 0) return i;
+	}
+	if (initialNumber !== undefined) {
+		const byNum = exercises.findIndex((e) => e.number === initialNumber);
+		if (byNum >= 0) return byNum;
+		const pos = initialNumber - 1;
+		if (pos >= 0 && pos < exercises.length) return pos;
+	}
+	return 0;
 }
 
 // -----------------------------------------------------------------------
@@ -73,14 +95,25 @@ function LevelSummary({
 export function LevelRunner({
 	exercises,
 	levelTitle,
+	initialExerciseId,
+	initialNumber,
 	onLevelComplete,
 }: LevelRunnerProps) {
-	const [currentIdx, setCurrentIdx] = useState(0);
+	const [currentIdx, setCurrentIdx] = useState(() =>
+		resolveExerciseIndex(exercises, initialExerciseId, initialNumber),
+	);
 	const [done, setDone] = useState(false);
 	const [correctCount, setCorrectCount] = useState(0);
 
 	const total = exercises.length;
 	const current = exercises[currentIdx];
+
+	useEffect(() => {
+		setCurrentIdx(
+			resolveExerciseIndex(exercises, initialExerciseId, initialNumber),
+		);
+		setDone(false);
+	}, [exercises, initialExerciseId, initialNumber]);
 
 	const handleComplete = (result: ExerciseResult) => {
 		// Record result in progress store immediately when result is known
@@ -102,7 +135,9 @@ export function LevelRunner({
 	};
 
 	const handleRestart = () => {
-		setCurrentIdx(0);
+		setCurrentIdx(
+			resolveExerciseIndex(exercises, initialExerciseId, initialNumber),
+		);
 		setDone(false);
 		setCorrectCount(0);
 	};
@@ -164,15 +199,21 @@ export function LevelRunner({
 // Re-export a convenience wrapper that takes an ExerciseSet
 export function LevelRunnerFromSet({
 	exerciseSet,
+	initialExerciseId,
+	initialNumber,
 	onLevelComplete,
 }: {
 	exerciseSet: ExerciseSet;
+	initialExerciseId?: string;
+	initialNumber?: number;
 	onLevelComplete?: () => void;
 }) {
 	return (
 		<LevelRunner
 			exercises={exerciseSet.exercises}
 			levelTitle={exerciseSet.title}
+			initialExerciseId={initialExerciseId}
+			initialNumber={initialNumber}
 			onLevelComplete={onLevelComplete}
 		/>
 	);

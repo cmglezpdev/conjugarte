@@ -282,13 +282,8 @@ export function MatchFill({ exercise, onResult, onNext }: Props) {
 							}
 							disabled={isSubmitted}
 							className={`inline-block w-28 rounded border px-2 py-0.5 text-center text-[var(--c-fg)] focus:outline-none focus:ring-2 focus:ring-[var(--c-primary)] ${borderClass}`}
-							aria-label={`Blanco ${segment.index + 1}`}
+							aria-label={`Spazio ${segment.index + 1}`}
 						/>
-						{!isSubmitted && blank?.hint && (
-							<span className="mt-1 text-[11px] font-medium leading-none text-[#6b7280]">
-								{blank.hint}
-							</span>
-						)}
 						{isSubmitted && blank && (
 							<span className="mt-1 text-[11px] font-semibold leading-none text-[var(--c-correct)]">
 								{canonical(blank.answer)}
@@ -325,17 +320,11 @@ export function MatchFill({ exercise, onResult, onNext }: Props) {
 			}
 		>
 			<ContextHint text={exercise.contextHint} />
-			{!isSubmitted && (
-				<p className="mb-3 text-xs text-[var(--c-accent)]">
-					Completa los verbos y enlaza cada elemento de la columna izquierda
-					con uno de la derecha.
-				</p>
-			)}
 
 			<div className="grid gap-4 md:grid-cols-2">
 				<div className="space-y-3">
 					<p className="text-xs font-bold uppercase tracking-wide text-[var(--c-accent)]">
-						{exercise.leftTitle ?? "Columna A"}
+						{exercise.leftTitle ?? "Colonna A"}
 					</p>
 					{exercise.left.map((item, leftIdx) => {
 						const isSelected = state.selectedLeft === leftIdx;
@@ -383,7 +372,7 @@ export function MatchFill({ exercise, onResult, onNext }: Props) {
 								{renderSentence(item, "left", leftIdx)}
 								{rightIdx !== undefined && !isSubmitted && (
 									<p className="mt-2 text-xs text-[var(--c-accent)]">
-										Emparejado con {exercise.right[rightIdx]?.label ?? rightIdx + 1}
+										Abbinato con {exercise.right[rightIdx]?.label ?? rightIdx + 1}
 									</p>
 								)}
 								{isSubmitted && correct === false && (
@@ -402,7 +391,7 @@ export function MatchFill({ exercise, onResult, onNext }: Props) {
 
 				<div className="space-y-3">
 					<p className="text-xs font-bold uppercase tracking-wide text-[var(--c-accent)]">
-						{exercise.rightTitle ?? "Columna B"}
+						{exercise.rightTitle ?? "Colonna B"}
 					</p>
 					{exercise.right.map((item, rightIdx) => {
 						const leftIdx = pairedLeftForRight(rightIdx);

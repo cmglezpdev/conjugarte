@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import { useReducer } from "react";
 import type { AudioFillExercise } from "#/content/schema";
 import { useAudio } from "#/lib/audio";
+import { hintDuplicatesParenthetical } from "./_shared/blankHint";
 import { ContextHint } from "./_shared/ContextHint";
 import { ExerciseCard } from "./_shared/ExerciseCard";
 import { FeedbackOverlay } from "./_shared/FeedbackOverlay";
@@ -344,6 +345,9 @@ export function AudioFill({ exercise, onResult, onNext }: Props) {
 								const blankIdx = seg.index;
 								const isCorrect = blankValidity[itemIdx]?.[blankIdx];
 								const hint = item.blanks[blankIdx]?.hint;
+								const showHintBelow =
+									hint &&
+									!hintDuplicatesParenthetical(item.sentence, hint);
 
 								let inputBorderClass = "border-[var(--c-border)]";
 								if (isSubmitted) {
@@ -391,7 +395,7 @@ export function AudioFill({ exercise, onResult, onNext }: Props) {
 												{canonicalExpected}
 											</span>
 										) : (
-											hint && (
+											showHintBelow && (
 												<span className="absolute -bottom-5 text-xs text-[var(--c-accent)]">
 													{hint}
 												</span>

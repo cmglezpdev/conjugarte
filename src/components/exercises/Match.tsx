@@ -342,13 +342,6 @@ export function Match({ exercise, onResult, onNext }: Props) {
 		>
 			<ContextHint text={exercise.contextHint} />
 
-			{!isSubmitted && (
-				<p className="mb-3 text-xs text-[var(--c-accent)]">
-					Selecciona un elemento de la izquierda y luego uno de la derecha para
-					emparejarlos. Haz clic en un emparejado para deshacerlo.
-				</p>
-			)}
-
 			{/* Main pairing area — two columns with SVG overlay */}
 			<div
 				ref={containerRef}
