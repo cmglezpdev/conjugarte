@@ -13,6 +13,7 @@ const ExerciseBase = z.object({
 	number: z.number().int().positive(),
 	title: NonEmpty,
 	instructions: z.string().optional(),
+	contextHint: z.string().optional(),
 });
 
 const FillBlankItem = z.object({
@@ -43,7 +44,10 @@ export const InlineChoiceExercise = ExerciseBase.extend({
 					.array(
 						z.object({
 							options: z.array(NonEmpty).min(2),
-							correct: z.number().int().nonnegative(),
+							correct: z.union([
+								z.number().int().nonnegative(),
+								z.array(z.number().int().nonnegative()).min(1),
+							]),
 						}),
 					)
 					.min(1),
@@ -81,6 +85,28 @@ export const MatchExercise = ExerciseBase.extend({
 		.min(2),
 });
 
+const MatchFillColumnItem = z.object({
+	label: z.string().optional(),
+	sentence: NonEmpty,
+	blanks: z
+		.array(
+			z.object({
+				answer: z.union([NonEmpty, z.array(NonEmpty).min(1)]),
+				hint: z.string().optional(),
+			}),
+		)
+		.optional(),
+});
+
+export const MatchFillExercise = ExerciseBase.extend({
+	kind: z.literal("match-fill"),
+	leftTitle: z.string().optional(),
+	rightTitle: z.string().optional(),
+	left: z.array(MatchFillColumnItem).min(2),
+	right: z.array(MatchFillColumnItem).min(2),
+	matches: z.array(z.number().int().nonnegative()).min(2),
+});
+
 export const CategorizeExercise = ExerciseBase.extend({
 	kind: z.literal("categorize"),
 	categories: z.array(NonEmpty).min(2),
@@ -89,6 +115,7 @@ export const CategorizeExercise = ExerciseBase.extend({
 			z.object({
 				word: NonEmpty,
 				category: NonEmpty,
+				example: z.boolean().optional(),
 			}),
 		)
 		.min(1),
@@ -153,6 +180,7 @@ export const Exercise = z.discriminatedUnion("kind", [
 	InlineChoiceExercise,
 	ChoiceExercise,
 	MatchExercise,
+	MatchFillExercise,
 	CategorizeExercise,
 	ReorderExercise,
 	JudgmentExercise,
@@ -169,6 +197,7 @@ export type FillBlankExercise = z.infer<typeof FillBlankExercise>;
 export type InlineChoiceExercise = z.infer<typeof InlineChoiceExercise>;
 export type ChoiceExercise = z.infer<typeof ChoiceExercise>;
 export type MatchExercise = z.infer<typeof MatchExercise>;
+export type MatchFillExercise = z.infer<typeof MatchFillExercise>;
 export type CategorizeExercise = z.infer<typeof CategorizeExercise>;
 export type ReorderExercise = z.infer<typeof ReorderExercise>;
 export type JudgmentExercise = z.infer<typeof JudgmentExercise>;
@@ -226,9 +255,10 @@ export const TheoryDoc = z.object({
 });
 export type TheoryDoc = z.infer<typeof TheoryDoc>;
 
-export const Landing = z.object({
-	es: NonEmpty,
-	fr: NonEmpty,
-	it: NonEmpty,
-});
+export const Landing = z
+	.object({
+		fr: NonEmpty,
+		it: NonEmpty,
+	})
+	.strict();
 export type Landing = z.infer<typeof Landing>;

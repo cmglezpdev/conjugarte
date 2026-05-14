@@ -4,14 +4,13 @@ import { useState } from "react";
 import type { Landing } from "#/content/schema";
 import { Flag } from "./Flag";
 
-type Lang = "es" | "fr" | "it";
+type Lang = "fr" | "it";
 
 interface LandingHeroProps {
 	data: Landing;
 }
 
 const LANG_LABELS: Record<Lang, string> = {
-	es: "Español",
 	fr: "Français",
 	it: "Italiano",
 };
@@ -25,7 +24,7 @@ const CTA_STYLES: Record<"fr" | "it", { bg: string; hover: string }> = {
 };
 
 export function LandingHero({ data }: LandingHeroProps) {
-	const [activeLang, setActiveLang] = useState<Lang>("es");
+	const [activeLang, setActiveLang] = useState<Lang>("fr");
 
 	return (
 		<motion.section
@@ -50,7 +49,7 @@ export function LandingHero({ data }: LandingHeroProps) {
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ delay: 0.15, duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
 			>
-				{(["es", "fr", "it"] as Lang[]).map((lang) => (
+				{(["fr", "it"] as Lang[]).map((lang) => (
 					<button
 						key={lang}
 						type="button"

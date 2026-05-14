@@ -115,6 +115,7 @@ export function Anagram({ exercise, onResult, onNext }: Props) {
 	return (
 		<ExerciseCard
 			title={exercise.title}
+			instructions={exercise.instructions}
 			status={state.status}
 			footer={
 				<div className="space-y-2">
@@ -178,6 +179,23 @@ export function Anagram({ exercise, onResult, onNext }: Props) {
 								className={`w-full rounded-lg border px-4 py-2.5 font-mono text-[var(--c-fg)] focus:outline-none focus:ring-2 focus:ring-[var(--c-primary)] disabled:cursor-not-allowed disabled:opacity-70 ${inputBorderClass}`}
 								aria-label={`Respuesta anagrama ${itemIdx + 1}`}
 							/>
+							{isSubmitted && (
+								<p
+									data-testid={`anagram-expected-${itemIdx}`}
+									className="text-sm text-[var(--c-fg)] opacity-80"
+								>
+									Respuesta:{" "}
+									<span
+										className={`font-semibold ${
+											isItemCorrect
+												? "text-[var(--c-correct)]"
+												: "text-[var(--c-incorrect)]"
+										}`}
+									>
+										{item.answer}
+									</span>
+								</p>
+							)}
 						</div>
 					);
 				})}

@@ -48,6 +48,9 @@ const Categorize = lazy(() =>
 	import("./Categorize").then((m) => ({ default: m.Categorize })),
 );
 const Match = lazy(() => import("./Match").then((m) => ({ default: m.Match })));
+const MatchFill = lazy(() =>
+	import("./MatchFill").then((m) => ({ default: m.MatchFill })),
+);
 const AudioFill = lazy(() =>
 	import("./AudioFill").then((m) => ({ default: m.AudioFill })),
 );
@@ -156,6 +159,15 @@ export function ExerciseRenderer({
 					case "match":
 						return (
 							<Match
+								exercise={exercise}
+								onResult={onComplete}
+								onNext={onNext}
+							/>
+						);
+
+					case "match-fill":
+						return (
+							<MatchFill
 								exercise={exercise}
 								onResult={onComplete}
 								onNext={onNext}

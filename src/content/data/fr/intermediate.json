@@ -1,517 +1,550 @@
 {
-  "language": "fr",
-  "level": "intermediate",
-  "control": false,
-  "title": "À chacun son temps",
-  "exercises": [
-    {
-      "id": "fr-intermediate-1",
-      "number": 1,
-      "title": "Passé composé : valeur et forme",
-      "kind": "fill-blank",
-      "instructions": "Mettez les verbes entre parenthèses au passé composé et indiquez la valeur de chaque passé composé en inscrivant les lettres correspondantes dans les cases. A. Durée limitée dans le passé  B. Antériorité par rapport au présent  C. Événement accompli  D. Répétition dans le passé  E. Succession d'événements dans le passé",
-      "items": [
-        {
-          "sentence": "Victor Hugo (mourir) {{0}} en 1885. Case : {{1}}",
-          "blanks": [
-            { "answer": "est mort" },
-            { "answer": "C" }
-          ]
-        },
-        {
-          "sentence": "Hier après-midi, je (dormir) {{0}} pendant trois heures. Case : {{1}}",
-          "blanks": [
-            { "answer": "j'ai dormi" },
-            { "answer": "A" }
-          ]
-        },
-        {
-          "sentence": "J'écoute le CD que j'(acheter) {{0}} avant-hier. Case : {{1}}",
-          "blanks": [
-            { "answer": "j'ai acheté" },
-            { "answer": "B" }
-          ]
-        },
-        {
-          "sentence": "Mes enfants adorent le dessin animé de Blanche-Neige, ils le (regarder) {{0}} au moins dix fois. Case : {{1}}",
-          "blanks": [
-            { "answer": "l'ont regardé" },
-            { "answer": "D" }
-          ]
-        },
-        {
-          "sentence": "Cette nuit, je (faire) {{0}} un cauchemar, je (se réveiller) {{1}} puis je (se rendormir) {{2}}. Case : {{3}}",
-          "blanks": [
-            { "answer": "j'ai fait" },
-            { "answer": "je me suis réveillé" },
-            { "answer": "je me suis rendormi" },
-            { "answer": "E" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "fr-intermediate-2",
-      "number": 2,
-      "title": "Présent passif ou passé composé actif",
-      "kind": "fill-blank",
-      "instructions": "Mettre les verbes entre parenthèses au présent passif ou au passé composé actif.",
-      "items": [
-        {
-          "sentence": "La Révolution française {{0}} (commencer) en 1789.",
-          "blanks": [{ "answer": "a commencé" }]
-        },
-        {
-          "sentence": "Une nouvelle génération {{0}} (naître) après la guerre.",
-          "blanks": [{ "answer": "est née" }]
-        },
-        {
-          "sentence": "Le concert {{0}} (commencer) à 20 heures précises.",
-          "blanks": [{ "answer": "a commencé" }]
-        },
-        {
-          "sentence": "La réunion {{0}} (commencer) depuis une demi-heure.",
-          "blanks": [{ "answer": "est commencée" }]
-        },
-        {
-          "sentence": "Il {{0}} (terminer) son exposé en quelques minutes.",
-          "blanks": [{ "answer": "a terminé" }]
-        },
-        {
-          "sentence": "Les travaux de rénovation {{0}} (terminer) depuis deux ans.",
-          "blanks": [{ "answer": "sont terminés" }]
-        },
-        {
-          "sentence": "Ils {{0}} (comprendre) enfin la règle de grammaire.",
-          "blanks": [{ "answer": "ont compris" }]
-        },
-        {
-          "sentence": "Le match {{0}} (finir), les spectateurs quittent le stade.",
-          "blanks": [{ "answer": "est fini" }]
-        },
-        {
-          "sentence": "Le premier roman de Balzac {{0}} (paraître) en 1829.",
-          "blanks": [{ "answer": "a paru" }]
-        },
-        {
-          "sentence": "Le document que vous cherchez {{0}} (ne pas encore paraître).",
-          "blanks": [{ "answer": "n'est pas encore paru" }]
-        }
-      ]
-    },
-    {
-      "id": "fr-intermediate-3",
-      "number": 3,
-      "title": "Une nuit particulière",
-      "kind": "fill-blank",
-      "instructions": "Passé composé, imparfait ou plus-que-parfait. Complétez comme il convient.",
-      "items": [
-        {
-          "sentence": "Ce {{0}} (être) pendant un week-end du mois de mai. Nous {{1}} (décider) de passer deux jours à Paris où nous {{2}} (encore jamais aller). Deux mois avant, nous {{3}} (réserver) une chambre dans un hôtel du centre de la ville. Nous {{4}} (arriver) le samedi matin à l'aéroport. Il {{5}} (faire beau) et même un peu chaud. Un taxi nous {{6}} (conduire) à notre hôtel. Une dame nous {{7}} (accueillir), nous {{8}} (montrer) notre chambre. Nous {{9}} (défaire) nos bagages. Nous {{10}} (être) fous de joie à la perspective de découvrir la Ville lumière ! Sans perdre de temps, nous {{11}} (sortir) à la découverte de la ville. Le week-end {{12}} (s'annoncer) bien et pourtant la nuit {{13}} (aller être) très particulière.",
-          "blanks": [
-            { "answer": "C'était" },
-            { "answer": "avions décidé" },
-            { "answer": "n'étions encore jamais allés" },
-            { "answer": "avions réservé" },
-            { "answer": "sommes arrivés" },
-            { "answer": "faisait beau" },
-            { "answer": "a conduits" },
-            { "answer": "a accueillis" },
-            { "answer": "a montré" },
-            { "answer": "avons défait" },
-            { "answer": "étions" },
-            { "answer": "sommes sortis" },
-            { "answer": "s'annonçait" },
-            { "answer": "allait être" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "fr-intermediate-4",
-      "number": 4,
-      "title": "Mettez les phrases en ordre",
-      "kind": "reorder",
-      "instructions": "Mettez les phrases en ordre pour reconstituer le petit récit. Phrase de départ : Quand l'orage a éclaté, je dormais profondément.",
-      "items": [
-        {
-          "correctOrder": [
-            "Un bruit m'a réveillé.",
-            "Je suis sorti de mon lit.",
-            "Il faisait noir.",
-            "J'ai allumé toutes les lampes.",
-            "J'ai fermé les volets.",
-            "Je n'étais pas très rassuré.",
-            "J'ai regardé dehors.",
-            "C'étaient les volets qui claquaient.",
-            "Je me suis recouché."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "fr-intermediate-5",
-      "number": 5,
-      "title": "Plus-que-parfait ou passé antérieur",
-      "kind": "fill-blank",
-      "instructions": "Conjuguez les verbes entre parenthèses au plus-que-parfait ou au passé antérieur.",
-      "items": [
-        {
-          "sentence": "L'oncle nous apportait un chapelet d'oiseaux qu'il (prendre) {{0}} au collet.",
-          "blanks": [{ "answer": "avait pris" }]
-        },
-        {
-          "sentence": "Lorsqu'il (contourner) {{0}} l'aile sud, il aperçut soudain les roseaux à perte de vue.",
-          "blanks": [{ "answer": "eut contourné" }]
-        },
-        {
-          "sentence": "Comme l'éclairage trop violent faisait cligner mes paupières, elle (coiffer) {{0}} la lampe de son chapeau.",
-          "blanks": [{ "answer": "avait coiffé" }]
-        },
-        {
-          "sentence": "De temps en temps aussi, il recevait une enveloppe bleue dont l'adresse (tracer, forme passive) {{0}} d'une grosse écriture tremblée.",
-          "blanks": [{ "answer": "avait été tracée" }]
-        },
-        {
-          "sentence": "Et maintenant qu'il (contempler) {{0}} l'ensemble de cette façade, il se rapprochait encore plus pour la scruter dans ses infimes accessoires.",
-          "blanks": [{ "answer": "avait contemplé" }]
-        },
-        {
-          "sentence": "Comme il savait que son ami passait par cette rue, il (entrer) {{0}} ici, il (prendre) {{1}} une table près de la fenêtre.",
-          "blanks": [
-            { "answer": "était entré" },
-            { "answer": "avait pris" }
-          ]
-        },
-        {
-          "sentence": "Quand ils (revêtir) {{0}} les habits de la route, on les mena par bandes de vingt ou trente à l'autre bout du préau.",
-          "blanks": [{ "answer": "eurent revêtu" }]
-        }
-      ]
-    },
-    {
-      "id": "fr-intermediate-6",
-      "number": 6,
-      "title": "Futur antérieur",
-      "kind": "fill-blank",
-      "instructions": "Complétez avec le futur antérieur.",
-      "items": [
-        {
-          "sentence": "Quand tu arriveras, j'{{0}} (finir) le repas.",
-          "blanks": [{ "answer": "aurai fini" }]
-        },
-        {
-          "sentence": "Nous {{0}} (partir) avant midi.",
-          "blanks": [{ "answer": "serons partis" }]
-        },
-        {
-          "sentence": "Elles {{0}} (terminer) le projet demain.",
-          "blanks": [{ "answer": "auront terminé" }]
-        },
-        {
-          "sentence": "Il {{0}} (comprendre) la situation d'ici là.",
-          "blanks": [{ "answer": "aura compris" }]
-        },
-        {
-          "sentence": "Vous {{0}} (recevoir) les documents avant vendredi.",
-          "blanks": [{ "answer": "aurez reçu" }]
-        },
-        {
-          "sentence": "Ils {{0}} (réparer) la machine ce soir.",
-          "blanks": [{ "answer": "auront réparé" }]
-        },
-        {
-          "sentence": "Elle {{0}} (atteindre) son objectif.",
-          "blanks": [{ "answer": "aura atteint" }]
-        },
-        {
-          "sentence": "Nous {{0}} (voir) les résultats.",
-          "blanks": [{ "answer": "aurons vu" }]
-        }
-      ]
-    },
-    {
-      "id": "fr-intermediate-7",
-      "number": 7,
-      "title": "Futur simple et futur antérieur",
-      "kind": "reorder",
-      "instructions": "Faites une phrase comme dans l'exemple. Utilisez un futur simple et un futur antérieur selon l'ordre chronologique des actions. Exemple : Nous ferons la fête quand j'aurai eu une promotion.",
-      "items": [
-        {
-          "correctOrder": [
-            "Le DRH t'aura donné sa réponse",
-            "dès que",
-            "Tu passeras deux entretiens"
-          ]
-        },
-        {
-          "correctOrder": [
-            "On aura choisi la date",
-            "lorsque",
-            "On enverra les convocations"
-          ]
-        },
-        {
-          "correctOrder": [
-            "Ils auront donné leur démission",
-            "quand",
-            "Ils quitteront l'entreprise"
-          ]
-        },
-        {
-          "correctOrder": [
-            "On aura rédigé le rapport",
-            "dès que",
-            "Tu obtiendras les informations"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "fr-intermediate-8",
-      "number": 8,
-      "title": "Conditionnel passé – texte",
-      "kind": "fill-blank",
-      "instructions": "Complétez avec la conjugaison des verbes entre parenthèse au conditionnel passé.",
-      "items": [
-        {
-          "sentence": "Paul {{0}} (vouloir) être un grand artiste. Il {{1}} (adorer) être chanteur, savoir jouer et écrire de la musique. Il {{2}} (aimer) partir en tournée, faire le tour du monde avec d'autres musiciens. Il {{3}} (pouvoir) rencontrer des gens étonnants. Mais pour cela, il lui {{4}} (falloir) du courage et peut-être aussi un peu de talent. Car la réalité est dure : Paul n'a jamais su chanter et il n'a jamais essayé d'apprendre à jouer d'un instrument.",
-          "blanks": [
-            { "answer": "aurait voulu" },
-            { "answer": "aurait adoré" },
-            { "answer": "aurait aimé" },
-            { "answer": "aurait pu" },
-            { "answer": "aurait fallu" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "fr-intermediate-9",
-      "number": 9,
-      "title": "Conditionnel passé – phrases conditionnelles",
-      "kind": "fill-blank",
-      "instructions": "Complétez avec le conditionnel passé des verbes entre parenthèses.",
-      "items": [
-        {
-          "sentence": "Si nous avions eu plus de temps, nous (visiter) {{0}} davantage de musées.",
-          "blanks": [{ "answer": "aurions visité" }]
-        },
-        {
-          "sentence": "Elle (venir) {{0}} te voir si elle avait su que tu étais malade.",
-          "blanks": [{ "answer": "serait venue" }]
-        },
-        {
-          "sentence": "Ils (réussir) {{0}} l'examen avec un peu plus de préparation.",
-          "blanks": [{ "answer": "auraient réussi" }]
-        },
-        {
-          "sentence": "Tu (pouvoir) {{0}} m'aider si tu avais été là.",
-          "blanks": [{ "answer": "aurais pu" }]
-        },
-        {
-          "sentence": "Nous (devoir) {{0}} partir plus tôt pour éviter l'embouteillage.",
-          "blanks": [{ "answer": "aurions dû" }]
-        }
-      ]
-    },
-    {
-      "id": "fr-intermediate-10",
-      "number": 10,
-      "title": "Subjonctif passé – relier des phrases",
-      "kind": "fill-blank",
-      "instructions": "Reliez les deux phrases selon le modèle. Exemple : Ils ont dû perdre notre adresse. – J'en ai bien peur. → J'ai bien peur qu'ils aient perdu notre adresse.",
-      "items": [
-        {
-          "sentence": "La lettre s'est peut-être perdue. – Elle le craint. → Elle craint {{0}}",
-          "blanks": [{ "answer": "que la lettre se soit perdue" }]
-        },
-        {
-          "sentence": "Il a répondu aussitôt. – C'est possible. → C'est possible {{0}}",
-          "blanks": [{ "answer": "qu'il ait répondu aussitôt" }]
-        },
-        {
-          "sentence": "On doit envoyer cette fiche. – Le ministère l'exige. → Le ministère exige {{0}}",
-          "blanks": [{ "answer": "qu'on envoie cette fiche" }]
-        },
-        {
-          "sentence": "Il a perdu son appareil photo. – Elle en est navrée. → Elle {{0}}",
-          "blanks": [{ "answer": "est navrée qu'il ait perdu son appareil photo" }]
-        },
-        {
-          "sentence": "Nous avons beaucoup pensé à elle. – Elle en est émue. → Elle {{0}}",
-          "blanks": [{ "answer": "est émue que nous ayons beaucoup pensé à elle" }]
-        },
-        {
-          "sentence": "Vous lui avez menti. – Il est déçu. → Il {{0}}",
-          "blanks": [{ "answer": "est déçu que vous lui ayez menti" }]
-        },
-        {
-          "sentence": "Elle ne l'a pas attendue. – Elle est triste. → Elle {{0}}",
-          "blanks": [{ "answer": "est triste de ne pas l'avoir attendue" }]
-        },
-        {
-          "sentence": "Il a fait preuve de courage. – Je ne le nie pas. → Je {{0}}",
-          "blanks": [{ "answer": "ne nie pas qu'il ait fait preuve de courage" }]
-        }
-      ]
-    },
-    {
-      "id": "fr-intermediate-11",
-      "number": 11,
-      "title": "Subjonctif présent ou subjonctif passé",
-      "kind": "fill-blank",
-      "instructions": "Mettez les verbes entre parenthèses au subjonctif présent ou au subjonctif passé.",
-      "items": [
-        {
-          "sentence": "Souhaitons qu'il le (réussir) {{0}} quand même !",
-          "blanks": [{ "answer": "réussisse" }]
-        },
-        {
-          "sentence": "Comme c'est bien qu'il le (réussir) {{0}} !",
-          "blanks": [{ "answer": "l'ait réussi" }]
-        },
-        {
-          "sentence": "Je ne supporte plus que les voisins (faire) {{0}} tant de bruit !",
-          "blanks": [{ "answer": "fassent" }]
-        },
-        {
-          "sentence": "C'est étonnant qu'ils (faire) {{0}} tant de bruit hier soir.",
-          "blanks": [{ "answer": "aient fait" }]
-        },
-        {
-          "sentence": "Bien qu'il (vivre) {{0}} toute son enfance au bord de la mer, il ne mange jamais d'huîtres.",
-          "blanks": [{ "answer": "ait vécu" }]
-        },
-        {
-          "sentence": "Bien que les Martin (vivre) {{0}} depuis vingt ans au bord de la mer, ils ne mangent jamais de crustacés.",
-          "blanks": [{ "answer": "vivent" }]
-        },
-        {
-          "sentence": "Il s'occupera de toi à condition que tu (ne pas souffrir) {{0}} trop et que tu (passer) {{1}} une radio avant.",
-          "blanks": [
-            { "answer": "ne souffres pas" },
-            { "answer": "aies passé" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "fr-intermediate-12",
-      "number": 12,
-      "title": "Accord du participe passé avec avoir",
-      "kind": "fill-blank",
-      "instructions": "Complétez avec le participe passé. Faites l'accord si nécessaire.",
-      "items": [
-        {
-          "sentence": "Les fleurs que j'ai {{0}} (acheter) sont sur la table.",
-          "blanks": [{ "answer": "achetées" }]
-        },
-        {
-          "sentence": "Les lettres qu'elle a {{0}} (écrire) étaient très longues.",
-          "blanks": [{ "answer": "écrites" }]
-        },
-        {
-          "sentence": "Les films que nous avons {{0}} (voir) étaient excellents.",
-          "blanks": [{ "answer": "vus" }]
-        },
-        {
-          "sentence": "La chanson qu'ils ont {{0}} (chanter) était émouvante.",
-          "blanks": [{ "answer": "chantée" }]
-        },
-        {
-          "sentence": "Les photos qu'elle a {{0}} (prendre) sont floues.",
-          "blanks": [{ "answer": "prises" }]
-        },
-        {
-          "sentence": "Les décisions qu'ils ont {{0}} (prendre) ont surpris tout le monde.",
-          "blanks": [{ "answer": "prises" }]
-        },
-        {
-          "sentence": "Les robes qu'elle a {{0}} (choisir) sont magnifiques.",
-          "blanks": [{ "answer": "choisies" }]
-        },
-        {
-          "sentence": "Les exercices que tu as {{0}} (faire) étaient difficiles.",
-          "blanks": [{ "answer": "faits" }]
-        }
-      ]
-    },
-    {
-      "id": "fr-intermediate-13",
-      "number": 13,
-      "title": "Participe passé des verbes impersonnels",
-      "kind": "fill-blank",
-      "instructions": "Dans les phrases suivantes, complétez avec le participe passé du verbe impersonnel.",
-      "items": [
-        {
-          "sentence": "Les efforts qu'il a {{0}} (falloir) pour terminer ce projet étaient considérables.",
-          "blanks": [{ "answer": "fallu" }]
-        },
-        {
-          "sentence": "Les chaleurs qu'il a {{0}} (faire) cet été ont battu des records.",
-          "blanks": [{ "answer": "fait" }]
-        },
-        {
-          "sentence": "Les précautions qu'il nous a {{0}} (falloir) prendre n'ont pas suffi.",
-          "blanks": [{ "answer": "fallu" }]
-        },
-        {
-          "sentence": "La patience qu'il a {{0}} (falloir) pour expliquer la règle m'a épuisé.",
-          "blanks": [{ "answer": "fallu" }]
-        },
-        {
-          "sentence": "Les tempêtes qu'il a {{0}} (faire) l'hiver dernier ont endommagé le toit.",
-          "blanks": [{ "answer": "fait" }]
-        },
-        {
-          "sentence": "Les explications qu'il a {{0}} (falloir) donner ont duré deux heures.",
-          "blanks": [{ "answer": "fallu" }]
-        },
-        {
-          "sentence": "Les réparations qu'il a {{0}} (falloir) faire étaient urgentes.",
-          "blanks": [{ "answer": "fallu" }]
-        }
-      ]
-    },
-    {
-      "id": "fr-intermediate-14",
-      "number": 14,
-      "title": "Transformation à la voix passive",
-      "kind": "reorder",
-      "instructions": "Transformez les phrases suivantes à la voix passive.",
-      "items": [
-        {
-          "correctOrder": ["Le projet de fin d'année", "sera présenté", "par les élèves"]
-        },
-        {
-          "correctOrder": ["Les anciennes maisons", "ont été remplacées", "par les immeubles modernes"]
-        },
-        {
-          "correctOrder": ["Plusieurs bateaux de pêche", "auraient été détruits", "par la tempête"]
-        },
-        {
-          "correctOrder": ["La bijouterie", "avait été cambriolée", "par des voleurs"]
-        },
-        {
-          "correctOrder": ["Un nouveau musée", "a été récemment inauguré", "dans le centre"]
-        },
-        {
-          "correctOrder": ["Une peinture rupestre", "a été découverte", "par des chercheurs"]
-        },
-        {
-          "correctOrder": ["Ce pont", "a été construit", "par les Romains au Ier siècle"]
-        },
-        {
-          "correctOrder": ["La bibliothèque municipale", "a été endommagée", "par un incendie"]
-        },
-        {
-          "correctOrder": ["Les Misérables", "a été écrit", "par Victor Hugo"]
-        },
-        {
-          "correctOrder": ["En France, la fête nationale", "est célébrée", "le 14 juillet"]
-        }
-      ]
-    }
-  ]
+	"language": "fr",
+	"level": "intermediate",
+	"control": false,
+	"title": "À chacun son temps",
+	"exercises": [
+		{
+			"id": "fr-intermediate-1",
+			"number": 1,
+			"title": "Passé composé : valeur et forme",
+			"kind": "fill-blank",
+			"instructions": "Mettez les verbes entre parenthèses au passé composé et indiquez la valeur de chaque passé composé en inscrivant les lettres correspondantes dans les cases.\n\nA. Durée limitée dans le passé\nB. Antériorité par rapport au présent\nC. Événement accompli\nD. Répétition dans le passé\nE. Succession d'événements dans le passé",
+			"items": [
+				{
+					"sentence": "Victor Hugo (mourir) {{0}} en 1885. Cases pour les réponses : {{1}}",
+					"blanks": [{ "answer": "est mort" }, { "answer": "C" }]
+				},
+				{
+					"sentence": "Hier après-midi, je (dormir) {{0}} pendant trois heures. Cases pour les réponses : {{1}}",
+					"blanks": [{ "answer": "ai dormi" }, { "answer": "A" }]
+				},
+				{
+					"sentence": "J'écoute le CD que j'(acheter) {{0}} avant-hier. Cases pour les réponses : {{1}}",
+					"blanks": [{ "answer": "ai acheté" }, { "answer": "B" }]
+				},
+				{
+					"sentence": "Mes enfants adorent le dessin animé de Blanche-Neige, ils l'{{0}} (regarder) au moins dix fois. Cases pour les réponses : {{1}}",
+					"blanks": [{ "answer": "ont regardé" }, { "answer": "D" }]
+				},
+				{
+					"sentence": "Cette nuit, je (faire) {{0}} un cauchemar, je (se réveiller) {{1}} puis je (se rendormir) {{2}}. Cases pour les réponses : {{3}}",
+					"blanks": [
+						{ "answer": "j'ai fait" },
+						{ "answer": "me suis réveillé" },
+						{ "answer": "me suis rendormi" },
+						{ "answer": "E" }
+					]
+				}
+			]
+		},
+		{
+			"id": "fr-intermediate-2",
+			"number": 2,
+			"title": "Présent passif ou passé composé actif",
+			"kind": "fill-blank",
+			"instructions": "Mettre les verbes entre parenthèses au présent passif ou au passé composé actif.",
+			"items": [
+				{
+					"sentence": "La Révolution française {{0}} (commencer) en 1789.",
+					"blanks": [{ "answer": "a commencé" }]
+				},
+				{
+					"sentence": "Une nouvelle génération {{0}} (naître) après la guerre.",
+					"blanks": [{ "answer": "est née" }]
+				},
+				{
+					"sentence": "Le concert {{0}} (commencer) à 20 heures précises.",
+					"blanks": [{ "answer": "a commencé" }]
+				},
+				{
+					"sentence": "La réunion {{0}} (commencer) depuis une demi-heure.",
+					"blanks": [{ "answer": "est commencée" }]
+				},
+				{
+					"sentence": "Il {{0}} (terminer) son exposé en quelques minutes.",
+					"blanks": [{ "answer": "a terminé" }]
+				},
+				{
+					"sentence": "Les travaux de rénovation {{0}} (terminer) depuis deux ans.",
+					"blanks": [{ "answer": "sont terminés" }]
+				},
+				{
+					"sentence": "Ils {{0}} (comprendre) enfin la règle de grammaire.",
+					"blanks": [{ "answer": "ont compris" }]
+				},
+				{
+					"sentence": "Le match {{0}} (finir), les spectateurs quittent le stade.",
+					"blanks": [{ "answer": "est fini" }]
+				},
+				{
+					"sentence": "Le premier roman de Balzac {{0}} (paraître) en 1829.",
+					"blanks": [{ "answer": "a paru" }]
+				},
+				{
+					"sentence": "Le document que vous cherchez {{0}} (ne pas encore paraître).",
+					"blanks": [{ "answer": "n'est pas encore paru" }]
+				}
+			]
+		},
+		{
+			"id": "fr-intermediate-3",
+			"number": 3,
+			"title": "Une nuit particulière",
+			"kind": "fill-blank",
+			"instructions": "Passé composé, imparfait ou plus-que-parfait. Complétez comme il convient.",
+			"items": [
+				{
+					"sentence": "Ce {{0}} (être) pendant un week-end du mois de mai. Nous {{1}} (décider) de passer deux jours à Paris où nous {{2}} (encore jamais aller). Deux mois avant, nous {{3}} (réserver) une chambre dans un hôtel du centre de la ville. Nous {{4}} (arriver) le samedi matin à l'aéroport. Il {{5}} (faire beau) et même un peu chaud. Un taxi nous {{6}} (conduire) à notre hôtel. Une dame nous {{7}} (accueillir), nous {{8}} (montrer) notre chambre. Nous {{9}} (défaire) nos bagages. Nous {{10}} (être) fous de joie à la perspective de découvrir la Ville lumière ! Sans perdre de temps, nous {{11}} (sortir) à la découverte de la ville. Le week-end {{12}} (s'annoncer) bien et pourtant la nuit {{13}} (aller être) très particulière.",
+					"blanks": [
+						{ "answer": "C'était" },
+						{ "answer": "avions décidé" },
+						{ "answer": "n'étions encore jamais allés" },
+						{ "answer": "avions réservé" },
+						{ "answer": "sommes arrivés" },
+						{ "answer": "faisait beau" },
+						{ "answer": "a conduits" },
+						{ "answer": "a accueillis" },
+						{ "answer": "a montré" },
+						{ "answer": "avons défait" },
+						{ "answer": "étions" },
+						{ "answer": "sommes sortis" },
+						{ "answer": "s'annonçait" },
+						{ "answer": "allait être" }
+					]
+				}
+			]
+		},
+		{
+			"id": "fr-intermediate-4",
+			"number": 4,
+			"title": "Mettez les phrases en ordre",
+			"kind": "reorder",
+			"instructions": "Mettez les phrases en ordre pour reconstituer le petit récit.\n\nJ'ai allumé toutes les lampes. / Je n'étais pas très rassuré. / J'ai fermé les volets. / Il faisait noir. / Je suis sorti de mon lit. / Je dormais profondément. / J'ai regardé dehors. / Je me suis recouché. / C'étaient les volets qui claquaient. / Un bruit m'a réveillé.\n\nQuand l'orage a éclaté, je dormais profondément. _________________________________",
+			"items": [
+				{
+					"correctOrder": [
+						"Un bruit m'a réveillé.",
+						"Je suis sorti de mon lit.",
+						"Il faisait noir.",
+						"J'ai allumé toutes les lampes.",
+						"J'ai fermé les volets.",
+						"Je n'étais pas très rassuré.",
+						"J'ai regardé dehors.",
+						"C'étaient les volets qui claquaient.",
+						"Je me suis recouché."
+					]
+				}
+			]
+		},
+		{
+			"id": "fr-intermediate-5",
+			"number": 5,
+			"title": "Plus-que-parfait ou passé antérieur",
+			"kind": "fill-blank",
+			"instructions": "Conjuguez les verbes entre parenthèses au plus-que-parfait ou au passé antérieur.",
+			"items": [
+				{
+					"sentence": "L'oncle nous apportait un chapelet d'oiseaux qu'il (prendre) {{0}} au collet. (Claire Saint-Soline)",
+					"blanks": [{ "answer": "avait pris" }]
+				},
+				{
+					"sentence": "Lorsqu'il (contourner) {{0}} l'aile sud, il aperçut soudain les roseaux à perte de vue. (Alain Fournier)",
+					"blanks": [{ "answer": "eut contourné" }]
+				},
+				{
+					"sentence": "Comme l'éclairage trop violent faisait cligner mes paupières, elle (coiffer) {{0}} la lampe de son chapeau. (Henri Troyat)",
+					"blanks": [{ "answer": "avait coiffé" }]
+				},
+				{
+					"sentence": "De temps en temps aussi, il recevait une enveloppe bleue dont l'adresse (tracer, forme passive) {{0}} d'une grosse écriture tremblée. (Guy de Maupassant)",
+					"blanks": [{ "answer": "avait été tracée" }]
+				},
+				{
+					"sentence": "La cathédrale de Chartres… Et maintenant qu'il (contempler) {{0}} l'ensemble de cette façade, il se rapprochait encore plus pour la scruter dans ses infimes accessoires, dans ses menus détails. (J.-K. Huysmans)",
+					"blanks": [{ "answer": "avait contemplé" }]
+				},
+				{
+					"sentence": "Comme il savait que son ami en revenant du bureau passait par cette rue, il (entrer) {{0}} ici, il (prendre) {{1}} une table près de la fenêtre. (Henri Michaux)",
+					"blanks": [{ "answer": "était entré" }, { "answer": "avait pris" }]
+				},
+				{
+					"sentence": "Quand ils (revêtir) {{0}} les habits de la route, on les mena par bandes de vingt ou trente à l'autre bout du préau. (Victor Hugo)",
+					"blanks": [{ "answer": "eurent revêtu" }]
+				}
+			]
+		},
+		{
+			"id": "fr-intermediate-6",
+			"number": 6,
+			"title": "Futur antérieur",
+			"kind": "fill-blank",
+			"instructions": "Complétez avec le futur antérieur.",
+			"items": [
+				{
+					"sentence": "Quand tu arriveras, j'{{0}} (finir) le repas.",
+					"blanks": [{ "answer": "aurai fini" }]
+				},
+				{
+					"sentence": "Nous {{0}} (partir) avant midi.",
+					"blanks": [{ "answer": "serons partis" }]
+				},
+				{
+					"sentence": "Elles {{0}} (terminer) le projet demain.",
+					"blanks": [{ "answer": "auront terminé" }]
+				},
+				{
+					"sentence": "Il {{0}} (comprendre) la situation d'ici là.",
+					"blanks": [{ "answer": "aura compris" }]
+				},
+				{
+					"sentence": "Vous {{0}} (recevoir) les documents avant vendredi.",
+					"blanks": [{ "answer": "aurez reçu" }]
+				},
+				{
+					"sentence": "Ils {{0}} (réparer) la machine ce soir.",
+					"blanks": [{ "answer": "auront réparé" }]
+				},
+				{
+					"sentence": "Elle {{0}} (atteindre) son objectif.",
+					"blanks": [{ "answer": "aura atteint" }]
+				},
+				{
+					"sentence": "Nous {{0}} (voir) les résultats.",
+					"blanks": [{ "answer": "aurons vu" }]
+				}
+			]
+		},
+		{
+			"id": "fr-intermediate-7",
+			"number": 7,
+			"title": "Futur simple et futur antérieur",
+			"kind": "free-text",
+			"instructions": "Faites une phrase comme dans l'exemple. Utilisez un futur simple et un futur antérieur selon l'ordre chronologique des actions.",
+			"contextHint": "Exemple : Nous ferons la fête quand j'aurai eu une promotion.",
+			"items": [
+				{
+					"prompt": "Tu passeras deux entretiens / Le DRH te donnera sa réponse / (dès que)",
+					"accepted": [
+						"Tu passeras deux entretiens dès que le DRH t'aura donné sa réponse.",
+						"Tu passeras deux entretiens dès que le DRH t'aura donné sa réponse"
+					]
+				},
+				{
+					"prompt": "On enverra les convocations / On choisira la date / (lorsque)",
+					"accepted": [
+						"On enverra les convocations lorsque l'on aura choisi la date.",
+						"On enverra les convocations lorsque l'on aura choisi la date"
+					]
+				},
+				{
+					"prompt": "Ils quitteront l'entreprise / Ils donneront leur démission / (quand)",
+					"accepted": [
+						"Ils quitteront l'entreprise quand ils auront donné leur démission.",
+						"Ils quitteront l'entreprise quand ils auront donné leur démission"
+					]
+				},
+				{
+					"prompt": "Tu obtiendras les informations / On rédigera le rapport / (dès que)",
+					"accepted": [
+						"Tu obtiendras les informations dès que l'on aura rédigé le rapport.",
+						"Tu obtiendras les informations dès que l'on aura rédigé le rapport"
+					]
+				}
+			]
+		},
+		{
+			"id": "fr-intermediate-8",
+			"number": 8,
+			"title": "Conditionnel passé – texte",
+			"kind": "fill-blank",
+			"instructions": "Complétez avec la conjugaison des verbes entre parenthèse au conditionnel passé :",
+			"items": [
+				{
+					"sentence": "Paul {{0}} (vouloir) être un grand artiste. Il {{1}} (adorer) être chanteur, savoir jouer et écrire de la musique. Il {{2}} (aimer) partir en tournée, faire le tour du monde avec d'autres musiciens. Il {{3}} (pouvoir) rencontrer des gens étonnants. Mais pour cela, il lui {{4}} (falloir) du courage et peut-être aussi un peu de talent. Car la réalité est dure : Paul n'a jamais su chanter et il n'a jamais essayé d'apprendre à jouer d'un instrument.",
+					"blanks": [
+						{ "answer": "aurait voulu" },
+						{ "answer": "aurait adoré" },
+						{ "answer": "aurait aimé" },
+						{ "answer": "aurait pu" },
+						{ "answer": "aurait fallu" }
+					]
+				}
+			]
+		},
+		{
+			"id": "fr-intermediate-9",
+			"number": 9,
+			"title": "Conditionnel passé – phrases conditionnelles",
+			"kind": "fill-blank",
+			"instructions": "Complétez avec le conditionnel passé des verbes entre parenthèses.",
+			"items": [
+				{
+					"sentence": "Si nous avions eu plus de temps, nous (visiter) {{0}} davantage de musées.",
+					"blanks": [{ "answer": "aurions visité" }]
+				},
+				{
+					"sentence": "Elle (venir) {{0}} te voir si elle avait su que tu étais malade.",
+					"blanks": [{ "answer": "serait venue" }]
+				},
+				{
+					"sentence": "Ils (réussir) {{0}} l'examen avec un peu plus de préparation.",
+					"blanks": [{ "answer": "auraient réussi" }]
+				},
+				{
+					"sentence": "Tu (pouvoir) {{0}} m'aider si tu avais été là.",
+					"blanks": [{ "answer": "aurais pu" }]
+				},
+				{
+					"sentence": "Nous (devoir) {{0}} partir plus tôt pour éviter l'embouteillage.",
+					"blanks": [{ "answer": "aurions dû" }]
+				}
+			]
+		},
+		{
+			"id": "fr-intermediate-10",
+			"number": 10,
+			"title": "Subjonctif passé – relier des phrases",
+			"kind": "fill-blank",
+			"instructions": "Reliez les deux phrases selon le modèle.",
+			"contextHint": "Exemple : Ils ont dû perdre notre adresse. – J'en ai bien peur. ? J'ai bien peur qu'ils aient perdu notre adresse.",
+			"items": [
+				{
+					"sentence": "La lettre s'est peut-être perdue. – Elle le craint. Elle craint {{0}}",
+					"blanks": [{ "answer": "que la lettre se soit perdue" }]
+				},
+				{
+					"sentence": "Il a répondu aussitôt. – C'est possible. C'est possible {{0}}",
+					"blanks": [{ "answer": "qu'il ait répondu aussitôt" }]
+				},
+				{
+					"sentence": "On doit envoyer cette fiche. – Le ministère l'exige. Le ministère exige {{0}}",
+					"blanks": [{ "answer": "qu'on envoie cette fiche" }]
+				},
+				{
+					"sentence": "Il a perdu son appareil photo. – Elle en est navrée.\nElle {{0}}",
+					"blanks": [
+						{ "answer": "est navrée qu'il ait perdu son appareil photo" }
+					]
+				},
+				{
+					"sentence": "Nous avons beaucoup pensé à elle. – Elle en est émue. Elle {{0}}",
+					"blanks": [
+						{ "answer": "est émue que nous ayons beaucoup pensé à elle" }
+					]
+				},
+				{
+					"sentence": "Vous lui avez menti. – Il est déçu. Il {{0}}",
+					"blanks": [{ "answer": "est déçu que vous lui ayez menti" }]
+				},
+				{
+					"sentence": "Elle ne l'a pas attendue. – Elle est triste. Elle {{0}}",
+					"blanks": [{ "answer": "est triste de ne pas l'avoir attendue" }]
+				},
+				{
+					"sentence": "Il a fait preuve de courage. – Je ne le nie pas. Je {{0}}",
+					"blanks": [
+						{ "answer": "ne nie pas qu'il ait fait preuve de courage" }
+					]
+				}
+			]
+		},
+		{
+			"id": "fr-intermediate-11",
+			"number": 11,
+			"title": "Subjonctif présent ou subjonctif passé",
+			"kind": "fill-blank",
+			"instructions": "Mettez les verbes entre parenthèses au subjonctif présent ou au subjonctif passé.",
+			"items": [
+				{
+					"sentence": "– Alexis ne travaille pas beaucoup et pourtant il doit passer son bac en juin prochain. Souhaitons qu'il le (réussir) {{0}} quand même !",
+					"blanks": [{ "answer": "réussisse" }]
+				},
+				{
+					"sentence": "– Alexis a eu son bac. Comme c'est bien qu'il le (réussir) {{0}} !",
+					"blanks": [{ "answer": "l'ait réussi" }]
+				},
+				{
+					"sentence": "– Quel tapage à l'étage du dessus ! Je ne supporte plus que les voisins (faire) {{0}} tant de bruit !",
+					"blanks": [{ "answer": "fassent" }]
+				},
+				{
+					"sentence": "– D'habitude, on n'entend jamais nos voisins. C'est étonnant qu'ils (faire) {{0}} tant de bruit hier soir.",
+					"blanks": [{ "answer": "aient fait" }]
+				},
+				{
+					"sentence": "– Constantin habite à Paris, mais il est né à Cancale près du Mont-Saint-Michel. Bien qu'il (vivre) {{0}} toute son enfance au bord de la mer, il ne mange jamais d'huîtres.",
+					"blanks": [{ "answer": "ait vécu" }]
+				},
+				{
+					"sentence": "– Bien que les Martin (vivre) {{0}} depuis vingt ans au bord de la mer, ils ne mangent jamais de crustacés.",
+					"blanks": [{ "answer": "vivent" }]
+				},
+				{
+					"sentence": "– Tu as mal au dos ? Va voir mon ostéopathe ! Il s'occupera de toi à condition que tu (ne pas souffrir) {{0}} trop et que tu (passer) {{1}} une radio avant.",
+					"blanks": [
+						{ "answer": "ne souffres pas" },
+						{ "answer": "aies passé" }
+					]
+				}
+			]
+		},
+		{
+			"id": "fr-intermediate-12",
+			"number": 12,
+			"title": "Accord du participe passé avec avoir",
+			"kind": "fill-blank",
+			"instructions": "Complétez avec le participe passé. Faites l'accord si nécessaire.",
+			"items": [
+				{
+					"sentence": "Les fleurs que j'ai {{0}} (acheter) sont sur la table.",
+					"blanks": [{ "answer": "achetées" }]
+				},
+				{
+					"sentence": "Les lettres qu'elle a {{0}} (écrire) étaient très longues.",
+					"blanks": [{ "answer": "écrites" }]
+				},
+				{
+					"sentence": "Les films que nous avons {{0}} (voir) étaient excellents.",
+					"blanks": [{ "answer": "vus" }]
+				},
+				{
+					"sentence": "La chanson qu'ils ont {{0}} (chanter) était émouvante.",
+					"blanks": [{ "answer": "chantée" }]
+				},
+				{
+					"sentence": "Les photos qu'elle a {{0}} (prendre) sont floues.",
+					"blanks": [{ "answer": "prises" }]
+				},
+				{
+					"sentence": "Les décisions qu'ils ont {{0}} (prendre) ont surpris tout le monde.",
+					"blanks": [{ "answer": "prises" }]
+				},
+				{
+					"sentence": "Les robes qu'elle a {{0}} (choisir) sont magnifiques.",
+					"blanks": [{ "answer": "choisies" }]
+				},
+				{
+					"sentence": "Les exercices que tu as {{0}} (faire) étaient difficiles.",
+					"blanks": [{ "answer": "faits" }]
+				}
+			]
+		},
+		{
+			"id": "fr-intermediate-13",
+			"number": 13,
+			"title": "Participe passé des verbes impersonnels",
+			"kind": "fill-blank",
+			"instructions": "Dans les phrases suivantes, complétez avec le participe passé du verbe impersonnel.",
+			"items": [
+				{
+					"sentence": "Les efforts qu'il a {{0}} (falloir) pour terminer ce projet étaient considérables.",
+					"blanks": [{ "answer": "fallu" }]
+				},
+				{
+					"sentence": "Les chaleurs qu'il a {{0}} (faire) cet été ont battu des records.",
+					"blanks": [{ "answer": "fait" }]
+				},
+				{
+					"sentence": "Les précautions qu'il nous a {{0}} (falloir) prendre n'ont pas suffi.",
+					"blanks": [{ "answer": "fallu" }]
+				},
+				{
+					"sentence": "La patience qu'il a {{0}} (falloir) pour expliquer la règle m'a épuisé.",
+					"blanks": [{ "answer": "fallu" }]
+				},
+				{
+					"sentence": "Les tempêtes qu'il a {{0}} (faire) l'hiver dernier ont endommagé le toit.",
+					"blanks": [{ "answer": "fait" }]
+				},
+				{
+					"sentence": "Les explications qu'il a {{0}} (falloir) donner ont duré deux heures.",
+					"blanks": [{ "answer": "fallu" }]
+				},
+				{
+					"sentence": "Les réparations qu'il a {{0}} (falloir) faire étaient urgentes.",
+					"blanks": [{ "answer": "fallu" }]
+				}
+			]
+		},
+		{
+			"id": "fr-intermediate-14",
+			"number": 14,
+			"title": "Transformation à la voix passive",
+			"kind": "free-text",
+			"instructions": "Transformez les phrases suivantes à la voix passive.",
+			"items": [
+				{
+					"prompt": "Les élèves présenteront le projet de fin d'année.",
+					"accepted": [
+						"Le projet de fin d'année sera présenté par les élèves.",
+						"Le projet de fin d'année sera présenté par les élèves"
+					]
+				},
+				{
+					"prompt": "Dans cette ville, les immeubles modernes ont remplacé les anciennes maisons.",
+					"accepted": [
+						"Les anciennes maisons ont été remplacées par les immeubles modernes.",
+						"Les anciennes maisons ont été remplacées par les immeubles modernes"
+					]
+				},
+				{
+					"prompt": "La tempête aurait détruit plusieurs bateaux de pêche.",
+					"accepted": [
+						"Plusieurs bateaux de pêche auraient été détruits par la tempête.",
+						"Plusieurs bateaux de pêche auraient été détruits par la tempête"
+					]
+				},
+				{
+					"prompt": "Des voleurs avaient cambriolé la bijouterie.",
+					"accepted": [
+						"La bijouterie avait été cambriolée par des voleurs.",
+						"La bijouterie avait été cambriolée par des voleurs"
+					]
+				},
+				{
+					"prompt": "On a récemment inauguré un nouveau musée dans le centre.",
+					"accepted": [
+						"Un nouveau musée a été récemment inauguré dans le centre.",
+						"Un nouveau musée a été récemment inauguré dans le centre"
+					]
+				},
+				{
+					"prompt": "Des chercheurs ont découvert une peinture rupestre.",
+					"accepted": [
+						"Une peinture rupestre a été découverte par des chercheurs.",
+						"Une peinture rupestre a été découverte par des chercheurs"
+					]
+				},
+				{
+					"prompt": "Les Romains ont construit ce pont au Ier siècle.",
+					"accepted": [
+						"Ce pont a été construit par les Romains au Ier siècle.",
+						"Ce pont a été construit par les Romains au Ier siècle"
+					]
+				},
+				{
+					"prompt": "Un incendie a endommagé la bibliothèque municipale.",
+					"accepted": [
+						"La bibliothèque municipale a été endommagée par un incendie.",
+						"La bibliothèque municipale a été endommagée par un incendie"
+					]
+				},
+				{
+					"prompt": "Victor Hugo a écrit Les Misérables.",
+					"accepted": [
+						"Les Misérables a été écrit par Victor Hugo.",
+						"Les Misérables a été écrit par Victor Hugo"
+					]
+				},
+				{
+					"prompt": "En France, on célèbre la fête nationale le 14 juillet.",
+					"accepted": [
+						"En France, la fête nationale est célébrée le 14 juillet.",
+						"En France, la fête nationale est célébrée le 14 juillet"
+					]
+				}
+			]
+		}
+	]
 }

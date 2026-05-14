@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { useReducer } from "react";
 import type { ChoiceExercise } from "#/content/schema";
+import { ContextHint } from "./_shared/ContextHint";
 import { ExerciseCard } from "./_shared/ExerciseCard";
 import { FeedbackOverlay } from "./_shared/FeedbackOverlay";
 import type { ExerciseStatus } from "./_shared/useExerciseState";
@@ -168,8 +169,7 @@ export function Choice({ exercise, onResult, onNext }: Props) {
 
 			if (state.mode === "single") {
 				const selected = state.selections[itemIdx] ?? null;
-				const selectedArr = selected !== null ? [selected] : [];
-				if (arraysEqualSorted(selectedArr, correctArr)) correctItems++;
+				if (selected !== null && correctArr.includes(selected)) correctItems++;
 			} else {
 				const selected = state.selections[itemIdx] ?? [];
 				if (arraysEqualSorted(selected, correctArr)) correctItems++;
@@ -188,6 +188,7 @@ export function Choice({ exercise, onResult, onNext }: Props) {
 	return (
 		<ExerciseCard
 			title={exercise.title}
+			instructions={exercise.instructions}
 			status={state.status}
 			footer={
 				<div className="space-y-2">
@@ -201,6 +202,7 @@ export function Choice({ exercise, onResult, onNext }: Props) {
 				</div>
 			}
 		>
+			<ContextHint text={exercise.contextHint} />
 			<motion.div
 				animate={isSubmitted ? state.status : "idle"}
 				// biome-ignore lint/suspicious/noExplicitAny: motion variants typing

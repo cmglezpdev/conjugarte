@@ -1,307 +1,281 @@
 {
-  "language": "fr",
-  "level": "advanced",
-  "control": true,
-  "title": "Exercices de contrôle",
-  "exercises": [
-    {
-      "id": "fr-advanced-control-1",
-      "number": 1,
-      "title": "Complétez avec l'option juste",
-      "kind": "choice",
-      "multiple": false,
-      "instructions": "Complétez avec l'option juste.",
-      "items": [
-        {
-          "prompt": "La discussion que nous avons ______ a été très utile pour moi.",
-          "options": ["eut", "eue", "eues", "eu"],
-          "correct": 1
-        },
-        {
-          "prompt": "Si tu _____ l'occasion de voyager plus, où ________ ?",
-          "options": [
-            "avais eu / serais-tu allé?",
-            "aurais / irais-tu?",
-            "avais / serais-tu allé?",
-            "as / vas-tu?"
-          ],
-          "correct": 0
-        },
-        {
-          "prompt": "De nombreux conducteurs se sont ______ retirer leur permis de conduire.",
-          "options": ["vu", "vus", "vut", "vues"],
-          "correct": 0
-        },
-        {
-          "prompt": "Le maire prendra des mesures après que les habitants ______ leur opinion.",
-          "options": [
-            "aient exprimé",
-            "auraient exprimé",
-            "eussent exprimé",
-            "auront exprimé"
-          ],
-          "correct": 3
-        },
-        {
-          "prompt": "Le piratage des livres est un problème bien connu et je doute qu'ils ______",
-          "options": [
-            "se sont trompés",
-            "s'étaient trompés",
-            "se seraient trompés",
-            "se soient trompés"
-          ],
-          "correct": 3
-        },
-        {
-          "prompt": "Si les pouvoirs publics ______ lutté plus tôt contre l'obésité, nous ______ pu éviter la catastrophe pour nos enfants.",
-          "options": [
-            "ont / avions",
-            "auraient / avons",
-            "avaient / aurions",
-            "ont eu / ayons"
-          ],
-          "correct": 2
-        },
-        {
-          "prompt": "Une fois que le rover Perseverance ______ des échantillons de roche, il les enfermera dans des tubes et les déposera à la surface.",
-          "options": [
-            "a récolté",
-            "aura récolté",
-            "avait récolté",
-            "aurait récolté"
-          ],
-          "correct": 1
-        },
-        {
-          "prompt": "Bien que la transition énergétique ______ il y a plusieurs années, les résultats sont encore loin d'être satisfaisants.",
-          "options": [
-            "ait démarré",
-            "a démarré",
-            "a été démarrée",
-            "soit démarrée"
-          ],
-          "correct": 0
-        },
-        {
-          "prompt": "Quant aux habitants de la commune, la plupart ______ l'installation d'un péage urbain.",
-          "options": [
-            "a approuvé",
-            "ont approuvé",
-            "Les 2 réponses ci-dessus sont correctes."
-          ],
-          "correct": 1
-        }
-      ]
-    },
-    {
-      "id": "fr-advanced-control-2",
-      "number": 2,
-      "title": "Passé simple et passé antérieur",
-      "kind": "fill-blank",
-      "instructions": "Êtes-vous capable de choisir entre passé simple et passé antérieur ?",
-      "items": [
-        {
-          "sentence": "Le peintre {{0}} ses pinceaux lorsqu'il {{1}} son travail.",
-          "blanks": [
-            { "answer": "lava", "hint": "laver — passé simple" },
-            { "answer": "eut terminé", "hint": "terminer — passé antérieur" }
-          ]
-        },
-        {
-          "sentence": "Je {{0}} à mon correspondant dès que j'{{1}} de ses nouvelles.",
-          "blanks": [
-            { "answer": "répondis", "hint": "répondre — passé simple" },
-            { "answer": "eus reçu", "hint": "recevoir — passé antérieur" }
-          ]
-        },
-        {
-          "sentence": "Le public {{0}} dès que le pianiste {{1}} de jouer.",
-          "blanks": [
-            { "answer": "applaudit", "hint": "applaudir — passé simple" },
-            { "answer": "eut cessé", "hint": "cesser — passé antérieur" }
-          ]
-        },
-        {
-          "sentence": "Tu me {{0}} ces BD dès que tu les {{1}}.",
-          "blanks": [
-            { "answer": "rapportas", "hint": "rapporter — passé simple" },
-            { "answer": "eus lues", "hint": "lire — passé antérieur" }
-          ]
-        },
-        {
-          "sentence": "Lorsque les locataires précédents {{0}} cet appartement, nous {{1}}.",
-          "blanks": [
-            { "answer": "eurent quitté", "hint": "quitter — passé antérieur" },
-            { "answer": "nous y installâmes", "hint": "s'installer — passé simple" }
-          ]
-        },
-        {
-          "sentence": "Pascal {{0}} un emploi dès qu'il {{1}} son diplôme.",
-          "blanks": [
-            { "answer": "rechercha", "hint": "rechercher — passé simple" },
-            { "answer": "eut obtenu", "hint": "obtenir — passé antérieur" }
-          ]
-        },
-        {
-          "sentence": "Dès que le serrurier {{0}} à ouvrir la porte, nous {{1}}.",
-          "blanks": [
-            { "answer": "eut réussi", "hint": "réussir — passé antérieur" },
-            { "answer": "entrâmes", "hint": "entrer — passé simple" }
-          ]
-        },
-        {
-          "sentence": "Magalie {{0}} son repas dès que ses visiteurs l'{{1}}.",
-          "blanks": [
-            { "answer": "commença", "hint": "commencer — passé simple" },
-            { "answer": "eurent quittée", "hint": "quitter — passé antérieur" }
-          ]
-        },
-        {
-          "sentence": "Mon chien {{0}} à l'intérieur dès que j'{{1}} la porte de la grange.",
-          "blanks": [
-            { "answer": "se précipita", "hint": "se précipiter — passé simple" },
-            { "answer": "eus ouvert", "hint": "ouvrir — passé antérieur" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "fr-advanced-control-3",
-      "number": 3,
-      "title": "Subjonctif plus-que-parfait vs passé antérieur",
-      "kind": "inline-choice",
-      "instructions": "Choisissez le verbe conjugué au subjonctif plus-que-parfait. (Ne pas confondre avec le passé antérieur).",
-      "items": [
-        {
-          "sentence": "Il ne fallait pas que j' {{0}} mon portable.",
-          "choices": [
-            {
-              "options": ["eusse perdu", "eus perdu"],
-              "correct": 0
-            }
-          ]
-        },
-        {
-          "sentence": "Il lui parut normal que ces tableaux {{0}} si cher.",
-          "choices": [
-            {
-              "options": ["eussent été", "eurent été"],
-              "correct": 0
-            }
-          ]
-        },
-        {
-          "sentence": "Il était nécessaire qu'il {{0}}.",
-          "choices": [
-            {
-              "options": ["fût venu", "fut venu"],
-              "correct": 0
-            }
-          ]
-        },
-        {
-          "sentence": "Jamais il n'avait cru que vous {{0}} capable de ce genre de remarques.",
-          "choices": [
-            {
-              "options": ["eussiez été", "eûtes été"],
-              "correct": 0
-            }
-          ]
-        },
-        {
-          "sentence": "Je pensais que nous {{0}} le mauvais chemin.",
-          "choices": [
-            {
-              "options": ["eussions pris", "eûmes pris"],
-              "correct": 0
-            }
-          ]
-        },
-        {
-          "sentence": "Elle doutait que tu {{0}} la véritable intention du discours.",
-          "choices": [
-            {
-              "options": ["eusses compris", "eus compris"],
-              "correct": 0
-            }
-          ]
-        },
-        {
-          "sentence": "Nous regrettions qu'ils {{0}} une si belle occasion.",
-          "choices": [
-            {
-              "options": ["eussent manqué", "eurent manqué"],
-              "correct": 0
-            }
-          ]
-        },
-        {
-          "sentence": "Il était impossible qu'elle {{0}} avant l'aube.",
-          "choices": [
-            {
-              "options": ["fût arrivée", "fut arrivée"],
-              "correct": 0
-            }
-          ]
-        },
-        {
-          "sentence": "On ne croyait pas que vous {{0}} cette lettre vous-mêmes.",
-          "choices": [
-            {
-              "options": ["eussiez écrit", "eûtes écrit"],
-              "correct": 0
-            }
-          ]
-        },
-        {
-          "sentence": "Le juge n'admettait pas que l'accusé {{0}} sans témoin.",
-          "choices": [
-            {
-              "options": ["eût parlé", "eut parlé"],
-              "correct": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "fr-advanced-control-4",
-      "number": 4,
-      "title": "Temps composés — Bel Ami",
-      "kind": "free-text",
-      "instructions": "Complétez avec les temps composés manquants (participes présents composés, infinitifs composés, gérondifs composés, temps composés de l'indicatif, du subjonctif ou du conditionnel).",
-      "items": [
-        {
-          "prompt": "Il se paya un déjeuner succulent dans un bon restaurant à prix modérés qu'il connaissait ; puis, _________________ (acheter et laisser encore) La Vie Française sur la table où il ___________ (manger), il pénétra dans plusieurs magasins.",
-          "contextHint": "Bel Ami, Guy de Maupassant",
-          "accepted": ["ayant encore acheté et laissé / avait mangé"]
-        },
-        {
-          "prompt": "Il faut que je fasse grande attention ; {{0}} mieux pendant un mois, et me voici repris depuis quelques jours. {{1}} froid mardi en sortant du théâtre.",
-          "contextHint": "Bel Ami, Guy de Maupassant",
-          "accepted": ["j'ai été / J'aurai attrapé"]
-        },
-        {
-          "prompt": "Comme il regretta de {{0}} ! S'il {{1}} avec énergie, cela {{2}}.",
-          "contextHint": "Bel Ami, Guy de Maupassant",
-          "accepted": ["n'avoir rien dit / avait parlé / ne serait point arrivé"]
-        },
-        {
-          "prompt": "Je vous demande pardon, monsieur, de vous déranger, mais pourriez-vous me dire à quelle époque {{0}} ce monument ?",
-          "contextHint": "Bel Ami, Guy de Maupassant",
-          "accepted": ["a été construit"]
-        },
-        {
-          "prompt": "Ce discours, demeuré célèbre, {{0}} (servir) de thème à Du Roy pour dix articles sur la colonie algérienne, pour toute sa série interrompue lors de ses débuts au journal, et il avait soutenu énergiquement l'idée d'une expédition militaire, bien qu'il {{1}} (convaincre) qu'elle n'aurait pas lieu. Il {{2}} (faire) vibrer la corde patriotique et bombardé l'Espagne avec tout l'arsenal d'arguments méprisants qu'on emploie contre les peuples dont les intérêts sont contraires aux vôtres.",
-          "contextHint": "Bel Ami, Guy de Maupassant",
-          "accepted": ["avait servi / fût convaincu / avait fait"]
-        },
-        {
-          "prompt": "Un écrivaillon anonyme de La Plume, {{0}} (s'en arracher) une, me cherche noise au sujet d'une vieille femme qu'il prétend {{1}} (être arrêtée) par un agent des mœurs, ce que je nie. Je {{2}} (voir) moi-même la dame Aubert, âgée de soixante ans au moins, et elle me {{3}} (raconter) par le menu sa querelle avec un boucher, au sujet d'une pesée de côtelettes, ce qui nécessita une explication devant le commissaire de police.",
-          "contextHint": "Bel Ami, Guy de Maupassant",
-          "accepted": ["s'en étant arraché / avoir été arrêtée / ai vu / a raconté"]
-        }
-      ]
-    }
-  ]
+	"language": "fr",
+	"level": "advanced",
+	"control": true,
+	"title": "Exercices de contrôle",
+	"exercises": [
+		{
+			"id": "fr-advanced-control-1",
+			"number": 1,
+			"title": "Complétez avec l'option juste",
+			"kind": "choice",
+			"multiple": false,
+			"instructions": "Complétez avec l'option juste.",
+			"items": [
+				{
+					"prompt": "La discussion que nous avons ______ a été très utile pour moi.",
+					"options": ["eut", "eue", "eues", "eu"],
+					"correct": 1
+				},
+				{
+					"prompt": "Si tu _____ l'occasion de voyager plus, où ________ ?",
+					"options": [
+						"avais eu / serais-tu allé?",
+						"aurais / irais-tu?",
+						"avais / serais-tu allé?",
+						"as / vas-tu?"
+					],
+					"correct": 0
+				},
+				{
+					"prompt": "De nombreux conducteurs se sont ______ retirer leur permis de conduire.",
+					"options": ["vu", "vus", "vut", "vues"],
+					"correct": 0
+				},
+				{
+					"prompt": "Le maire prendra des mesures après que les habitants ______ leur opinion.",
+					"options": [
+						"aient exprimé",
+						"auraient exprimé",
+						"eussent exprimé",
+						"auront exprimé"
+					],
+					"correct": 3
+				},
+				{
+					"prompt": "Le piratage des livres est un problème bien connu et je doute qu'ils ______",
+					"options": [
+						"se sont trompés",
+						"s'étaient trompés",
+						"se seraient trompés",
+						"se soient trompés"
+					],
+					"correct": 3
+				},
+				{
+					"prompt": "Si les pouvoirs publics ______ lutté plus tôt contre l'obésité, nous ______ pu éviter la catastrophe pour nos enfants.",
+					"options": [
+						"ont / avions",
+						"auraient / avons",
+						"avaient / aurions",
+						"ont eu / ayons"
+					],
+					"correct": 2
+				},
+				{
+					"prompt": "Une fois que le rover Perseverance ______ des échantillons de roche, il les enfermera dans des tubes et les déposera à la surface.",
+					"options": [
+						"a récolté",
+						"aura récolté",
+						"avait récolté",
+						"aurait récolté"
+					],
+					"correct": 1
+				},
+				{
+					"prompt": "Bien que la transition énergétique ______ il y a plusieurs années, les résultats sont encore loin d'être satisfaisants.",
+					"options": [
+						"ait démarré",
+						"a démarré",
+						"a été démarrée",
+						"soit démarrée"
+					],
+					"correct": 0
+				},
+				{
+					"prompt": "Quant aux habitants de la commune, la plupart ______ l'installation d'un péage urbain.",
+					"options": [
+						"a approuvé",
+						"ont approuvé",
+						"Les 2 réponses ci-dessus sont correctes."
+					],
+					"correct": 1
+				}
+			]
+		},
+		{
+			"id": "fr-advanced-control-2",
+			"number": 2,
+			"title": "Passé simple et passé antérieur",
+			"kind": "fill-blank",
+			"instructions": "Êtes-vous capable de choisir entre passé simple et passé antérieur ?",
+			"items": [
+				{
+					"sentence": "Le peintre {{0}} ses pinceaux lorsqu'il {{1}} son travail.",
+					"blanks": [{ "answer": "lava" }, { "answer": "eut terminé" }]
+				},
+				{
+					"sentence": "Je {{0}} à mon correspondant dès que j'{{1}} de ses nouvelles.",
+					"blanks": [{ "answer": "répondis" }, { "answer": "eus reçu" }]
+				},
+				{
+					"sentence": "Le public {{0}} dès que le pianiste {{1}} de jouer.",
+					"blanks": [{ "answer": "applaudit" }, { "answer": "eut cessé" }]
+				},
+				{
+					"sentence": "Tu me {{0}} ces BD dès que tu les {{1}}.",
+					"blanks": [{ "answer": "rapportas" }, { "answer": "eus lues" }]
+				},
+				{
+					"sentence": "Lorsque les locataires précédents {{0}} cet appartement, nous {{1}}.",
+					"blanks": [
+						{ "answer": "eurent quitté" },
+						{ "answer": "nous nous y installâmes" }
+					]
+				},
+				{
+					"sentence": "Pascal {{0}} un emploi dès qu'il {{1}} son diplôme.",
+					"blanks": [{ "answer": "rechercha" }, { "answer": "eut obtenu" }]
+				},
+				{
+					"sentence": "Dès que le serrurier {{0}} à ouvrir la porte, nous {{1}}.",
+					"blanks": [{ "answer": "eut réussi" }, { "answer": "entrâmes" }]
+				},
+				{
+					"sentence": "Magalie {{0}} son repas dès que ses visiteurs l'{{1}}.",
+					"blanks": [{ "answer": "commença" }, { "answer": "eurent quittée" }]
+				},
+				{
+					"sentence": "Mon chien {{0}} à l'intérieur dès que j'{{1}} la porte de la grange.",
+					"blanks": [{ "answer": "se précipita" }, { "answer": "eus ouvert" }]
+				}
+			]
+		},
+		{
+			"id": "fr-advanced-control-3",
+			"number": 3,
+			"title": "Subjonctif plus-que-parfait vs passé antérieur",
+			"kind": "inline-choice",
+			"instructions": "Choisissez le verbe conjugué au subjonctif plus-que-parfait. (Ne pas confondre avec le passé antérieur).",
+			"items": [
+				{
+					"sentence": "Il ne fallait pas que j' {{0}} mon portable.",
+					"choices": [
+						{
+							"options": ["eusse perdu", "eus perdu"],
+							"correct": 0
+						}
+					]
+				},
+				{
+					"sentence": "Il lui parut normal que ces tableaux {{0}} si chers.",
+					"choices": [
+						{
+							"options": ["eussent été", "eurent été"],
+							"correct": 0
+						}
+					]
+				},
+				{
+					"sentence": "Il était nécessaire qu'il {{0}}.",
+					"choices": [
+						{
+							"options": ["fût venu", "fut venu"],
+							"correct": 0
+						}
+					]
+				},
+				{
+					"sentence": "Jamais il n'avait cru que vous {{0}} capable de ce genre de remarques.",
+					"choices": [
+						{
+							"options": ["eussiez été", "eûtes été"],
+							"correct": 0
+						}
+					]
+				},
+				{
+					"sentence": "Je pensais que nous {{0}} le mauvais chemin.",
+					"choices": [
+						{
+							"options": ["eussions pris", "eûmes pris"],
+							"correct": 0
+						}
+					]
+				},
+				{
+					"sentence": "Elle doutait que tu {{0}} la véritable intention du discours.",
+					"choices": [
+						{
+							"options": ["eusses compris", "eus compris"],
+							"correct": 0
+						}
+					]
+				},
+				{
+					"sentence": "Nous regrettions qu'ils {{0}} une si belle occasion.",
+					"choices": [
+						{
+							"options": ["eussent manqué", "eurent manqué"],
+							"correct": 0
+						}
+					]
+				},
+				{
+					"sentence": "Il était impossible qu'elle {{0}} avant l'aube.",
+					"choices": [
+						{
+							"options": ["fût arrivée", "fut arrivée"],
+							"correct": 0
+						}
+					]
+				},
+				{
+					"sentence": "On ne croyait pas que vous {{0}} cette lettre vous-mêmes.",
+					"choices": [
+						{
+							"options": ["eussiez écrit", "eûtes écrit"],
+							"correct": 0
+						}
+					]
+				},
+				{
+					"sentence": "Le juge n'admettait pas que l'accusé {{0}} sans témoin.",
+					"choices": [
+						{
+							"options": ["eût parlé", "eut parlé"],
+							"correct": 0
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "fr-advanced-control-4",
+			"number": 4,
+			"title": "Temps composés — Bel Ami",
+			"kind": "free-text",
+			"instructions": "Complétez avec les temps composés manquants (participes présents composés, infinitifs composés, gérondifs composés, temps composés de l'indicatif, du subjonctif ou du conditionnel).",
+			"items": [
+				{
+					"prompt": "(...) Et il se retrouva dans la rue avec son traitement dans sa poche. Il se paya un déjeuner succulent dans un bon restaurant à prix modérés qu'il connaissait ; puis, _________________ (acheter et laisser encore) La Vie Française sur la table où il ___________ (manger), il pénétra dans plusieurs magasins où il acheta de menus objets, rien que pour les faire livrer chez lui et donner son nom : Georges Duroy. Il ajoutait : « Je suis rédacteur de La Vie Française. (...)",
+					"accepted": ["ayant encore acheté et laissé / avait mangé"]
+				},
+				{
+					"prompt": "(...) « Il faut que je fasse grande attention ; je __________________ (être) mieux pendant un mois, et me voici repris depuis quelques jours. Je ________________ (attraper) froid mardi en sortant du théâtre. »(...)",
+					"accepted": ["j'ai été / J'aurai attrapé"]
+				},
+				{
+					"prompt": "(...) Comme il regretta de _______________ (ne rien dire) ! S'il ________________ (parler) avec énergie, cela ____________________ (ne point arriver).(...)",
+					"accepted": [
+						"n'avoir rien dit / avait parlé / ne serait point arrivé"
+					]
+				},
+				{
+					"prompt": "(...) Je vous demande pardon, monsieur, de vous déranger, mais pourriez-vous me dire à quelle époque ____________________ (être construit) ce monument ?(...)",
+					"accepted": ["a été construit"]
+				},
+				{
+					"prompt": "(...) Ce discours, demeuré célèbre, ___________________ (servir) de thème à Du Roy pour dix articles sur la colonie algérienne, pour toute sa série interrompue lors de ses débuts au journal, et il avait soutenu énergiquement l'idée d'une expédition militaire, bien qu'il ____________________ (convaincre) qu'elle n'aurait pas lieu. Il _________________ (faire) vibrer la corde patriotique et bombardé l'Espagne avec tout l'arsenal d'arguments méprisants qu'on emploie contre les peuples dont les intérêts sont contraires aux vôtres.(...)",
+					"accepted": ["avait servi / fût convaincu / avait fait"]
+				},
+				{
+					"prompt": "(...) Un écrivaillon anonyme de La Plume, __________________ (s'en arracher) une, me cherche noise au sujet d'une vieille femme qu'il prétend ______________ (être arrêtée) par un agent des mœurs, ce que je nie. Je ______________ (voir) moi-même la dame Aubert, âgée de soixante ans au moins, et elle me _____________ (raconter) par le menu sa querelle avec un boucher, au sujet d'une pesée de côtelettes, ce qui nécessita une explication devant le commissaire de police.\n(Bel Ami, Guy de Maupassant).",
+					"accepted": [
+						"s'en étant arraché / avoir été arrêtée / ai vu / a raconté"
+					]
+				}
+			]
+		}
+	]
 }
