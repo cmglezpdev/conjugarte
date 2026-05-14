@@ -188,7 +188,7 @@ export function InlineChoice({ exercise, onResult, onNext }: Props) {
 					const segments = parseSentence(item.sentence);
 
 					return (
-						<div key={`item-${itemIdx}`} className="leading-relaxed">
+						<div key={`item-${itemIdx}`} className="leading-loose">
 							{segments.map((seg, segIdx) => {
 								if (seg.type === "text") {
 									return <span key={`t-${segIdx}`}>{seg.text}</span>;

@@ -547,7 +547,7 @@ export function FillBlank({ exercise, onResult, onNext }: Props) {
 
 					return (
 						// biome-ignore lint/suspicious/noArrayIndexKey: stable positional items
-						<div key={itemIdx} className="leading-relaxed">
+						<div key={itemIdx} className="leading-loose">
 							{segments.map((seg, segIdx) => {
 								if (seg.type === "text") {
 									// biome-ignore lint/suspicious/noArrayIndexKey: stable
