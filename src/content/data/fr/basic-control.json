@@ -14,8 +14,8 @@
 			"items": [
 				{
 					"prompt": "Salir",
-					"options": ["sali", "salu", "salit"],
-					"correct": 0
+					"options": ["sali", "salu", "sali", "salit"],
+					"correct": [0, 2]
 				},
 				{
 					"prompt": "Vêtir",
@@ -294,7 +294,7 @@
 						"était assise / regardait / a entendu",
 						"a été assise / regardait / a entendu",
 						"était assise / a regardé / entendait",
-						"a été / regardait / entendait"
+						"a été assise / regardait / entendait"
 					],
 					"correct": 0
 				},
@@ -312,8 +312,8 @@
 					"prompt": "Vous vous _____ quand un ami _____.",
 					"options": [
 						"êtes reposés / arrivait",
-						"vous reposiez / est arrivé",
-						"vous reposiez / arrivait",
+						"reposiez / est arrivé",
+						"reposiez / arrivait",
 						"êtes reposés / est arrivé"
 					],
 					"correct": 1

@@ -102,72 +102,42 @@
 			"items": [
 				{
 					"sentence": "Le peintre {{0}} ses pinceaux lorsqu'il {{1}} son travail.",
-					"blanks": [
-						{ "answer": "lava", "hint": "laver — passé simple" },
-						{ "answer": "eut terminé", "hint": "terminer — passé antérieur" }
-					]
+					"blanks": [{ "answer": "lava" }, { "answer": "eut terminé" }]
 				},
 				{
 					"sentence": "Je {{0}} à mon correspondant dès que j'{{1}} de ses nouvelles.",
-					"blanks": [
-						{ "answer": "répondis", "hint": "répondre — passé simple" },
-						{ "answer": "eus reçu", "hint": "recevoir — passé antérieur" }
-					]
+					"blanks": [{ "answer": "répondis" }, { "answer": "eus reçu" }]
 				},
 				{
 					"sentence": "Le public {{0}} dès que le pianiste {{1}} de jouer.",
-					"blanks": [
-						{ "answer": "applaudit", "hint": "applaudir — passé simple" },
-						{ "answer": "eut cessé", "hint": "cesser — passé antérieur" }
-					]
+					"blanks": [{ "answer": "applaudit" }, { "answer": "eut cessé" }]
 				},
 				{
 					"sentence": "Tu me {{0}} ces BD dès que tu les {{1}}.",
-					"blanks": [
-						{ "answer": "rapportas", "hint": "rapporter — passé simple" },
-						{ "answer": "eus lues", "hint": "lire — passé antérieur" }
-					]
+					"blanks": [{ "answer": "rapportas" }, { "answer": "eus lues" }]
 				},
 				{
 					"sentence": "Lorsque les locataires précédents {{0}} cet appartement, nous {{1}}.",
 					"blanks": [
-						{ "answer": "eurent quitté", "hint": "quitter — passé antérieur" },
-						{
-							"answer": "nous y installâmes",
-							"hint": "s'installer — passé simple"
-						}
+						{ "answer": "eurent quitté" },
+						{ "answer": "nous nous y installâmes" }
 					]
 				},
 				{
 					"sentence": "Pascal {{0}} un emploi dès qu'il {{1}} son diplôme.",
-					"blanks": [
-						{ "answer": "rechercha", "hint": "rechercher — passé simple" },
-						{ "answer": "eut obtenu", "hint": "obtenir — passé antérieur" }
-					]
+					"blanks": [{ "answer": "rechercha" }, { "answer": "eut obtenu" }]
 				},
 				{
 					"sentence": "Dès que le serrurier {{0}} à ouvrir la porte, nous {{1}}.",
-					"blanks": [
-						{ "answer": "eut réussi", "hint": "réussir — passé antérieur" },
-						{ "answer": "entrâmes", "hint": "entrer — passé simple" }
-					]
+					"blanks": [{ "answer": "eut réussi" }, { "answer": "entrâmes" }]
 				},
 				{
 					"sentence": "Magalie {{0}} son repas dès que ses visiteurs l'{{1}}.",
-					"blanks": [
-						{ "answer": "commença", "hint": "commencer — passé simple" },
-						{ "answer": "eurent quittée", "hint": "quitter — passé antérieur" }
-					]
+					"blanks": [{ "answer": "commença" }, { "answer": "eurent quittée" }]
 				},
 				{
 					"sentence": "Mon chien {{0}} à l'intérieur dès que j'{{1}} la porte de la grange.",
-					"blanks": [
-						{
-							"answer": "se précipita",
-							"hint": "se précipiter — passé simple"
-						},
-						{ "answer": "eus ouvert", "hint": "ouvrir — passé antérieur" }
-					]
+					"blanks": [{ "answer": "se précipita" }, { "answer": "eus ouvert" }]
 				}
 			]
 		},
@@ -188,7 +158,7 @@
 					]
 				},
 				{
-					"sentence": "Il lui parut normal que ces tableaux {{0}} si cher.",
+					"sentence": "Il lui parut normal que ces tableaux {{0}} si chers.",
 					"choices": [
 						{
 							"options": ["eussent été", "eurent été"],
@@ -278,35 +248,29 @@
 			"instructions": "Complétez avec les temps composés manquants (participes présents composés, infinitifs composés, gérondifs composés, temps composés de l'indicatif, du subjonctif ou du conditionnel).",
 			"items": [
 				{
-					"prompt": "Il se paya un déjeuner succulent dans un bon restaurant à prix modérés qu'il connaissait ; puis, _________________ (acheter et laisser encore) La Vie Française sur la table où il ___________ (manger), il pénétra dans plusieurs magasins.",
-					"contextHint": "Bel Ami, Guy de Maupassant",
+					"prompt": "(...) Et il se retrouva dans la rue avec son traitement dans sa poche. Il se paya un déjeuner succulent dans un bon restaurant à prix modérés qu'il connaissait ; puis, _________________ (acheter et laisser encore) La Vie Française sur la table où il ___________ (manger), il pénétra dans plusieurs magasins où il acheta de menus objets, rien que pour les faire livrer chez lui et donner son nom : Georges Duroy. Il ajoutait : « Je suis rédacteur de La Vie Française. (...)",
 					"accepted": ["ayant encore acheté et laissé / avait mangé"]
 				},
 				{
-					"prompt": "Il faut que je fasse grande attention ; {{0}} mieux pendant un mois, et me voici repris depuis quelques jours. {{1}} froid mardi en sortant du théâtre.",
-					"contextHint": "Bel Ami, Guy de Maupassant",
+					"prompt": "(...) « Il faut que je fasse grande attention ; je __________________ (être) mieux pendant un mois, et me voici repris depuis quelques jours. Je ________________ (attraper) froid mardi en sortant du théâtre. »(...)",
 					"accepted": ["j'ai été / J'aurai attrapé"]
 				},
 				{
-					"prompt": "Comme il regretta de {{0}} ! S'il {{1}} avec énergie, cela {{2}}.",
-					"contextHint": "Bel Ami, Guy de Maupassant",
+					"prompt": "(...) Comme il regretta de _______________ (ne rien dire) ! S'il ________________ (parler) avec énergie, cela ____________________ (ne point arriver).(...)",
 					"accepted": [
 						"n'avoir rien dit / avait parlé / ne serait point arrivé"
 					]
 				},
 				{
-					"prompt": "Je vous demande pardon, monsieur, de vous déranger, mais pourriez-vous me dire à quelle époque {{0}} ce monument ?",
-					"contextHint": "Bel Ami, Guy de Maupassant",
+					"prompt": "(...) Je vous demande pardon, monsieur, de vous déranger, mais pourriez-vous me dire à quelle époque ____________________ (être construit) ce monument ?(...)",
 					"accepted": ["a été construit"]
 				},
 				{
-					"prompt": "Ce discours, demeuré célèbre, {{0}} (servir) de thème à Du Roy pour dix articles sur la colonie algérienne, pour toute sa série interrompue lors de ses débuts au journal, et il avait soutenu énergiquement l'idée d'une expédition militaire, bien qu'il {{1}} (convaincre) qu'elle n'aurait pas lieu. Il {{2}} (faire) vibrer la corde patriotique et bombardé l'Espagne avec tout l'arsenal d'arguments méprisants qu'on emploie contre les peuples dont les intérêts sont contraires aux vôtres.",
-					"contextHint": "Bel Ami, Guy de Maupassant",
+					"prompt": "(...) Ce discours, demeuré célèbre, ___________________ (servir) de thème à Du Roy pour dix articles sur la colonie algérienne, pour toute sa série interrompue lors de ses débuts au journal, et il avait soutenu énergiquement l'idée d'une expédition militaire, bien qu'il ____________________ (convaincre) qu'elle n'aurait pas lieu. Il _________________ (faire) vibrer la corde patriotique et bombardé l'Espagne avec tout l'arsenal d'arguments méprisants qu'on emploie contre les peuples dont les intérêts sont contraires aux vôtres.(...)",
 					"accepted": ["avait servi / fût convaincu / avait fait"]
 				},
 				{
-					"prompt": "Un écrivaillon anonyme de La Plume, {{0}} (s'en arracher) une, me cherche noise au sujet d'une vieille femme qu'il prétend {{1}} (être arrêtée) par un agent des mœurs, ce que je nie. Je {{2}} (voir) moi-même la dame Aubert, âgée de soixante ans au moins, et elle me {{3}} (raconter) par le menu sa querelle avec un boucher, au sujet d'une pesée de côtelettes, ce qui nécessita une explication devant le commissaire de police.",
-					"contextHint": "Bel Ami, Guy de Maupassant",
+					"prompt": "(...) Un écrivaillon anonyme de La Plume, __________________ (s'en arracher) une, me cherche noise au sujet d'une vieille femme qu'il prétend ______________ (être arrêtée) par un agent des mœurs, ce que je nie. Je ______________ (voir) moi-même la dame Aubert, âgée de soixante ans au moins, et elle me _____________ (raconter) par le menu sa querelle avec un boucher, au sujet d'une pesée de côtelettes, ce qui nécessita une explication devant le commissaire de police.\n(Bel Ami, Guy de Maupassant).",
 					"accepted": [
 						"s'en étant arraché / avoir été arrêtée / ai vu / a raconté"
 					]

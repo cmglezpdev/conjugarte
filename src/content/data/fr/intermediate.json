@@ -9,30 +9,30 @@
 			"number": 1,
 			"title": "Passé composé : valeur et forme",
 			"kind": "fill-blank",
-			"instructions": "Mettez les verbes entre parenthèses au passé composé et indiquez la valeur de chaque passé composé en inscrivant les lettres correspondantes dans les cases. A. Durée limitée dans le passé  B. Antériorité par rapport au présent  C. Événement accompli  D. Répétition dans le passé  E. Succession d'événements dans le passé",
+			"instructions": "Mettez les verbes entre parenthèses au passé composé et indiquez la valeur de chaque passé composé en inscrivant les lettres correspondantes dans les cases.\n\nA. Durée limitée dans le passé\nB. Antériorité par rapport au présent\nC. Événement accompli\nD. Répétition dans le passé\nE. Succession d'événements dans le passé",
 			"items": [
 				{
-					"sentence": "Victor Hugo (mourir) {{0}} en 1885. Case : {{1}}",
+					"sentence": "Victor Hugo (mourir) {{0}} en 1885. Cases pour les réponses : {{1}}",
 					"blanks": [{ "answer": "est mort" }, { "answer": "C" }]
 				},
 				{
-					"sentence": "Hier après-midi, je (dormir) {{0}} pendant trois heures. Case : {{1}}",
-					"blanks": [{ "answer": "j'ai dormi" }, { "answer": "A" }]
+					"sentence": "Hier après-midi, je (dormir) {{0}} pendant trois heures. Cases pour les réponses : {{1}}",
+					"blanks": [{ "answer": "ai dormi" }, { "answer": "A" }]
 				},
 				{
-					"sentence": "J'écoute le CD que j'(acheter) {{0}} avant-hier. Case : {{1}}",
-					"blanks": [{ "answer": "j'ai acheté" }, { "answer": "B" }]
+					"sentence": "J'écoute le CD que j'(acheter) {{0}} avant-hier. Cases pour les réponses : {{1}}",
+					"blanks": [{ "answer": "ai acheté" }, { "answer": "B" }]
 				},
 				{
-					"sentence": "Mes enfants adorent le dessin animé de Blanche-Neige, ils le (regarder) {{0}} au moins dix fois. Case : {{1}}",
-					"blanks": [{ "answer": "l'ont regardé" }, { "answer": "D" }]
+					"sentence": "Mes enfants adorent le dessin animé de Blanche-Neige, ils l'{{0}} (regarder) au moins dix fois. Cases pour les réponses : {{1}}",
+					"blanks": [{ "answer": "ont regardé" }, { "answer": "D" }]
 				},
 				{
-					"sentence": "Cette nuit, je (faire) {{0}} un cauchemar, je (se réveiller) {{1}} puis je (se rendormir) {{2}}. Case : {{3}}",
+					"sentence": "Cette nuit, je (faire) {{0}} un cauchemar, je (se réveiller) {{1}} puis je (se rendormir) {{2}}. Cases pour les réponses : {{3}}",
 					"blanks": [
 						{ "answer": "j'ai fait" },
-						{ "answer": "je me suis réveillé" },
-						{ "answer": "je me suis rendormi" },
+						{ "answer": "me suis réveillé" },
+						{ "answer": "me suis rendormi" },
 						{ "answer": "E" }
 					]
 				}
@@ -120,7 +120,7 @@
 			"number": 4,
 			"title": "Mettez les phrases en ordre",
 			"kind": "reorder",
-			"instructions": "Mettez les phrases en ordre pour reconstituer le petit récit. Phrase de départ : Quand l'orage a éclaté, je dormais profondément.",
+			"instructions": "Mettez les phrases en ordre pour reconstituer le petit récit.\n\nJ'ai allumé toutes les lampes. / Je n'étais pas très rassuré. / J'ai fermé les volets. / Il faisait noir. / Je suis sorti de mon lit. / Je dormais profondément. / J'ai regardé dehors. / Je me suis recouché. / C'étaient les volets qui claquaient. / Un bruit m'a réveillé.\n\nQuand l'orage a éclaté, je dormais profondément. _________________________________",
 			"items": [
 				{
 					"correctOrder": [
@@ -145,31 +145,31 @@
 			"instructions": "Conjuguez les verbes entre parenthèses au plus-que-parfait ou au passé antérieur.",
 			"items": [
 				{
-					"sentence": "L'oncle nous apportait un chapelet d'oiseaux qu'il (prendre) {{0}} au collet.",
+					"sentence": "L'oncle nous apportait un chapelet d'oiseaux qu'il (prendre) {{0}} au collet. (Claire Saint-Soline)",
 					"blanks": [{ "answer": "avait pris" }]
 				},
 				{
-					"sentence": "Lorsqu'il (contourner) {{0}} l'aile sud, il aperçut soudain les roseaux à perte de vue.",
+					"sentence": "Lorsqu'il (contourner) {{0}} l'aile sud, il aperçut soudain les roseaux à perte de vue. (Alain Fournier)",
 					"blanks": [{ "answer": "eut contourné" }]
 				},
 				{
-					"sentence": "Comme l'éclairage trop violent faisait cligner mes paupières, elle (coiffer) {{0}} la lampe de son chapeau.",
+					"sentence": "Comme l'éclairage trop violent faisait cligner mes paupières, elle (coiffer) {{0}} la lampe de son chapeau. (Henri Troyat)",
 					"blanks": [{ "answer": "avait coiffé" }]
 				},
 				{
-					"sentence": "De temps en temps aussi, il recevait une enveloppe bleue dont l'adresse (tracer, forme passive) {{0}} d'une grosse écriture tremblée.",
+					"sentence": "De temps en temps aussi, il recevait une enveloppe bleue dont l'adresse (tracer, forme passive) {{0}} d'une grosse écriture tremblée. (Guy de Maupassant)",
 					"blanks": [{ "answer": "avait été tracée" }]
 				},
 				{
-					"sentence": "Et maintenant qu'il (contempler) {{0}} l'ensemble de cette façade, il se rapprochait encore plus pour la scruter dans ses infimes accessoires.",
+					"sentence": "La cathédrale de Chartres… Et maintenant qu'il (contempler) {{0}} l'ensemble de cette façade, il se rapprochait encore plus pour la scruter dans ses infimes accessoires, dans ses menus détails. (J.-K. Huysmans)",
 					"blanks": [{ "answer": "avait contemplé" }]
 				},
 				{
-					"sentence": "Comme il savait que son ami passait par cette rue, il (entrer) {{0}} ici, il (prendre) {{1}} une table près de la fenêtre.",
+					"sentence": "Comme il savait que son ami en revenant du bureau passait par cette rue, il (entrer) {{0}} ici, il (prendre) {{1}} une table près de la fenêtre. (Henri Michaux)",
 					"blanks": [{ "answer": "était entré" }, { "answer": "avait pris" }]
 				},
 				{
-					"sentence": "Quand ils (revêtir) {{0}} les habits de la route, on les mena par bandes de vingt ou trente à l'autre bout du préau.",
+					"sentence": "Quand ils (revêtir) {{0}} les habits de la route, on les mena par bandes de vingt ou trente à l'autre bout du préau. (Victor Hugo)",
 					"blanks": [{ "answer": "eurent revêtu" }]
 				}
 			]
@@ -220,7 +220,8 @@
 			"number": 7,
 			"title": "Futur simple et futur antérieur",
 			"kind": "free-text",
-			"instructions": "Faites une phrase comme dans l'exemple. Utilisez un futur simple et un futur antérieur selon l'ordre chronologique des actions. Exemple : Nous ferons la fête quand j'aurai eu une promotion.",
+			"instructions": "Faites une phrase comme dans l'exemple. Utilisez un futur simple et un futur antérieur selon l'ordre chronologique des actions.",
+			"contextHint": "Exemple : Nous ferons la fête quand j'aurai eu une promotion.",
 			"items": [
 				{
 					"prompt": "Tu passeras deux entretiens / Le DRH te donnera sa réponse / (dès que)",
@@ -257,7 +258,7 @@
 			"number": 8,
 			"title": "Conditionnel passé – texte",
 			"kind": "fill-blank",
-			"instructions": "Complétez avec la conjugaison des verbes entre parenthèse au conditionnel passé.",
+			"instructions": "Complétez avec la conjugaison des verbes entre parenthèse au conditionnel passé :",
 			"items": [
 				{
 					"sentence": "Paul {{0}} (vouloir) être un grand artiste. Il {{1}} (adorer) être chanteur, savoir jouer et écrire de la musique. Il {{2}} (aimer) partir en tournée, faire le tour du monde avec d'autres musiciens. Il {{3}} (pouvoir) rencontrer des gens étonnants. Mais pour cela, il lui {{4}} (falloir) du courage et peut-être aussi un peu de talent. Car la réalité est dure : Paul n'a jamais su chanter et il n'a jamais essayé d'apprendre à jouer d'un instrument.",
@@ -305,42 +306,43 @@
 			"number": 10,
 			"title": "Subjonctif passé – relier des phrases",
 			"kind": "fill-blank",
-			"instructions": "Reliez les deux phrases selon le modèle. Exemple : Ils ont dû perdre notre adresse. – J'en ai bien peur. → J'ai bien peur qu'ils aient perdu notre adresse.",
+			"instructions": "Reliez les deux phrases selon le modèle.",
+			"contextHint": "Exemple : Ils ont dû perdre notre adresse. – J'en ai bien peur. ? J'ai bien peur qu'ils aient perdu notre adresse.",
 			"items": [
 				{
-					"sentence": "La lettre s'est peut-être perdue. – Elle le craint. → Elle craint {{0}}",
+					"sentence": "La lettre s'est peut-être perdue. – Elle le craint. Elle craint {{0}}",
 					"blanks": [{ "answer": "que la lettre se soit perdue" }]
 				},
 				{
-					"sentence": "Il a répondu aussitôt. – C'est possible. → C'est possible {{0}}",
+					"sentence": "Il a répondu aussitôt. – C'est possible. C'est possible {{0}}",
 					"blanks": [{ "answer": "qu'il ait répondu aussitôt" }]
 				},
 				{
-					"sentence": "On doit envoyer cette fiche. – Le ministère l'exige. → Le ministère exige {{0}}",
+					"sentence": "On doit envoyer cette fiche. – Le ministère l'exige. Le ministère exige {{0}}",
 					"blanks": [{ "answer": "qu'on envoie cette fiche" }]
 				},
 				{
-					"sentence": "Il a perdu son appareil photo. – Elle en est navrée. → Elle {{0}}",
+					"sentence": "Il a perdu son appareil photo. – Elle en est navrée.\nElle {{0}}",
 					"blanks": [
 						{ "answer": "est navrée qu'il ait perdu son appareil photo" }
 					]
 				},
 				{
-					"sentence": "Nous avons beaucoup pensé à elle. – Elle en est émue. → Elle {{0}}",
+					"sentence": "Nous avons beaucoup pensé à elle. – Elle en est émue. Elle {{0}}",
 					"blanks": [
 						{ "answer": "est émue que nous ayons beaucoup pensé à elle" }
 					]
 				},
 				{
-					"sentence": "Vous lui avez menti. – Il est déçu. → Il {{0}}",
+					"sentence": "Vous lui avez menti. – Il est déçu. Il {{0}}",
 					"blanks": [{ "answer": "est déçu que vous lui ayez menti" }]
 				},
 				{
-					"sentence": "Elle ne l'a pas attendue. – Elle est triste. → Elle {{0}}",
+					"sentence": "Elle ne l'a pas attendue. – Elle est triste. Elle {{0}}",
 					"blanks": [{ "answer": "est triste de ne pas l'avoir attendue" }]
 				},
 				{
-					"sentence": "Il a fait preuve de courage. – Je ne le nie pas. → Je {{0}}",
+					"sentence": "Il a fait preuve de courage. – Je ne le nie pas. Je {{0}}",
 					"blanks": [
 						{ "answer": "ne nie pas qu'il ait fait preuve de courage" }
 					]
@@ -355,31 +357,31 @@
 			"instructions": "Mettez les verbes entre parenthèses au subjonctif présent ou au subjonctif passé.",
 			"items": [
 				{
-					"sentence": "Souhaitons qu'il le (réussir) {{0}} quand même !",
+					"sentence": "– Alexis ne travaille pas beaucoup et pourtant il doit passer son bac en juin prochain. Souhaitons qu'il le (réussir) {{0}} quand même !",
 					"blanks": [{ "answer": "réussisse" }]
 				},
 				{
-					"sentence": "Comme c'est bien qu'il le (réussir) {{0}} !",
+					"sentence": "– Alexis a eu son bac. Comme c'est bien qu'il le (réussir) {{0}} !",
 					"blanks": [{ "answer": "l'ait réussi" }]
 				},
 				{
-					"sentence": "Je ne supporte plus que les voisins (faire) {{0}} tant de bruit !",
+					"sentence": "– Quel tapage à l'étage du dessus ! Je ne supporte plus que les voisins (faire) {{0}} tant de bruit !",
 					"blanks": [{ "answer": "fassent" }]
 				},
 				{
-					"sentence": "C'est étonnant qu'ils (faire) {{0}} tant de bruit hier soir.",
+					"sentence": "– D'habitude, on n'entend jamais nos voisins. C'est étonnant qu'ils (faire) {{0}} tant de bruit hier soir.",
 					"blanks": [{ "answer": "aient fait" }]
 				},
 				{
-					"sentence": "Bien qu'il (vivre) {{0}} toute son enfance au bord de la mer, il ne mange jamais d'huîtres.",
+					"sentence": "– Constantin habite à Paris, mais il est né à Cancale près du Mont-Saint-Michel. Bien qu'il (vivre) {{0}} toute son enfance au bord de la mer, il ne mange jamais d'huîtres.",
 					"blanks": [{ "answer": "ait vécu" }]
 				},
 				{
-					"sentence": "Bien que les Martin (vivre) {{0}} depuis vingt ans au bord de la mer, ils ne mangent jamais de crustacés.",
+					"sentence": "– Bien que les Martin (vivre) {{0}} depuis vingt ans au bord de la mer, ils ne mangent jamais de crustacés.",
 					"blanks": [{ "answer": "vivent" }]
 				},
 				{
-					"sentence": "Il s'occupera de toi à condition que tu (ne pas souffrir) {{0}} trop et que tu (passer) {{1}} une radio avant.",
+					"sentence": "– Tu as mal au dos ? Va voir mon ostéopathe ! Il s'occupera de toi à condition que tu (ne pas souffrir) {{0}} trop et que tu (passer) {{1}} une radio avant.",
 					"blanks": [
 						{ "answer": "ne souffres pas" },
 						{ "answer": "aies passé" }

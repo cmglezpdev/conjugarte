@@ -169,8 +169,7 @@ export function Choice({ exercise, onResult, onNext }: Props) {
 
 			if (state.mode === "single") {
 				const selected = state.selections[itemIdx] ?? null;
-				const selectedArr = selected !== null ? [selected] : [];
-				if (arraysEqualSorted(selectedArr, correctArr)) correctItems++;
+				if (selected !== null && correctArr.includes(selected)) correctItems++;
 			} else {
 				const selected = state.selections[itemIdx] ?? [];
 				if (arraysEqualSorted(selected, correctArr)) correctItems++;

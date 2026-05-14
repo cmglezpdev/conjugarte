@@ -69,7 +69,8 @@
 			"number": 3,
 			"title": "Hypothèses irréalisables",
 			"kind": "fill-blank",
-			"instructions": "Formulez des hypothèses irréalisables comme dans l'exemple. Exemple : Si tu (choisir) avais choisi ce métier, tu (gagner) aurais gagné plus d'argent.",
+			"instructions": "Formulez des hypothèses irréalisables comme dans l'exemple.",
+			"contextHint": "Exemple : Si tu (choisir) avais choisi ce métier, tu (gagner) aurais gagné plus d'argent.",
 			"items": [
 				{
 					"sentence": "Si elle (venir) {{0}} chez nous, elle (être) {{1}} plus heureuse.",
@@ -135,13 +136,13 @@
 				},
 				{
 					"prompt": "Crois-tu que tous les étudiants _____________ en classe hier ?",
-					"options": ["soient allés", "ayons allés", "aient allés"],
-					"correct": 0
+					"options": ["aient allés", "ayons allés", "soient allés"],
+					"correct": 2
 				},
 				{
 					"prompt": "Il semble que mon frère _____________ une bonne note à son examen de maths.",
-					"options": ["ait eu", "sois eu", "soit eu"],
-					"correct": 0
+					"options": ["soit eu", "sois eu", "ait eu"],
+					"correct": 2
 				},
 				{
 					"prompt": "Il ne suffit pas que je _____________ devant mon livre pendant des heures.",
@@ -165,8 +166,8 @@
 				},
 				{
 					"prompt": "Les professeurs demandent que les étudiants _____________ la grammaire.",
-					"options": ["aient préparé", "aies préparé", "soient préparés"],
-					"correct": 0
+					"options": ["soient préparés", "aies préparé", "aient préparé"],
+					"correct": 2
 				}
 			]
 		}
