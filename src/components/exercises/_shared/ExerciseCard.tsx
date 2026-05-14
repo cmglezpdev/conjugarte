@@ -2,6 +2,7 @@ import type { ExerciseStatus } from "./useExerciseState";
 
 interface ExerciseCardProps {
 	title: string;
+	instructions?: string;
 	children: React.ReactNode;
 	footer?: React.ReactNode;
 	status?: ExerciseStatus;
@@ -18,6 +19,7 @@ const statusStyles: Partial<Record<ExerciseStatus, string>> = {
 
 export function ExerciseCard({
 	title,
+	instructions,
 	children,
 	footer,
 	status,
@@ -31,9 +33,17 @@ export function ExerciseCard({
 		<div
 			className={`mx-auto w-full max-w-2xl rounded-xl border bg-[var(--color-card)] p-6 shadow-sm transition-all ${borderStyle}`}
 		>
-			<h2 className="mb-4 text-xl font-semibold text-[var(--color-fg)]">
+			<h2 className="mb-2 text-xl font-semibold text-[var(--color-fg)]">
 				{title}
 			</h2>
+			{instructions && (
+				<p
+					data-testid="exercise-instructions"
+					className="mb-4 text-sm text-[var(--c-fg-muted)]"
+				>
+					{instructions}
+				</p>
+			)}
 			<div className="space-y-4">{children}</div>
 			{footer && <div className="mt-6">{footer}</div>}
 		</div>

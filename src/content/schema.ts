@@ -13,6 +13,7 @@ const ExerciseBase = z.object({
 	number: z.number().int().positive(),
 	title: NonEmpty,
 	instructions: z.string().optional(),
+	contextHint: z.string().optional(),
 });
 
 const FillBlankItem = z.object({
@@ -29,7 +30,6 @@ const FillBlankItem = z.object({
 
 export const FillBlankExercise = ExerciseBase.extend({
 	kind: z.literal("fill-blank"),
-	contextHint: z.string().optional(),
 	wordBank: z.array(NonEmpty).optional(),
 	items: z.array(FillBlankItem).min(1),
 });
@@ -90,6 +90,7 @@ export const CategorizeExercise = ExerciseBase.extend({
 			z.object({
 				word: NonEmpty,
 				category: NonEmpty,
+				example: z.boolean().optional(),
 			}),
 		)
 		.min(1),

@@ -18,6 +18,7 @@ import { CSS } from "@dnd-kit/utilities";
 import { motion } from "motion/react";
 import { useMemo, useReducer } from "react";
 import type { ReorderExercise } from "#/content/schema";
+import { ContextHint } from "./_shared/ContextHint";
 import { ExerciseCard } from "./_shared/ExerciseCard";
 import { FeedbackOverlay } from "./_shared/FeedbackOverlay";
 import type { ExerciseStatus } from "./_shared/useExerciseState";
@@ -54,6 +55,24 @@ function reducer(state: State, action: Action): State {
 		case "reset":
 			return { status: "idle", orders: action.initialOrders };
 	}
+}
+
+// -----------------------------------------------------------------------
+// Render the correct order as natural French text (no space after
+// apostrophe-ended fragments like "n'" or "j'").
+// -----------------------------------------------------------------------
+
+function joinFragments(fragments: string[]): string {
+	let result = "";
+	for (let i = 0; i < fragments.length; i++) {
+		const frag = fragments[i] ?? "";
+		if (i > 0) {
+			const prev = fragments[i - 1] ?? "";
+			if (!/['’]$/.test(prev)) result += " ";
+		}
+		result += frag;
+	}
+	return result;
 }
 
 // -----------------------------------------------------------------------
@@ -237,6 +256,7 @@ export function Reorder({ exercise, onResult, onNext }: Props) {
 	return (
 		<ExerciseCard
 			title={exercise.title}
+			instructions={exercise.instructions}
 			status={state.status}
 			footer={
 				<div className="space-y-2">
@@ -249,11 +269,14 @@ export function Reorder({ exercise, onResult, onNext }: Props) {
 				</div>
 			}
 		>
+			<ContextHint text={exercise.contextHint} />
 			<div className="space-y-6">
 				{exercise.items.map((item, itemIdx) => {
 					const currentOrder =
 						state.orders[itemIdx] ?? initialOrders[itemIdx] ?? [];
 					const correctnessMap = itemCorrectness[itemIdx] ?? [];
+					const itemFullyCorrect =
+						isSubmitted && correctnessMap.every(Boolean);
 
 					return (
 						// biome-ignore lint/suspicious/noArrayIndexKey: stable positional items
@@ -293,6 +316,17 @@ export function Reorder({ exercise, onResult, onNext }: Props) {
 									</motion.div>
 								</SortableContext>
 							</DndContext>
+							{isSubmitted && !itemFullyCorrect && (
+								<p
+									data-testid={`reorder-expected-${itemIdx}`}
+									className="mt-2 text-sm text-[var(--c-fg)] opacity-80"
+								>
+									Orden correcto:{" "}
+									<span className="font-semibold text-[var(--c-correct)]">
+										{joinFragments(item.correctOrder)}
+									</span>
+								</p>
+							)}
 						</div>
 					);
 				})}

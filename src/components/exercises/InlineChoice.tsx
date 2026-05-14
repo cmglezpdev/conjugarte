@@ -157,6 +157,7 @@ export function InlineChoice({ exercise, onResult, onNext }: Props) {
 	return (
 		<ExerciseCard
 			title={exercise.title}
+			instructions={exercise.instructions}
 			status={state.status}
 			footer={
 				<div className="space-y-2">

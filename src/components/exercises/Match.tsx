@@ -326,6 +326,7 @@ export function Match({ exercise, onResult, onNext }: Props) {
 	return (
 		<ExerciseCard
 			title={exercise.title}
+			instructions={exercise.instructions}
 			status={state.status}
 			footer={
 				<div className="space-y-2">
@@ -338,11 +339,6 @@ export function Match({ exercise, onResult, onNext }: Props) {
 				</div>
 			}
 		>
-			{exercise.instructions && (
-				<p className="mb-3 text-sm text-[var(--c-accent)]">
-					{exercise.instructions}
-				</p>
-			)}
 			{!isSubmitted && (
 				<p className="mb-3 text-xs text-[var(--c-accent)]">
 					Selecciona un elemento de la izquierda y luego uno de la derecha para
@@ -396,30 +392,48 @@ export function Match({ exercise, onResult, onNext }: Props) {
 								"border-[var(--c-border)] bg-[var(--c-card)] hover:border-[var(--c-primary)]";
 						}
 
+						const showCorrection =
+							isSubmitted && pairedCorrect !== true;
+
 						return (
-							<motion.button
+							<div
 								// biome-ignore lint/suspicious/noArrayIndexKey: stable positional items
 								key={leftIdx}
-								ref={(el) => {
-									leftRefs.current[leftIdx] = el;
-								}}
-								type="button"
-								data-testid={`match-left-${leftIdx}`}
-								className={cls}
-								disabled={isSubmitted}
-								animate={{ scale: isSelected ? 1.02 : 1 }}
-								transition={{ duration: 0.15 }}
-								onClick={() => {
-									if (isPaired && !isSelected) {
-										// Toggle: click paired left to unpair
-										dispatch({ type: "unpair-left", idx: leftIdx });
-									} else {
-										dispatch({ type: "select-left", idx: leftIdx });
-									}
-								}}
+								className="flex flex-col gap-1"
 							>
-								{pair.left}
-							</motion.button>
+								<motion.button
+									ref={(el) => {
+										leftRefs.current[leftIdx] = el;
+									}}
+									type="button"
+									data-testid={`match-left-${leftIdx}`}
+									className={cls}
+									disabled={isSubmitted}
+									animate={{ scale: isSelected ? 1.02 : 1 }}
+									transition={{ duration: 0.15 }}
+									onClick={() => {
+										if (isPaired && !isSelected) {
+											// Toggle: click paired left to unpair
+											dispatch({ type: "unpair-left", idx: leftIdx });
+										} else {
+											dispatch({ type: "select-left", idx: leftIdx });
+										}
+									}}
+								>
+									{pair.left}
+								</motion.button>
+								{showCorrection && (
+									<p
+										data-testid={`match-correct-${leftIdx}`}
+										className="text-xs text-[var(--c-fg)] opacity-80"
+									>
+										→{" "}
+										<span className="font-semibold text-[var(--c-correct)]">
+											{pair.right}
+										</span>
+									</p>
+								)}
+							</div>
 						);
 					})}
 				</div>

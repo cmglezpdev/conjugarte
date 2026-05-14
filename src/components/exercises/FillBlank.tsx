@@ -15,6 +15,7 @@ import { sortableKeyboardCoordinates } from "@dnd-kit/sortable";
 import { motion } from "motion/react";
 import { useMemo, useReducer, useState } from "react";
 import type { FillBlankExercise } from "#/content/schema";
+import { ContextHint } from "./_shared/ContextHint";
 import { ExerciseCard } from "./_shared/ExerciseCard";
 import { FeedbackOverlay } from "./_shared/FeedbackOverlay";
 import { answersMatch } from "./_shared/normalize";
@@ -199,6 +200,29 @@ function HintLabel({ children }: { children: React.ReactNode }) {
 	return (
 		<span className="pointer-events-none mt-1 whitespace-nowrap text-[11px] font-medium leading-none text-[#6b7280]">
 			{children}
+		</span>
+	);
+}
+
+function pickCanonicalAnswer(answer: string | string[]): string {
+	return Array.isArray(answer) ? (answer[0] ?? "") : answer;
+}
+
+function ExpectedAnswerLabel({
+	answer,
+	isCorrect,
+}: {
+	answer: string | string[];
+	isCorrect: boolean;
+}) {
+	const canonical = pickCanonicalAnswer(answer);
+	const color = isCorrect ? "text-[var(--c-correct)]" : "text-[var(--c-incorrect)]";
+	return (
+		<span
+			data-testid="expected-answer-label"
+			className={`pointer-events-none mt-1 whitespace-nowrap text-[11px] font-semibold leading-none ${color}`}
+		>
+			{canonical}
 		</span>
 	);
 }
@@ -507,16 +531,7 @@ export function FillBlank({ exercise, onResult, onNext }: Props) {
 			)}
 
 			{/* Context hint — narrative restoration card */}
-			{exercise.contextHint && (
-				<div className="mb-4 border-l-4 border-[var(--c-primary)] bg-[var(--c-card)] p-4 italic text-[var(--c-fg-muted)]">
-					{exercise.contextHint.split("\n\n").map((chunk, i) => (
-						// biome-ignore lint/suspicious/noArrayIndexKey: stable split index
-						<p key={i} className={i > 0 ? "mb-2 mt-2" : "mb-2"}>
-							{chunk}
-						</p>
-					))}
-				</div>
-			)}
+			<ContextHint text={exercise.contextHint} />
 
 			{/* Exercise items */}
 			<motion.div
@@ -561,7 +576,14 @@ export function FillBlank({ exercise, onResult, onNext }: Props) {
 													handleReturnFromBlank(itemIdx, blankIdx)
 												}
 											/>
-											{hint && <HintLabel>{hint}</HintLabel>}
+											{isSubmitted ? (
+												<ExpectedAnswerLabel
+													answer={item.blanks[blankIdx].answer}
+													isCorrect={!!isCorrect}
+												/>
+											) : (
+												hint && <HintLabel>{hint}</HintLabel>
+											)}
 										</span>
 									);
 								}
@@ -598,7 +620,14 @@ export function FillBlank({ exercise, onResult, onNext }: Props) {
 											whileFocus={{ scale: 1.06 }}
 											transition={{ duration: 0.15 }}
 										/>
-										{hint && <HintLabel>{hint}</HintLabel>}
+										{isSubmitted ? (
+											<ExpectedAnswerLabel
+												answer={item.blanks[blankIdx].answer}
+												isCorrect={!!isCorrect}
+											/>
+										) : (
+											hint && <HintLabel>{hint}</HintLabel>
+										)}
 									</span>
 								);
 							})}
@@ -625,6 +654,7 @@ export function FillBlank({ exercise, onResult, onNext }: Props) {
 		return (
 			<ExerciseCard
 				title={exercise.title}
+				instructions={exercise.instructions}
 				status={state.status}
 				footer={footer}
 			>
@@ -646,7 +676,12 @@ export function FillBlank({ exercise, onResult, onNext }: Props) {
 	}
 
 	return (
-		<ExerciseCard title={exercise.title} status={state.status} footer={footer}>
+		<ExerciseCard
+			title={exercise.title}
+			instructions={exercise.instructions}
+			status={state.status}
+			footer={footer}
+		>
 			{content}
 		</ExerciseCard>
 	);
